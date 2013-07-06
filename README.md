@@ -5,7 +5,7 @@ These are my own instructions for a fresh laptop/mac install
 - [Homebrew](http://mxcl.github.io/homebrew/)
 	- `brew install node` (which installs NPM)
 	- `brew install git`
-	- `brew install ack`
+	- `brew install the_silver_searcher`
 	- `brew install phantomjs`
 	- `brew install chruby`
 - [Pure ZSH](https://github.com/sindresorhus/pure)
