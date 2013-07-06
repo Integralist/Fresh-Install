@@ -1,0 +1,39 @@
+{
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
+	"draw_minimap_border": true,
+	"draw_white_space": "all",
+	"fade_fold_buttons": false,
+	"folder_exclude_patterns":
+	[
+		"data",
+		".git",
+		".svn",
+		".hg",
+		"CVS",
+		".sass-cache",
+		".bundle",
+		"bundle",
+		".rbx",
+		"bin",
+		"script",
+		"tmp"
+	],
+	"font_face": "Ubuntu Mono",
+	"font_size": 20,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"rulers":
+	[
+	],
+	"theme": "Soda Light.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"word_wrap": false
+}

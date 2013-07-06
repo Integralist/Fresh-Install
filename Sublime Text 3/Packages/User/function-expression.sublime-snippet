@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+var ${1:identifier} = function (${2:arguments}) {
+    ${0:// body}
+}
+]]></content>
+    <tabTrigger>fnexp</tabTrigger>
+    <scope>source.js</scope>
+</snippet>
