@@ -17,7 +17,7 @@ These are my own instructions for a fresh laptop/mac install
 	- `npm init` (creates a package.json file)
 - [Lo-Dash](https://npmjs.org/package/lodash)
 - [Uglify](https://npmjs.org/package/uglify-js2) (`npm install uglify-js2`)
-- Nave (Node Version Manager) `npm install -g nave`
+- Nave (Node Version Manager) `npm install -g nave` (could need `PATH=${NAVEPATH}:$PATH`)
 - [Sass](http://sass-lang.com/) (`gem install sass`)
 - [Xcode Command Line Tools](http://connect.apple.com/)
 - Google Chrome Plugins (should come from Google account sync)
