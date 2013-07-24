@@ -44,6 +44,7 @@ export PYTHONPATH=~/lib/python2.6/site-packages
 export NODE_PATH="/usr/local/lib/node"
 export PATH="/usr/local/share/npm/bin:$PATH"
 export PATH="/usr/local/share/npm/lib/:$PATH"
+export PATH="/usr/local/bin/stylus:$PATH"
 
 # Color grep results
 export GREP_OPTIONS='--color=auto'
