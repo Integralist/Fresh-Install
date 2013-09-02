@@ -8,6 +8,7 @@ These are my own instructions for a fresh laptop/mac install
 	- `brew install the_silver_searcher` (e.g. `ag 'js\b' ./some-directory`)
 	- `brew install phantomjs`
 	- `brew install chruby`
+	- `brew install tmux`
 - [Pure ZSH](https://github.com/sindresorhus/pure)
 	- [Prezto](https://github.com/sorin-ionescu/prezto)
 	- [PHPShell](http://www.phpsh.org/)
@@ -23,6 +24,7 @@ These are my own instructions for a fresh laptop/mac install
 - Google Chrome Plugins (should come from Google account sync)
 	- [Quick JavaScript Switcher](https://t.co/ryLRETND)
 	- [goo.gl URL Shortener](https://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&ved=0CDcQFjAB&url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fgoogl-url-shortener%2Fiblijlcdoidgdpfknkckljiocdbnlagk%3Fhl%3Den&ei=tTDAUen3IImAOIOqgKgG&usg=AFQjCNEkUotK__kdeBXARBUc6WNTQ7rB3A&sig2=gTtTOryLRAYyLIiyL-84HQ&bvm=bv.47883778,d.ZWU)
+	- [Stylish](https://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CC8QFjAA&url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fstylish%2Ffjnbnpbmkenffdnngjfgmeleoegfcffe%3Fhl%3Den&ei=BcAIUtODCIPQhAe4xIGwAg&usg=AFQjCNHqQ_jWum-eFNn9yAtVsdvLWn0fkw&bvm=bv.50500085,d.ZG4) 
 - Applications
 	- Sublime Text
 	- iWriter
