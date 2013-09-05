@@ -9,6 +9,7 @@ These are my own instructions for a fresh laptop/mac install
 	- `brew install phantomjs`
 	- `brew install chruby`
 	- `brew install tmux`
+- `gem install tmuxinator`
 - [Pure ZSH](https://github.com/sindresorhus/pure)
 	- [Prezto](https://github.com/sorin-ionescu/prezto)
 	- [PHPShell](http://www.phpsh.org/)
@@ -47,12 +48,13 @@ These are my own instructions for a fresh laptop/mac install
 
 See the `Shell` directory that includes a .zshrc file which imports a Zsh settings file on Dropbox.
 
-We need to symlink our .zshrc, .vimrc and .tmux.conf files (and our .vim folder) from our home directory to our Dropbox versions...
+We need to symlink our .zshrc, .vimrc and .tmux.conf files (and our .vim + .tmuxinator folders) from our home directory to our Dropbox versions...
 
 `ln -s ~/Dropbox/Fresh\ Install/Shell/.zshrc ~/.zshrc`
 `ln -s ~/Dropbox/Fresh\ Install/Shell/.vimrc ~/.vimrc`
 `ln -s ~/Dropbox/Fresh\ Install/Shell/.vim ~/.vim`
 `ln -s ~/Dropbox/Fresh\ Install/Shell/.tmux.conf ~/.tmux.conf`
+`ln -s ~/Dropbox/Fresh\ Install/Shell/.tmuxinator ~/.tmuxinator`
 
 ## VIM, TMUX and VUNDLE
 

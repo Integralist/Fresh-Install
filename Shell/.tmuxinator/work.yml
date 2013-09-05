@@ -1,0 +1,7 @@
+project_name: BBC News
+project_root: ~/Code/news
+tabs:
+  - editor: vim
+  - shell: git st
+  - sandbox: vagrant ssh
+  - sass:watch: grunt watch:service:news
