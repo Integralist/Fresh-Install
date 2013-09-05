@@ -47,9 +47,20 @@ These are my own instructions for a fresh laptop/mac install
 
 See the `Shell` directory that includes a .zshrc file which imports a Zsh settings file on Dropbox.
 
-We need to symlink our .zshrc file from our home directory to our Dropbox version...
+We need to symlink our .zshrc, .vimrc and .tmux.conf files (and our .vim folder) from our home directory to our Dropbox versions...
 
 `ln -s ~/Dropbox/Fresh\ Install/Shell/.zshrc ~/.zshrc`
+`ln -s ~/Dropbox/Fresh\ Install/Shell/.vimrc ~/.vimrc`
+`ln -s ~/Dropbox/Fresh\ Install/Shell/.vim ~/.vim`
+`ln -s ~/Dropbox/Fresh\ Install/Shell/.tmux.conf ~/.tmux.conf`
+
+## VIM, TMUX and VUNDLE
+
+To install tmux see above brew command.
+
+To install vundle do `git clone https://github.com/gmarik/vundle.git ~/Dropbox/Fresh\ Install/Shell/.vim/bundle/vundle`
+
+The contents of the .vimrc file are taken directly from the sthulb repo [https://github.com/sthulb/dotfiles/tree/master/vim](https://github.com/sthulb/dotfiles/tree/master/vim)
 
 ## Sublime Text
 
