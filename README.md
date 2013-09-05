@@ -47,6 +47,10 @@ These are my own instructions for a fresh laptop/mac install
 
 See the `Shell` directory that includes a .zshrc file which imports a Zsh settings file on Dropbox.
 
+We need to symlink our .zshrc file from our home directory to our Dropbox version...
+
+`ln -s ~/Dropbox/Fresh\ Install/Shell/.zshrc ~/.zshrc`
+
 ## Sublime Text
 
 To sync our packages and settings we need to symlink references via the terminal to point to our `Fresh Install/Sublime Text 3` directory

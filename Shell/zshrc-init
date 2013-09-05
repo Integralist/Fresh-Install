@@ -117,6 +117,17 @@ zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' \
 # Auto complete for grunt-cli (https://github.com/gruntjs/grunt-cli#shell-tab-auto-completion)
 # eval "$(grunt --completion=bash)"
 
+# Convert movie file to animated gif
+gif-ify() {
+    if [[ -n "$1" && -n "$2" ]]; then
+        ffmpeg -i $1 -pix_fmt rgb24 temp.gif
+        convert -layers Optimize temp.gif $2
+        rm temp.gif
+    else
+        echo "proper usage: gif-ify <input_movie.mov> <output_file.gif>. You DO need to include extensions."
+    fi
+}
+
 function restart_finder() {
     killall Finder
 }
