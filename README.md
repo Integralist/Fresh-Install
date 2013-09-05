@@ -62,6 +62,8 @@ To install vundle do `git clone https://github.com/gmarik/vundle.git ~/Dropbox/F
 
 The contents of the .vimrc file are taken directly from the sthulb repo [https://github.com/sthulb/dotfiles/tree/master/vim](https://github.com/sthulb/dotfiles/tree/master/vim)
 
+Launch `vim`, run `:BundleInstall`
+
 ## Sublime Text
 
 To sync our packages and settings we need to symlink references via the terminal to point to our `Fresh Install/Sublime Text 3` directory
