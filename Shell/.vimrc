@@ -253,3 +253,4 @@ highlight clear SignColumn
 
 
 Bundle 'AndrewRadev/gapply.vim'
+Bundle 'vim-scripts/The-NERD-tree'
