@@ -158,7 +158,7 @@ Bundle 'kchmck/vim-coffee-script'
 " tags
 Bundle 'xolox/vim-misc'
 Bundle 'majutsushi/tagbar'
-Bundle 'xolox/vim-easytags'
+"Bundle 'xolox/vim-easytags'
 
 let g:tagbar_ctags_bin='/opt/boxen/homebrew/bin/ctags'
 
