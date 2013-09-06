@@ -55,6 +55,7 @@ We need to symlink our .zshrc, .vimrc and .tmux.conf files (and our .vim + .tmux
 `ln -s ~/Dropbox/Fresh\ Install/Shell/.vim ~/.vim`
 `ln -s ~/Dropbox/Fresh\ Install/Shell/.tmux.conf ~/.tmux.conf`
 `ln -s ~/Dropbox/Fresh\ Install/Shell/.tmuxinator ~/.tmuxinator`
+`ln -s ~/Dropbox/Fresh\ Install/Shell/.bin/tmuxinator.zsh ~/.bin/tmuxinator.zsh`
 
 ## VIM, TMUX and VUNDLE
 
@@ -65,6 +66,12 @@ To install vundle do `git clone https://github.com/gmarik/vundle.git ~/Dropbox/F
 The contents of the .vimrc file are taken directly from the sthulb repo [https://github.com/sthulb/dotfiles/tree/master/vim](https://github.com/sthulb/dotfiles/tree/master/vim)
 
 Launch `vim`, run `:BundleInstall`
+
+### Tmuxinator
+
+To launch go to the relevant directory and run `tmuxinator start name-of-project`
+
+To close run `Ctrl+a d`
 
 ## Sublime Text
 
