@@ -2,6 +2,8 @@ http:\/\/www\.w3\.org\/TR\/.+\/.+
 http:\/\/dev\.w3\.org\/.+
 http:\/\/www\.w3\.org\/TR\/.+
 http:\/\/www\.w3\.org\/html\/wg\/drafts\/.+
+https?:\/\/svgwg\.org\/.+
+https?:\/\/dvcs\.w3\.org\/.+
 
 ------------------------------------------------------------------
 
@@ -85,7 +87,7 @@ div.example:before { color: #fff; background: #7bb; padding: 0.5em; width: auto;
 @media all and (max-device-width: 480px) {
   body { margin: 0 3em; font-size: 200%; }
 }
-	 	
+
 /* Mobile (iPad) */
 @media all and (max-device-width: 1024px) {
   body { margin: 0 5em; font-size: 400%; }

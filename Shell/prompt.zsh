@@ -51,9 +51,15 @@ cmd_exec_time() {
 
 preexec() {
     cmd_timestamp=`date +%s`
+
+    # shows the current dir and executed command in the title when a process is active
+    print -Pn "\e]0;$PWD:t: $2\a"
 }
 
 precmd() {
+    # shows the full path in the title
+    print -Pn '\e]0;%~\a'
+
     vcs_info
     # Add `%*` to display the time
     print -P '\n%F{blue}%~%F{236}%F{red}$vcs_info_msg_0_`git_dirty` %F{yellow}$username%f %F{yellow}`cmd_exec_time`%f'

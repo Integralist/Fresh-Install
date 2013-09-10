@@ -59,10 +59,10 @@ set backspace=indent,eol,start
 set expandtab
 
 " set tab size
-set tabstop=2
+set tabstop=4
 
 " the number of spaces inserted for a tab
-set shiftwidth=2
+set shiftwidth=4
 
 " turn on line numbers
 set number
@@ -191,6 +191,7 @@ let g:Powerline_symbols='fancy'
 Bundle 'mattn/webapi-vim'
 Bundle 'vim-scripts/Gist.vim'
 Bundle 'tpope/vim-fugitive'
+Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 "Github settings
 let g:github_user = $GITHUB_USER

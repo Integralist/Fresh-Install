@@ -21,6 +21,6 @@ windows:
       panes:
         - vim
         - git st
-        - git lg
+        - cd ~/Dropbox/Fresh\ Install/Shell && vim VIM\ Cheat\ Sheet.txt
   - sandbox: cd workspace && vagrant ssh
   - sass: cd workspace && grunt watch:service:news
