@@ -1,0 +1,26 @@
+# ~/.tmuxinator/bbc.yml
+
+name: bbc
+root: ~/Code/news/workspace/
+
+# Optional tmux socket
+# socket_name: foo
+
+# Runs before everything. Use it to start daemons etc.
+# pre: sudo /etc/rc.d/mysqld start
+
+# Runs in each window and pane before window/pane specific commands. Useful for setting up interpreter versions.
+# pre_window: rbenv shell 2.0.0-p247
+
+# Pass command line options to tmux. Useful for specifying a different tmux.conf.
+# tmux_options: -f ~/.tmux.mac.conf
+
+windows:
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim
+        - git st
+        - cd ~/Dropbox/Fresh\ Install/Shell && vim VIM\ Cheat\ Sheet.txt
+  - server: vagrant ssh
+  - logs: grunt watch:service:news

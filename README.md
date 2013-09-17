@@ -9,6 +9,7 @@ These are my own instructions for a fresh laptop/mac install
 	- `brew install phantomjs`
 	- `brew install chruby`
 	- `brew install tmux`
+		- `brew install reattach-to-user-namespace` (used by tmux)
 - `gem install tmuxinator`
 - [Pure ZSH](https://github.com/sindresorhus/pure)
 	- [Prezto](https://github.com/sorin-ionescu/prezto)
@@ -27,7 +28,6 @@ These are my own instructions for a fresh laptop/mac install
 	- [goo.gl URL Shortener](https://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&ved=0CDcQFjAB&url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fgoogl-url-shortener%2Fiblijlcdoidgdpfknkckljiocdbnlagk%3Fhl%3Den&ei=tTDAUen3IImAOIOqgKgG&usg=AFQjCNEkUotK__kdeBXARBUc6WNTQ7rB3A&sig2=gTtTOryLRAYyLIiyL-84HQ&bvm=bv.47883778,d.ZWU)
 	- [Stylish](https://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CC8QFjAA&url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fstylish%2Ffjnbnpbmkenffdnngjfgmeleoegfcffe%3Fhl%3Den&ei=BcAIUtODCIPQhAe4xIGwAg&usg=AFQjCNHqQ_jWum-eFNn9yAtVsdvLWn0fkw&bvm=bv.50500085,d.ZG4) 
 - Applications
-	- Sublime Text
 	- iWriter
 	- xScope
 	- Pocket
@@ -55,11 +55,21 @@ We need to symlink our .zshrc, .vimrc and .tmux.conf files (and our .vim + .tmux
 `ln -s ~/Dropbox/Fresh\ Install/Shell/.vim ~/.vim`
 `ln -s ~/Dropbox/Fresh\ Install/Shell/.tmux.conf ~/.tmux.conf`
 `ln -s ~/Dropbox/Fresh\ Install/Shell/.tmuxinator ~/.tmuxinator`
-`ln -s ~/Dropbox/Fresh\ Install/Shell/.bin/tmuxinator.zsh ~/.bin/tmuxinator.zsh`
+`ln -s ~/Dropbox/Fresh\ Install/Shell/.bin/tmuxinator.zsh ~/.bin/tmuxinator.zsh` (you might have to make the local .bin directory)
+
+## Shell Theme
+
+Use the Tomorrow Night Bright theme which you can find in the `shell` folder. Just double click to install (don't forget to open up the terminal preferences and make sure it's the default theme and to increase the font size).
 
 ## VIM, TMUX and VUNDLE
 
 To install tmux see above brew command.
+
+With tmux (once `brew install reattach-to-user-namespace`) make sure to add to your `.vimrc` as it fixes a bug with not being able to paste content between tmux sessions:
+```
+set -g default-command "reattach-to-user-namespace -l \"/bin/zsh\""
+set-option -g default-shell /bin/zsh
+```
 
 To install vundle do `git clone https://github.com/gmarik/vundle.git ~/Dropbox/Fresh\ Install/Shell/.vim/bundle/vundle`
 
@@ -71,7 +81,7 @@ Launch `vim`, run `:BundleInstall`
 
 To launch go to the relevant directory and run `tmuxinator start name-of-project`
 
-To close run `Ctrl+a d`
+To detach run `Ctrl+a d`
 
 ## Sublime Text
 

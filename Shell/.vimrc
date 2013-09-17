@@ -205,8 +205,7 @@ autocmd BufWritePre * :%s/\s\+$//e
 " File Formats
 autocmd Filetype gitcommit setlocal spell textwidth=72
 autocmd Filetype markdown setlocal textwidth=80
-autocmd FileType yaml setl sw=2 sts=2 et
-
+autocmd FileType cucumber,ruby,yaml setl sw=2 sts=2 et
 
 " better splits
 set splitbelow
@@ -252,6 +251,10 @@ let g:gitgutter_eager = 0
 let g:gitgutter_sign_column_always = 1
 highlight clear SignColumn
 
-
 Bundle 'AndrewRadev/gapply.vim'
 Bundle 'vim-scripts/The-NERD-tree'
+
+" Snippets
+Bundle 'MarcWeber/vim-addon-mw-utils'
+Bundle 'tomtom/tlib_vim'
+Bundle 'garbas/vim-snipmate'
