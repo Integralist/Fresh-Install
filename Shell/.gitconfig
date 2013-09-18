@@ -11,6 +11,7 @@
 [core]
 	excludesfiles = /Users/markmcdonnell/.gitignore_global
     editor = vim
+    conflicts = "!git status --short | grep \"^UU\""
 
 [color]
 	ui = true
