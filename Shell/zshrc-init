@@ -155,4 +155,18 @@ bindkey "^[[3~" delete-char
 bindkey "^[3;5~" delete-char
 bindkey "\e[3~" delete-char
 
+alias tmux='TERM=screen-256color-bce tmux'
+
+if which tmux 2>&1 >/dev/null; then
+    test -z "$TMUX" && (tmux attach || tmux new-session)
+fi
+
+# Don’t clear the screen after quitting a manual page
+export MANPAGER="less -X"
+
+# Make vim the default editor
+export EDITOR="vim"
+
+export TERM="screen-256color"
+
 . ~/Dropbox/Fresh\ Install/Shell/prompt.zsh

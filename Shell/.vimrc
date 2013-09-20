@@ -91,7 +91,6 @@ if filereadable(".vimlocal")
   source .vimlocal
 endif
 
-
 " autoload files that have changed outside of vim
 set autoread
 
@@ -108,20 +107,12 @@ autocmd BufReadPost *
   \   exe "normal g`\"" |
   \ endif
 
-
 " Declare bundles are handled via Vundle
-" filetype off " required!
-" set rtp+=~/.vim/bundle/vundle/
-" call vundle#rc()
-
 set rtp+=$HOME/.vim/bundle/vundle
 call vundle#rc()
 
 " Let Vundle manage Vundle
 Bundle 'gmarik/vundle'
-
-" github color scheme
-" Bundle 'croaky/vim-colors-github'
 
 " ctrlp
 Bundle 'kien/ctrlp.vim'
@@ -133,12 +124,6 @@ let g:ctrlp_show_hidden=1
 let g:ctrlp_working_path_mode=0
 let g:ctrlp_max_height=30
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*.,*/.DS_Store
-
-" solarized
-" Bundle 'altercation/vim-colors-solarized'
-
-" set background=dark
-" :silent! :colorscheme solarized
 
 Bundle 'jlangston/tomorrow-night-vim'
 :silent! :colorscheme tomorrow-night-bright
@@ -158,12 +143,11 @@ Bundle 'kchmck/vim-coffee-script'
 " tags
 Bundle 'xolox/vim-misc'
 Bundle 'majutsushi/tagbar'
-"Bundle 'xolox/vim-easytags'
 
 let g:tagbar_ctags_bin='/opt/boxen/homebrew/bin/ctags'
 
-"Open Tagbar when pressing <leader>b and automatically close it after
-""selecting something
+" open Tagbar when pressing <leader>b and automatically close it after
+" selecting something
 :map <leader>b :TagbarOpenAutoClose<cr>
 
 " super tabs
@@ -199,10 +183,11 @@ let g:github_token = $GITHUB_TOKEN
 
 " don't show intro
 set shortmess+=I
+
 " remove whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
 
-" File Formats
+" file formats
 autocmd Filetype gitcommit setlocal spell textwidth=72
 autocmd Filetype markdown setlocal textwidth=80
 autocmd FileType cucumber,ruby,yaml setl sw=2 sts=2 et
@@ -217,32 +202,12 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
-" Rename
+" rename
 Bundle 'vim-scripts/rename.vim'
 
 " tmux switcher
 " http://robots.thoughtbot.com/post/53022241323/seamlessly-navigate-vim-and-tmux-splits
 Bundle 'christoomey/vim-tmux-navigator'
-
-
-" Unite
-" Bundle 'Shougo/vimproc.vim'
-" Bundle 'Shougo/unite.vim'
-
-" " Always start insert mode
-" let g:unite_enable_start_insert = 1
-
-" call unite#filters#matcher_default#use(['matcher_fuzzy'])
-" call unite#filters#sorter_default#use(['sorter_rank'])
-" call unite#set_profile('files', 'smartcase', 1)
-
-" let g:unite_source_grep_command='ag'
-" let g:unite_source_grep_default_opts='--nocolor --nogroup --hidden'
-" let g:unite_source_grep_recursive_opt=''
-
-" nnoremap <Leader>f :Unite grep:. -no-quit -no-start-insert<cr>
-" nnoremap <Leader>t :Unite file_rec/async<cr>
-" nnoremap <Leader>y :Unite -quick-match buffer<cr>
 
 " git gutter
 Bundle 'airblade/vim-gitgutter'
@@ -258,3 +223,6 @@ Bundle 'vim-scripts/The-NERD-tree'
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'
 Bundle 'garbas/vim-snipmate'
+
+" SCSS, Sass & Haml Syntax Support
+Bundle 'tpope/vim-haml'
