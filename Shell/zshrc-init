@@ -1,5 +1,8 @@
 # Customize to your needs...
 
+# Environment Variables
+GITHUB_USER=integralist
+
 # Vagrant fixes issue with Chef no completing
 if `tty -s`; then
    mesg n
