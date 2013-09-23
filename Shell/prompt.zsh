@@ -67,6 +67,10 @@ precmd() {
     unset cmd_timestamp
 }
 
+ip() {
+    curl -s http://checkip.dyndns.org | sed 's/[a-zA-Z/<> :]//g'
+}
+
 # Prompt turns red if the previous command didn't exit with 0
 PROMPT='%(?.%F{magenta}.%F{red})❯%f '
 # Can be disabled:
