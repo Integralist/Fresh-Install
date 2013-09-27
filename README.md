@@ -10,6 +10,7 @@ These are my own instructions for a fresh laptop/mac install
 	- `brew install chruby`
 	- `brew install tmux`
 		- `brew install reattach-to-user-namespace` (used by tmux)
+	- `brew install rename` (change File-A-B.gif to File-AB.gif with `rename 's/(.+)-(.+)$/$1$2/' File-*`)
 - `gem install tmuxinator`
 - [Pure ZSH](https://github.com/sindresorhus/pure)
 	- [Prezto](https://github.com/sorin-ionescu/prezto)
