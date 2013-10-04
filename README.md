@@ -30,6 +30,7 @@ These are my own instructions for a fresh laptop/mac install
 	- [Stylish](https://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CC8QFjAA&url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fstylish%2Ffjnbnpbmkenffdnngjfgmeleoegfcffe%3Fhl%3Den&ei=BcAIUtODCIPQhAe4xIGwAg&usg=AFQjCNHqQ_jWum-eFNn9yAtVsdvLWn0fkw&bvm=bv.50500085,d.ZG4)
 - Applications
 	- iWriter
+	- NotesTab
 	- xScope
 	- Pocket
 	- Regexr
@@ -38,12 +39,14 @@ These are my own instructions for a fresh laptop/mac install
 	- AppCleaner
 	- RightZoom
 	- Dropbox
+	- Google Drive
 	- CloudApp
 	- VLC Player
 	- Fantastical
 	- Vienna
 	- Clean My Mac
 	- Colloquy ([Succinct theme](https://github.com/JohnAlbin/succinct-for-colloquy))
+	- Memory Clean
 
 ## Dot Files
 
