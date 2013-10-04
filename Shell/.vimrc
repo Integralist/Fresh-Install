@@ -119,6 +119,7 @@ Bundle 'kien/ctrlp.vim'
 
 map <leader>t <C-p>
 map <leader>y :CtrlPBuffer<cr>
+map <leader>' :NERDTreeToggle
 
 let g:ctrlp_show_hidden=1
 let g:ctrlp_working_path_mode=0
