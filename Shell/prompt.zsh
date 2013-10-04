@@ -49,12 +49,13 @@ cmd_exec_time() {
     [ $elapsed -gt $CMD_MAX_EXEC_TIME ] && echo ${elapsed}s
 }
 
-# preexec() {
-#     cmd_timestamp=`date +%s`
+preexec() {
+    cmd_timestamp=`date +%s`
 
-#     # shows the current dir and executed command in the title when a process is active
-#     print -Pn "\e]0;$PWD:t: $2\a"
-# }
+    # shows the current dir and executed command in the title when a process is active
+    # print -Pn "\e]0;$PWD:t: $2\a"
+    printf "\e]0;$PWD:t: $2\a"
+}
 
 precmd() {
     # shows the full path in the title
