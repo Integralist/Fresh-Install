@@ -40,7 +40,7 @@ alias r="source ~/.zshrc"
 alias st="git status"
 alias rubyv="ls ~/.rbfu/rubies"
 alias grunt="grunt --verbose --stack"
-alias kts="tmux ls | awk '{print $1}' | sed 's/://g' | xargs -I{} tmux kill-session -t {}"
+alias kts="tmux ls | cut -d : -f 1 | xargs -I {} tmux kill-session -t {}"
 
 # Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
