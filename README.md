@@ -7,7 +7,8 @@ These are my own instructions for a fresh laptop/mac install
 	- `brew install git`
 	- `brew install the_silver_searcher` (e.g. `ag 'js\b' ./some-directory`)
 	- `brew install phantomjs`
-	- `brew install chruby`
+	- `brew install chruby` && `brew install ruby-install`
+		- ruby-build uses older ruby gems version which works on my laptop, where as newer ruby gems from ruby install didn't work? `ruby-build 1.8.7-p302 /opt/rubies/1.8.7-p302`
 	- `brew install tmux`
 		- `brew install reattach-to-user-namespace` (used by tmux)
 	- `brew install rename` (change File-A-B.gif to File-AB.gif with `rename 's/(.+)-(.+)$/$1$2/' File-*`)

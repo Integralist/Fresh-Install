@@ -31,6 +31,9 @@ set hlsearch
 " ignore case in search
 set smartcase
 
+" make sure any searches /searchPhrase doesn't need the \c escape character
+set ignorecase
+
 " clear search buffer
 :nnoremap § :nohlsearch<cr>
 
@@ -168,9 +171,10 @@ let g:ackprg = 'ag --nogroup --nocolor --column'
 Bundle 'tpope/vim-endwise'
 
 " powerline
-Bundle 'Lokaltog/vim-powerline'
+Bundle 'Lokaltog/powerline'
 
-let g:Powerline_symbols='fancy'
+" let g:Powerline_symbols='fancy'
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 
 " gists
 Bundle 'mattn/webapi-vim'

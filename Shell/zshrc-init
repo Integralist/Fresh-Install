@@ -8,10 +8,11 @@ if `tty -s`; then
    mesg n
 fi
 
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+# sets up chruby and allows us to use .ruby-version files to switch ruby versions
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/auto.sh
 
-eval "$(rbfu --init --auto)"
-
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 export NETWORK_LOCATION="$(/usr/sbin/scselect 2>&1 | egrep '^ \* ' | sed 's:.*(\(.*\)):\1:')"
 
 if [ $NETWORK_LOCATION = 'BBC On Network'  ]; then
@@ -38,18 +39,19 @@ fi;
 
 alias r="source ~/.zshrc"
 alias st="git status"
-alias rubyv="ls ~/.rbfu/rubies"
+alias rubyv="ls /opt/rubies/"
 alias grunt="grunt --verbose --stack"
 alias kts="tmux ls | cut -d : -f 1 | xargs -I {} tmux kill-session -t {}"
+alias tmuxsrc="tmux source-file ~/.tmux.conf"
 
 # Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
 export PYTHONPATH=~/lib/python2.6/site-packages
 export NODE_PATH="/usr/local/lib/node"
-export PATH="/usr/local/share/npm/bin:$PATH"
-export PATH="/usr/local/share/npm/lib/:$PATH"
-export PATH="/usr/local/bin/stylus:$PATH"
-export PATH="${NAVEPATH}:$PATH"
+export PATH="$PATH:/usr/local/heroku/bin"
+export PATH="$PATH:/usr/local/share/npm/bin"
+export PATH="$PATH:/usr/local/share/npm/lib/"
+export PATH="$PATH:/usr/local/bin/stylus"
+export PATH="$PATH:${NAVEPATH}"
 
 # Color grep results
 export GREP_OPTIONS='--color=auto'

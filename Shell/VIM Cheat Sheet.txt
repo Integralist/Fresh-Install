@@ -55,6 +55,8 @@ dit = delete inside a tag
 
 y(yank)i(inside of)"(everything inside matching quotations)
 
+yy100p (copy current line and paste it again 100 times)
+
 
 Misc
 
