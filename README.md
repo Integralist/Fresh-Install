@@ -3,6 +3,7 @@
 These are my own instructions for a fresh laptop/mac install
 
 - [Homebrew](http://mxcl.github.io/homebrew/)
+	- `brew install vim` (you'll need to rename the system Vim `which vim` e.g. `sudo mv /usr/bin/vim /usr/bin/vim-7.3` so the system will then find the brew vim via the `$PATH`)
 	- `brew install node` (which installs NPM)
 	- `brew install git`
 	- `brew install the_silver_searcher` (e.g. `ag 'js\b' ./some-directory`)
@@ -29,6 +30,7 @@ These are my own instructions for a fresh laptop/mac install
 	- [Quick JavaScript Switcher](https://t.co/ryLRETND)
 	- [goo.gl URL Shortener](https://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&ved=0CDcQFjAB&url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fgoogl-url-shortener%2Fiblijlcdoidgdpfknkckljiocdbnlagk%3Fhl%3Den&ei=tTDAUen3IImAOIOqgKgG&usg=AFQjCNEkUotK__kdeBXARBUc6WNTQ7rB3A&sig2=gTtTOryLRAYyLIiyL-84HQ&bvm=bv.47883778,d.ZWU)
 	- [Stylish](https://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CC8QFjAA&url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fstylish%2Ffjnbnpbmkenffdnngjfgmeleoegfcffe%3Fhl%3Den&ei=BcAIUtODCIPQhAe4xIGwAg&usg=AFQjCNHqQ_jWum-eFNn9yAtVsdvLWn0fkw&bvm=bv.50500085,d.ZG4)
+	- [Dimensions](https://chrome.google.com/webstore/detail/dimensions/hdmihohhdcbejdkidbfijmfehjbnmifk?utm_source=chrome-ntp-icon)
 - Applications
 	- iWriter
 	- NotesTab
@@ -48,6 +50,7 @@ These are my own instructions for a fresh laptop/mac install
 	- Clean My Mac
 	- Colloquy ([Succinct theme](https://github.com/JohnAlbin/succinct-for-colloquy))
 	- Memory Clean
+	- [LiceCap](http://www.cockos.com/licecap/) (animated GIF from screen recording)
 
 ## Dot Files
 
@@ -82,7 +85,7 @@ To install vundle do `git clone https://github.com/gmarik/vundle.git ~/Dropbox/F
 
 The contents of the .vimrc file are taken directly from the sthulb repo [https://github.com/sthulb/dotfiles/tree/master/vim](https://github.com/sthulb/dotfiles/tree/master/vim)
 
-Launch `vim`, run `:BundleInstall`
+Launch `vim`, run `:BundleInstall` or just run from the command line `vim +BundleInstall`
 
 ### Tmuxinator
 

@@ -231,3 +231,16 @@ Bundle 'garbas/vim-snipmate'
 
 " SCSS, Sass & Haml Syntax Support
 Bundle 'tpope/vim-haml'
+
+" Surround text with HTML or punctuation (and replace said items as well if
+" they already surround the relevant text)
+Bundle 'tpope/vim-surround'
+
+" HTML5 syntax
+Bundle 'othree/html5.vim'
+
+" Tabularize
+Bundle 'godlygeek/tabular'
+
+map <Leader>e :Tabularize /=<cr>
+map <Leader>c :Tabularize /:<cr>
