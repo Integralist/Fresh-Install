@@ -22,3 +22,9 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+" Buffers
+map <leader>ya :ls<cr>
+
+" Buffers (runs the command on all buffers open)
+map <leader>yc :bufdo bd<cr>
