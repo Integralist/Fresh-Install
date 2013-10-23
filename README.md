@@ -13,6 +13,7 @@ These are my own instructions for a fresh laptop/mac install
 	- `brew install tmux`
 		- `brew install reattach-to-user-namespace` (used by tmux)
 	- `brew install rename` (change File-A-B.gif to File-AB.gif with `rename 's/(.+)-(.+)$/$1$2/' File-*`)
+	- `brew install ctags` for use with Vim (you might need to change the system version of ctags like so `sudo mv /usr/bin/ctags /usr/bin/ctags-original` so the Homebrew version gets picked up when you do `which ctags`)
 - `gem install tmuxinator`
 - [Pure ZSH](https://github.com/sindresorhus/pure)
 	- [Prezto](https://github.com/sorin-ionescu/prezto)
@@ -51,21 +52,25 @@ These are my own instructions for a fresh laptop/mac install
 	- Colloquy ([Succinct theme](https://github.com/JohnAlbin/succinct-for-colloquy))
 	- Memory Clean
 	- [LiceCap](http://www.cockos.com/licecap/) (animated GIF from screen recording)
+    - Dash
 
 ## Dot Files
 
 See the `Shell` directory that includes a .zshrc file which imports a Zsh settings file on Dropbox.
 
-We need to symlink our .zshrc, .vimrc and .tmux.conf files (and our .vim + .tmuxinator folders) from our home directory to our Dropbox versions...
+We need to symlink our .zshrc, .vimrc and .tmux.conf files (and our .vim) from our home directory to our Dropbox versions...
 
-`ln -s ~/Dropbox/Fresh\ Install/Shell/.zshrc ~/.zshrc`
-`ln -s ~/Dropbox/Fresh\ Install/Shell/.vimrc ~/.vimrc`
-`ln -s ~/Dropbox/Fresh\ Install/Shell/.vim ~/.vim`
-`ln -s ~/Dropbox/Fresh\ Install/Shell/.tmux.conf ~/.tmux.conf`
-`ln -s ~/Dropbox/Fresh\ Install/Shell/.tmuxinator ~/.tmuxinator`
-`ln -s ~/Dropbox/Fresh\ Install/Shell/.bin/tmuxinator.zsh ~/.bin/tmuxinator.zsh` (you might have to make the local .bin directory)
-`ln -s ~/Dropbox/Fresh\ Install/Shell/.gitconfig ~/.gitconfig`
-`ln -s ~/Dropbox/Fresh\ Install/Shell/.gitignore_global ~/.gitignore_global`
+`ln -s ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/.zshrc ~/.zshrc`
+
+`ln -s ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/.vimrc ~/.vimrc`
+
+`ln -s ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/.vim ~/.vim`
+
+`ln -s ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/.tmux.conf ~/.tmux.conf`
+
+`ln -s ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/.gitconfig ~/.gitconfig`
+
+`ln -s ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/.gitignore_global ~/.gitignore_global`
 
 ## Shell Theme
 

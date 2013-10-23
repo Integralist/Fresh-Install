@@ -28,9 +28,11 @@ au BufEnter,BufNew *.md map <enter> :wa\|!rbfu rdiscount % \| bcat<cr>
 Bundle 'tpope/vim-cucumber'
 
 " Tags
+" First run `ctags -R` within the root directory (this is installed via Homebrew)
+" Second within your file, on a method/class/object (whatever) press `Ctrl+]`
 Bundle 'xolox/vim-misc'
 Bundle 'majutsushi/tagbar'
-let g:tagbar_ctags_bin='/opt/boxen/homebrew/bin/ctags'
+let g:tagbar_ctags_bin='/usr/local/bin/ctags'
 
 " Tags
 " Open Tagbar when pressing <leader>b
