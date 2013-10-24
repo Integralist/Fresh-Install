@@ -12,6 +12,7 @@ source /usr/local/opt/chruby/share/chruby/auto.sh
 
 # reorder PATH so local bin is first
 # export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 
 export NETWORK_LOCATION="$(/usr/sbin/scselect 2>&1 | egrep '^ \* ' | sed 's:.*(\(.*\)):\1:')"
 

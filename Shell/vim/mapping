@@ -26,5 +26,5 @@ nnoremap <C-H> <C-W><C-H>
 " Buffers
 map <leader>yt :ls<cr>
 
-" Buffers (runs the command on all buffers open)
+" Buffers (runs the delete buffer command on all open buffers)
 map <leader>yd :bufdo bd<cr>

@@ -87,7 +87,7 @@ highlight clear SignColumn
 
 " File System
 Bundle 'vim-scripts/The-NERD-tree'
-map <leader>' :NERDTreeToggle
+map <leader>' :NERDTreeToggle<cr>
 
 " Snippets
 Bundle 'MarcWeber/vim-addon-mw-utils'

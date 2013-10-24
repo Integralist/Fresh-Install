@@ -8,10 +8,10 @@ These are my own instructions for a fresh laptop/mac install
 	- `brew install git`
 	- `brew install the_silver_searcher` (e.g. `ag 'js\b' ./some-directory`)
 	- `brew install phantomjs`
-	- `brew install chruby` && `brew install ruby-install`
+	- `brew install https://raw.github.com/postmodern/chgems/master/homebrew/chgems.rb` && `brew install chruby` && `brew install ruby-install`
 		- ruby-build uses older ruby gems version which works on my laptop, where as newer ruby gems from ruby install didn't work? `ruby-build 1.8.7-p302 /opt/rubies/1.8.7-p302`
 	- `brew install tmux`
-		- `brew install reattach-to-user-namespace` (used by tmux)
+		- `brew install reattach-to-user-namespace` (used by tmux and add `set -g default-command "reattach-to-user-namespace -l \"/bin/zsh\""` to your .tmux.conf)
 	- `brew install rename` (change File-A-B.gif to File-AB.gif with `rename 's/(.+)-(.+)$/$1$2/' File-*`)
 	- `brew install ctags` for use with Vim (you might need to change the system version of ctags like so `sudo mv /usr/bin/ctags /usr/bin/ctags-original` so the Homebrew version gets picked up when you do `which ctags`)
 - `gem install tmuxinator`
