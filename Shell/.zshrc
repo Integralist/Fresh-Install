@@ -9,12 +9,12 @@ if `tty -s`; then
    mesg n
 fi
 
+# reorder PATH so local bin is first
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
 # sets up chruby and allows us to use .ruby-version files to switch ruby versions
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
-
-# reorder PATH so local bin is first
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 export NETWORK_LOCATION="$(/usr/sbin/scselect 2>&1 | egrep '^ \* ' | sed 's:.*(\(.*\)):\1:')"
 

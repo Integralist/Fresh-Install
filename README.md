@@ -72,6 +72,9 @@ We need to symlink our .zshrc, .vimrc and .tmux.conf files (and our .vim) from o
 
 `ln -s ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/.gitignore_global ~/.gitignore_global`
 
+
+Rather than export a $PATH you can also edit the file directly: `vim /private/etc/paths`
+
 ## Shell Theme
 
 Use the Tomorrow Night Bright theme which you can find in the `shell` folder. Just double click to install (don't forget to open up the terminal preferences and make sure it's the default theme and to increase the font size).
