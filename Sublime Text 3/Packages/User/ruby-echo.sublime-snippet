@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[
-<%= ${1:// content} %>
-]]></content>
-    <tabTrigger>rbe</tabTrigger>
-</snippet>

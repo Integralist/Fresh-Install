@@ -1,1 +1,11 @@
+# bundler
+.gem
+.bin
+.bundle
+bundle
+
+# miscellaneous
 .DS_Store
+.sass-cache
+.grunt
+tags

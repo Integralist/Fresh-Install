@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-(function (${2}) {
-    ${3:// body}
-}(${1}));
-]]></content>
-    <tabTrigger>iife</tabTrigger>
-    <scope>source.js</scope>
-</snippet>

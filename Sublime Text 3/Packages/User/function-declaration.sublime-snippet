@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[
-function ${1:identifier} (${2:arguments}) {
-    ${0:// body}
-}
-]]></content>
-    <tabTrigger>fndec</tabTrigger>
-    <scope>source.js</scope>
-</snippet>

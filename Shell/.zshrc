@@ -1,7 +1,10 @@
 # Environment Variables
 export GITHUB_USER="integralist"
 
-# Vagrant fixes issue with Chef no completing
+# Specify synchronised location
+syncfolder="/Users/M/Google\ Drive/Dropbox"
+
+# Vagrant fixes issue with Chef not completing
 if `tty -s`; then
    mesg n
 fi
@@ -11,8 +14,7 @@ source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
 
 # reorder PATH so local bin is first
-# export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 export NETWORK_LOCATION="$(/usr/sbin/scselect 2>&1 | egrep '^ \* ' | sed 's:.*(\(.*\)):\1:')"
 
@@ -44,6 +46,9 @@ alias rubyv="ls /opt/rubies/"
 alias grunt="grunt --verbose --stack"
 alias kts="tmux ls | cut -d : -f 1 | xargs -I {} tmux kill-session -t {}"
 alias tmuxsrc="tmux source-file ~/.tmux.conf"
+alias lib="cd $syncfolder/Library"
+alias df="cd $syncfolder/Fresh\ Install/Shell"
+alias site="cd $syncfolder/Library/Github/integralist\ \(CabinJS\)/Website"
 
 # Using CabinJS to create my blog, but it only works with GitHub pages
 # So rather than write a Rake task or a Node/Grunt task and have to remember the File system APIs
@@ -61,7 +66,7 @@ alias tmuxsrc="tmux source-file ~/.tmux.conf"
 # we send to stdout the content of our log.txt (which is the commit message)
 # we then pipe that commit message over to xargs which runs `git commit` using it
 # finally we `git push origin master`
-alias site="cd ~/Google\ Drive/Dropbox/Library/Github/integralist\ \(CabinJS\)/Website && touch log.txt && git log --oneline -n 1 | cut -d ' ' -f 2- | xargs -I {} echo {} > log.txt && cd ../integralist.github.com && cp -r ../Website/dist/* ./ && git add . && git add -A && cat ../Website/log.txt | xargs -I {} git commit -m {} && git push origin master"
+alias deploysite="cd $syncfolder/Library/Github/integralist\ \(CabinJS\)/Website && touch log.txt && git log --oneline -n 1 | cut -d ' ' -f 2- | xargs -I {} echo {} > log.txt && cd ../integralist.github.com && cp -r ../Website/dist/* ./ && git add . && git add -A && cat ../Website/log.txt | xargs -I {} git commit -m {} && git push origin master"
 
 # Removing stuff until I know for sure I need it?
 # Added by the Heroku Toolbelt
@@ -76,6 +81,11 @@ alias site="cd ~/Google\ Drive/Dropbox/Library/Github/integralist\ \(CabinJS\)/W
 # Color grep results
 export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;32'
+
+# Makes installing versions of Ruby slightly easier
+function rb() {
+    ruby-build $1 /opt/rubies/$1
+}
 
 # Open path in the terminal which matches current directory within the the forefront Finder window.
 function cdf() {
@@ -188,4 +198,5 @@ export MANPAGER="less -X"
 # Make vim the default editor
 export EDITOR="vim"
 
-. ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/prompt.zsh
+source ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/prompt.zsh
+# source "$syncfolder/Fresh\ Install/Shell/prompt.zsh"
