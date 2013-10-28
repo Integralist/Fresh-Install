@@ -107,3 +107,6 @@ Bundle 'othree/html5.vim'
 Bundle 'godlygeek/tabular'
 map <Leader>e :Tabularize /=<cr>
 map <Leader>c :Tabularize /:<cr>
+
+" JS Hint
+Bundle 'Shutnik/jshint2.vim'

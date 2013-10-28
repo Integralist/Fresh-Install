@@ -73,7 +73,11 @@ We need to symlink our .zshrc, .vimrc and .tmux.conf files (and our .vim) from o
 `ln -s ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/.gitignore_global ~/.gitignore_global`
 
 
-Rather than export a $PATH you can also edit the file directly: `vim /private/etc/paths`
+Rather than export a $PATH you *could* (not that I'd recommend it) also edit the file directly: `vim /private/etc/paths`
+
+## Shell Font
+
+We need to make sure the font `Droid+Sans+Mono+for+Powerline.otf` is installed and also the terminal theme (see below is updated to use that font)
 
 ## Shell Theme
 
@@ -95,24 +99,27 @@ The contents of the .vimrc file are taken directly from the sthulb repo [https:/
 
 Launch `vim`, run `:BundleInstall` or just run from the command line `vim +BundleInstall`
 
-### Tmuxinator
+## Upgrading to Mac OS X Mavericks
 
-To launch go to the relevant directory and run `tmuxinator start name-of-project`
+There were issues with the C++ compiler.
 
-To detach run `Ctrl+a d`
+Seems it changed from `libstdc++` to `libc++` and on top of that my own work set-up was different in that we needed to use a specific Apple based C++ compiler called `apple-gcc42`.
 
-## Sublime Text
+When running `gcc --version` we want to see the Apple version being used.
 
-To sync our packages and settings we need to symlink references via the terminal to point to our `Fresh Install/Sublime Text 3` directory
+To swap to `apple-gcc42` we need to rename the existing compilers and then symlink to the new ones...
 
-`cd ~/Library/Application\ Support/Sublime\ Text\ 3`
-
-Remove only the following folders (copy them first to your Dropbox folder!)
-
-- `rm -r Installed\ Packages`
-- `rm -r Packages`
-
-Then you can symlink them...
-
-- `ln -s ~/Dropbox/Fresh\ Install/Sublime\ Text\ 3/Installed\ Packages`
-- `ln -s ~/Dropbox/Fresh\ Install/Sublime\ Text\ 3/Packages`
+- `cd /usr/bin`
+- `sudo -s` (to switch to `root` user)
+- `mv c++ llvm-c++`
+- `mv cc llvm-cc`
+- `mv gcov llvm-gcov`
+- `mv gcc llvm-gcc`
+- `mv g++ llvm-g++`
+- `mv cpp llvm-cpp`
+- `ln -s /usr/local/bin/c++-4.2 /usr/bin/c++`
+- `ln -s /usr/local/bin/cpp-4.2 /usr/bin/cpp`
+- `ln -s /usr/local/bin/g++-4.2 /usr/bin/g++`
+- `ln -s /usr/local/bin/gcc-4.2 /usr/bin/gcc`
+- `ln -s /usr/local/bin/gcov-4.2 /usr/bin/gcov`
+- `ln -s /usr/local/bin/gcc-4.2 /usr/bin/cc`
