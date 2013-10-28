@@ -2,7 +2,7 @@
 export GITHUB_USER="integralist"
 
 # Specify synchronised location
-syncfolder="/Users/M/Google\ Drive/Dropbox"
+syncfolder="~/Google\ Drive/Dropbox"
 
 # Vagrant fixes issue with Chef not completing
 if `tty -s`; then
@@ -10,7 +10,7 @@ if `tty -s`; then
 fi
 
 # reorder PATH so local bin is first
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 # sets up chruby and allows us to use .ruby-version files to switch ruby versions
 source /usr/local/opt/chruby/share/chruby/chruby.sh
