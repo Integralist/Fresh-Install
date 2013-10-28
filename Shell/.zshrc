@@ -10,7 +10,7 @@ if `tty -s`; then
 fi
 
 # reorder PATH so local bin is first
-export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 # sets up chruby and allows us to use .ruby-version files to switch ruby versions
 source /usr/local/opt/chruby/share/chruby/chruby.sh
