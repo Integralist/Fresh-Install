@@ -9,3 +9,4 @@ bundle
 .sass-cache
 .grunt
 tags
+*.swp
