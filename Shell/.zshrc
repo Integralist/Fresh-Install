@@ -71,16 +71,6 @@ alias site="cd $syncfolder/Library/Github/integralist\ \(CabinJS\)/Website"
 # finally we `git push origin master`
 alias deploysite="cd $syncfolder/Library/Github/integralist\ \(CabinJS\)/Website && touch log.txt && git log --oneline -n 1 | cut -d ' ' -f 2- | xargs -I {} echo {} > log.txt && cd ../integralist.github.com && cp -r ../Website/dist/* ./ && git add . && git add -A && cat ../Website/log.txt | xargs -I {} git commit -m {} && git push origin master"
 
-# Removing stuff until I know for sure I need it?
-# Added by the Heroku Toolbelt
-    # export PYTHONPATH=~/lib/python2.6/site-packages
-    # export NODE_PATH="/usr/local/lib/node"
-    # export PATH="$PATH:/usr/local/heroku/bin"
-    # export PATH="$PATH:/usr/local/share/npm/bin"
-    # export PATH="$PATH:/usr/local/share/npm/lib/"
-    # export PATH="$PATH:/usr/local/bin/stylus"
-    # export PATH="$PATH:${NAVEPATH}"
-
 # Color grep results
 export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;32'
