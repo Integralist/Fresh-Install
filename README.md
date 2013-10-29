@@ -123,3 +123,22 @@ To swap to `apple-gcc42` we need to rename the existing compilers and then symli
 - `ln -s /usr/local/bin/gcc-4.2 /usr/bin/gcc`
 - `ln -s /usr/local/bin/gcov-4.2 /usr/bin/gcov`
 - `ln -s /usr/local/bin/gcc-4.2 /usr/bin/cc`
+
+### Symlinks
+
+In `/usr/local/bin`, a simple `ls *4.2` will list 6 files (see above) which will need to be symlinked. Symlink these to the same place but without the 4.2 suffix...
+
+```sh
+ln -s /usr/local/bin/gcc-4.2 /usr/local/bin/gcc
+```
+
+Additional symlinks needed:
+
+```sh
+ln -s /usr/local/bin/gcc-4.2 /usr/local/bin/cc
+ln -s /usr/local/bin/gcc-4.2 /usr/local/bin/g++ # gem unf_ext uses g++
+```
+
+### Vagrant Plugin
+
+`vagrant plugin install vagrant-box-updater`
