@@ -82,7 +82,7 @@ function rb() {
 
 # Makes creating a new tmux session (with a specific name) easier
 function tmuxnew() {
-    tmux new -s session_name $1
+    tmux new -s $1
 }
 
 # Open path in the terminal which matches current directory within the the forefront Finder window.
