@@ -80,6 +80,11 @@ function rb() {
     ruby-build $1 /opt/rubies/$1
 }
 
+# Makes creating a new tmux session (with a specific name) easier
+function tmuxnew() {
+    tmux new -s session_name $1
+}
+
 # Open path in the terminal which matches current directory within the the forefront Finder window.
 function cdf() {
     if [ "`osascript -e 'tell application "System Events" to "Finder" is in (get name of processes)'`" = "true" ]; then
