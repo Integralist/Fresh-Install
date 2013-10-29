@@ -85,6 +85,11 @@ function tmuxnew() {
     tmux new -s $1
 }
 
+# Makes deleting a tmux session easier
+function tmuxkill() {
+    tmux kill-session -t $1
+}
+
 # Open path in the terminal which matches current directory within the the forefront Finder window.
 function cdf() {
     if [ "`osascript -e 'tell application "System Events" to "Finder" is in (get name of processes)'`" = "true" ]; then
