@@ -9,7 +9,7 @@
     unstage = reset HEAD --
 
 [core]
-	excludesfiles = ~/.gitignore_global
+	excludesfile = ~/.gitignore_global
     editor = vim
     conflicts = "!git status --short | grep \"^UU\""
 

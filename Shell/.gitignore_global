@@ -5,7 +5,7 @@
 bundle
 
 # miscellaneous
-.DS_Store
+*.DS_Store
 .sass-cache
 .grunt
 tags
