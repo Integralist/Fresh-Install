@@ -68,8 +68,8 @@ Bundle 'tpope/vim-fugitive'
 let g:github_user = $GITHUB_USER
 let g:github_token = $GITHUB_TOKEN
 
-" HTML generation
-Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
+" HTML generation (in NORMAL mode Ctrl+y then , <C-y,>)
+Bundle 'mattn/emmet-vim'
 
 " Rename variables and files in your code
 Bundle 'vim-scripts/rename.vim'
