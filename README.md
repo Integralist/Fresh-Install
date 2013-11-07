@@ -142,3 +142,9 @@ ln -s /usr/local/bin/gcc-4.2 /usr/local/bin/g++ # gem unf_ext uses g++
 ### Vagrant Plugin
 
 `vagrant plugin install vagrant-box-updater`
+
+### Grunt error `Error: spawn EMFILE`
+
+See [https://github.com/gruntjs/grunt/issues/788](https://github.com/gruntjs/grunt/issues/788)
+
+The solution is to run `ulimit -n 10240` and then restart the shell.
