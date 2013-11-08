@@ -34,7 +34,9 @@ set smartcase
 " make sure any searches /searchPhrase doesn't need the \c escape character
 set ignorecase
 
-" make sure undo history is kept for files in buffer.
+" a buffer is marked as ‘hidden’ if it has unsaved changes, and it is not currently loaded in a window
+" if you try and quit Vim while there are hidden buffers, you will raise an error:
+" E162: No write since last change for buffer “a.txt”
 set hidden
 
 " disable folding because it is evil
