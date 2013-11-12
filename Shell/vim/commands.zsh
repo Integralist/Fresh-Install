@@ -5,7 +5,15 @@ autocmd BufReadPost *
   \ endif
 
 " remove whitespace on save
-autocmd BufWritePre * :%s/\s\+$//e
+" autocmd BufWritePre * :%s/\s\+$//e
+fun! StripTrailingWhitespace()
+    " Don't strip on these filetypes
+    if &ft =~ 'markdown'
+        return
+    endif
+    %s/\s\+$//e
+endfun
+autocmd BufWritePre * call StripTrailingWhitespace()
 
 " file formats
 autocmd Filetype gitcommit setlocal spell textwidth=72
