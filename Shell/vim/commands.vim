@@ -5,19 +5,19 @@ autocmd BufReadPost *
   \ endif
 
 " remove whitespace on save
-"autocmd BufWritePre * :%s/\s\+$//e
+autocmd BufWritePre * :%s/\s\+$//e
 
-" fun! StripTrailingWhitespace()
-"     " Don't strip on these filetypes
-"     if &ft =~ 'markdown'
+" fun! StripTrailingWhiteSpace()
+"     " don't strip on these filetypes
+"     if &ft =~ 'md\|markdown'
 "         return
 "     endif
 "     %s/\s\+$//e
 " endfun
-" autocmd BufWritePre * call StripTrailingWhitespace()
+" autocmd bufwritepre * :call StripTrailingWhiteSpace()
 
-let blacklist = ['md', 'markdown']
-autocmd BufWritePre * if index(blacklist, &ft) < 0 | :%s/\s\+$//e
+" let blacklist = ['md', 'markdown']
+" autocmd BufWritePre * if index(blacklist, &ft) < 0 | :%s/\s\+$//e
 
 " file formats
 autocmd Filetype gitcommit setlocal spell textwidth=72
@@ -26,4 +26,3 @@ autocmd FileType cucumber,ruby,yaml setl sw=2 sts=2 et
 
 " specify syntax highlighting for specific files
 au Bufread,BufNewFile *.spv set filetype=php
-au Bufread,BufNewFile *.zsh set filetype=vim
