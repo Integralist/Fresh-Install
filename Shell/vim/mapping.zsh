@@ -28,3 +28,13 @@ map <leader>yt :ls<cr>
 
 " Buffers (runs the delete buffer command on all open buffers)
 map <leader>yd :bufdo bd<cr>
+
+" Make handling Vim windows easier
+map <leader>w- <C-W>- " smaller
+map <leader>w+ <C-W>+ " larger
+map <leader>w[ <C-W>= " equal
+map <leader>w] <C-W>_ " fill screen
+
+" Make splitting Vim windows easier
+map <leader>; <C-W>s
+map <leader>` <C-W>v
