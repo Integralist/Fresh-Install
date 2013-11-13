@@ -4,11 +4,20 @@
 "   done
 " fi
 
-source ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/vim/settings.vim
-source ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/vim/vundle.vim
-source ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/vim/mapping.vim
-source ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/vim/filetypes.vim
-source ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/vim/commands.vim
+" $SYNCFOLDER is set via .zshrc file
+set runtimepath+=$SYNCFOLDER/Fresh\ Install/Shell/vim
+runtime settings.vim
+runtime vundle.vim
+runtime mapping.vim
+runtime filetypes.vim
+runtime commands.vim
+
+" note:
+" we could also of used...
+"
+"   execute 'source' vimfolder . '/settings.vim'
+"
+" ...as the execute command evaluates a variable
 
 " read local config, if it exists
 if filereadable(".vimlocal")

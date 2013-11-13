@@ -2,7 +2,11 @@
 export GITHUB_USER="integralist"
 
 # Specify synchronised location
-syncfolder="$HOME/Google Drive/Dropbox"
+syncfolder="$HOME/Google Drive/Dropbox" # sourcing a file breaks with backslashes
+syncfolderalias="$HOME/Google\ Drive/Dropbox" # aliasing needs backslashes as it's an actual command
+
+# Export the path so it can be used elsewhere (such as in our .vimrc file)
+export SYNCFOLDER=$syncfolder
 
 # Vagrant fixes issue with Chef not completing
 if `tty -s`; then
@@ -49,9 +53,9 @@ alias rubyv="ls /opt/rubies/"
 alias grunt="grunt --verbose --stack"
 alias kts="tmux ls | cut -d : -f 1 | xargs -I {} tmux kill-session -t {}"
 alias tmuxsrc="tmux source-file ~/.tmux.conf"
-alias lib="cd $syncfolder/Library"
-alias df="cd $syncfolder/Fresh\ Install/Shell"
-alias site="cd $syncfolder/Library/Github/integralist\ \(CabinJS\)/Website"
+alias lib="cd $syncfolderalias/Library"
+alias df="cd $syncfolderalias/Fresh\ Install/Shell"
+alias site="cd $syncfolderalias/Library/Github/integralist\ \(CabinJS\)/Website"
 
 # Using CabinJS to create my blog, but it only works with GitHub pages
 # So rather than write a Rake task or a Node/Grunt task and have to remember the File system APIs
