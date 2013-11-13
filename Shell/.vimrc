@@ -14,14 +14,3 @@ source ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/vim/commands.vim
 if filereadable(".vimlocal")
   source .vimlocal
 endif
-
-
-
-
-
-
-
-
-
-
-
