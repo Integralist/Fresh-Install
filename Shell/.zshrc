@@ -2,7 +2,7 @@
 export GITHUB_USER="integralist"
 
 # Specify synchronised location
-syncfolder="~/Google\ Drive/Dropbox"
+syncfolder="$HOME/Google Drive/Dropbox"
 
 # Vagrant fixes issue with Chef not completing
 if `tty -s`; then
@@ -201,5 +201,5 @@ export MANPAGER="less -X"
 # Make vim the default editor
 export EDITOR="vim"
 
-source ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/prompt.zsh
-# source "$syncfolder/Fresh\ Install/Shell/prompt.zsh"
+# Pull in 'Pure' shell prompt: skin and settings
+source "$syncfolder/Fresh Install/Shell/prompt.zsh"
