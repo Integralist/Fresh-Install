@@ -3,6 +3,7 @@
 These are my own instructions for a fresh laptop/mac install
 
 - [Homebrew](http://mxcl.github.io/homebrew/)
+	- `brew install tree`
 	- `brew install vim` (you'll need to rename the system Vim `which vim` e.g. `sudo mv /usr/bin/vim /usr/bin/vim-7.3` so the system will then find the brew vim via the `$PATH`)
 	- `brew install node` (which installs NPM)
 	- `brew install git`
