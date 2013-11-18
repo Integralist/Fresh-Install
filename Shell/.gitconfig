@@ -37,4 +37,7 @@
     default = upstream
 
 [apply]
-  whitespace = nowarn
+    whitespace = nowarn
+
+[branch "develop"]
+    rebase = true
