@@ -2,6 +2,9 @@
 
 These are my own instructions for a fresh laptop/mac install
 
+For a quick step-by-step (based off of my doing a fresh install of Mac OS X
+Mavericks recently) then [click here](#step-by-step)
+
 - [Homebrew](http://mxcl.github.io/homebrew/)
 	- `brew install tree`
 	- `brew install vim` (you'll need to rename the system Vim `which vim` e.g. `sudo mv /usr/bin/vim /usr/bin/vim-7.3` so the system will then find the brew vim via the `$PATH`)
@@ -149,3 +152,73 @@ ln -s /usr/local/bin/gcc-4.2 /usr/local/bin/g++ # gem unf_ext uses g++
 See [https://github.com/gruntjs/grunt/issues/788](https://github.com/gruntjs/grunt/issues/788)
 
 The solution is to run `ulimit -n 10240` and then restart the shell.
+
+## Step by Step
+
+These are the steps I took when I recently did a fresh install...
+
+### Install
+
+- Google Drive (25gb of space)
+- Dropbox (install inside of Google Drive)
+- Google Chrome
+- Right Zoom
+
+### Settings
+
+- Change Keyboard delay to be fastest setting possible (inside System
+  Preferences)
+
+### While Dropbox Syncs
+
+This can take quite a long time as while Dropbox is syncing it causes the
+containing Google Drive to sync as well.
+
+Ideally you'll turn off Google Drive until Dropbox is finished.
+
+- Switch to Zsh (`chsh -s /bin/zsh`)
+- Install Homebrew (`ruby -e "$(curl -fsSL
+  https://raw.github.com/mxcl/homebrew/go)”` which installs the Command Line
+Tools for you)
+- Check $PATH (`echo $PATH` should now look something like:
+  `/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin` - notice that our local bin
+where we’ll install all custom stuff via Brew or NPM or wherever is actually
+last in the pecking order so the Mac will look at its own system bin first
+before checking our local bin, also it’ll only have a single package ’brew’
+inside it for now)
+- Check if you even need to install (via Homebrew) things like Vim or Git as the
+  versions installed might be close enough to current releases any way (I
+thought I didn't need Vim installed but I did because of lack of clipboard
+support in system version).
+- `brew install node` (this can take ~9mins, this creates a Cellar directory
+  inside your `/usr/local` which holds the installed versions of Node. Cellar
+belongs to Homebrew and so all packages you install go in this folder along with
+any dependencies those packages themselves require)
+- `brew install the_silver_searcher`
+- `brew install phantomjs`
+- `brew install chruby`
+- `brew install ruby-build` (as our local bin is after our system bin for now,
+but when Dropbox finishes syncing then it'll be switched by our .zshrc + also check 
+`gem env` in both a directory that has no `.ruby-version` file and one that does to 
+make sure the shell switches between system ruby and custom ruby)
+- App Store iAWriter
+- App Store Dash
+- App Store Cloud
+- App Store Twitter
+- App Store Caffeine
+- App Store Pocket
+- VLC Player
+- Regexr
+
+### Once Dropbox is synced...
+
+- [Install Terminal
+  theme](https://github.com/Integralist/Fresh-Install/blob/master/Shell/Tomorrow%20Night%20Bright.terminal)
+- Symlink dotfiles (see earlier in this README)
+- Check Vim copy and paste (and install `brew install
+  reattach-to-user-namespace` if necessary)
+- `brew install tmux`
+- `brew install rename`
+- `brew install vim` (needed to do this as the default vim didn’t have the
+  `+clipboard` feature enabled)
+- Need to regenerate my SSH keys for GitHub
