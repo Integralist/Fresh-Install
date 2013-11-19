@@ -56,6 +56,10 @@ alias tmuxsrc="tmux source-file ~/.tmux.conf"
 alias lib="cd $syncfolderalias/Library"
 alias df="cd $syncfolderalias/Fresh\ Install/Shell"
 alias site="cd $syncfolderalias/Library/Github/integralist\ \(CabinJS\)/Website"
+alias vs="vagrant suspend"
+alias vu="vagrant up"
+alias vd="vagrant destroy"
+alias vr="vagrant box remove responsive virtualbox"
 
 # Using CabinJS to create my blog, but it only works with GitHub pages
 # So rather than write a Rake task or a Node/Grunt task and have to remember the File system APIs
