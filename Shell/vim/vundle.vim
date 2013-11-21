@@ -92,7 +92,7 @@ map <leader>' :NERDTreeToggle<cr>
 " Snippets
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'
-Bundle 'garbas/vim-snipmate'
+" Bundle 'garbas/vim-snipmate'
 
 " SCSS, Sass & Haml Syntax Support
 Bundle 'tpope/vim-haml'
