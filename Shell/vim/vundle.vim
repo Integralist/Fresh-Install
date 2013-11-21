@@ -86,7 +86,7 @@ let g:gitgutter_sign_column_always = 1
 highlight clear SignColumn
 
 " File System
-Bundle 'vim-scripts/The-NERD-tree'
+Bundle 'scrooloose/nerdtree'
 map <leader>' :NERDTreeToggle<cr>
 
 " Snippets
