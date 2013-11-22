@@ -1,5 +1,8 @@
 " Declare bundles are handled via Vundle
+<<<<<<< HEAD
 filetype off " required by Vundle Plugin Manager
+=======
+>>>>>>> bbfa2cce28acb3285e05f5db97c17b2717bb041f
 set rtp+=$HOME/.vim/bundle/vundle
 call vundle#rc()
 
@@ -58,7 +61,11 @@ Bundle 'tpope/vim-endwise'
 
 " Status line design improvements
 Bundle 'Lokaltog/powerline'
+<<<<<<< HEAD
 set rtp+=$HOME/.vim/bundle/powerline/powerline/bindings/vim
+=======
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+>>>>>>> bbfa2cce28acb3285e05f5db97c17b2717bb041f
 
 " Gists
 Bundle 'mattn/webapi-vim'
