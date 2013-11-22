@@ -76,6 +76,9 @@ We need to symlink our .zshrc, .vimrc and .tmux.conf files (and our .vim) from o
 
 `ln -s ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/.gitignore_global ~/.gitignore_global`
 
+`ln -s ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/.taskrc ~/.taskrc`
+
+`ln -s ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/.task ~/.task`
 
 Rather than export a $PATH you *could* (not that I'd recommend it) also edit the file directly: `vim /private/etc/paths`
 
@@ -222,3 +225,46 @@ make sure the shell switches between system ruby and custom ruby)
 - `brew install vim` (needed to do this as the default vim didn’t have the
   `+clipboard` feature enabled)
 - Need to regenerate my SSH keys for GitHub
+
+### CLI Task Manager
+
+www.taskwarrior.org
+
+**Installation**
+
+Download from website then run the following commands:
+
+- `gunzip task-{version}.tar.gz`
+- `tar xf task-{version}.tar`
+- `cd task-{version}`
+- `cmake .`
+- `make`
+- `sudo make install`
+- `task help` (to see available commands or read
+  http://taskwarrior.org/projects/taskwarrior/wiki/Tutorial)
+
+**Usage**
+
+- `task add {description}`
+- `task list`
+- `task long` (shows the full output possible, inc. tags and priorities etc)
+- `task log {description}` (this is something you've already done but are
+  tracking its progress)
+- `task {n} duplicate {substitution}` (e.g. `task 4 duplicate /Test/ABC/` we
+  duplicate our 4th task and replace the word "Test" in the description with
+"ABC")
+- `task {n} modify {substitution}` (note: you can use the `g` flag
+  `/search/replacement/g`)
+- `task {n} modify {new description}`
+- `task {n} modify project:{name}` (assign a task to a specific project)
+- `task {n-n,n} modify project:{name}` (you can specify a range `task 1-2,4 modify`)
+- `task projects` (lists all projects)
+- `task list project:{name}` (filter tasks by project)
+- `task {n} modify priority:{value}` (use: [H]igh, [M]edium, [L]ow)
+- `task {n} modify +{tag}` (apply a tag to a task, same tag can be used multiple
+  times)
+- `task list +{tag}` (filter results by tag)
+- `task {n} modify -{tag}` (removes the tag)
+- `task {n} edit` (opens up Vim and allows you to make big changes)
+- `task {n} delete`
+- `task {n} done`
