@@ -6,7 +6,6 @@ For a quick step-by-step (based off of my doing a fresh install of Mac OS X
 Mavericks recently) then [click here](#step-by-step)
 
 - [Homebrew](http://mxcl.github.io/homebrew/)
-	- `brew install tree`
 	- `brew install vim` (you'll need to rename the system Vim `which vim` e.g. `sudo mv /usr/bin/vim /usr/bin/vim-7.3` so the system will then find the brew vim via the `$PATH`)
 	- `brew install node` (which installs NPM)
 	- `brew install git`
@@ -17,6 +16,9 @@ Mavericks recently) then [click here](#step-by-step)
 	- `brew install tmux`
 		- `brew install reattach-to-user-namespace` (used by tmux and add `set -g default-command "reattach-to-user-namespace -l \"/bin/zsh\""` to your .tmux.conf)
 	- `brew install rename` (change File-A-B.gif to File-AB.gif with `rename 's/(.+)-(.+)$/$1$2/' File-*`)
+	- `brew install tree`
+	- `brew install wget`
+	- `brew install cake`
 	- `brew install ctags` for use with Vim (you might need to change the system version of ctags like so `sudo mv /usr/bin/ctags /usr/bin/ctags-original` so the Homebrew version gets picked up when you do `which ctags`)
 - `gem install tmuxinator`
 - [Pure ZSH](https://github.com/sindresorhus/pure)
@@ -79,6 +81,8 @@ We need to symlink our .zshrc, .vimrc and .tmux.conf files (and our .vim) from o
 `ln -s ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/.taskrc ~/.taskrc`
 
 `ln -s ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/.task ~/.task`
+
+`ln -s ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/.NERDTreeBookmarks ~/.NERDTreeBookmarks`
 
 Rather than export a $PATH you *could* (not that I'd recommend it) also edit the file directly: `vim /private/etc/paths`
 
@@ -225,6 +229,8 @@ make sure the shell switches between system ruby and custom ruby)
 - `brew install vim` (needed to do this as the default vim didn’t have the
   `+clipboard` feature enabled)
 - Need to regenerate my SSH keys for GitHub
+- Install task manager (see below)
+- Run all the symlinks
 
 ### CLI Task Manager
 
@@ -237,13 +243,15 @@ Download from website then run the following commands:
 - `gunzip task-{version}.tar.gz`
 - `tar xf task-{version}.tar`
 - `cd task-{version}`
-- `cmake .`
+- `cmake .` (`brew install cake` if you haven't got it)
 - `make`
 - `sudo make install`
 - `task help` (to see available commands or read
   http://taskwarrior.org/projects/taskwarrior/wiki/Tutorial)
 
 **Usage**
+
+Note: you can shorten commands (e.g. `task list project:dotfiles` === `task l pro:dot`)
 
 - `task add {description}`
 - `task list`
