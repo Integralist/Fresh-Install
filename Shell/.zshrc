@@ -51,7 +51,7 @@ alias r="source ~/.zshrc"
 alias st="git status"
 alias rubyv="ls /opt/rubies/"
 alias grunt="grunt --verbose --stack"
-alias kts="tmux ls | cut -d : -f 1 | xargs -I {} tmux kill-session -t {}"
+alias tka="tmux ls | cut -d : -f 1 | xargs -I {} tmux kill-session -t {}" # tmux kill all sessions
 alias tmuxsrc="tmux source-file ~/.tmux.conf"
 alias lib="cd $syncfolderalias/Library"
 alias df="cd $syncfolderalias/Fresh\ Install/Shell"
@@ -87,6 +87,11 @@ export GREP_COLOR='1;32'
 # Makes installing versions of Ruby slightly easier
 function rb() {
     ruby-build $1 /opt/rubies/$1
+}
+
+# Makes creating a new tmux session (with a specific name) easier
+function tmuxopen() {
+    tmux attach -t $1
 }
 
 # Makes creating a new tmux session (with a specific name) easier
