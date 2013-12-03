@@ -1,5 +1,5 @@
-" if [[ -d $syncfolder/Fresh\ Install/Shell/vim ]]; then
-"   for conf in $syncfolder/Fresh\ Install/Shell/vim/*.zsh; do
+" if [[ -d $SYNCFOLDER/Fresh\ Install/Shell/vim ]]; then
+"   for conf in $SYNCFOLDER/Fresh\ Install/Shell/vim/*.zsh; do
 "     source $conf
 "   done
 " fi
