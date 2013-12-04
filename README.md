@@ -135,6 +135,31 @@ To swap to `apple-gcc42` we need to rename the existing compilers and then symli
 - `ln -s /usr/local/bin/gcov-4.2 /usr/bin/gcov`
 - `ln -s /usr/local/bin/gcc-4.2 /usr/bin/cc`
 
+You'll know when it's working because before you do the symlinks, if you run `gcc --version` you'll see:
+
+```sh
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr
+--with-gxx-include-dir=/usr/include/c++/4.2.1
+
+Apple LLVM version 5.0 (clang-500.2.79) (based on LLVM 3.3svn)
+
+Target: x86_64-apple-darwin13.0.0
+
+Thread model: posix
+```
+
+...and after symlinking you'll see:
+
+```sh
+i686-apple-darwin11-gcc-4.2.1 (GCC) 4.2.1 (Apple Inc. build 5666) (dot 3)
+
+Copyright (C) 2007 Free Software Foundation, Inc.
+
+This is free software; see the source for copying conditions.  There is NO
+
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+```
+
 ### Symlinks
 
 In `/usr/local/bin`, a simple `ls *4.2` will list 6 files (see above) which will need to be symlinked. Symlink these to the same place but without the 4.2 suffix...
