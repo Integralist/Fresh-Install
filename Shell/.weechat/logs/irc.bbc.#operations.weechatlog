@@ -1,0 +1,48 @@
+2013-12-05 09:52:43	-->	Integralist (Integralist@SSL) has joined #operations
+2013-12-05 09:52:43	--	Topic for #operations is "Operational Issues TEL: x81001 or 020 80081001"
+2013-12-05 09:52:43	--	Topic set by Marko_247 on Fri, 12 Apr 2013 12:03:58
+2013-12-05 09:52:43	--	Nicks #operations: [054AADZID adriandaigle-livesite AdrianThomson AlanRobinson AlexH alistair Andrew_Hutson AndrewFulcher|DST AndrewW AndrewWalsh Andy_Hillel AndyH awt b3cft bard billt_ bot_egg BrettScott BrianL-Livesite charlie Charlie-DBA CompsR|LiveMedia craigt darrenlucas david_holroyd declanw_Atos derekh_childrens Diluk Dip edmund Faux fordn01 Gaz_NKData Gilbert GillBennet Greg_loadtest Integralist james-loadtest_salford James_SportLive jameshd JasonG_TA JimLey JohnK_247 kenny kennym_atos Kim-DBA-DST Kiran Leigh_Bhebhe LogBot Luke marek Mark_Williams_247 MarkGledhill MattV_P_lineChng MikeAtkins MikeChapman Muz_WoodNorton nevali Nicky NikHorne247 njh OliVG Patrik_DST Paul_away Paul_Infra paulc_livesite PaulTweedy pkent Prasad-DBA-DST Rachel-WFH raj-dba Ralfas Rashpal rich-livesite-WFH rich-livesite_away RichardClose RichardE RichLees sam_french SebF sophie_BA_childrens stan stevebakh sthulb symond_Atos Tim_Infra_BCA TimRoss TonyH TonyM-livesite-away TonyW_247 ZsoltK]
+2013-12-05 09:52:43	--	Channel #operations: 91 nicks (0 ops, 0 voices, 91 normals)
+2013-12-05 09:52:43	--	Notice(irc101.back.mgmt.telhc.local) -> #operations: Replaying up to 30 lines of pre-join history spanning up to 600 seconds
+2013-12-05 09:52:49	--	Mode #operations [+AHn 30:600]
+2013-12-05 09:52:49	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-05 09:53:12	-->	Thom (Thom@SSL) has joined #operations
+2013-12-05 09:53:14	-->	yavor (yavor@SSL) has joined #operations
+2013-12-05 09:53:23	-->	TomY (yandet01@SSL) has joined #operations
+2013-12-05 09:54:41	-->	glen (birnig01@SSL) has joined #operations
+2013-12-05 09:55:09	pkent	morning, does anyone know why https://jira.dev.bbc.co.uk/browse/OPS-103497 - Retrospective CWWTF traffic event - lists Domesday as "Services affected" and no other services? I would have thought that this type of event wouldn't just affect this one PAL app
+2013-12-05 09:55:49	-->	MarkB (butlem04@SSL) has joined #operations
+2013-12-05 09:56:16	 *	pkent had a look at the zenoss graphs for Electron (where a lot of Domesday data is) and saw nothing odd at that time (there was an unusual drop in traffic about 7:15GMT today, but presumably unrelated
+2013-12-05 09:56:28	marek	Hey 247, could someone confirm if you got any weird tone when you called me at 07:22 ? I was in transit/cycling to work but I've just checked and the only one I have is from 07:43 o_O 
+2013-12-05 09:56:44	-->	Ray (chatzilla@SSL) has joined #operations
+2013-12-05 09:56:59	<--	MattV_P_lineChng (chatzilla@SSL) has left #operations
+2013-12-05 09:57:18	-->	Phil-DBA (chatzilla@SSL) has joined #operations
+2013-12-05 09:57:37	 *	pkent noes the lots of red on pagemon about 7:15 so that Electron thing must be related to the major site outage ticket ... ignore that
+2013-12-05 09:58:18	Mark_Williams_247	Marek: Lia phoned, she did say anything at the time about any wierd tone
+2013-12-05 09:58:28	NikHorne247	marek: i'll check with lia later on, but she'll be asleep by now
+2013-12-05 09:58:42	marek	ah cool, no worries 
+2013-12-05 10:01:45	sthulb	Hey, asre there tickets for this morning's outage on Jira?
+2013-12-05 10:02:12	<--	James_SportLive (anonymous@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 10:02:29	-->	PHILG_AVST (chatzilla@SSL) has joined #operations
+2013-12-05 10:02:48	pkent	https://jira.dev.bbc.co.uk/browse/OPS-103502 ?
+2013-12-05 10:02:52	<--	PHILG_AVST (chatzilla@SSL) has quit (Connection closed)
+2013-12-05 10:03:11	sthulb	thanks pkent 
+2013-12-05 10:05:55	-->	James_SportLive (anonymous@SSL) has joined #operations
+2013-12-05 10:07:04	--	Paul_away is now known as Paul
+2013-12-05 10:07:47	-->	Tom_OpenGames (robint06@SSL) has joined #operations
+2013-12-05 10:08:20	--	Thom is now known as Elif
+2013-12-05 10:10:02	<--	SebF (Adium@SSL) has quit (Leaving.)
+2013-12-05 10:11:07	-->	Graeme (chatzilla@SSL) has joined #operations
+2013-12-05 10:12:42	-->	Stuart_Grist_BC5A3 (chatzilla@SSL) has joined #operations
+2013-12-05 10:13:14	-->	SebF (Adium@SSL) has joined #operations
+2013-12-05 10:20:05	--	irc: disconnected from server
+2013-12-05 10:20:19	-->	Integralist (Integralist@SSL) has joined #operations
+2013-12-05 10:20:19	--	Topic for #operations is "Operational Issues TEL: x81001 or 020 80081001"
+2013-12-05 10:20:19	--	Topic set by Marko_247 on Fri, 12 Apr 2013 12:03:58
+2013-12-05 10:20:19	--	Nicks #operations: [054AADZID adriandaigle-livesite AdrianThomson AlanRobinson AlexH AlexK_Infra alistair Andrew_Hutson AndrewFulcher|DST AndrewW AndrewWalsh Andy_Hillel AndyH awt b3cft bard billt_ bot_egg BrettScott BrianL-Livesite charlie Charlie-DBA Chris_Harrod_DOCS CompsR|LiveMedia craigt darrenlucas david_holroyd declanw_Atos derekh_childrens Diluk Dip edmund Faux fordn01 Gaz_NKData Gilbert GillBennet glen Graeme Greg_loadtest Integralist james-loadtest_salford James_SportLive jameshd JasonG_TA Jim_McManus_DST JimLey JohnK_247 kenny kennym_atos Kim-DBA-DST Kiran Leigh_Bhebhe LogBot Luke marek Mark_Williams_247 MarkB MarkGledhill MikeAtkins MikeChapman Muz_WoodNorton nevali Nicky NikHorne247 njh OliVG Patrik_DS Paul Paul_Infra paulc_livesite PaulTweedy Phil-DBA pkent Prasad-DBA-DST Rachel-WFH raj-dba Ralfas Rashpal Ray rich-livesite-WFH rich-livesite_away RichardClose RichardE RichLees sam_french SebF sophie_BA_childrens stan Steve_B stevebakh sthulb Stuart_Grist_BC5A3 symond_Atos Thom Tim_Infra_BCA TimRoss Tom_OpenGames TomY TonyH TonyM-livesite-away TonyW_247 yavor ZsoltK]
+2013-12-05 10:20:19	--	Channel #operations: 104 nicks (0 ops, 0 voices, 104 normals)
+2013-12-05 10:20:19	--	Notice(irc001.back.mgmt.cwwtf.local) -> #operations: Replaying up to 30 lines of pre-join history spanning up to 600 seconds
+2013-12-05 10:20:25	--	Mode #operations [+AHn 30:600]
+2013-12-05 10:20:25	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-05 10:20:44	-->	Jose_Infra (cardoj02@SSL) has joined #operations
+2013-12-05 10:21:01	<--	Jose_Infra (cardoj02@SSL) has left #operations (Linkinus - http://linkinus.com)

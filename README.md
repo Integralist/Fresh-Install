@@ -20,6 +20,7 @@ Mavericks recently) then [click here](#step-by-step)
 	- `brew install wget`
 	- `brew install cake`
 	- `brew install ctags` for use with Vim (you might need to change the system version of ctags like so `sudo mv /usr/bin/ctags /usr/bin/ctags-original` so the Homebrew version gets picked up when you do `which ctags`)
+    - `brew install weechat` (see below for details)
 - `gem install tmuxinator`
 - [Pure ZSH](https://github.com/sindresorhus/pure)
 	- [Prezto](https://github.com/sorin-ionescu/prezto)
@@ -83,6 +84,8 @@ We need to symlink our .zshrc, .vimrc and .tmux.conf files (and our .vim) from o
 `ln -s ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/.task ~/.task`
 
 `ln -s ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/.NERDTreeBookmarks ~/.NERDTreeBookmarks`
+
+`ln -s ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/.weechat ~/.weechat`
 
 Rather than export a $PATH you *could* (not that I'd recommend it) also edit the file directly: `vim /private/etc/paths`
 
@@ -301,3 +304,13 @@ Note: you can shorten commands (e.g. `task list project:dotfiles` === `task l pr
 - `task {n} edit` (opens up Vim and allows you to make big changes)
 - `task {n} delete`
 - `task {n} done`
+
+## WeeChat
+
+Once installed via Hombrew we need to sync our configuration file (irc.conf within the .weechat directory) via Dropbox so make sure you symlink the dotfiles (see above section with symlinks).
+
+- `/connect {config_name}` to connect to channel
+- `/quit`
+- `q {user_name}` for private chat
+- `ESC {window_number}` to change windows
+- `/help` do this in the status window (1) to see all commands

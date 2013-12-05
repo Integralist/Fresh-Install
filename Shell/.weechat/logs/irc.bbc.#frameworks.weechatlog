@@ -1,0 +1,64 @@
+2013-12-05 09:52:43	-->	Integralist (Integralist@SSL) has joined #frameworks
+2013-12-05 09:52:43	--	Topic for #frameworks is "Welcome to #frameworks, home of Barlesque, PAL, Zend, Varnish and others. If you have a problem please ask for ?eagles in the channel."
+2013-12-05 09:52:43	--	Topic set by nevali on Tue, 05 Nov 2013 15:50:29
+2013-12-05 09:52:43	--	Nicks #frameworks: [054AADZID adriandaigle-livesite AdrianThomson ajk AlexH alistair Andrew_Hutson AndrewW AndrewWalsh Andy_Hillel AndyH b3cft bard BrettScott charlie ChrisP darrenlucas Dieter Dip edmund Eduardo_Power Faux fedeB Fod fordn01 GaryWatson gaz GeoffAdams Gilbert Integralist jak james-loadtest_salford James_SportLive jameshd johnson Jops kenny LogBot Luke Luque MarkGledhill MikeAtkins MikeChapman MikeT mosesa Muz_WoodNorton nevali njh OliVG overlord PaulL PaulTweedy Rachel-WFH Ralfas RichardClose RichardE RichLees sam_french SebF stan stevebakh StevenJack sthulb StuartH TimRoss TonyH tsipan01 ZsoltK]
+2013-12-05 09:52:43	--	Channel #frameworks: 68 nicks (0 ops, 0 voices, 68 normals)
+2013-12-05 09:52:43	overlord	Integralist: Welcome to #frameworks, home of Barlesque, PAL, Zend, Varnish and others. If you have a problem please ask for ?eagles in the channel.
+2013-12-05 09:52:47	--	Mode #frameworks [+An]
+2013-12-05 09:52:47	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-05 09:53:10	-->	Thom (Thom@SSL) has joined #frameworks
+2013-12-05 09:53:14	-->	yavor (yavor@SSL) has joined #frameworks
+2013-12-05 09:53:23	-->	TomY (yandet01@SSL) has joined #frameworks
+2013-12-05 09:54:20	-->	PaulClifford (PaulClifford@SSL) has joined #frameworks
+2013-12-05 09:54:25	-->	andyf (chatzilla@SSL) has joined #frameworks
+2013-12-05 09:54:41	-->	glen (birnig01@SSL) has joined #frameworks
+2013-12-05 09:55:49	-->	MarkB (butlem04@SSL) has joined #frameworks
+2013-12-05 09:55:58	-->	Piyush (bedip01@SSL) has joined #frameworks
+2013-12-05 09:56:38	-->	Ray (chatzilla@SSL) has joined #frameworks
+2013-12-05 09:57:27	-->	james_skinner (skinnj04@SSL) has joined #frameworks
+2013-12-05 09:58:31	Eduardo_Power	kenny: Could you update the ticket indicating how this is impacting your work? At present we are working on other work that looks more urgent, hence the need for more information
+2013-12-05 10:00:15	-->	Peter_Dudbridge (Peter_Dudbrid@SSL) has joined #frameworks
+2013-12-05 10:00:16	kenny	Eduardo_Power: sure, problem is we can't see the app logs which blocks development really. i'll update the ticket.
+2013-12-05 10:01:41	-->	jcleveley (jcleveley@SSL) has joined #frameworks
+2013-12-05 10:02:12	<--	James_SportLive (anonymous@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 10:05:20	OliVG	kenny: Is it a Java app? 
+2013-12-05 10:05:55	OliVG	you should be able to still access the logs locally on the ec2 instance under /var/log/tomcat6/
+2013-12-05 10:05:55	-->	James_SportLive (anonymous@SSL) has joined #frameworks
+2013-12-05 10:07:32	-->	StuartW (chatzilla@SSL) has joined #frameworks
+2013-12-05 10:07:47	-->	Tom_OpenGames (robint06@SSL) has joined #frameworks
+2013-12-05 10:07:48	sthulb	We can, but kenny doesn't have ssh access.
+2013-12-05 10:08:11	OliVG	sthulb: why not? 
+2013-12-05 10:08:20	--	Thom is now known as Elif
+2013-12-05 10:08:25	sthulb	He changed his SSH key...
+2013-12-05 10:08:49	OliVG	Has he uploaded his new key on cosmos?
+2013-12-05 10:09:39	-->	patrickcunningham (chatzilla@SSL) has joined #frameworks
+2013-12-05 10:10:02	sthulb	yep... he's just hasn't had it added to the bastion
+2013-12-05 10:10:02	<--	SebF (Adium@SSL) has quit (Leaving.)
+2013-12-05 10:10:29	OliVG	you shouldn't have to add the ssh key to the cloud bastions
+2013-12-05 10:10:33	-->	MattH (harrim28@SSL) has joined #frameworks
+2013-12-05 10:10:39	-->	gemma (gemma@SSL) has joined #frameworks
+2013-12-05 10:10:49	OliVG	https://confluence.dev.bbc.co.uk/display/platform/Getting+SSH+Access+to+EC2+Instances
+2013-12-05 10:11:02	-->	Graeme (chatzilla@SSL) has joined #frameworks
+2013-12-05 10:11:08	jak	You need to add them to the bastions if you're not on the BBC network
+2013-12-05 10:11:12	<--	Piyush (bedip01@SSL) has quit (This computer has gone to sleep)
+2013-12-05 10:11:30	OliVG	Ah... That's different :P
+2013-12-05 10:11:54	-->	Piyush (bedip01@SSL) has joined #frameworks
+2013-12-05 10:11:56	-->	JasonW (chatzilla@SSL) has joined #frameworks
+2013-12-05 10:12:30	-->	Mike_Suggitt (chatzilla@SSL) has joined #frameworks
+2013-12-05 10:12:56	-->	Stuart_Grist_BC5A3 (chatzilla@SSL) has joined #frameworks
+2013-12-05 10:13:14	-->	SebF (Adium@SSL) has joined #frameworks
+2013-12-05 10:13:17	-->	Kapil (chatzilla@SSL) has joined #frameworks
+2013-12-05 10:13:44	-->	James (chatzilla@SSL) has joined #frameworks
+2013-12-05 10:14:03	tsipan01	Kenny: are you using mbt to build your application?
+2013-12-05 10:14:10	sthulb	ja.
+2013-12-05 10:20:05	--	irc: disconnected from server
+2013-12-05 10:20:17	-->	Integralist (Integralist@SSL) has joined #frameworks
+2013-12-05 10:20:17	--	Topic for #frameworks is "Welcome to #frameworks, home of Barlesque, PAL, Zend, Varnish and others. If you have a problem please ask for ?eagles in the channel."
+2013-12-05 10:20:17	--	Topic set by nevali on Tue, 05 Nov 2013 15:50:29
+2013-12-05 10:20:17	--	Nicks #frameworks: [054AADZID adriandaigle-livesite AdrianThomson ajk AlexH alistair Andrew_Hutson AndrewW AndrewWalsh Andy_Hillel andyf AndyH b3cft bard BrettScott charlie ChrisP darrenlucas Dieter Dip edmund Eduardo_Power Faux fedeB Fod fordn01 gaz gemma GeoffAdams Gilbert glen Graeme Integralist jak James james-loadtest_salford james_skinner James_SportLive jameshd JasonW jcleveley johnson Jops Kapil kenny Lalkhum LogBot Luke Luque MarkB MarkGledhill MattH Mike_Suggitt MikeAtkins MikeChapman MikeT mosesa Muz_WoodNorton nevali njh OliVG overlord patrickcunningham PaulClifford PaulL PaulTweedy Peter_Dudbridge Piyush Rachel-WFH Ralfas Ray RichardClose RichardE RichLees sam_french SebF stan Steve_B stevebakh StevenJack sthulb Stuart_Grist_BC5A3 StuartH StuartW Thom TimRoss Tom_OpenGames TomY TonyH tsipan01 yavor ZsoltK]
+2013-12-05 10:20:17	--	Channel #frameworks: 92 nicks (0 ops, 0 voices, 92 normals)
+2013-12-05 10:20:23	--	Mode #frameworks [+An]
+2013-12-05 10:20:23	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-05 10:20:45	<--	jcleveley (jcleveley@SSL) has quit (Connection closed)
+2013-12-05 10:21:06	-->	jcleveley (jcleveley@SSL) has joined #frameworks
+2013-12-05 10:21:32	-->	brownt31 (chatzilla@SSL) has joined #frameworks

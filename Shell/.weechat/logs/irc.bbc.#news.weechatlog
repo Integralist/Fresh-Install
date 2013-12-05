@@ -1,0 +1,38 @@
+2013-12-05 09:52:43	-->	Integralist (Integralist@SSL) has joined #news
+2013-12-05 09:52:43	--	Nicks #news: [Andrew_Hutson BrettScott darrenlucas DavidV GillBennet Integralist jak kenny LiamW LogBot manjit markmcdonnell oliver sam_french silpa StevenJack sthulb TimRoss]
+2013-12-05 09:52:43	--	Channel #news: 18 nicks (0 ops, 0 voices, 18 normals)
+2013-12-05 09:52:45	--	Mode #news [+An]
+2013-12-05 09:52:45	--	Channel created on Mon, 02 Dec 2013 09:12:36
+2013-12-05 09:53:46	-->	Federico (Federico@SSL) has joined #news
+2013-12-05 09:54:56	-->	andyf (chatzilla@SSL) has joined #news
+2013-12-05 09:55:06	<--	markmcdonnell (markmcdonnell@SSL) has quit (Client exited)
+2013-12-05 09:56:34	-->	matatat (chatzilla@SSL) has joined #news
+2013-12-05 09:56:36	-->	Ray (chatzilla@SSL) has joined #news
+2013-12-05 09:56:50	matatat	anyone use phpstorm? just noticed it has support Vagrant http://www.jetbrains.com/phpstorm/
+2013-12-05 09:59:20	oliver	matatat: I've used it in the past - I consider it to be the best PHP IDE, fwiw...  To be honest though I'd rather have an IDEA IntelliJ Ultimate and use the plugins library that essentially makes it PHPStorm + RubyMine + PyCharm AND a Java / Scala / Groovy & Clojure IDE ;-)
+2013-12-05 10:00:30	StevenJack	matatat: what exactly does it do with vagrant...
+2013-12-05 10:01:41	-->	jcleveley (jcleveley@SSL) has joined #news
+2013-12-05 10:02:14	sthulb	StevenJack: EVERYTHANG!!!! :D
+2013-12-05 10:02:40	StevenJack	haha
+2013-12-05 10:04:01	-->	Tarqwyn (chatzilla@SSL) has joined #news
+2013-12-05 10:04:08	-->	WillMetcalf (chatzilla@SSL) has joined #news
+2013-12-05 10:04:10	-->	pradeep__kumar (chatzilla@SSL) has joined #news
+2013-12-05 10:05:43	sthulb	So, reading the ticket, a bad .htaccess broke the site this morning
+2013-12-05 10:06:36	sthulb	clear
+2013-12-05 10:07:46	StevenJack	we don't even have a .htaccess on the site do we?
+2013-12-05 10:07:59	sthulb	No, but Cbeebies did/does
+2013-12-05 10:08:25	StevenJack	ansd that broke the live site?
+2013-12-05 10:10:06	sthulb	yep...
+2013-12-05 10:10:29	<--	matatat (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 10:12:17	StevenJack	nice, so if it broke our site most likely broke some others too
+2013-12-05 10:13:45	-->	James (chatzilla@SSL) has joined #news
+2013-12-05 10:20:05	--	irc: disconnected from server
+2013-12-05 10:20:15	-->	Integralist (Integralist@SSL) has joined #news
+2013-12-05 10:20:15	--	Nicks #news: [Andrew_Hutson andyf BrettScott darrenlucas DavidV Federico GillBennet Integralist jak James jcleveley kenny LiamW LogBot manjit oliver pradeep__kumar Ray sam_french silpa StevenJack sthulb Tarqwyn TimRoss WillMetcalf]
+2013-12-05 10:20:15	--	Channel #news: 25 nicks (0 ops, 0 voices, 25 normals)
+2013-12-05 10:20:21	--	Mode #news [+An]
+2013-12-05 10:20:21	--	Channel created on Mon, 02 Dec 2013 09:12:36
+2013-12-05 10:20:29	-->	matatat (chatzilla@SSL) has joined #news
+2013-12-05 10:20:45	<--	jcleveley (jcleveley@SSL) has quit (Connection closed)
+2013-12-05 10:21:06	-->	jcleveley (jcleveley@SSL) has joined #news
+2013-12-05 10:21:59	-->	Dave (chatzilla@SSL) has joined #news

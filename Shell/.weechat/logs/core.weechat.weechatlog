@@ -1,0 +1,178 @@
+2013-11-22 10:05:42		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-11-22 10:06:40		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-11-22 10:13:49	=!=	You can not write text in this buffer
+2013-11-22 10:13:53	=!=	You can not write text in this buffer
+2013-11-22 10:13:59	=!=	You can not write text in this buffer
+2013-11-22 10:14:21	=!=	You can not write text in this buffer
+2013-11-22 11:25:23		[core]
+2013-11-22 11:25:23		  away     color    debug    help     key      mute     quit     save     unset    version
+2013-11-22 11:25:23		  bar      command  eval     history  layout   plugin   reload   secure   upgrade  wait   
+2013-11-22 11:25:23		  buffer   cursor   filter   input    mouse    proxy    repeat   set      uptime   window 
+2013-11-22 11:25:23		[alias]
+2013-11-22 11:25:23		  AAWAY    AMSG     C        CLOSE    J        LEAVE    N        SAY      UB       V        WI     
+2013-11-22 11:25:23		  alias    ANICK    CHAT     EXIT     K        M        Q        SIGNOFF  UMODE    W        WII    
+2013-11-22 11:25:23		  AME      BYE      CL       IG       KB       MUB      REDRAW   T        unalias  WC       WW     
+2013-11-22 11:25:23		[charset]
+2013-11-22 11:25:23		  charset
+2013-11-22 11:25:23		[irc]
+2013-11-22 11:25:23		  admin       dehalfop    invite      lusers      notice      quiet       sapart      summon      voice     
+2013-11-22 11:25:23		  allchan     deop        ison        map         notify      quote       saquit      time        wallchops 
+2013-11-22 11:25:23		  allserv     devoice     join        me          op          reconnect   server      topic       wallops   
+2013-11-22 11:25:23		  ban         die         kick        mode        oper        rehash      service     trace       who       
+2013-11-22 11:25:23		  connect     disconnect  kickban     motd        part        restart     servlist    unban       whois     
+2013-11-22 11:25:23		  ctcp        halfop      kill        msg         ping        sajoin      squery      userhost    whowas    
+2013-11-22 11:25:23		  cycle       ignore      links       names       pong        samode      squit       users     
+2013-11-22 11:25:23		  dcc         info        list        nick        query       sanick      stats       version   
+2013-11-22 11:25:23		[logger]
+2013-11-22 11:25:23		  logger
+2013-11-22 11:25:23		[relay]
+2013-11-22 11:25:23		  relay
+2013-11-22 11:25:23		[rmodifier]
+2013-11-22 11:25:23		  rmodifier
+2013-11-22 11:25:23		[script]
+2013-11-22 11:25:23		  script
+2013-11-22 11:25:23		[tcl]
+2013-11-22 11:25:23		  tcl
+2013-11-22 11:25:23		[xfer]
+2013-11-22 11:25:23		  me  xfer
+2013-11-22 11:27:26	=!=	Error: unknown command "" (type /help for help)
+2013-11-22 11:28:07		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-11-22 11:28:09	=!=	Error: unknown command "" (type /help for help)
+2013-11-22 11:28:13	=!=	Error: unknown command "" (type /help for help)
+2013-11-22 11:28:16	=!=	Error: unknown command "BBC" (type /help for help)
+2013-11-22 11:28:26		irc: server BBC created (temporary server, NOT SAVED!)
+2013-11-22 11:30:36		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-11-22 11:32:09		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-11-22 11:35:33		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-11-22 18:04:37		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-11-22 18:04:41		[core]
+2013-11-22 18:04:41		  away     color    debug    help     key      mute     quit     save     unset    version
+2013-11-22 18:04:41		  bar      command  eval     history  layout   plugin   reload   secure   upgrade  wait   
+2013-11-22 18:04:41		  buffer   cursor   filter   input    mouse    proxy    repeat   set      uptime   window 
+2013-11-22 18:04:41		[alias]
+2013-11-22 18:04:41		  AAWAY    AMSG     C        CLOSE    J        LEAVE    N        SAY      UB       V        WI     
+2013-11-22 18:04:41		  alias    ANICK    CHAT     EXIT     K        M        Q        SIGNOFF  UMODE    W        WII    
+2013-11-22 18:04:41		  AME      BYE      CL       IG       KB       MUB      REDRAW   T        unalias  WC       WW     
+2013-11-22 18:04:41		[charset]
+2013-11-22 18:04:41		  charset
+2013-11-22 18:04:41		[irc]
+2013-11-22 18:04:41		  admin       dehalfop    invite      lusers      notice      quiet       sapart      summon      voice     
+2013-11-22 18:04:41		  allchan     deop        ison        map         notify      quote       saquit      time        wallchops 
+2013-11-22 18:04:41		  allserv     devoice     join        me          op          reconnect   server      topic       wallops   
+2013-11-22 18:04:41		  ban         die         kick        mode        oper        rehash      service     trace       who       
+2013-11-22 18:04:41		  connect     disconnect  kickban     motd        part        restart     servlist    unban       whois     
+2013-11-22 18:04:41		  ctcp        halfop      kill        msg         ping        sajoin      squery      userhost    whowas    
+2013-11-22 18:04:41		  cycle       ignore      links       names       pong        samode      squit       users     
+2013-11-22 18:04:41		  dcc         info        list        nick        query       sanick      stats       version   
+2013-11-22 18:04:41		[logger]
+2013-11-22 18:04:41		  logger
+2013-11-22 18:04:41		[relay]
+2013-11-22 18:04:41		  relay
+2013-11-22 18:04:41		[rmodifier]
+2013-11-22 18:04:41		  rmodifier
+2013-11-22 18:04:41		[script]
+2013-11-22 18:04:41		  script
+2013-11-22 18:04:41		[tcl]
+2013-11-22 18:04:41		  tcl
+2013-11-22 18:04:41		[xfer]
+2013-11-22 18:04:41		  me  xfer
+2013-11-22 18:05:26	=!=	Error: WeeChat main buffer can't be closed
+2013-11-22 18:06:16		Mouse enabled
+2013-11-22 18:07:26		[irc]  /server  list|listfull [<server>]
+2013-11-22 18:07:26		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2013-11-22 18:07:26		                copy|rename <server> <new_name>
+2013-11-22 18:07:26		                del|keep <server>
+2013-11-22 18:07:26		                deloutq|jump|raw
+2013-11-22 18:07:26		list, add or remove IRC servers
+2013-11-22 18:07:26		    list: list servers (without argument, this list is displayed)
+2013-11-22 18:07:26		listfull: list servers with detailed info for each server
+2013-11-22 18:07:26		     add: create a new server
+2013-11-22 18:07:26		  server: server name, for internal and display use
+2013-11-22 18:07:26		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2013-11-22 18:07:26		    temp: create temporary server (not saved)
+2013-11-22 18:07:26		  option: set option for server (for boolean option, value can be omitted)
+2013-11-22 18:07:26		nooption: set boolean option to 'off' (for example: -nossl)
+2013-11-22 18:07:26		    copy: duplicate a server
+2013-11-22 18:07:26		  rename: rename a server
+2013-11-22 18:07:26		    keep: keep server in config file (for temporary servers only)
+2013-11-22 18:07:26		     del: delete a server
+2013-11-22 18:07:26		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2013-11-22 18:07:26		    jump: jump to server buffer
+2013-11-22 18:07:26		     raw: open buffer with raw IRC data
+2013-11-22 18:07:26		Examples:
+2013-11-22 18:07:26		  /server listfull
+2013-11-22 18:07:26		  /server add oftc irc.oftc.net/6697 -ssl -autoconnect
+2013-11-22 18:07:26		  /server add oftc6 irc6.oftc.net/6697 -ipv6 -ssl
+2013-11-22 18:07:26		  /server add freenode2 chat.eu.freenode.net/6667,chat.us.freenode.net/6667
+2013-11-22 18:07:26		  /server add freenode3 irc.freenode.net -password=mypass
+2013-11-22 18:07:26		  /server copy oftc oftcbis
+2013-11-22 18:07:26		  /server rename oftc newoftc
+2013-11-22 18:07:26		  /server del freenode
+2013-11-22 18:07:26		  /server deloutq
+2013-11-22 18:13:14		irc: server freenode#grunt created (temporary server, NOT SAVED!)
+2013-11-22 18:13:48		irc: server freenode.grunt created (temporary server, NOT SAVED!)
+2013-11-22 18:13:58		irc: server grunt created (temporary server, NOT SAVED!)
+2013-11-22 18:15:05		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-12-05 09:43:44		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-12-05 09:47:16		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-12-05 09:48:55		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-12-05 09:49:28		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-12-05 09:52:37		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-12-05 09:52:53		[core]
+2013-12-05 09:52:53		  away     color    debug    help     key      mute     quit     save     unset    version
+2013-12-05 09:52:53		  bar      command  eval     history  layout   plugin   reload   secure   upgrade  wait   
+2013-12-05 09:52:53		  buffer   cursor   filter   input    mouse    proxy    repeat   set      uptime   window 
+2013-12-05 09:52:53		[alias]
+2013-12-05 09:52:53		  AAWAY    AMSG     C        CLOSE    J        LEAVE    N        SAY      UB       V        WI     
+2013-12-05 09:52:53		  alias    ANICK    CHAT     EXIT     K        M        Q        SIGNOFF  UMODE    W        WII    
+2013-12-05 09:52:53		  AME      BYE      CL       IG       KB       MUB      REDRAW   T        unalias  WC       WW     
+2013-12-05 09:52:53		[charset]
+2013-12-05 09:52:53		  charset
+2013-12-05 09:52:53		[irc]
+2013-12-05 09:52:53		  admin       dcc         ignore      kill        motd        oper        reconnect   saquit      summon      version   
+2013-12-05 09:52:53		  allchan     dehalfop    info        links       msg         part        rehash      server      time        voice     
+2013-12-05 09:52:53		  allserv     deop        invite      list        names       ping        restart     service     topic       wallchops 
+2013-12-05 09:52:53		  ban         devoice     ison        lusers      nick        pong        sajoin      servlist    trace       wallops   
+2013-12-05 09:52:53		  connect     die         join        map         notice      query       samode      squery      unban       who       
+2013-12-05 09:52:53		  ctcp        disconnect  kick        me          notify      quiet       sanick      squit       userhost    whois     
+2013-12-05 09:52:53		  cycle       halfop      kickban     mode        op          quote       sapart      stats       users       whowas    
+2013-12-05 09:52:53		[logger]
+2013-12-05 09:52:53		  logger
+2013-12-05 09:52:53		[relay]
+2013-12-05 09:52:53		  relay
+2013-12-05 09:52:53		[rmodifier]
+2013-12-05 09:52:53		  rmodifier
+2013-12-05 09:52:53		[script]
+2013-12-05 09:52:53		  script
+2013-12-05 09:52:53		[tcl]
+2013-12-05 09:52:53		  tcl
+2013-12-05 09:52:53		[xfer]
+2013-12-05 09:52:53		  me  xfer
+2013-12-05 09:53:24		[core]
+2013-12-05 09:53:24		  away     buffer   command  debug    filter   history  key      mouse    plugin   quit     repeat   secure   unset    uptime   wait   
+2013-12-05 09:53:24		  bar      color    cursor   eval     help     input    layout   mute     proxy    reload   save     set      upgrade  version  window 
+2013-12-05 09:53:24		[alias]
+2013-12-05 09:53:24		  AAWAY    AMSG     C        CLOSE    J        LEAVE    N        SAY      UB       V        WI     
+2013-12-05 09:53:24		  alias    ANICK    CHAT     EXIT     K        M        Q        SIGNOFF  UMODE    W        WII    
+2013-12-05 09:53:24		  AME      BYE      CL       IG       KB       MUB      REDRAW   T        unalias  WC       WW     
+2013-12-05 09:53:24		[charset]
+2013-12-05 09:53:24		  charset
+2013-12-05 09:53:24		[irc]
+2013-12-05 09:53:24		  admin       cycle       disconnect  join        lusers      names       part        reconnect   sapart      squit       unban       wallops   
+2013-12-05 09:53:24		  allchan     dcc         halfop      kick        map         nick        ping        rehash      saquit      stats       userhost    who       
+2013-12-05 09:53:24		  allserv     dehalfop    ignore      kickban     me          notice      pong        restart     server      summon      users       whois     
+2013-12-05 09:53:24		  ban         deop        info        kill        mode        notify      query       sajoin      service     time        version     whowas    
+2013-12-05 09:53:24		  connect     devoice     invite      links       motd        op          quiet       samode      servlist    topic       voice     
+2013-12-05 09:53:24		  ctcp        die         ison        list        msg         oper        quote       sanick      squery      trace       wallchops 
+2013-12-05 09:53:24		[logger]
+2013-12-05 09:53:24		  logger
+2013-12-05 09:53:24		[relay]
+2013-12-05 09:53:24		  relay
+2013-12-05 09:53:24		[rmodifier]
+2013-12-05 09:53:24		  rmodifier
+2013-12-05 09:53:24		[script]
+2013-12-05 09:53:24		  script
+2013-12-05 09:53:24		[tcl]
+2013-12-05 09:53:24		  tcl
+2013-12-05 09:53:24		[xfer]
+2013-12-05 09:53:24		  me  xfer

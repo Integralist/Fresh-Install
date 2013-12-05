@@ -1,0 +1,20 @@
+2013-11-22 18:13:58	--	irc: connecting to server grunt/6667...
+2013-11-22 18:13:58	=!=	irc: address "grunt" not found
+2013-11-22 18:13:58	=!=	irc: error: nodename nor servname provided, or not known
+2013-11-22 18:13:58	--	irc: reconnecting to server in 10 seconds
+2013-11-22 18:14:04		irc: auto-reconnection is cancelled
+2013-11-22 18:14:04	--	irc: disconnected from server
+2013-11-22 18:14:13	--	irc: connecting to server grunt/6667...
+2013-11-22 18:14:13	=!=	irc: address "grunt" not found
+2013-11-22 18:14:13	=!=	irc: error: nodename nor servname provided, or not known
+2013-11-22 18:14:13	--	irc: reconnecting to server in 10 seconds
+2013-11-22 18:14:23	--	irc: reconnecting to server...
+2013-11-22 18:14:23	--	irc: connecting to server grunt/6667...
+2013-11-22 18:14:23	=!=	irc: address "grunt" not found
+2013-11-22 18:14:23	=!=	irc: error: nodename nor servname provided, or not known
+2013-11-22 18:14:23	--	irc: reconnecting to server in 20 seconds
+2013-11-22 18:14:43	--	irc: reconnecting to server...
+2013-11-22 18:14:43	--	irc: connecting to server grunt/6667...
+2013-11-22 18:14:43	=!=	irc: address "grunt" not found
+2013-11-22 18:14:43	=!=	irc: error: nodename nor servname provided, or not known
+2013-11-22 18:14:43	--	irc: reconnecting to server in 40 seconds

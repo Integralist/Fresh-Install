@@ -1,0 +1,6 @@
+2013-11-22 18:13:48	--	irc: connecting to server freenode.grunt/6667...
+2013-11-22 18:13:48	=!=	irc: address "freenode.grunt" not found
+2013-11-22 18:13:48	=!=	irc: error: nodename nor servname provided, or not known
+2013-11-22 18:13:48	--	irc: reconnecting to server in 10 seconds
+2013-11-22 18:13:54		irc: auto-reconnection is cancelled
+2013-11-22 18:13:54	--	irc: disconnected from server

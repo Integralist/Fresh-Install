@@ -1,0 +1,849 @@
+2013-11-22 11:28:26	--	irc: connecting to server BBC/6667...
+2013-11-22 11:28:26	=!=	irc: address "BBC" not found
+2013-11-22 11:28:26	=!=	irc: error: nodename nor servname provided, or not known
+2013-11-22 11:28:26	--	irc: reconnecting to server in 10 seconds
+2013-11-22 11:28:36	--	irc: reconnecting to server...
+2013-11-22 11:28:36	--	irc: connecting to server BBC/6667...
+2013-11-22 11:28:36	=!=	irc: address "BBC" not found
+2013-11-22 11:28:36	=!=	irc: error: nodename nor servname provided, or not known
+2013-11-22 11:28:36	--	irc: reconnecting to server in 20 seconds
+2013-11-22 11:30:40	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-11-22 11:30:40	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-11-22 11:30:40	=!=	gnutls: peer's certificate is NOT trusted
+2013-11-22 11:30:40	=!=	gnutls: peer's certificate issuer is unknown
+2013-11-22 11:30:40	--	gnutls: receiving 4 certificates
+2013-11-22 11:30:40	--	 - certificate[1] info:
+2013-11-22 11:30:40	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-11-22 11:30:40	--	 - certificate[2] info:
+2013-11-22 11:30:40	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-11-22 11:30:40	--	 - certificate[3] info:
+2013-11-22 11:30:40	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-11-22 11:30:40	--	 - certificate[4] info:
+2013-11-22 11:30:40	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-11-22 11:30:40	--	gnutls: sending one certificate
+2013-11-22 11:30:40	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-11-22 11:30:40	=!=	irc: TLS handshake failed
+2013-11-22 11:30:40	=!=	irc: error: A TLS fatal alert has been received.
+2013-11-22 11:30:40	--	irc: reconnecting to server in 10 seconds
+2013-11-22 11:30:50	--	irc: reconnecting to server...
+2013-11-22 11:30:50	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-11-22 11:30:50	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-11-22 11:30:50	=!=	gnutls: peer's certificate is NOT trusted
+2013-11-22 11:30:50	=!=	gnutls: peer's certificate issuer is unknown
+2013-11-22 11:30:50	--	gnutls: receiving 4 certificates
+2013-11-22 11:30:50	--	 - certificate[1] info:
+2013-11-22 11:30:50	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-11-22 11:30:50	--	 - certificate[2] info:
+2013-11-22 11:30:50	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-11-22 11:30:50	--	 - certificate[3] info:
+2013-11-22 11:30:50	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-11-22 11:30:50	--	 - certificate[4] info:
+2013-11-22 11:30:50	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-11-22 11:30:50	--	gnutls: sending one certificate
+2013-11-22 11:30:50	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-11-22 11:30:51	=!=	irc: TLS handshake failed
+2013-11-22 11:30:51	=!=	irc: error: A TLS fatal alert has been received.
+2013-11-22 11:30:51	--	irc: reconnecting to server in 20 seconds
+2013-11-22 11:31:11	--	irc: reconnecting to server...
+2013-11-22 11:31:11	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-11-22 11:31:11	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-11-22 11:31:11	=!=	gnutls: peer's certificate is NOT trusted
+2013-11-22 11:31:11	=!=	gnutls: peer's certificate issuer is unknown
+2013-11-22 11:31:11	--	gnutls: receiving 4 certificates
+2013-11-22 11:31:11	--	 - certificate[1] info:
+2013-11-22 11:31:11	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-11-22 11:31:11	--	 - certificate[2] info:
+2013-11-22 11:31:11	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-11-22 11:31:11	--	 - certificate[3] info:
+2013-11-22 11:31:11	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-11-22 11:31:11	--	 - certificate[4] info:
+2013-11-22 11:31:11	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-11-22 11:31:11	--	gnutls: sending one certificate
+2013-11-22 11:31:11	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-11-22 11:31:11	=!=	irc: TLS handshake failed
+2013-11-22 11:31:11	=!=	irc: error: A TLS fatal alert has been received.
+2013-11-22 11:31:11	--	irc: reconnecting to server in 40 seconds
+2013-11-22 11:31:51	--	irc: reconnecting to server...
+2013-11-22 11:31:51	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-11-22 11:31:51	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-11-22 11:31:51	=!=	gnutls: peer's certificate is NOT trusted
+2013-11-22 11:31:51	=!=	gnutls: peer's certificate issuer is unknown
+2013-11-22 11:31:51	--	gnutls: receiving 4 certificates
+2013-11-22 11:31:51	--	 - certificate[1] info:
+2013-11-22 11:31:51	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-11-22 11:31:51	--	 - certificate[2] info:
+2013-11-22 11:31:51	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-11-22 11:31:51	--	 - certificate[3] info:
+2013-11-22 11:31:51	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-11-22 11:31:51	--	 - certificate[4] info:
+2013-11-22 11:31:51	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-11-22 11:31:51	--	gnutls: sending one certificate
+2013-11-22 11:31:51	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-11-22 11:31:51	=!=	irc: TLS handshake failed
+2013-11-22 11:31:51	=!=	irc: error: A TLS fatal alert has been received.
+2013-11-22 11:31:51	--	irc: reconnecting to server in 1 minutes, 20 seconds
+2013-11-22 11:32:37	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-11-22 11:32:37	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-11-22 11:32:37	=!=	gnutls: peer's certificate is NOT trusted
+2013-11-22 11:32:37	=!=	gnutls: peer's certificate issuer is unknown
+2013-11-22 11:32:37	--	gnutls: receiving 4 certificates
+2013-11-22 11:32:37	--	 - certificate[1] info:
+2013-11-22 11:32:37	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-11-22 11:32:37	--	 - certificate[2] info:
+2013-11-22 11:32:37	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-11-22 11:32:37	--	 - certificate[3] info:
+2013-11-22 11:32:37	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-11-22 11:32:37	--	 - certificate[4] info:
+2013-11-22 11:32:37	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-11-22 11:32:37	--	gnutls: sending one certificate
+2013-11-22 11:32:37	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-11-22 11:32:37	=!=	irc: TLS handshake failed
+2013-11-22 11:32:37	=!=	irc: error: A TLS fatal alert has been received.
+2013-11-22 11:32:37	--	irc: reconnecting to server in 10 seconds
+2013-11-22 11:32:47	--	irc: reconnecting to server...
+2013-11-22 11:32:47	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-11-22 11:32:47	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-11-22 11:32:47	=!=	gnutls: peer's certificate is NOT trusted
+2013-11-22 11:32:47	=!=	gnutls: peer's certificate issuer is unknown
+2013-11-22 11:32:47	--	gnutls: receiving 4 certificates
+2013-11-22 11:32:47	--	 - certificate[1] info:
+2013-11-22 11:32:47	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-11-22 11:32:47	--	 - certificate[2] info:
+2013-11-22 11:32:47	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-11-22 11:32:47	--	 - certificate[3] info:
+2013-11-22 11:32:47	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-11-22 11:32:47	--	 - certificate[4] info:
+2013-11-22 11:32:47	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-11-22 11:32:47	--	gnutls: sending one certificate
+2013-11-22 11:32:47	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-11-22 11:32:47	=!=	irc: TLS handshake failed
+2013-11-22 11:32:47	=!=	irc: error: A TLS fatal alert has been received.
+2013-11-22 11:32:47	--	irc: reconnecting to server in 20 seconds
+2013-11-22 11:33:07	--	irc: reconnecting to server...
+2013-11-22 11:33:07	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-11-22 11:33:07	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-11-22 11:33:07	=!=	gnutls: peer's certificate is NOT trusted
+2013-11-22 11:33:07	=!=	gnutls: peer's certificate issuer is unknown
+2013-11-22 11:33:07	--	gnutls: receiving 4 certificates
+2013-11-22 11:33:07	--	 - certificate[1] info:
+2013-11-22 11:33:07	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-11-22 11:33:07	--	 - certificate[2] info:
+2013-11-22 11:33:07	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-11-22 11:33:07	--	 - certificate[3] info:
+2013-11-22 11:33:07	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-11-22 11:33:07	--	 - certificate[4] info:
+2013-11-22 11:33:07	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-11-22 11:33:07	--	gnutls: sending one certificate
+2013-11-22 11:33:07	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-11-22 11:33:07	=!=	irc: TLS handshake failed
+2013-11-22 11:33:07	=!=	irc: error: A TLS fatal alert has been received.
+2013-11-22 11:33:07	--	irc: reconnecting to server in 40 seconds
+2013-11-22 11:35:41	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-11-22 11:35:41	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-11-22 11:35:41	=!=	gnutls: peer's certificate is NOT trusted
+2013-11-22 11:35:41	=!=	gnutls: peer's certificate issuer is unknown
+2013-11-22 11:35:41	--	gnutls: receiving 4 certificates
+2013-11-22 11:35:41	--	 - certificate[1] info:
+2013-11-22 11:35:41	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-11-22 11:35:41	--	 - certificate[2] info:
+2013-11-22 11:35:41	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-11-22 11:35:41	--	 - certificate[3] info:
+2013-11-22 11:35:41	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-11-22 11:35:41	--	 - certificate[4] info:
+2013-11-22 11:35:41	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-11-22 11:35:41	--	gnutls: sending one certificate
+2013-11-22 11:35:41	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-11-22 11:35:41	=!=	irc: TLS handshake failed
+2013-11-22 11:35:41	=!=	irc: error: A TLS fatal alert has been received.
+2013-11-22 11:35:41	--	irc: reconnecting to server in 10 seconds
+2013-11-22 11:35:51	--	irc: reconnecting to server...
+2013-11-22 11:35:51	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-11-22 11:35:51	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-11-22 11:35:51	=!=	gnutls: peer's certificate is NOT trusted
+2013-11-22 11:35:51	=!=	gnutls: peer's certificate issuer is unknown
+2013-11-22 11:35:51	--	gnutls: receiving 4 certificates
+2013-11-22 11:35:51	--	 - certificate[1] info:
+2013-11-22 11:35:51	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-11-22 11:35:51	--	 - certificate[2] info:
+2013-11-22 11:35:51	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-11-22 11:35:51	--	 - certificate[3] info:
+2013-11-22 11:35:51	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-11-22 11:35:51	--	 - certificate[4] info:
+2013-11-22 11:35:51	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-11-22 11:35:51	--	gnutls: sending one certificate
+2013-11-22 11:35:51	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-11-22 11:35:51	=!=	irc: TLS handshake failed
+2013-11-22 11:35:51	=!=	irc: error: A TLS fatal alert has been received.
+2013-11-22 11:35:51	--	irc: reconnecting to server in 20 seconds
+2013-11-22 11:36:11	--	irc: reconnecting to server...
+2013-11-22 11:36:11	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-11-22 11:36:11	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-11-22 11:36:11	=!=	gnutls: peer's certificate is NOT trusted
+2013-11-22 11:36:11	=!=	gnutls: peer's certificate issuer is unknown
+2013-11-22 11:36:11	--	gnutls: receiving 4 certificates
+2013-11-22 11:36:11	--	 - certificate[1] info:
+2013-11-22 11:36:11	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-11-22 11:36:11	--	 - certificate[2] info:
+2013-11-22 11:36:11	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-11-22 11:36:11	--	 - certificate[3] info:
+2013-11-22 11:36:11	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-11-22 11:36:11	--	 - certificate[4] info:
+2013-11-22 11:36:11	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-11-22 11:36:11	--	gnutls: sending one certificate
+2013-11-22 11:36:11	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-11-22 11:36:11	=!=	irc: TLS handshake failed
+2013-11-22 11:36:11	=!=	irc: error: A TLS fatal alert has been received.
+2013-11-22 11:36:11	--	irc: reconnecting to server in 40 seconds
+2013-11-22 11:36:51	--	irc: reconnecting to server...
+2013-11-22 11:36:51	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-11-22 11:36:51	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-11-22 11:36:51	=!=	gnutls: peer's certificate is NOT trusted
+2013-11-22 11:36:51	=!=	gnutls: peer's certificate issuer is unknown
+2013-11-22 11:36:51	--	gnutls: receiving 4 certificates
+2013-11-22 11:36:51	--	 - certificate[1] info:
+2013-11-22 11:36:51	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-11-22 11:36:51	--	 - certificate[2] info:
+2013-11-22 11:36:51	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-11-22 11:36:51	--	 - certificate[3] info:
+2013-11-22 11:36:51	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-11-22 11:36:51	--	 - certificate[4] info:
+2013-11-22 11:36:51	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-11-22 11:36:51	--	gnutls: sending one certificate
+2013-11-22 11:36:51	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-11-22 11:36:51	=!=	irc: TLS handshake failed
+2013-11-22 11:36:51	=!=	irc: error: A TLS fatal alert has been received.
+2013-11-22 11:36:51	--	irc: reconnecting to server in 1 minutes, 20 seconds
+2013-11-22 11:38:11	--	irc: reconnecting to server...
+2013-11-22 11:38:11	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-11-22 11:38:11	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-11-22 11:38:11	=!=	gnutls: peer's certificate is NOT trusted
+2013-11-22 11:38:11	=!=	gnutls: peer's certificate issuer is unknown
+2013-11-22 11:38:11	--	gnutls: receiving 4 certificates
+2013-11-22 11:38:11	--	 - certificate[1] info:
+2013-11-22 11:38:11	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-11-22 11:38:11	--	 - certificate[2] info:
+2013-11-22 11:38:11	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-11-22 11:38:11	--	 - certificate[3] info:
+2013-11-22 11:38:11	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-11-22 11:38:11	--	 - certificate[4] info:
+2013-11-22 11:38:11	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-11-22 11:38:11	--	gnutls: sending one certificate
+2013-11-22 11:38:11	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-11-22 11:38:11	=!=	irc: TLS handshake failed
+2013-11-22 11:38:11	=!=	irc: error: A TLS fatal alert has been received.
+2013-11-22 11:38:11	--	irc: reconnecting to server in 2 minutes, 40 seconds
+2013-11-22 11:40:51	--	irc: reconnecting to server...
+2013-11-22 11:40:51	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-11-22 11:40:51	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-11-22 11:40:51	=!=	gnutls: peer's certificate is NOT trusted
+2013-11-22 11:40:51	=!=	gnutls: peer's certificate issuer is unknown
+2013-11-22 11:40:51	--	gnutls: receiving 4 certificates
+2013-11-22 11:40:51	--	 - certificate[1] info:
+2013-11-22 11:40:51	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-11-22 11:40:51	--	 - certificate[2] info:
+2013-11-22 11:40:51	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-11-22 11:40:51	--	 - certificate[3] info:
+2013-11-22 11:40:51	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-11-22 11:40:51	--	 - certificate[4] info:
+2013-11-22 11:40:51	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-11-22 11:40:51	--	gnutls: sending one certificate
+2013-11-22 11:40:51	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-11-22 11:40:51	=!=	irc: TLS handshake failed
+2013-11-22 11:40:51	=!=	irc: error: A TLS fatal alert has been received.
+2013-11-22 11:40:51	--	irc: reconnecting to server in 5 minutes, 20 seconds
+2013-11-22 11:46:11	--	irc: reconnecting to server...
+2013-11-22 11:46:11	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-11-22 11:46:11	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-11-22 11:46:11	=!=	gnutls: peer's certificate is NOT trusted
+2013-11-22 11:46:11	=!=	gnutls: peer's certificate issuer is unknown
+2013-11-22 11:46:11	--	gnutls: receiving 4 certificates
+2013-11-22 11:46:11	--	 - certificate[1] info:
+2013-11-22 11:46:11	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-11-22 11:46:11	--	 - certificate[2] info:
+2013-11-22 11:46:11	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-11-22 11:46:11	--	 - certificate[3] info:
+2013-11-22 11:46:11	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-11-22 11:46:11	--	 - certificate[4] info:
+2013-11-22 11:46:11	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-11-22 11:46:11	--	gnutls: sending one certificate
+2013-11-22 11:46:11	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-11-22 11:46:11	=!=	irc: TLS handshake failed
+2013-11-22 11:46:11	=!=	irc: error: A TLS fatal alert has been received.
+2013-11-22 11:46:11	--	irc: reconnecting to server in 10 minutes, 40 seconds
+2013-11-22 11:56:51	--	irc: reconnecting to server...
+2013-11-22 11:56:51	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-11-22 11:56:51	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-11-22 11:56:51	=!=	gnutls: peer's certificate is NOT trusted
+2013-11-22 11:56:51	=!=	gnutls: peer's certificate issuer is unknown
+2013-11-22 11:56:51	--	gnutls: receiving 4 certificates
+2013-11-22 11:56:51	--	 - certificate[1] info:
+2013-11-22 11:56:51	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-11-22 11:56:51	--	 - certificate[2] info:
+2013-11-22 11:56:51	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-11-22 11:56:51	--	 - certificate[3] info:
+2013-11-22 11:56:51	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-11-22 11:56:51	--	 - certificate[4] info:
+2013-11-22 11:56:51	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-11-22 11:56:51	--	gnutls: sending one certificate
+2013-11-22 11:56:51	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-11-22 11:56:51	=!=	irc: TLS handshake failed
+2013-11-22 11:56:51	=!=	irc: error: A TLS fatal alert has been received.
+2013-11-22 11:56:51	--	irc: reconnecting to server in 21 minutes, 20 seconds
+2013-11-22 12:18:11	--	irc: reconnecting to server...
+2013-11-22 12:18:11	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-11-22 12:18:11	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-11-22 12:18:11	=!=	gnutls: peer's certificate is NOT trusted
+2013-11-22 12:18:11	=!=	gnutls: peer's certificate issuer is unknown
+2013-11-22 12:18:11	--	gnutls: receiving 4 certificates
+2013-11-22 12:18:11	--	 - certificate[1] info:
+2013-11-22 12:18:11	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-11-22 12:18:11	--	 - certificate[2] info:
+2013-11-22 12:18:11	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-11-22 12:18:11	--	 - certificate[3] info:
+2013-11-22 12:18:11	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-11-22 12:18:11	--	 - certificate[4] info:
+2013-11-22 12:18:11	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-11-22 12:18:11	--	gnutls: sending one certificate
+2013-11-22 12:18:11	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-11-22 12:18:11	=!=	irc: TLS handshake failed
+2013-11-22 12:18:11	=!=	irc: error: A TLS fatal alert has been received.
+2013-11-22 12:18:11	--	irc: reconnecting to server in 30 minutes
+2013-11-22 12:48:11	--	irc: reconnecting to server...
+2013-11-22 12:48:11	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-11-22 12:48:11	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-11-22 12:48:11	=!=	gnutls: peer's certificate is NOT trusted
+2013-11-22 12:48:11	=!=	gnutls: peer's certificate issuer is unknown
+2013-11-22 12:48:11	--	gnutls: receiving 4 certificates
+2013-11-22 12:48:11	--	 - certificate[1] info:
+2013-11-22 12:48:11	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-11-22 12:48:11	--	 - certificate[2] info:
+2013-11-22 12:48:11	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-11-22 12:48:11	--	 - certificate[3] info:
+2013-11-22 12:48:11	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-11-22 12:48:11	--	 - certificate[4] info:
+2013-11-22 12:48:11	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-11-22 12:48:11	--	gnutls: sending one certificate
+2013-11-22 12:48:11	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-11-22 12:48:11	=!=	irc: TLS handshake failed
+2013-11-22 12:48:11	=!=	irc: error: A TLS fatal alert has been received.
+2013-11-22 12:48:11	--	irc: reconnecting to server in 30 minutes
+2013-11-22 13:18:11	--	irc: reconnecting to server...
+2013-11-22 13:18:11	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-11-22 13:18:11	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-11-22 13:18:11	=!=	gnutls: peer's certificate is NOT trusted
+2013-11-22 13:18:11	=!=	gnutls: peer's certificate issuer is unknown
+2013-11-22 13:18:11	--	gnutls: receiving 4 certificates
+2013-11-22 13:18:11	--	 - certificate[1] info:
+2013-11-22 13:18:11	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-11-22 13:18:11	--	 - certificate[2] info:
+2013-11-22 13:18:11	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-11-22 13:18:11	--	 - certificate[3] info:
+2013-11-22 13:18:11	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-11-22 13:18:11	--	 - certificate[4] info:
+2013-11-22 13:18:11	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-11-22 13:18:11	--	gnutls: sending one certificate
+2013-11-22 13:18:11	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-11-22 13:18:11	=!=	irc: TLS handshake failed
+2013-11-22 13:18:11	=!=	irc: error: A TLS fatal alert has been received.
+2013-11-22 13:18:11	--	irc: reconnecting to server in 30 minutes
+2013-11-22 14:06:15	--	irc: reconnecting to server...
+2013-11-22 14:06:15	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-11-22 14:06:15	=!=	irc: address "irc.dev.bbc.co.uk" not found
+2013-11-22 14:06:15	=!=	irc: error: nodename nor servname provided, or not known
+2013-11-22 14:06:15	--	irc: reconnecting to server in 30 minutes
+2013-11-22 14:36:15	--	irc: reconnecting to server...
+2013-11-22 14:36:15	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-11-22 14:36:15	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-11-22 14:36:15	=!=	gnutls: peer's certificate is NOT trusted
+2013-11-22 14:36:15	=!=	gnutls: peer's certificate issuer is unknown
+2013-11-22 14:36:15	--	gnutls: receiving 4 certificates
+2013-11-22 14:36:15	--	 - certificate[1] info:
+2013-11-22 14:36:15	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-11-22 14:36:15	--	 - certificate[2] info:
+2013-11-22 14:36:15	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-11-22 14:36:15	--	 - certificate[3] info:
+2013-11-22 14:36:15	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-11-22 14:36:15	--	 - certificate[4] info:
+2013-11-22 14:36:15	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-11-22 14:36:15	--	gnutls: sending one certificate
+2013-11-22 14:36:15	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-11-22 14:36:15	=!=	irc: TLS handshake failed
+2013-11-22 14:36:15	=!=	irc: error: A TLS fatal alert has been received.
+2013-11-22 14:36:15	--	irc: reconnecting to server in 30 minutes
+2013-11-22 15:06:15	--	irc: reconnecting to server...
+2013-11-22 15:06:15	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-11-22 15:06:15	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-11-22 15:06:15	=!=	gnutls: peer's certificate is NOT trusted
+2013-11-22 15:06:15	=!=	gnutls: peer's certificate issuer is unknown
+2013-11-22 15:06:15	--	gnutls: receiving 4 certificates
+2013-11-22 15:06:15	--	 - certificate[1] info:
+2013-11-22 15:06:15	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-11-22 15:06:15	--	 - certificate[2] info:
+2013-11-22 15:06:15	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-11-22 15:06:15	--	 - certificate[3] info:
+2013-11-22 15:06:15	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-11-22 15:06:15	--	 - certificate[4] info:
+2013-11-22 15:06:15	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-11-22 15:06:15	--	gnutls: sending one certificate
+2013-11-22 15:06:15	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-11-22 15:06:15	=!=	irc: TLS handshake failed
+2013-11-22 15:06:15	=!=	irc: error: A TLS fatal alert has been received.
+2013-11-22 15:06:15	--	irc: reconnecting to server in 30 minutes
+2013-11-22 15:36:15	--	irc: reconnecting to server...
+2013-11-22 15:36:15	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-11-22 15:36:15	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-11-22 15:36:15	=!=	gnutls: peer's certificate is NOT trusted
+2013-11-22 15:36:15	=!=	gnutls: peer's certificate issuer is unknown
+2013-11-22 15:36:15	--	gnutls: receiving 4 certificates
+2013-11-22 15:36:15	--	 - certificate[1] info:
+2013-11-22 15:36:15	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-11-22 15:36:15	--	 - certificate[2] info:
+2013-11-22 15:36:15	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-11-22 15:36:15	--	 - certificate[3] info:
+2013-11-22 15:36:15	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-11-22 15:36:15	--	 - certificate[4] info:
+2013-11-22 15:36:15	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-11-22 15:36:15	--	gnutls: sending one certificate
+2013-11-22 15:36:15	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-11-22 15:36:15	=!=	irc: TLS handshake failed
+2013-11-22 15:36:15	=!=	irc: error: A TLS fatal alert has been received.
+2013-11-22 15:36:15	--	irc: reconnecting to server in 30 minutes
+2013-11-22 16:06:15	--	irc: reconnecting to server...
+2013-11-22 16:06:15	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-11-22 16:06:15	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-11-22 16:06:15	=!=	gnutls: peer's certificate is NOT trusted
+2013-11-22 16:06:15	=!=	gnutls: peer's certificate issuer is unknown
+2013-11-22 16:06:15	--	gnutls: receiving 4 certificates
+2013-11-22 16:06:15	--	 - certificate[1] info:
+2013-11-22 16:06:15	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-11-22 16:06:15	--	 - certificate[2] info:
+2013-11-22 16:06:15	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-11-22 16:06:15	--	 - certificate[3] info:
+2013-11-22 16:06:15	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-11-22 16:06:15	--	 - certificate[4] info:
+2013-11-22 16:06:15	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-11-22 16:06:15	--	gnutls: sending one certificate
+2013-11-22 16:06:15	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-11-22 16:06:15	=!=	irc: TLS handshake failed
+2013-11-22 16:06:15	=!=	irc: error: A TLS fatal alert has been received.
+2013-11-22 16:06:15	--	irc: reconnecting to server in 30 minutes
+2013-11-22 16:36:15	--	irc: reconnecting to server...
+2013-11-22 16:36:15	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-11-22 16:36:15	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-11-22 16:36:15	=!=	gnutls: peer's certificate is NOT trusted
+2013-11-22 16:36:15	=!=	gnutls: peer's certificate issuer is unknown
+2013-11-22 16:36:15	--	gnutls: receiving 4 certificates
+2013-11-22 16:36:15	--	 - certificate[1] info:
+2013-11-22 16:36:15	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-11-22 16:36:15	--	 - certificate[2] info:
+2013-11-22 16:36:15	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-11-22 16:36:15	--	 - certificate[3] info:
+2013-11-22 16:36:15	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-11-22 16:36:15	--	 - certificate[4] info:
+2013-11-22 16:36:15	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-11-22 16:36:15	--	gnutls: sending one certificate
+2013-11-22 16:36:15	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-11-22 16:36:15	=!=	irc: TLS handshake failed
+2013-11-22 16:36:15	=!=	irc: error: A TLS fatal alert has been received.
+2013-11-22 16:36:15	--	irc: reconnecting to server in 30 minutes
+2013-11-22 17:06:15	--	irc: reconnecting to server...
+2013-11-22 17:06:15	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-11-22 17:06:15	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-11-22 17:06:15	=!=	gnutls: peer's certificate is NOT trusted
+2013-11-22 17:06:15	=!=	gnutls: peer's certificate issuer is unknown
+2013-11-22 17:06:15	--	gnutls: receiving 4 certificates
+2013-11-22 17:06:15	--	 - certificate[1] info:
+2013-11-22 17:06:15	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-11-22 17:06:15	--	 - certificate[2] info:
+2013-11-22 17:06:15	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-11-22 17:06:15	--	 - certificate[3] info:
+2013-11-22 17:06:15	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-11-22 17:06:15	--	 - certificate[4] info:
+2013-11-22 17:06:15	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-11-22 17:06:15	--	gnutls: sending one certificate
+2013-11-22 17:06:15	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-11-22 17:06:15	=!=	irc: TLS handshake failed
+2013-11-22 17:06:15	=!=	irc: error: A TLS fatal alert has been received.
+2013-11-22 17:06:15	--	irc: reconnecting to server in 30 minutes
+2013-11-22 17:36:15	--	irc: reconnecting to server...
+2013-11-22 17:36:15	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-11-22 17:36:15	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-11-22 17:36:15	=!=	gnutls: peer's certificate is NOT trusted
+2013-11-22 17:36:15	=!=	gnutls: peer's certificate issuer is unknown
+2013-11-22 17:36:15	--	gnutls: receiving 4 certificates
+2013-11-22 17:36:15	--	 - certificate[1] info:
+2013-11-22 17:36:15	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-11-22 17:36:15	--	 - certificate[2] info:
+2013-11-22 17:36:15	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-11-22 17:36:15	--	 - certificate[3] info:
+2013-11-22 17:36:15	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-11-22 17:36:15	--	 - certificate[4] info:
+2013-11-22 17:36:15	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-11-22 17:36:15	--	gnutls: sending one certificate
+2013-11-22 17:36:15	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-11-22 17:36:15	=!=	irc: TLS handshake failed
+2013-11-22 17:36:15	=!=	irc: error: A TLS fatal alert has been received.
+2013-11-22 17:36:15	--	irc: reconnecting to server in 30 minutes
+2013-12-05 09:46:27	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-05 09:46:27	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-05 09:46:27	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-05 09:46:27	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-05 09:46:27	--	gnutls: receiving 4 certificates
+2013-12-05 09:46:27	--	 - certificate[1] info:
+2013-12-05 09:46:27	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-05 09:46:27	--	 - certificate[2] info:
+2013-12-05 09:46:27	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-05 09:46:27	--	 - certificate[3] info:
+2013-12-05 09:46:27	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-05 09:46:27	--	 - certificate[4] info:
+2013-12-05 09:46:27	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-05 09:46:27	--	gnutls: sending one certificate
+2013-12-05 09:46:27	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-12-05 09:46:27	=!=	irc: TLS handshake failed
+2013-12-05 09:46:27	=!=	irc: error: A TLS fatal alert has been received.
+2013-12-05 09:46:27	--	irc: reconnecting to server in 10 seconds
+2013-12-05 09:46:37	--	irc: reconnecting to server...
+2013-12-05 09:46:37	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-05 09:46:37	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-05 09:46:37	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-05 09:46:37	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-05 09:46:37	--	gnutls: receiving 4 certificates
+2013-12-05 09:46:37	--	 - certificate[1] info:
+2013-12-05 09:46:37	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-05 09:46:37	--	 - certificate[2] info:
+2013-12-05 09:46:37	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-05 09:46:37	--	 - certificate[3] info:
+2013-12-05 09:46:37	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-05 09:46:37	--	 - certificate[4] info:
+2013-12-05 09:46:37	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-05 09:46:37	--	gnutls: sending one certificate
+2013-12-05 09:46:37	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-12-05 09:46:37	=!=	irc: TLS handshake failed
+2013-12-05 09:46:37	=!=	irc: error: A TLS fatal alert has been received.
+2013-12-05 09:46:37	--	irc: reconnecting to server in 20 seconds
+2013-12-05 09:46:57	--	irc: reconnecting to server...
+2013-12-05 09:46:57	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-05 09:46:57	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-05 09:46:57	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-05 09:46:57	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-05 09:46:57	--	gnutls: receiving 4 certificates
+2013-12-05 09:46:57	--	 - certificate[1] info:
+2013-12-05 09:46:57	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-05 09:46:57	--	 - certificate[2] info:
+2013-12-05 09:46:57	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-05 09:46:57	--	 - certificate[3] info:
+2013-12-05 09:46:57	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-05 09:46:57	--	 - certificate[4] info:
+2013-12-05 09:46:57	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-05 09:46:57	--	gnutls: sending one certificate
+2013-12-05 09:46:57	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-12-05 09:46:57	=!=	irc: TLS handshake failed
+2013-12-05 09:46:57	=!=	irc: error: A TLS fatal alert has been received.
+2013-12-05 09:46:57	--	irc: reconnecting to server in 40 seconds
+2013-12-05 09:47:05	=!=	irc: this buffer is not a channel!
+2013-12-05 09:47:20	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-05 09:47:20	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-05 09:47:20	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-05 09:47:20	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-05 09:47:20	--	gnutls: receiving 4 certificates
+2013-12-05 09:47:20	--	 - certificate[1] info:
+2013-12-05 09:47:20	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-05 09:47:20	--	 - certificate[2] info:
+2013-12-05 09:47:20	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-05 09:47:20	--	 - certificate[3] info:
+2013-12-05 09:47:20	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-05 09:47:20	--	 - certificate[4] info:
+2013-12-05 09:47:20	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-05 09:47:20	--	gnutls: sending one certificate
+2013-12-05 09:47:20	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-12-05 09:47:20	=!=	irc: TLS handshake failed
+2013-12-05 09:47:20	=!=	irc: error: A TLS fatal alert has been received.
+2013-12-05 09:47:20	--	irc: reconnecting to server in 10 seconds
+2013-12-05 09:47:30	--	irc: reconnecting to server...
+2013-12-05 09:47:30	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-05 09:47:30	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-05 09:47:30	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-05 09:47:30	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-05 09:47:30	--	gnutls: receiving 4 certificates
+2013-12-05 09:47:30	--	 - certificate[1] info:
+2013-12-05 09:47:30	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-05 09:47:30	--	 - certificate[2] info:
+2013-12-05 09:47:30	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-05 09:47:30	--	 - certificate[3] info:
+2013-12-05 09:47:30	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-05 09:47:30	--	 - certificate[4] info:
+2013-12-05 09:47:30	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-05 09:47:30	--	gnutls: sending one certificate
+2013-12-05 09:47:30	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-12-05 09:47:30	=!=	irc: TLS handshake failed
+2013-12-05 09:47:30	=!=	irc: error: A TLS fatal alert has been received.
+2013-12-05 09:47:30	--	irc: reconnecting to server in 20 seconds
+2013-12-05 09:47:50	--	irc: reconnecting to server...
+2013-12-05 09:47:50	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-05 09:47:50	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-05 09:47:50	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-05 09:47:50	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-05 09:47:50	--	gnutls: receiving 4 certificates
+2013-12-05 09:47:50	--	 - certificate[1] info:
+2013-12-05 09:47:50	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-05 09:47:50	--	 - certificate[2] info:
+2013-12-05 09:47:50	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-05 09:47:50	--	 - certificate[3] info:
+2013-12-05 09:47:50	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-05 09:47:50	--	 - certificate[4] info:
+2013-12-05 09:47:50	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-05 09:47:50	--	gnutls: sending one certificate
+2013-12-05 09:47:50	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-12-05 09:47:50	=!=	irc: TLS handshake failed
+2013-12-05 09:47:50	=!=	irc: error: A TLS fatal alert has been received.
+2013-12-05 09:47:50	--	irc: reconnecting to server in 40 seconds
+2013-12-05 09:48:30	--	irc: reconnecting to server...
+2013-12-05 09:48:30	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-05 09:48:30	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-05 09:48:30	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-05 09:48:30	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-05 09:48:30	--	gnutls: receiving 4 certificates
+2013-12-05 09:48:30	--	 - certificate[1] info:
+2013-12-05 09:48:30	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-05 09:48:30	--	 - certificate[2] info:
+2013-12-05 09:48:30	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-05 09:48:30	--	 - certificate[3] info:
+2013-12-05 09:48:30	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-05 09:48:30	--	 - certificate[4] info:
+2013-12-05 09:48:30	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-05 09:48:30	--	gnutls: sending one certificate
+2013-12-05 09:48:30	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-12-05 09:48:30	=!=	irc: TLS handshake failed
+2013-12-05 09:48:30	=!=	irc: error: A TLS fatal alert has been received.
+2013-12-05 09:48:30	--	irc: reconnecting to server in 1 minutes, 20 seconds
+2013-12-05 09:49:01	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-05 09:49:01	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-05 09:49:01	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-05 09:49:01	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-05 09:49:01	--	gnutls: receiving 4 certificates
+2013-12-05 09:49:01	--	 - certificate[1] info:
+2013-12-05 09:49:01	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-05 09:49:01	--	 - certificate[2] info:
+2013-12-05 09:49:01	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-05 09:49:01	--	 - certificate[3] info:
+2013-12-05 09:49:01	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-05 09:49:01	--	 - certificate[4] info:
+2013-12-05 09:49:01	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-05 09:49:01	--	gnutls: sending one certificate
+2013-12-05 09:49:01	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-12-05 09:49:01	=!=	irc: TLS handshake failed
+2013-12-05 09:49:01	=!=	irc: error: A TLS fatal alert has been received.
+2013-12-05 09:49:01	--	irc: reconnecting to server in 10 seconds
+2013-12-05 09:49:11	--	irc: reconnecting to server...
+2013-12-05 09:49:11	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-05 09:49:11	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-05 09:49:11	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-05 09:49:11	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-05 09:49:11	--	gnutls: receiving 4 certificates
+2013-12-05 09:49:11	--	 - certificate[1] info:
+2013-12-05 09:49:11	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-05 09:49:11	--	 - certificate[2] info:
+2013-12-05 09:49:11	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-05 09:49:11	--	 - certificate[3] info:
+2013-12-05 09:49:11	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-05 09:49:11	--	 - certificate[4] info:
+2013-12-05 09:49:11	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-05 09:49:11	--	gnutls: sending one certificate
+2013-12-05 09:49:11	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-12-05 09:49:11	=!=	irc: TLS handshake failed
+2013-12-05 09:49:11	=!=	irc: error: A TLS fatal alert has been received.
+2013-12-05 09:49:11	--	irc: reconnecting to server in 20 seconds
+2013-12-05 09:49:33	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-05 09:49:33	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-05 09:49:33	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-05 09:49:33	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-05 09:49:33	--	gnutls: receiving 4 certificates
+2013-12-05 09:49:33	--	 - certificate[1] info:
+2013-12-05 09:49:33	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-05 09:49:33	--	 - certificate[2] info:
+2013-12-05 09:49:33	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-05 09:49:33	--	 - certificate[3] info:
+2013-12-05 09:49:33	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-05 09:49:33	--	 - certificate[4] info:
+2013-12-05 09:49:33	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-05 09:49:33	--	gnutls: sending one certificate
+2013-12-05 09:49:33	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-12-05 09:49:33	=!=	irc: TLS handshake failed
+2013-12-05 09:49:33	=!=	irc: error: A TLS fatal alert has been received.
+2013-12-05 09:49:33	--	irc: reconnecting to server in 10 seconds
+2013-12-05 09:49:43	--	irc: reconnecting to server...
+2013-12-05 09:49:43	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-05 09:49:43	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-05 09:49:43	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-05 09:49:43	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-05 09:49:43	--	gnutls: receiving 4 certificates
+2013-12-05 09:49:43	--	 - certificate[1] info:
+2013-12-05 09:49:43	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-05 09:49:43	--	 - certificate[2] info:
+2013-12-05 09:49:43	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-05 09:49:43	--	 - certificate[3] info:
+2013-12-05 09:49:43	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-05 09:49:43	--	 - certificate[4] info:
+2013-12-05 09:49:43	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-05 09:49:43	--	gnutls: sending one certificate
+2013-12-05 09:49:43	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-12-05 09:49:43	=!=	irc: TLS handshake failed
+2013-12-05 09:49:43	=!=	irc: error: A TLS fatal alert has been received.
+2013-12-05 09:49:43	--	irc: reconnecting to server in 20 seconds
+2013-12-05 09:50:03	--	irc: reconnecting to server...
+2013-12-05 09:50:03	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-05 09:50:03	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-05 09:50:03	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-05 09:50:03	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-05 09:50:03	--	gnutls: receiving 4 certificates
+2013-12-05 09:50:03	--	 - certificate[1] info:
+2013-12-05 09:50:03	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-05 09:50:03	--	 - certificate[2] info:
+2013-12-05 09:50:03	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-05 09:50:03	--	 - certificate[3] info:
+2013-12-05 09:50:03	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-05 09:50:03	--	 - certificate[4] info:
+2013-12-05 09:50:03	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-05 09:50:03	--	gnutls: sending one certificate
+2013-12-05 09:50:03	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-12-05 09:50:03	=!=	irc: TLS handshake failed
+2013-12-05 09:50:03	=!=	irc: error: A TLS fatal alert has been received.
+2013-12-05 09:50:03	--	irc: reconnecting to server in 40 seconds
+2013-12-05 09:50:43	--	irc: reconnecting to server...
+2013-12-05 09:50:43	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-05 09:50:43	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-05 09:50:43	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-05 09:50:43	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-05 09:50:43	--	gnutls: receiving 4 certificates
+2013-12-05 09:50:43	--	 - certificate[1] info:
+2013-12-05 09:50:43	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-05 09:50:43	--	 - certificate[2] info:
+2013-12-05 09:50:43	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-05 09:50:43	--	 - certificate[3] info:
+2013-12-05 09:50:43	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-05 09:50:43	--	 - certificate[4] info:
+2013-12-05 09:50:43	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-05 09:50:43	--	gnutls: sending one certificate
+2013-12-05 09:50:43	=!=	gnutls: invalid certificate "/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/dev.bbc.co.uk.pem", error: Base64 unexpected header error.
+2013-12-05 09:50:43	=!=	irc: TLS handshake failed
+2013-12-05 09:50:43	=!=	irc: error: A TLS fatal alert has been received.
+2013-12-05 09:50:43	--	irc: reconnecting to server in 1 minutes, 20 seconds
+2013-12-05 09:52:42	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-05 09:52:42	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-05 09:52:42	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-05 09:52:42	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-05 09:52:42	--	gnutls: receiving 4 certificates
+2013-12-05 09:52:42	--	 - certificate[1] info:
+2013-12-05 09:52:42	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-05 09:52:42	--	 - certificate[2] info:
+2013-12-05 09:52:42	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-05 09:52:42	--	 - certificate[3] info:
+2013-12-05 09:52:42	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-05 09:52:42	--	 - certificate[4] info:
+2013-12-05 09:52:42	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-05 09:52:42	--	gnutls: sending one certificate
+2013-12-05 09:52:42	--	 - client certificate info (/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/certificate.pem):
+2013-12-05 09:52:42	--	  - subject `EMAIL=Mark.McDonnell@bbc.co.uk,CN=Mark McDonnell,OU=BBC - News And Knowledge,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Staff CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-01-07 12:54:44 UTC', expires `2014-01-07 12:54:44 UTC', SHA-1 fingerprint `f7b525b2ae63b7c2a5c4e49933899c76e9546c00'
+2013-12-05 09:52:42	--	irc: connected to irc.dev.bbc.co.uk/6697 (212.58.245.163)
+2013-12-05 09:52:42	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): *** Looking up your hostname...
+2013-12-05 09:52:42	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): *** Found your hostname (localhost) -- cached
+2013-12-05 09:52:43	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): Welcome to BBC!
+2013-12-05 09:52:43	--	Welcome to the BBC IRC Network Integralist!Integralist@localhost
+2013-12-05 09:52:43	--	Your host is irc101.back.mgmt.telhc.local, running version InspIRCd-2.0
+2013-12-05 09:52:43	--	This server was created 17:13:42 Jan 23 2012
+2013-12-05 09:52:43	--	irc101.back.mgmt.telhc.local InspIRCd-2.0 HIiosw ABHKLPXYbiklmnopstvy HLXYbklovy
+2013-12-05 09:52:43	--	AWAYLEN=201 CASEMAPPING=rfc1459 CHANMODES=XYb,k,HLl,ABKPimnpst CHANTYPES=# CHARSET=ascii ELIST=MU EXTBAN=,AB FNC KICKLEN=256 MAP MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 :are supported by this server
+2013-12-05 09:52:43	--	MAXTARGETS=20 MODES=20 NETWORK=BBC NICKLEN=32 OPERLOG OVERRIDE PREFIX=(yov)!@+ STATUSMSG=!@+ TOPICLEN=1025 VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2013-12-05 09:52:43	--	445AAAYQZ :your unique ID
+2013-12-05 09:52:43	--	irc101.back.mgmt.telhc.local message of the day
+2013-12-05 09:52:43	--	-
+2013-12-05 09:52:43	--	- .`oooooooooooooooooooo   +ooooooooooooooooooo`  /ooooooooooooooooooo-.
+2013-12-05 09:52:43	--	- ..MMMMMmmmmmmMMMMMMMMM`  NMMMMNmmmmmNMMMMMMMM-  hMMMMMMMNmdddmMMMMMM/.
+2013-12-05 09:52:43	--	- ..MMMMM- `..` :dMMMMMM`  NMMMM/  ..` -yMMMMMM-  hMMMMd+. `.-.“-mMMM/.
+2013-12-05 09:52:43	--	- ..MMMMM- +MMM/ `MMMMMM`  NMMMM/ -MMMo  NMMMMM-  hMMM/ `smMMMMMmymMMM/.
+2013-12-05 09:52:43	--	- ..MMMMM- :yyo“ sMMMMMM`  NMMMM/ .yyo.`+MMMMMM-  hMMo `mMMMMMMMMMMMMM/.
+2013-12-05 09:52:43	--	- ..MMMMM- .:::-`:hMMMMM`  NMMMM/ `:::-`-yMMMMM-  hMM/ .MMMMMMMMMMMMMM/.
+2013-12-05 09:52:43	--	- ..MMMMM- +MMMMy  mMMMM`  NMMMM/ -MMMMd  hMMMM-  hMMd` oNMMMMMMMMNMMM/.
+2013-12-05 09:52:43	--	- ..MMMMM- -sso+` :MMMMM`  NMMMM/ .sss+. .NMMMM-  hMMMm/ `/osys+:`yMMM/.
+2013-12-05 09:52:43	--	- ..MMMMMo+++++osdMMMMMM`  NMMMMy++++++sdMMMMMM-  hMMMMMNyo////+shNMMM/.
+2013-12-05 09:52:43	--	- .`NNNNNNNNNNNNNNNNNNNm   mNNNNNNNNNNNNNNNNNNN-  yNNNNNNNNNNNNNNNNNNN/.
+2013-12-05 09:52:43	--	-
+2013-12-05 09:52:43	--	- As a courtesy to other users, please identify yourselves. It's OK to use
+2013-12-05 09:52:43	--	- a short name, but please give your real name in the WHOIS info To do
+2013-12-05 09:52:43	--	- this in cz, it's: Chatzilla > Preferences > Global Settings > General
+2013-12-05 09:52:43	--	- > Description. Many people seem to be named "New Now Know How"
+2013-12-05 09:52:43	--	-
+2013-12-05 09:52:43	--	-
+2013-12-05 09:52:43	--	End of message of the day.
+2013-12-05 09:52:43	--	There are 78 users and 108 invisible on 2 servers
+2013-12-05 09:52:43	--	148 :channels formed
+2013-12-05 09:52:43	--	I have 89 clients and 1 servers
+2013-12-05 09:52:43	--	Current Local Users: 89  Max: 150
+2013-12-05 09:52:43	--	Current Global Users: 186  Max: 293
+2013-12-05 09:52:43	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): Setting your virtual host: SSL
+2013-12-05 09:52:43	--	SSL :is now your displayed host
+2013-12-05 09:52:43	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #news - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/news/log.html to see the most recent conversation.
+2013-12-05 09:52:43	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #frameworks - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/frameworks/log.html to see the most recent conversation.
+2013-12-05 09:52:43	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #operations - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/operations/log.html to see the most recent conversation.
+2013-12-05 10:20:05	=!=	irc: reading data on socket: error -54 Error in the pull function.
+2013-12-05 10:20:05	--	irc: disconnecting from server...
+2013-12-05 10:20:05	--	irc: disconnected from server
+2013-12-05 10:20:05	--	irc: reconnecting to server in 10 seconds
+2013-12-05 10:20:15	--	irc: reconnecting to server...
+2013-12-05 10:20:15	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-05 10:20:15	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-05 10:20:15	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-05 10:20:15	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-05 10:20:15	--	gnutls: receiving 4 certificates
+2013-12-05 10:20:15	--	 - certificate[1] info:
+2013-12-05 10:20:15	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-05 10:20:15	--	 - certificate[2] info:
+2013-12-05 10:20:15	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-05 10:20:15	--	 - certificate[3] info:
+2013-12-05 10:20:15	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-05 10:20:15	--	 - certificate[4] info:
+2013-12-05 10:20:15	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-05 10:20:15	--	gnutls: sending one certificate
+2013-12-05 10:20:15	--	 - client certificate info (/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/certificate.pem):
+2013-12-05 10:20:15	--	  - subject `EMAIL=Mark.McDonnell@bbc.co.uk,CN=Mark McDonnell,OU=BBC - News And Knowledge,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Staff CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-01-07 12:54:44 UTC', expires `2014-01-07 12:54:44 UTC', SHA-1 fingerprint `f7b525b2ae63b7c2a5c4e49933899c76e9546c00'
+2013-12-05 10:20:15	--	irc: connected to irc.dev.bbc.co.uk/6697 (212.58.247.163)
+2013-12-05 10:20:15	--	irc001.back.mgmt.cwwtf.local (irc001.back.mgmt.cwwtf.local): *** Looking up your hostname...
+2013-12-05 10:20:15	--	irc001.back.mgmt.cwwtf.local (irc001.back.mgmt.cwwtf.local): *** Found your hostname (localhost) -- cached
+2013-12-05 10:20:15	--	irc001.back.mgmt.cwwtf.local (irc001.back.mgmt.cwwtf.local): Welcome to BBC!
+2013-12-05 10:20:15	--	Welcome to the BBC IRC Network Integralist!Integralist@localhost
+2013-12-05 10:20:15	--	Your host is irc001.back.mgmt.cwwtf.local, running version InspIRCd-2.0
+2013-12-05 10:20:15	--	This server was created 17:13:42 Jan 23 2012
+2013-12-05 10:20:15	--	irc001.back.mgmt.cwwtf.local InspIRCd-2.0 HIiosw ABHKLPXYbiklmnopstvy HLXYbklovy
+2013-12-05 10:20:15	--	AWAYLEN=201 CASEMAPPING=rfc1459 CHANMODES=XYb,k,HLl,ABKPimnpst CHANTYPES=# CHARSET=ascii ELIST=MU EXTBAN=,AB FNC KICKLEN=256 MAP MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 :are supported by this server
+2013-12-05 10:20:15	--	MAXTARGETS=20 MODES=20 NETWORK=BBC NICKLEN=32 OPERLOG OVERRIDE PREFIX=(yov)!@+ STATUSMSG=!@+ TOPICLEN=1025 VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2013-12-05 10:20:15	--	054AAD0R5 :your unique ID
+2013-12-05 10:20:15	--	irc001.back.mgmt.cwwtf.local message of the day
+2013-12-05 10:20:15	--	-
+2013-12-05 10:20:15	--	- .`oooooooooooooooooooo   +ooooooooooooooooooo`  /ooooooooooooooooooo-.
+2013-12-05 10:20:15	--	- ..MMMMMmmmmmmMMMMMMMMM`  NMMMMNmmmmmNMMMMMMMM-  hMMMMMMMNmdddmMMMMMM/.
+2013-12-05 10:20:15	--	- ..MMMMM- `..` :dMMMMMM`  NMMMM/  ..` -yMMMMMM-  hMMMMd+. `.-.“-mMMM/.
+2013-12-05 10:20:15	--	- ..MMMMM- +MMM/ `MMMMMM`  NMMMM/ -MMMo  NMMMMM-  hMMM/ `smMMMMMmymMMM/.
+2013-12-05 10:20:15	--	- ..MMMMM- :yyo“ sMMMMMM`  NMMMM/ .yyo.`+MMMMMM-  hMMo `mMMMMMMMMMMMMM/.
+2013-12-05 10:20:15	--	- ..MMMMM- .:::-`:hMMMMM`  NMMMM/ `:::-`-yMMMMM-  hMM/ .MMMMMMMMMMMMMM/.
+2013-12-05 10:20:15	--	- ..MMMMM- +MMMMy  mMMMM`  NMMMM/ -MMMMd  hMMMM-  hMMd` oNMMMMMMMMNMMM/.
+2013-12-05 10:20:15	--	- ..MMMMM- -sso+` :MMMMM`  NMMMM/ .sss+. .NMMMM-  hMMMm/ `/osys+:`yMMM/.
+2013-12-05 10:20:15	--	- ..MMMMMo+++++osdMMMMMM`  NMMMMy++++++sdMMMMMM-  hMMMMMNyo////+shNMMM/.
+2013-12-05 10:20:15	--	- .`NNNNNNNNNNNNNNNNNNNm   mNNNNNNNNNNNNNNNNNNN-  yNNNNNNNNNNNNNNNNNNN/.
+2013-12-05 10:20:15	--	-
+2013-12-05 10:20:15	--	- As a courtesy to other users, please identify yourselves. It's OK to use
+2013-12-05 10:20:15	--	- a short name, but please give your real name in the WHOIS info To do
+2013-12-05 10:20:15	--	- this in cz, it's: Chatzilla > Preferences > Global Settings > General
+2013-12-05 10:20:15	--	- > Description. Many people seem to be named "New Now Know How"
+2013-12-05 10:20:15	--	-
+2013-12-05 10:20:15	--	-
+2013-12-05 10:20:15	--	End of message of the day.
+2013-12-05 10:20:15	--	There are 95 users and 143 invisible on 2 servers
+2013-12-05 10:20:15	--	154 :channels formed
+2013-12-05 10:20:15	--	I have 126 clients and 1 servers
+2013-12-05 10:20:15	--	Current Local Users: 126  Max: 249
+2013-12-05 10:20:15	--	Current Global Users: 238  Max: 298
+2013-12-05 10:20:15	--	irc001.back.mgmt.cwwtf.local (irc001.back.mgmt.cwwtf.local): Setting your virtual host: SSL
+2013-12-05 10:20:15	--	SSL :is now your displayed host
+2013-12-05 10:20:15	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #news - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/news/log.html to see the most recent conversation.
+2013-12-05 10:20:17	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #frameworks - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/frameworks/log.html to see the most recent conversation.
+2013-12-05 10:20:19	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #operations - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/operations/log.html to see the most recent conversation.

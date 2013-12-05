@@ -1,0 +1,14 @@
+[2013-12-05 09:52:37] WeeChat 0.4.2 (compiled on Oct 28 2013 09:58:18)
+[2013-12-05 09:52:37] Reading configuration file sec.conf
+[2013-12-05 09:52:37] Reading configuration file weechat.conf
+[2013-12-05 09:52:37] Reading configuration file plugins.conf
+[2013-12-05 09:52:37] Reading configuration file alias.conf
+[2013-12-05 09:52:37] Reading configuration file charset.conf
+[2013-12-05 09:52:37] Reading configuration file irc.conf
+[2013-12-05 09:52:37] Reading configuration file logger.conf
+[2013-12-05 09:52:37] Reading configuration file relay.conf
+[2013-12-05 09:52:37] Reading configuration file rmodifier.conf
+[2013-12-05 09:52:37] Reading configuration file script.conf
+[2013-12-05 09:52:37] Reading configuration file xfer.conf
+[2013-12-05 09:52:42] irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+[2013-12-05 10:20:15] irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
