@@ -320,3 +320,5 @@ Once installed via Hombrew we need to sync our configuration file (irc.conf with
 - `ctrl-x` to switch buffer in current window
 - `/set config.section.option value`
 - `/set weechat.*` to see all options
+- Shift and up/down arrow keys moves you up/down the discussion window content
+  (use fn key as well if on a small Mac laptop)
