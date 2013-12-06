@@ -196,12 +196,7 @@ function hide_hidden_files() {
     restart_finder
 }
 
-    # bindkey "^[[H" beginning-of-line
-    # bindkey "^[[1~" beginning-of-line
-    # bindkey "^[OH" beginning-of-line
-    # bindkey "^[[F"  end-of-line
-    # bindkey "^[[4~" end-of-line
-    # bindkey "^[OF" end-of-line
+set completion-ignore-case on
 
 # Make the delete key (or Fn + Delete on the Mac) work instead of outputting a ~
 bindkey '^?' backward-delete-char

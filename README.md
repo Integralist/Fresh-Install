@@ -314,3 +314,8 @@ Once installed via Hombrew we need to sync our configuration file (irc.conf with
 - `q {user_name}` for private chat
 - `ESC {window_number}` to change windows
 - `/help` do this in the status window (1) to see all commands
+- `/buffer close` to close a window
+- `/buffer clear` to clear the current buffer
+- `ctrl-x` to switch buffer in current window
+- `/set config.section.option value`
+- `/set weechat.*` to see all options

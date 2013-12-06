@@ -46,3 +46,413 @@
 2013-12-05 10:20:25	--	Channel created on Sun, 07 Apr 2013 22:20:38
 2013-12-05 10:20:44	-->	Jose_Infra (cardoj02@SSL) has joined #operations
 2013-12-05 10:21:01	<--	Jose_Infra (cardoj02@SSL) has left #operations (Linkinus - http://linkinus.com)
+2013-12-05 10:27:04	-->	Integralist (Integralist@SSL) has joined #operations
+2013-12-05 10:27:04	--	Topic for #operations is "Operational Issues TEL: x81001 or 020 80081001"
+2013-12-05 10:27:04	--	Topic set by Marko_247 on Fri, 12 Apr 2013 12:03:58
+2013-12-05 10:27:04	--	Nicks #operations: [adriandaigle-livesite AdrianThomson AlanRobinson AlexH AlexK_Infra alistair Andrew_Hutson AndrewFulcher|DST AndrewW AndrewWalsh Andy_Hillel AndyH awt azizur b3cft bard billt_ bot_egg BrettScott BrianL-Livesite charlie Charlie-DBA Chris_Harrod_DOCS CompsR|LiveMedia craigt darrenlucas declanw_Atos derekh_childrens Diluk Dip edmund Faux fordn01 Gaz_NKData Gilbert GillBennet glen Graeme Greg_loadtest Integralist James-G james-loadtest_salford James_SportLive jameshd JasonG_TA Jim_McManus_DST JimLey JohnK_247 kenny kennym_atos Kim-DBA-DST Kiran Leigh_Bhebhe LogBot Luke marek Mark_Williams_247 MarkB MarkGledhill MikeAtkins MikeChapman Muz_WoodNorton nevali Nicky NikHorne247 njh OliVG Patrik_DST Paul Paul_Infra paulc_livesite PaulTweedy Phil-DBA pkent Prasad-DBA-DST Rachel-WFH raj-dba Ralfas Rashpal Ray rich-livesite-WFH rich-livesite_away RichardClose RichardE RichLees sam_french SebF sophie_BA_childrens stan Steve_B stevebakh sthulb Stuart_Grist_BC5A3 symond_Atos Thom Tim_Infra_BCA TimRoss Tom_OpenGames TomY TonyH TonyM-livesite-away TonyW_247 WillH yavor ZsoltK]
+2013-12-05 10:27:04	--	Channel #operations: 105 nicks (0 ops, 0 voices, 105 normals)
+2013-12-05 10:27:04	--	Notice(irc101.back.mgmt.telhc.local) -> #operations: Replaying up to 30 lines of pre-join history spanning up to 600 seconds
+2013-12-05 10:27:04	Tim_Infra_BCA	Kim-DBA-DST: and marek Dan (infra) is running late due to train problems and has said he'll give you both a shout as soon as he's at cwwtf on IRC 
+2013-12-05 10:27:10	--	Mode #operations [+AHn 30:600]
+2013-12-05 10:27:10	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-05 10:27:15	<--	MikeAtkins (MikeAtkins@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 10:27:20	marek	cool
+2013-12-05 10:29:19	--	Tim_Infra_BCA is now known as Tim_Infra
+2013-12-05 10:29:30	<--	RichardE (RichardE@SSL) has quit (Leaving.)
+2013-12-05 10:29:59	<--	SebF (Adium@SSL) has quit (Leaving.)
+2013-12-05 10:31:01	Kim-DBA-DST	thanks Tim_Infra 
+2013-12-05 10:31:38	-->	RichardE (RichardE@SSL) has joined #operations
+2013-12-05 10:32:05	-->	SebF (Adium@SSL) has joined #operations
+2013-12-05 10:33:03	-->	Sula (SulaMckeown@SSL) has joined #operations
+2013-12-05 10:33:09	--	TonyM-livesite-away is now known as TonyM-livesite
+2013-12-05 10:34:14	-->	Tom_Maslen__London (chatzilla@SSL) has joined #operations
+2013-12-05 10:36:13	-->	mednam01 (chatzilla@SSL) has joined #operations
+2013-12-05 10:39:52	<--	NikHorne247 (chatzilla@SSL) has quit (Connection closed)
+2013-12-05 10:47:00	-->	Integralist (Integralist@SSL) has joined #operations
+2013-12-05 10:47:00	--	Topic for #operations is "Operational Issues TEL: x81001 or 020 80081001"
+2013-12-05 10:47:00	--	Topic set by Marko_247 on Fri, 12 Apr 2013 12:03:58
+2013-12-05 10:47:00	--	Nicks #operations: [adriandaigle-livesite AdrianThomson AlanRobinson AlexH AlexK_Infra alistair Andrew_Hutson AndrewFulcher|DST AndrewW AndrewWalsh Andy_Hillel AndyH awt azizur b3cft bard billt_ bot_egg BrettScott BrianL-Livesite charlie Charlie-DBA Chris_Harrod_DOCS CompsR|LiveMedia craigt darrenlucas declanw_Atos derekh_childrens Diluk Dip edmund Faux fordn01 Gaz_NKData Gilbert GillBennet glen Graeme Greg_loadtest Integralist James-G james-loadtest_salford James_SportLive jameshd JasonG_TA Jim_McManus_DST JimLey JohnK_247 kenny kennym_atos Kim-DBA-DST Kiran Leigh_Bhebhe LogBot Luke marek Mark_Williams_247 MarkB MarkGledhill mednam01 MikeChapman Muz_WoodNorton nevali Nicky njh OliVG Patrik_DST Paul Paul_Infra paulc_livesite PaulTweedy Phil-DBA pkent Prasad-DBA-DST Rachel-WFH raj-dba Ralfas Rashpal Ray rich-livesite-WFH rich-livesite_away RichardClose RichardE RichLees sam_french SebF sophie_BA_childrens stan Steve_B stevebakh sthulb Stuart_Grist_BC5A3 Sula symond_Atos Thom Tim_Infra TimRoss Tom_Maslen__London Tom_OpenGames TomY TonyH TonyM-livesite TonyW_247 WillH yavor ZsoltK]
+2013-12-05 10:47:00	--	Channel #operations: 106 nicks (0 ops, 0 voices, 106 normals)
+2013-12-05 10:47:00	--	Notice(irc101.back.mgmt.telhc.local) -> #operations: Replaying up to 30 lines of pre-join history spanning up to 600 seconds
+2013-12-05 10:47:06	--	Mode #operations [+AHn 30:600]
+2013-12-05 10:47:06	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-05 10:47:29	<--	azizur (azizur@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 10:50:42	<--	TonyH (Loadtester@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-05 10:53:37	<--	James_SportLive (anonymous@SSL) has quit (Client exited)
+2013-12-05 10:54:12	-->	Tom_Maslen__London_ (chatzilla@SSL) has joined #operations
+2013-12-05 10:55:09	<--	Tom_Maslen__London (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 10:55:09	--	Tom_Maslen__London_ is now known as Tom_Maslen__London
+2013-12-05 10:55:32	-->	James_SportLive (anonymous@SSL) has joined #operations
+2013-12-05 10:56:16	<--	BrettScott (BrettScott___@SSL) has quit (Leaving)
+2013-12-05 10:56:39	-->	phillamond (chatzilla@SSL) has joined #operations
+2013-12-05 10:56:44	-->	BrettScott (BrettScott___@SSL) has joined #operations
+2013-12-05 10:57:18	-->	johns (chatzilla@SSL) has joined #operations
+2013-12-05 11:01:49	<--	RichardE (RichardE@SSL) has quit (Leaving.)
+2013-12-05 11:02:14	<--	James_SportLive (anonymous@SSL) has quit (Client exited)
+2013-12-05 11:02:47	-->	James_SportLive (anonymous@SSL) has joined #operations
+2013-12-05 11:02:49	-->	NikHorne247 (chatzilla@SSL) has joined #operations
+2013-12-05 11:02:50	<--	James_SportLive (anonymous@SSL) has quit (Client exited)
+2013-12-05 11:03:26	-->	James_SportLive (anonymous@SSL) has joined #operations
+2013-12-05 11:03:44	<--	phillamond (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 11:05:12	<--	Tom_Maslen__London (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 11:05:40	-->	azizur (azizur@SSL) has joined #operations
+2013-12-05 11:07:21	<--	TonyW_247 (chatzilla@SSL) has quit (Connection closed)
+2013-12-05 11:07:36	<--	OliVG (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 11:08:22	<--	AlanRobinson (AlanRobinson@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 11:10:23	<--	TomY (yandet01@SSL) has quit (This computer has gone to sleep)
+2013-12-05 11:10:39	-->	phillamond (chatzilla@SSL) has joined #operations
+2013-12-05 11:12:12	-->	GillianS (chatzilla@SSL) has joined #operations
+2013-12-05 11:12:34	-->	OliVG (chatzilla@SSL) has joined #operations
+2013-12-05 11:12:53	GillianS	Patrik_DST: please will you re-open OPS-103403 - mark G wants to add another graph
+2013-12-05 11:13:02	-->	TomY (yandet01@SSL) has joined #operations
+2013-12-05 11:13:24	GillianS	Patrik_DST: It doesn't look as though the importers are the root cause of this issue
+2013-12-05 11:13:42	<--	azizur (azizur@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 11:14:17	-->	FolamiR01_at_LHC (chatzilla@SSL) has joined #operations
+2013-12-05 11:15:03	<--	Sula (SulaMckeown@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 11:15:20	-->	Steven_Sams (chatzilla@SSL) has joined #operations
+2013-12-05 11:15:35	-->	TimRoss_ (TimRoss@SSL) has joined #operations
+2013-12-05 11:15:45	-->	azizur (azizur@SSL) has joined #operations
+2013-12-05 11:15:45	JohnK_247	GillianS: Reopened
+2013-12-05 11:15:55	-->	DJ (clackd01@SSL) has joined #operations
+2013-12-05 11:15:56	JohnK_247	OPS-103403
+2013-12-05 11:16:33	<--	TimRoss (TimRoss@SSL) has quit (Connection closed)
+2013-12-05 11:16:51	--	TimRoss_ is now known as TimRoss
+2013-12-05 11:17:36	<--	TomY (yandet01@SSL) has quit (This computer has gone to sleep)
+2013-12-05 11:18:16	-->	Tom_Maslen__London (chatzilla@SSL) has joined #operations
+2013-12-05 11:19:09	-->	TomY (yandet01@SSL) has joined #operations
+2013-12-05 11:20:22	<--	Jim_McManus_DST (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-05 11:20:32	<--	TomY (yandet01@SSL) has quit (This computer has gone to sleep)
+2013-12-05 11:21:00	-->	TomY (yandet01@SSL) has joined #operations
+2013-12-05 11:21:41	-->	Will-Perkins (chatzilla@SSL) has joined #operations
+2013-12-05 11:22:50	<--	glen (birnig01@SSL) has quit (Client exited)
+2013-12-05 11:23:14	-->	Marko_247 (chatzilla@SSL) has joined #operations
+2013-12-05 11:23:24	<--	Charlie-DBA (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0/20131025151332])
+2013-12-05 11:25:43	-->	RichardE (RichardE@SSL) has joined #operations
+2013-12-05 11:25:48	<--	RichardClose (closer01@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 11:30:12	-->	inad922 (inad922@SSL) has joined #operations
+2013-12-05 11:30:29	-->	RichardClose (closer01@SSL) has joined #operations
+2013-12-05 11:35:41	GillianS	JohnK_247: thank you
+2013-12-05 11:36:29	<--	SebF (Adium@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 11:36:56	<--	TomY (yandet01@SSL) has quit (This computer has gone to sleep)
+2013-12-05 11:38:25	-->	johnmcsorley (johnmcsorley@SSL) has joined #operations
+2013-12-05 11:41:17	<--	inad922 (inad922@SSL) has quit (Connection closed)
+2013-12-05 11:42:39	-->	PaulM_247 (chatzilla@SSL) has joined #operations
+2013-12-05 11:42:45	JohnK_247	no worries
+2013-12-05 11:43:16	Tom_Maslen__London	can any operations people help me get the file /etc/bbc/authorisation/indepthtoolkitadmin.txt created on all environments?
+2013-12-05 11:43:29	Tom_Maslen__London	I'd assume I have to make a ticket?
+2013-12-05 11:44:07	-->	TomY (yandet01@SSL) has joined #operations
+2013-12-05 11:44:49	<--	Kim-DBA-DST (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 11:45:19	<--	Andy_Hillel (AndyHillel@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 11:46:15	-->	Andy_Hillel (AndyHillel@SSL) has joined #operations
+2013-12-05 13:14:51	-->	Integralist (Integralist@SSL) has joined #operations
+2013-12-05 13:14:51	--	Topic for #operations is "Operational Issues TEL: x81001 or 020 80081001"
+2013-12-05 13:14:51	--	Topic set by Marko_247 on Fri, 12 Apr 2013 12:03:58
+2013-12-05 13:14:51	--	Nicks #operations: [adriandaigle-livesite AdrianThomson AlanRobinson AlexH AlexK_Infra alistair Andrew_Hutson AndrewFulcher|DST AndrewW AndrewWalsh Andy_Hillel awt b3cft bard Ben_247 bot_egg BrettScott BrianL-Livesite charlie Chris_Harrod_DOCS CompsR|LiveMedia craigt Dan_Infra darrenlucas declanw_Atos derekh_childrens Diluk Dip DJ edmund Faux Floydie_247 FolamiR01_at_LHC fordn01 Gaz_NKData Gilbert GillBennet GillianS glen Graeme Greg_loadtest inad922 Integralist James-G James_SportLive jasg75 Jim_McManus_DST JimLey JohnK247_wfh JohnK_247 johnmcsorley johns kennym_atos Kim-DBA-DST Kiran Leigh_Bhebhe LogBot Luke marek Mark_Williams_247 MarkB MarkGledhill Marko_247 MattV_P_lineChng mednam01 MikeAtkins MikeChapman Mo_pipeline Muz_WoodNorton nevali Nicky-away NikHorne247 njh OliVG Patrik_DST Paul Paul_Infra paulc_livesite PaulM_247 PaulTweedy Phil-DBA phillamond pkent Prasad-DBA-DST Rachel raj-dba Rashpal Ray rich-livesite-WFH_away rich-livesite_away RichardClose RichardE RichLees sam_french SebF sophie_BA_childrens stan Steve_B stevebakh Steven_Sams sthulb Stuart_Grist_BC5A3 Sula symond_Atos Thom Tim_Infra TimRoss Tom_Maslen__London Tom_OpenGames tomkershaw TonyH tonym-livesite victoria_monitoring-wfh Will-Perkins WillH yavor ZsoltK]
+2013-12-05 13:14:51	--	Channel #operations: 117 nicks (0 ops, 0 voices, 117 normals)
+2013-12-05 13:14:51	--	Notice(irc101.back.mgmt.telhc.local) -> #operations: Replaying up to 30 lines of pre-join history spanning up to 600 seconds
+2013-12-05 13:14:51	AlexK_Infra	247 ignore alerts from BBCNSN005, I'm rebooting
+2013-12-05 13:14:51	NikHorne247	AlexK_Infra: will do, cheers
+2013-12-05 13:14:57	--	Mode #operations [+AHn 30:600]
+2013-12-05 13:14:57	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-05 14:51:11	-->	Integralist (Integralist@SSL) has joined #operations
+2013-12-05 14:51:11	--	Topic for #operations is "Operational Issues TEL: x81001 or 020 80081001"
+2013-12-05 14:51:11	--	Topic set by Marko_247 on Fri, 12 Apr 2013 12:03:58
+2013-12-05 14:51:11	--	Nicks #operations: [AdrianThomson AlanRobinson AlexH AlexK_Infra alistair Andrew_Hutson AndrewFulcher|DST AndrewW AndrewWalsh awt azizur b3cft bard Ben_247 bot_egg BrettScott BrianL-Livesite charlie Chris_Harrod_DOCS CompsR|LiveMedia craigt Dan_Infra darrenlucas declanw_Atos Diluk Dip DJ edmund Faux Floydie_247 FolamiR01_at_LHC fordn01 Gaz_NKData Gilbert GillBennet GillianS glen Graeme Greg_loadtest inad922 Integralist James-G james-loadtest_salford James_SportLive jameshd JasonG_TA Jim_McManus_DST JimLey JohnK247_wfh JohnK_247 johnmcsorley johns kennym_atos Kim-DBA-DST Kiran Leigh_Bhebhe LogBot Luke marek Mark_Williams_247 MarkB Marko_247 MattV_P_lineChng mednam01 MikeChapman Mo_pipeline Muz_WoodNorton nevali Nicky NikHorne247 njh OliVG Patrik_DST Paul Paul_Infra paulc_livesite PaulCondo PaulM_247 PaulTweedy Phil-DBA PHILG_AVST pkent Prasad-DBA-DST Rachel raj-dba Ralfas Rashpal Ray rich-livesite-WFH_away rich-livesite_away RichardClose RichardE RichLees sam_french SebF sophie_BA_childrens stan Steve_B stevebakh Steven_Sams sthulb Stuart_Grist_BC5A3 Sula symond_Atos Thom Tim_Infra TimRoss Tom_Maslen__London Tom_OpenGames tomkershaw TonyH tonym-livesite TonyW_247 victoria_monitoring-wfh-NOTHERE Will-Perkins WillH yavor ZsoltK]
+2013-12-05 14:51:11	--	Channel #operations: 118 nicks (0 ops, 0 voices, 118 normals)
+2013-12-05 14:51:11	--	Notice(irc101.back.mgmt.telhc.local) -> #operations: Replaying up to 30 lines of pre-join history spanning up to 600 seconds
+2013-12-05 14:51:11	rich-livesite-WFH_away	i`ll take a scoot through test/stage as there`s probably more stuck cron jobs there
+2013-12-05 14:51:11	Tom_Maslen__London	hey!
+2013-12-05 14:51:11	Tom_Maslen__London	it authorises me!
+2013-12-05 14:51:11	Tom_Maslen__London	thanks for your help rich
+2013-12-05 14:51:11	Tom_Maslen__London	:-)
+2013-12-05 14:51:11	rich-livesite-WFH_away	happy to put you on call for it ;)
+2013-12-05 14:51:11	rich-livesite-WFH_away	test looks ok... checking stage
+2013-12-05 14:51:11	rich-livesite-WFH_away	stage is also ok - i manually kicked live earlier in the day
+2013-12-05 14:51:17	--	Mode #operations [+AHn 30:600]
+2013-12-05 14:51:17	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-05 14:51:18	<--	glen (birnig01@SSL) has quit (Client exited)
+2013-12-05 14:51:53	Integralist	++
+2013-12-05 14:52:18	Mark_Williams_247	https://mgmt-sb.tools.otg.bbc.co.uk/
+2013-12-05 14:53:04	-->	kenny (kenny@SSL) has joined #operations
+2013-12-05 14:53:11	Tom_Maslen__London	+++
+2013-12-05 14:54:55	-->	glen (birnig01@SSL) has joined #operations
+2013-12-05 14:55:14	-->	TomY (yandet01@SSL) has joined #operations
+2013-12-05 14:55:39	<--	SebF (Adium@SSL) has quit (Leaving.)
+2013-12-05 14:57:26	-->	SebF (Adium@SSL) has joined #operations
+2013-12-05 15:00:47	Andrew_Hutson	247: autos just went pop, on it?
+2013-12-05 15:01:22	JohnK_247	like a car bonnet
+2013-12-05 15:01:29	JohnK_247	;-)
+2013-12-05 15:01:45	Andrew_Hutson	hehe
+2013-12-05 15:01:51	<--	RichLees (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 15:01:51	Andrew_Hutson	https://logs.forge.bbc.co.uk/tail/tail/live/service-pal-live-app-logs/pal/bbc.co.uk/wwfeatures/error_log has the answers
+2013-12-05 15:02:30	<--	Steve_B (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 15:04:07	-->	AndyWebb (chatzilla@SSL) has joined #operations
+2013-12-05 15:04:30	<--	paulc_livesite (churcp01@SSL) has quit (Client exited)
+2013-12-05 15:04:35	<--	Gilbert (Gilbert@SSL) has quit (Leaving)
+2013-12-05 15:05:41	<--	AlanRobinson (AlanRobinson@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 15:05:54	<--	Ralfas (jegorr01@SSL) has quit (This computer has gone to sleep)
+2013-12-05 15:07:13	-->	AlanRobinson (AlanRobinson@SSL) has joined #operations
+2013-12-05 15:07:24	<--	pkent (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 15:09:10	-->	Abdul_AVST (abdia02@SSL) has joined #operations
+2013-12-05 15:12:44	<--	SebF (Adium@SSL) has quit (Leaving.)
+2013-12-05 15:43:23	--	irc: disconnected from server
+2013-12-05 15:43:38	-->	Integralist (Integralist@SSL) has joined #operations
+2013-12-05 15:43:38	--	Topic for #operations is "Operational Issues TEL: x81001 or 020 80081001"
+2013-12-05 15:43:38	--	Topic set by Marko_247 on Fri, 12 Apr 2013 12:03:58
+2013-12-05 15:43:38	--	Nicks #operations: [Abdul_AVST AdrianThomson AlanRobinson AlexH AlexK_Infra alistair Andrew_Hutson AndrewFulcher|DST AndrewW AndrewWalsh andystanton awt azizur b3cft bard Ben_247 billt bot_egg BrettScott BrianL-Livesite charlie Chris_Harrod_DOCS CompsR|LiveMedia craigt Dan_Infra darrenlucas declanw_Atos Diluk Dip DJ edmund Faux Floydie_247 FolamiR01_at_LHC fordn01 Gaz_NKData GillBennet GillianS Graeme Greg_loadtest inad922 Integralist James-G james_cryer James_SportLive jameshd JasonG_TA Jim_McManus_DST JimLey JohnK247_wfh JohnK_247 johnmcsorley johns kenny kennym_atos Kim-DBA-DST Kiran Leigh_Bhebhe LogBot Luke marek Maria_G Mark_Williams_247 MarkB Marko_247 MattV_P_lineChng mednam01 MikeChapma Mo_pipeline Muz_WoodNorton nevali Nicky NikHorne247 njh OliVG Patrik_DST Paul Paul_Infra PaulCondo PaulM_247 PaulTweedy Phil-DBA PHILG_AVST Prasad-DBA-DST Rachel raj-dba Ralfas Rashpal Ray rich-livesite-WFH_away rich-livesite_away sophie_BA_childrens stan stevebakh Steven_Sams sthulb Stuart_Grist_BC5A3 Sula symond_Atos Thom Tim_Infra TimRoss Tom_Maslen__London Tom_OpenGames tomkershaw TomY TonyH tonym-livesite TonyW_247 victoria_monitoring-wfh-NOTHERE Will-Perkins WillH yavor ZsoltK]
+2013-12-05 15:43:38	--	Channel #operations: 114 nicks (0 ops, 0 voices, 114 normals)
+2013-12-05 15:43:38	--	Notice(irc101.back.mgmt.telhc.local) -> #operations: Replaying up to 30 lines of pre-join history spanning up to 600 seconds
+2013-12-05 15:43:41	alistair	http://news.bbcimg.co.uk/media/images/71553000/jpg/_71553461_71553460.jpg is 404ing, and is shown in the carousel on the news homepage... Just in case no-one has spotted it
+2013-12-05 15:43:44	--	Mode #operations [+AHn 30:600]
+2013-12-05 15:43:44	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-05 15:56:26	--	irc: disconnected from server
+2013-12-05 15:56:41	-->	Integralist (Integralist@SSL) has joined #operations
+2013-12-05 15:56:41	--	Topic for #operations is "Operational Issues TEL: x81001 or 020 80081001"
+2013-12-05 15:56:41	--	Topic set by Marko_247 on Fri, 12 Apr 2013 12:03:58
+2013-12-05 15:56:41	--	Nicks #operations: [Abdul_AVST AdrianThomson AlanRobinson AlexH AlexK_Infra alistair Andrew_Hutson AndrewFulcher|DST AndrewW AndrewWalsh Andy_Hillel andystanton awt b3cft bard Ben_247 billt bot_egg BrettScott BrianL-Livesite charlie Chris_Harrod_DOCS CompsR|LiveMedia craigt Dan_Infra darrenlucas declanw_Atos Diluk Dip DJ edmund Faux Floydie_247 FolamiR01_at_LHC Gaz_NKData GillBennet GillianS glen Graeme Greg_loadtest inad922 Integralist James-G james_cryer James_SportLive jameshd JasonG_TA Jim_McManus_DST JimLey JohnK247_wfh JohnK_247 johnmcsorley johns kennym_atos Kim-DBA-DST Kiran Leigh_Bhebhe LogBot Luke marek Maria_G Mark_Williams_247 MarkB Marko_247 mednam01 MikeChapman Mo_pipeline Mo_pipeline_ Muz_WoodNorton nevali Nicky NikHorne247 njh OliVG Patrik_DST Paul Paul_Infra PaulCondo PaulM_247 PaulTweedy Phil-DBA PHILG_AVST phillamond Prasad-DBA-DST Rachel raj-dba Ralfas Rashpal Ray rich-livesite-WFH_away rich-livesite_away sophie_BA_childrens stan stevebakh Steven_Sams sthulb Stuart_Grist_BC5A3 Sula symond_Atos Thom Tim_Infra TimRoss Tom_Maslen__London Tom_OpenGames tomkershaw TomY tonym-livesite TonyW_247 victoria_monitoring-wfh-NOTHERE Will-Perkins WillH yavor ZsoltK]
+2013-12-05 15:56:41	--	Channel #operations: 113 nicks (0 ops, 0 voices, 113 normals)
+2013-12-05 15:56:41	--	Notice(irc101.back.mgmt.telhc.local) -> #operations: Replaying up to 30 lines of pre-join history spanning up to 600 seconds
+2013-12-05 15:56:47	--	Mode #operations [+AHn 30:600]
+2013-12-05 15:56:47	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-05 15:57:15	-->	kenny (kenny@SSL) has joined #operations
+2013-12-05 15:57:30	<--	Mo_pipeline (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 15:57:37	--	Mo_pipeline_ is now known as Mo_pipeline
+2013-12-05 15:58:19	<--	Leigh_Bhebhe (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-05 16:01:46	-->	Integralist (Integralist@SSL) has joined #operations
+2013-12-05 16:01:46	--	Topic for #operations is "Operational Issues TEL: x81001 or 020 80081001"
+2013-12-05 16:01:46	--	Topic set by Marko_247 on Fri, 12 Apr 2013 12:03:58
+2013-12-05 16:01:46	--	Nicks #operations: [Abdul_AVST AdrianThomson AlanRobinson AlexH AlexK_Infra alistair Andrew_Hutson AndrewFulcher|DST AndrewW AndrewWalsh Andy_Hillel andystanton awt b3cft bard Ben_247 billt bot_egg BrettScott BrianL-Livesite charlie Chris_Harrod_DOCS CompsR|LiveMedia craigt Dan_Infra darrenlucas declanw_Atos Diluk Dip DJ edmund Faux Floydie_247 FolamiR01_at_LHC Gaz_NKData GillBennet GillianS glen Graeme Greg_loadtest inad922 Integralist James-G james_cryer James_SportLive jameshd JasonG_TA Jim_McManus_DST JimLey JohnK247_wfh JohnK_247 johnmcsorley johns kenny kennym_atos Kim-DBA-DST Kiran LogBot Luke marek Maria_G Mark_Williams_247 MarkB Marko_247 mednam01 MikeChapman Mo_pipeline Muz_WoodNorton nevali Nicky NikHorne247 njh OliVG Patrik_DST Paul Paul_Infra PaulCondo PaulM_247 PaulTweedy Phil-DBA PHILG_AVST phillamond Prasad-DBA-DST Rachel raj-dba Ralfas Rashpal Ray rich-livesite-WFH_away rich-livesite_away sophie_BA_childrens stan stevebakh Steven_Sams sthulb Stuart_Grist_BC5A3 Sula symond_Atos Thom Tim_Infra TimRoss Tom_Maslen__London Tom_OpenGames tomkershaw TomY tonym-livesite TonyW_247 victoria_monitoring-wfh-NOTHERE Will-Perkins WillH yavor ZsoltK]
+2013-12-05 16:01:46	--	Channel #operations: 112 nicks (0 ops, 0 voices, 112 normals)
+2013-12-05 16:01:46	--	Notice(irc001.back.mgmt.cwwtf.local) -> #operations: Replaying up to 30 lines of pre-join history spanning up to 600 seconds
+2013-12-05 16:01:52	--	Mode #operations [+AHn 30:600]
+2013-12-05 16:01:52	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-05 16:02:23	<--	AdrianThomson (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:03:00	-->	MattV_P_lineChng (chatzilla@SSL) has joined #operations
+2013-12-05 16:04:04	-->	SebF (Adium@SSL) has joined #operations
+2013-12-05 16:04:21	-->	Leigh_Bhebhe (chatzilla@SSL) has joined #operations
+2013-12-05 16:04:32	<--	sophie_BA_childrens (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 17.0/20121119183901])
+2013-12-05 16:04:44	-->	Integralist (Integralist@SSL) has joined #operations
+2013-12-05 16:04:44	--	Topic for #operations is "Operational Issues TEL: x81001 or 020 80081001"
+2013-12-05 16:04:44	--	Topic set by Marko_247 on Fri, 12 Apr 2013 12:03:58
+2013-12-05 16:04:44	--	Nicks #operations: [Abdul_AVST AlanRobinson AlexH AlexK_Infra alistair Andrew_Hutson AndrewFulcher|DST AndrewW AndrewWalsh andystanton awt b3cft bard Ben_247 billt bot_egg BrettScott BrianL-Livesite charlie Chris_Harrod_DOCS CompsR|LiveMedia craigt Dan_Infra darrenlucas declanw_Atos Diluk Dip DJ edmund Faux Floydie_247 FolamiR01_at_LHC Gaz_NKData GillBennet GillianS glen Graeme Greg_loadtest inad922 Integralist James-G james_cryer James_SportLive jameshd JasonG_TA Jim_McManus_DST JimLey JohnK247_wfh JohnK_247 johnmcsorley johns kenny kennym_atos Kim-DBA-DST Kiran Leigh_Bhebhe LogBot Luke marek Maria_G Mark_Williams_247 MarkB Marko_247 MattV_P_lineChng mednam01 MikeChapman Mo_pipeline Muz_WoodNorton nevali Nicky NikHorne247 njh OliVG Patrik_DST Paul Paul_Infra PaulCondo PaulM_247 PaulTweedy Phil-DBA PHILG_AVST phillamond Prasad-DBA-DST Rachel raj-dba Ralfas Rashpal Ray rich-livesite-WFH_away rich-livesite_away SebF stan stevebakh Steven_Sams sthulb Stuart_Grist_BC5A3 Sula symond_Atos Thom Tim_Infra TimRoss Tom_Maslen__London Tom_OpenGames tomkershaw TomY tonym-livesite TonyW_247 victoria_monitoring-wfh-NOTHERE Will-Perkins WillH yavor ZsoltK]
+2013-12-05 16:04:44	--	Channel #operations: 112 nicks (0 ops, 0 voices, 112 normals)
+2013-12-05 16:04:44	--	Notice(irc101.back.mgmt.telhc.local) -> #operations: Replaying up to 30 lines of pre-join history spanning up to 600 seconds
+2013-12-05 16:04:50	--	Mode #operations [+AHn 30:600]
+2013-12-05 16:04:50	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-05 16:05:20	-->	Steve_B (chatzilla@SSL) has joined #operations
+2013-12-05 16:05:26	-->	pkent (chatzilla@SSL) has joined #operations
+2013-12-05 16:06:06	-->	Integralist (Integralist@SSL) has joined #operations
+2013-12-05 16:06:06	--	Topic for #operations is "Operational Issues TEL: x81001 or 020 80081001"
+2013-12-05 16:06:06	--	Topic set by Marko_247 on Fri, 12 Apr 2013 12:03:58
+2013-12-05 16:06:06	--	Nicks #operations: [Abdul_AVST AlanRobinson AlexH AlexK_Infra alistair Andrew_Hutson AndrewFulcher|DST AndrewW AndrewWalsh andystanton awt b3cft bard Ben_247 billt bot_egg BrettScott BrianL-Livesite charlie Chris_Harrod_DOCS CompsR|LiveMedia craigt Dan_Infra darrenlucas declanw_Atos Diluk Dip DJ edmund Faux Floydie_247 FolamiR01_at_LHC Gaz_NKData GillBennet GillianS glen Graeme Greg_loadtest inad922 Integralist James-G james_cryer James_SportLive jameshd JasonG_TA Jim_McManus_DST JimLey JohnK247_wfh JohnK_247 johnmcsorley johns kenny kennym_atos Kim-DBA-DST Kiran Leigh_Bhebhe LogBot Luke marek Maria_G Mark_Williams_247 MarkB Marko_247 MattV_P_lineChng mednam01 MikeChapman Mo_pipeline Muz_WoodNorton nevali Nicky NikHorne247 njh OliVG Paul Paul_Infra PaulCondo PaulM_247 PaulTweedy Phil-DBA PHILG_AVST phillamond pkent Prasad-DBA-DST Rachel raj-dba Ralfas Rashpal Ray rich-livesite-WFH_away rich-livesite_away SebF stan Steve_B stevebakh Steven_Sams sthulb Stuart_Grist_BC5A3 Sula symond_Atos Thom Tim_Infra TimRoss Tom_Maslen__London Tom_OpenGames tomkershaw TomY tonym-livesite TonyW_247 victoria_monitoring-wfh-NOTHERE Will-Perkins WillH yavor ZsoltK]
+2013-12-05 16:06:06	--	Channel #operations: 113 nicks (0 ops, 0 voices, 113 normals)
+2013-12-05 16:06:06	--	Notice(irc101.back.mgmt.telhc.local) -> #operations: Replaying up to 30 lines of pre-join history spanning up to 600 seconds
+2013-12-05 16:06:09	<--	Kiran (Kiran@SSL) has quit (Client exited)
+2013-12-05 16:06:12	--	Mode #operations [+AHn 30:600]
+2013-12-05 16:06:12	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-05 16:06:25	-->	paulc_livesite (churcp01@SSL) has joined #operations
+2013-12-05 16:07:41	<--	Leigh_Bhebhe (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-05 16:07:48	-->	MarkGledhill (gledhm01@SSL) has joined #operations
+2013-12-05 16:11:04	-->	RichardE (RichardE@SSL) has joined #operations
+2013-12-05 16:11:42	<--	PHILG_AVST (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:13:35	-->	azizur (azizur@SSL) has joined #operations
+2013-12-05 16:15:00	<--	alistair (alistair@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:19:08	<--	RichardE (RichardE@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:19:24	<--	victoria_monitoring-wfh-NOTHERE (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:19:37	<--	jameshd (Adium@SSL) has quit (Leaving.)
+2013-12-05 16:20:23	<--	NikHorne247 (chatzilla@SSL) has quit (Connection closed)
+2013-12-05 16:24:05	<--	Abdul_AVST (abdia02@SSL) has quit (Client exited)
+2013-12-05 16:25:56	-->	daveb__247 (chatzilla@SSL) has joined #operations
+2013-12-05 16:28:16	<--	johnmcsorley (johnmcsorley@SSL) has quit (Connection closed)
+2013-12-05 16:29:44	pkent	marek: afternoon, do you have an estimate for when https://jira.dev.bbc.co.uk/browse/OPS-103257 (the cloud truststore ticket) is likely to go ahead?
+2013-12-05 16:30:15	<--	Greg_loadtest (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:32:00	marek	pkent: hey, yeah a lot of firefighting today, if the post-it note that I stuck to mo monitor will not dissapear overnight and we'll have no outages then I'll pick it up as the first thing in the morning 
+2013-12-05 16:32:07	pkent	OK
+2013-12-05 16:32:12	<--	PaulCondo (chatzilla@SSL) has quit (ChatZilla 0.9.90 [Firefox 25.0.1/20131112160018])
+2013-12-05 16:32:25	 *	pkent guessed people would be busy today
+2013-12-05 16:32:29	<--	Dan_Infra (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-05 16:33:50	<--	Kim-DBA-DST (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:35:06	<--	inad922 (inad922@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:35:29	<--	james_cryer (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:38:44	-->	james_cryer (chatzilla@SSL) has joined #operations
+2013-12-05 16:42:03	<--	Stuart_Grist_BC5A3 (chatzilla@SSL) has quit (Connection closed)
+2013-12-05 16:44:23	<--	bard (bardws01@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:45:22	<--	pkent (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-05 16:49:11	-->	inad922 (inad922@SSL) has joined #operations
+2013-12-05 16:51:18	-->	bard (bardws01@SSL) has joined #operations
+2013-12-05 16:51:24	<--	Steve_B (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:52:34	-->	loucam01 (chatzilla@SSL) has joined #operations
+2013-12-05 16:53:49	<--	FolamiR01_at_LHC (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-05 16:55:29	<--	MarkGledhill (gledhm01@SSL) has quit (This computer has gone to sleep)
+2013-12-05 16:55:41	<--	bard (bardws01@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:55:50	<--	rich-livesite-WFH_away (crawfr06@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131115105702])
+2013-12-05 16:58:48	<--	TonyW_247 (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0/20131025151332])
+2013-12-05 17:00:18	-->	bard (bardws01@SSL) has joined #operations
+2013-12-05 17:00:25	<--	Mark_Williams_247 (chatzilla@SSL) has quit (Connection closed)
+2013-12-05 17:02:40	<--	JasonG_TA (georgj05@SSL) has quit (Leaving...)
+2013-12-05 17:03:34	<--	stevebakh (bakhts01@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:05:38	<--	GillBennet (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 17.0.1/20121128204232])
+2013-12-05 17:06:01	-->	Andy_Hillel (AndyHillel@SSL) has joined #operations
+2013-12-05 17:10:19	<--	daveb__247 (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 24.0/20130910160258])
+2013-12-05 17:10:24	<--	Andrew_Hutson (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:14:03	<--	Andy_Hillel (AndyHillel@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:14:05	<--	yavor (yavor@SSL) has quit (This computer has gone to sleep)
+2013-12-05 17:14:07	<--	AndrewWalsh (AndrewWalsh@SSL) has quit (Client exited)
+2013-12-05 17:14:37	<--	tonym-livesite (TonyM-livesit@SSL) has quit (Client exited)
+2013-12-05 17:16:58	<--	billt (thornb05@SSL) has quit (Connection closed)
+2013-12-05 17:18:43	<--	DJ (clackd01@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:19:01	<--	JohnK_247 (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-05 17:19:56	<--	OliVG (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:21:34	<--	MattV_P_lineChng (chatzilla@SSL) has quit (Connection closed)
+2013-12-05 17:23:12	<--	Chris_Harrod_DOCS (chatzilla@SSL) has quit (Connection closed)
+2013-12-05 17:23:14	<--	AlanRobinson (AlanRobinson@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:23:59	<--	raj-dba (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-05 17:24:07	<--	CompsR|LiveMedia (chatzilla@SSL) has left #operations
+2013-12-05 17:27:35	<--	GillianS (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-05 17:28:45	-->	Andy_Hillel (AndyHillel@SSL) has joined #operations
+2013-12-05 17:29:02	<--	TomY (yandet01@SSL) has quit (This computer has gone to sleep)
+2013-12-05 17:29:15	<--	SebF (Adium@SSL) has quit (Leaving.)
+2013-12-05 17:30:09	-->	JohnK (androirc@SSL) has joined #operations
+2013-12-05 17:30:09	<--	JohnK247_wfh (androirc@SSL) has quit (Connection closed)
+2013-12-05 17:30:27	<--	phillamond (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:30:27	<--	JohnK (androirc@SSL) has quit (Connection closed)
+2013-12-05 17:30:30	<--	Tim_Infra (chatzilla@SSL) has quit (Connection closed)
+2013-12-05 17:32:26	-->	SebF (Adium@SSL) has joined #operations
+2013-12-05 17:32:39	<--	Jim_McManus_DST (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-05 17:34:06	<--	Thom (Thom@SSL) has quit (Connection closed)
+2013-12-05 17:36:22	<--	MikeChapman (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-05 17:36:41	<--	Sula (SulaMckeown@SSL) has quit (Leaving)
+2013-12-05 17:37:01	<--	stan (stan@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:37:34	<--	Prasad-DBA-DST (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:40:57	<--	Ben_247 (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-05 17:41:05	<--	johns (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:41:59	<--	Diluk (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:42:41	-->	PaulM_247_ (chatzilla@SSL) has joined #operations
+2013-12-05 17:42:41	<--	Phil-DBA (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 23.0.1/20130814063812])
+2013-12-05 17:42:47	<--	james_cryer (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:43:49	<--	Rachel (rve@SSL) has quit (Leaving.)
+2013-12-05 17:44:16	<--	kenny (kenny@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:44:34	<--	TimRoss (TimRoss@SSL) has quit (Leaving)
+2013-12-05 17:45:28	<--	PaulM_247 (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:45:32	--	PaulM_247_ is now known as PaulM_247
+2013-12-05 17:45:45	<--	Tom_Maslen__London (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:49:43	-->	Ben_247 (chatzilla@SSL) has joined #operations
+2013-12-05 17:50:42	<--	Maria_G (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:50:57	-->	kenny (kenny@SSL) has joined #operations
+2013-12-05 17:53:28	<--	Ralfas (jegorr01@SSL) has quit (This computer has gone to sleep)
+2013-12-05 17:53:28	<--	andystanton (chatzilla@SSL) has quit (Connection closed)
+2013-12-05 17:53:45	-->	andystanton (chatzilla@SSL) has joined #operations
+2013-12-05 17:54:20	<--	Tom_OpenGames (robint06@SSL) has quit (Connection closed)
+2013-12-05 17:54:22	-->	Ralfas (jegorr01@SSL) has joined #operations
+2013-12-05 17:54:24	<--	andystanton (chatzilla@SSL) has quit (Connection closed)
+2013-12-05 17:54:58	--	Paul is now known as Paul_away
+2013-12-05 17:55:17	<--	Will-Perkins (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-05 17:55:19	<--	Mo_pipeline (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 24.0/20130910160258])
+2013-12-05 17:58:12	<--	James_SportLive (anonymous@SSL) has left #operations
+2013-12-05 17:59:22	<--	bard (bardws01@SSL) has quit (Leaving.)
+2013-12-05 18:03:47	<--	Andy_Hillel (AndyHillel@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 18:04:56	<--	AlexK_Infra (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-05 18:07:44	-->	DavidWright (chatzilla@SSL) has joined #operations
+2013-12-05 18:10:11	<--	Graeme (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-05 18:11:23	<--	Nicky (Nicky@SSL) has quit (Leaving)
+2013-12-05 19:24:40	--	irc: disconnected from server
+2013-12-06 08:48:53	-->	Integralist (Integralist@SSL) has joined #operations
+2013-12-06 08:48:53	--	Topic for #operations is "Operational Issues TEL: x81001 or 020 80081001"
+2013-12-06 08:48:53	--	Topic set by Marko_247 on Fri, 12 Apr 2013 12:03:58
+2013-12-06 08:48:53	--	Nicks #operations: [AdrianThomson AlexH alistair AndrewFulcher|DST AndrewW AndrewWalsh awt b3cft Bala_247 bot_egg BrettScott Brian-WFH charlie craigt declanw_Atos Dip edmund Faux Gaz_NKData Gilbert Greg_loadtest Integralist James-G JamesM_SportLive JimLey JohnK_247 johnmcsorley kennym_atos LogBot Luke marek Mark_Williams_247 MarkB MarkGledhill Muz_WoodNorton nevali njh Patrik_DST Paul_away Paul_Infra PaulTweedy pmerry Raf Ralfas Rashpal rich-livesite_away RichardE RichLees spottsSportsData stevebakh sthulb symond_Atos TonyH ZsoltK]
+2013-12-06 08:48:53	--	Channel #operations: 54 nicks (0 ops, 0 voices, 54 normals)
+2013-12-06 08:48:53	--	Notice(irc001.back.mgmt.cwwtf.local) -> #operations: Replaying up to 30 lines of pre-join history spanning up to 600 seconds
+2013-12-06 08:48:53	MarkGledhill	Morning. There were NFS timeouts on int and test for nfs002.back.green.cwwtf.local between 1.10am and 8.40am - does anyone know about this? It appears to have started working again so just wondered what happened.
+2013-12-06 08:48:53	edmund	MarkGledhill: hey, I know that some network work was done shortly after 1am
+2013-12-06 08:48:53	edmund	but it should have been momentary, and not caused any ongoing issues
+2013-12-06 08:48:53	edmund	though I think the last time this kind of work was done there were some 'stuck' sessions between the bc int/test hosts and nfs002
+2013-12-06 08:48:53	MarkGledhill	okay, cheers.
+2013-12-06 08:48:53	edmund	so maybe that's the reason for the issues?
+2013-12-06 08:48:53	edmund	1 mo, will find the ticket
+2013-12-06 08:48:59	--	Mode #operations [+AHn 30:600]
+2013-12-06 08:48:59	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-06 08:49:00	MarkGledhill	Just looking through JIRA I found a similar one a couple of weeks ago... https://jira.dev.bbc.co.uk/browse/OPS-102743
+2013-12-06 08:49:04	edmund	LogBot: OPS-103239
+2013-12-06 08:49:05	--	Notice(LogBot) -> #operations: https://jira.dev.bbc.co.uk/browse/OPS-103239 -  Implementing routing-instance on BC backend firewall to provide additional information needed by Juniper
+2013-12-06 08:49:44	RichLees	There was also this one from a couple of weeks ago: https://jira.dev.bbc.co.uk/browse/OPS-101671
+2013-12-06 08:49:56	RichLees	Which was around the time we had another NFS issue
+2013-12-06 08:50:02	-->	Steve_B (chatzilla@SSL) has joined #operations
+2013-12-06 08:50:39	MarkGledhill	so the issue overnight would have been BC->CWWTF
+2013-12-06 08:51:08	MarkGledhill	its around the same time as OPS-103239 - earliest issue I can find is 1:07am, and the ticket update was at 1:19am
+2013-12-06 08:51:26	edmund	00:57:13 < Nishit> Hi 24 X7 team I am about to start OPS-103239
+2013-12-06 08:51:27	edmund	00:58:18 < Nishit> It will only affect int/test environment
+2013-12-06 08:51:43	-->	kenny (kenny@SSL) has joined #operations
+2013-12-06 08:51:59	edmund	MarkGledhill: I am pretty certain that they are related.
+2013-12-06 08:52:23	MarkGledhill	the finger of suspicion is definitely pointing that way.
+2013-12-06 08:53:08	MarkGledhill	I'll add a note to that ticket, and also seperately log the incident (and link to previous ones) in case it isn't related and there is something else underlying going on.
+2013-12-06 08:53:30	MarkGledhill	thanks for pointing out that ticket.
+2013-12-06 08:55:36	<--	Brian-WFH (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-06 08:56:01	-->	Brian (chatzilla@SSL) has joined #operations
+2013-12-06 08:56:18	-->	DavidS (DavidS@SSL) has joined #operations
+2013-12-06 08:57:06	-->	Sean (chatzilla@SSL) has joined #operations
+2013-12-06 08:59:01	-->	paulc_livesite (churcp01@SSL) has joined #operations
+2013-12-06 08:59:41	-->	Phil-DBA (chatzilla@SSL) has joined #operations
+2013-12-06 09:03:18	-->	Rachel (rve@SSL) has joined #operations
+2013-12-06 09:07:09	-->	pkent (chatzilla@SSL) has joined #operations
+2013-12-06 09:09:16	-->	Kiran (Kiran@SSL) has joined #operations
+2013-12-06 09:10:29	-->	Andy_Hillel (AndyHillel@SSL) has joined #operations
+2013-12-06 09:14:13	-->	MikeChapman (chatzilla@SSL) has joined #operations
+2013-12-06 09:16:47	-->	Andrew_Hutson (chatzilla@SSL) has joined #operations
+2013-12-06 09:20:29	<--	kenny (kenny@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-06 09:22:20	-->	JohnathanI (ilikecake@SSL) has joined #operations
+2013-12-06 09:23:42	-->	SebF (Adium@SSL) has joined #operations
+2013-12-06 09:24:19	-->	Integralist (Integralist@SSL) has joined #operations
+2013-12-06 09:24:19	--	Topic for #operations is "Operational Issues TEL: x81001 or 020 80081001"
+2013-12-06 09:24:19	--	Topic set by Marko_247 on Fri, 12 Apr 2013 12:03:58
+2013-12-06 09:24:19	--	Nicks #operations: [AdrianThomson AlexH alistair Andrew_Hutson AndrewFulcher|DST AndrewW AndrewWalsh Andy_Hillel awt b3cft Bala_247 bot_egg BrettScott Brian charlie craigt DavidS declanw_Atos Dip edmund Faux Gaz_NKData Gilbert Greg_loadtest Integralist James-G JamesM_SportLive JimLey JohnathanI JohnK_247 johnmcsorley kennym_atos Kiran LogBot Luke marek Mark_Williams_247 MarkB MarkGledhill MikeChapman Muz_WoodNorton nevali njh Patrik_DST Paul_away Paul_Infra paulc_livesite PaulTweedy Phil-DBA pkent pmerry Rachel Raf Ralfas Rashpal rich-livesite_away RichardE RichLees Sean SebF spottsSportsData Steve_B stevebakh sthulb symond_Atos TonyH ZsoltK]
+2013-12-06 09:24:19	--	Channel #operations: 67 nicks (0 ops, 0 voices, 67 normals)
+2013-12-06 09:24:19	--	Notice(irc101.back.mgmt.telhc.local) -> #operations: Replaying up to 30 lines of pre-join history spanning up to 600 seconds
+2013-12-06 09:24:20	-->	Diluk (chatzilla@SSL) has joined #operations
+2013-12-06 09:24:25	--	Mode #operations [+AHn 30:600]
+2013-12-06 09:24:25	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-06 09:25:52	-->	GillBennet (chatzilla@SSL) has joined #operations
+2013-12-06 09:29:28	-->	TonyM-livesite-away (TonyM-livesit@SSL) has joined #operations
+2013-12-06 09:29:52	-->	stan (stan@SSL) has joined #operations
+2013-12-06 09:31:10	-->	james_cryer (chatzilla@SSL) has joined #operations
+2013-12-06 09:32:06	-->	yavor (yavor@SSL) has joined #operations
+2013-12-06 09:33:15	<--	Kiran (Kiran@SSL) has quit (Client exited)
+2013-12-06 09:35:04	-->	MikeAtkins (MikeAtkins@SSL) has joined #operations
+2013-12-06 09:35:22	-->	Floyd_247 (chatzilla@SSL) has joined #operations
+2013-12-06 09:35:29	-->	Kim-DBA-DST-NOTHERERIGHTNOW (chatzilla@SSL) has joined #operations
+2013-12-06 09:35:59	-->	Thom (Thom@SSL) has joined #operations
+2013-12-06 09:36:09	-->	Kiran (Kiran@SSL) has joined #operations
+2013-12-06 09:36:09	<--	paulc_livesite (churcp01@SSL) has quit (Client exited)
+2013-12-06 09:36:14	-->	darrenlucas (Adium@SSL) has joined #operations
+2013-12-06 09:36:45	-->	OliVG (chatzilla@SSL) has joined #operations
+2013-12-06 09:38:08	-->	DavidWright (chatzilla@SSL) has joined #operations
+2013-12-06 09:38:12	-->	james-loadtest_salford (chatzilla@SSL) has joined #operations
+2013-12-06 09:40:08	-->	JasonG_TA (georgj05@SSL) has joined #operations
+2013-12-06 09:41:03	-->	DavidWright_ (chatzilla@SSL) has joined #operations
+2013-12-06 09:41:18	<--	Floyd_247 (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-06 09:42:06	--	Paul_away is now known as Paul
+2013-12-06 09:42:27	<--	DavidWright (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-06 09:42:40	--	DavidWright_ is now known as DavidWright
+2013-12-06 09:43:26	-->	Dan_Infra (chatzilla@SSL) has joined #operations
+2013-12-06 09:45:06	Andrew_Hutson	247: domestic localisation is still off, is that intentional?
+2013-12-06 09:45:32	Andrew_Hutson	looks like piyush thought he'd turned it back on last night
+2013-12-06 09:46:00	JohnK_247	I did see the comment in the ticket were he stated it was back on, will check now
+2013-12-06 09:46:44	JohnK_247	you're right, turning it back on now
+2013-12-06 09:47:06	Andrew_Hutson	ack
+2013-12-06 09:47:14	Andrew_Hutson	traffic to homepage doesn't look much above normal at the moment so should be fine
+2013-12-06 09:47:16	Andrew_Hutson	(famous last words)
+2013-12-06 09:47:38	-->	Integralist (Integralist@SSL) has joined #operations
+2013-12-06 09:47:38	--	Topic for #operations is "Operational Issues TEL: x81001 or 020 80081001"
+2013-12-06 09:47:38	--	Topic set by Marko_247 on Fri, 12 Apr 2013 12:03:58
+2013-12-06 09:47:38	--	Nicks #operations: [AdrianThomson AlexH alistair Andrew_Hutson AndrewFulcher|DST AndrewW AndrewWalsh Andy_Hillel awt b3cft Bala_247 bot_egg BrettScott Brian charlie craigt Dan_Infra darrenlucas DavidS DavidWright declanw_Atos Diluk Dip edmund Faux Gaz_NKData Gilbert GillBennet Greg_loadtest Integralist James-G james-loadtest_salford james_cryer JamesM_SportLive JasonG_TA JimLey JohnathanI JohnK_247 johnmcsorley kennym_atos Kim-DBA-DST-NOTHERERIGHTNOW Kiran LogBot Luke marek Mark_Williams_247 MarkB MarkGledhill MikeAtkins MikeChapman Muz_WoodNorton nevali njh OliVG Patrik_DST Paul Paul_Infra PaulTweedy Phil-DBA pkent pmerry Rachel Raf Ralfas Rashpal rich-livesite_away RichardE RichLees Sean SebF spottsSportsData stan Steve_B stevebakh sthulb symond_Atos Thom TonyH TonyM-livesite-away yavor ZsoltK]
+2013-12-06 09:47:38	--	Channel #operations: 81 nicks (0 ops, 0 voices, 81 normals)
+2013-12-06 09:47:38	--	Notice(irc101.back.mgmt.telhc.local) -> #operations: Replaying up to 30 lines of pre-join history spanning up to 600 seconds
+2013-12-06 09:47:38	Andrew_Hutson	247: domestic localisation is still off, is that intentional?
+2013-12-06 09:47:38	Andrew_Hutson	looks like piyush thought he'd turned it back on last night
+2013-12-06 09:47:38	JohnK_247	I did see the comment in the ticket were he stated it was back on, will check now
+2013-12-06 09:47:38	JohnK_247	you're right, turning it back on now
+2013-12-06 09:47:38	Andrew_Hutson	ack
+2013-12-06 09:47:38	Andrew_Hutson	traffic to homepage doesn't look much above normal at the moment so should be fine
+2013-12-06 09:47:38	Andrew_Hutson	(famous last words)
+2013-12-06 09:47:38	JohnK_247	lol
+2013-12-06 09:47:44	--	Mode #operations [+AHn 30:600]
+2013-12-06 09:47:44	--	Channel created on Sun, 07 Apr 2013 22:20:38

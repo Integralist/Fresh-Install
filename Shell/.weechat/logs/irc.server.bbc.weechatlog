@@ -847,3 +847,718 @@
 2013-12-05 10:20:15	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #news - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/news/log.html to see the most recent conversation.
 2013-12-05 10:20:17	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #frameworks - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/frameworks/log.html to see the most recent conversation.
 2013-12-05 10:20:19	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #operations - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/operations/log.html to see the most recent conversation.
+2013-12-05 10:27:03	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-05 10:27:03	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-05 10:27:03	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-05 10:27:03	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-05 10:27:03	--	gnutls: receiving 4 certificates
+2013-12-05 10:27:03	--	 - certificate[1] info:
+2013-12-05 10:27:03	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-05 10:27:03	--	 - certificate[2] info:
+2013-12-05 10:27:03	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-05 10:27:03	--	 - certificate[3] info:
+2013-12-05 10:27:03	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-05 10:27:03	--	 - certificate[4] info:
+2013-12-05 10:27:03	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-05 10:27:03	--	gnutls: sending one certificate
+2013-12-05 10:27:03	--	 - client certificate info (/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/certificate.pem):
+2013-12-05 10:27:03	--	  - subject `EMAIL=Mark.McDonnell@bbc.co.uk,CN=Mark McDonnell,OU=BBC - News And Knowledge,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Staff CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-01-07 12:54:44 UTC', expires `2014-01-07 12:54:44 UTC', SHA-1 fingerprint `f7b525b2ae63b7c2a5c4e49933899c76e9546c00'
+2013-12-05 10:27:03	--	irc: connected to irc.dev.bbc.co.uk/6697 (212.58.245.163)
+2013-12-05 10:27:03	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): *** Looking up your hostname...
+2013-12-05 10:27:03	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): *** Found your hostname (localhost) -- cached
+2013-12-05 10:27:04	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): Welcome to BBC!
+2013-12-05 10:27:04	--	Welcome to the BBC IRC Network Integralist!Integralist@localhost
+2013-12-05 10:27:04	--	Your host is irc101.back.mgmt.telhc.local, running version InspIRCd-2.0
+2013-12-05 10:27:04	--	This server was created 17:13:42 Jan 23 2012
+2013-12-05 10:27:04	--	irc101.back.mgmt.telhc.local InspIRCd-2.0 HIiosw ABHKLPXYbiklmnopstvy HLXYbklovy
+2013-12-05 10:27:04	--	AWAYLEN=201 CASEMAPPING=rfc1459 CHANMODES=XYb,k,HLl,ABKPimnpst CHANTYPES=# CHARSET=ascii ELIST=MU EXTBAN=,AB FNC KICKLEN=256 MAP MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 :are supported by this server
+2013-12-05 10:27:04	--	MAXTARGETS=20 MODES=20 NETWORK=BBC NICKLEN=32 OPERLOG OVERRIDE PREFIX=(yov)!@+ STATUSMSG=!@+ TOPICLEN=1025 VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2013-12-05 10:27:04	--	445AAAYU4 :your unique ID
+2013-12-05 10:27:04	--	irc101.back.mgmt.telhc.local message of the day
+2013-12-05 10:27:04	--	-
+2013-12-05 10:27:04	--	- .`oooooooooooooooooooo   +ooooooooooooooooooo`  /ooooooooooooooooooo-.
+2013-12-05 10:27:04	--	- ..MMMMMmmmmmmMMMMMMMMM`  NMMMMNmmmmmNMMMMMMMM-  hMMMMMMMNmdddmMMMMMM/.
+2013-12-05 10:27:04	--	- ..MMMMM- `..` :dMMMMMM`  NMMMM/  ..` -yMMMMMM-  hMMMMd+. `.-.“-mMMM/.
+2013-12-05 10:27:04	--	- ..MMMMM- +MMM/ `MMMMMM`  NMMMM/ -MMMo  NMMMMM-  hMMM/ `smMMMMMmymMMM/.
+2013-12-05 10:27:04	--	- ..MMMMM- :yyo“ sMMMMMM`  NMMMM/ .yyo.`+MMMMMM-  hMMo `mMMMMMMMMMMMMM/.
+2013-12-05 10:27:04	--	- ..MMMMM- .:::-`:hMMMMM`  NMMMM/ `:::-`-yMMMMM-  hMM/ .MMMMMMMMMMMMMM/.
+2013-12-05 10:27:04	--	- ..MMMMM- +MMMMy  mMMMM`  NMMMM/ -MMMMd  hMMMM-  hMMd` oNMMMMMMMMNMMM/.
+2013-12-05 10:27:04	--	- ..MMMMM- -sso+` :MMMMM`  NMMMM/ .sss+. .NMMMM-  hMMMm/ `/osys+:`yMMM/.
+2013-12-05 10:27:04	--	- ..MMMMMo+++++osdMMMMMM`  NMMMMy++++++sdMMMMMM-  hMMMMMNyo////+shNMMM/.
+2013-12-05 10:27:04	--	- .`NNNNNNNNNNNNNNNNNNNm   mNNNNNNNNNNNNNNNNNNN-  yNNNNNNNNNNNNNNNNNNN/.
+2013-12-05 10:27:04	--	-
+2013-12-05 10:27:04	--	- As a courtesy to other users, please identify yourselves. It's OK to use
+2013-12-05 10:27:04	--	- a short name, but please give your real name in the WHOIS info To do
+2013-12-05 10:27:04	--	- this in cz, it's: Chatzilla > Preferences > Global Settings > General
+2013-12-05 10:27:04	--	- > Description. Many people seem to be named "New Now Know How"
+2013-12-05 10:27:04	--	-
+2013-12-05 10:27:04	--	-
+2013-12-05 10:27:04	--	End of message of the day.
+2013-12-05 10:27:04	--	There are 99 users and 148 invisible on 2 servers
+2013-12-05 10:27:04	--	156 :channels formed
+2013-12-05 10:27:04	--	I have 117 clients and 1 servers
+2013-12-05 10:27:04	--	Current Local Users: 117  Max: 150
+2013-12-05 10:27:04	--	Current Global Users: 247  Max: 293
+2013-12-05 10:27:04	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): Setting your virtual host: SSL
+2013-12-05 10:27:04	--	SSL :is now your displayed host
+2013-12-05 10:27:04	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #news - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/news/log.html to see the most recent conversation.
+2013-12-05 10:27:04	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #frameworks - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/frameworks/log.html to see the most recent conversation.
+2013-12-05 10:27:04	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #operations - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/operations/log.html to see the most recent conversation.
+2013-12-05 10:47:00	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-05 10:47:00	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-05 10:47:00	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-05 10:47:00	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-05 10:47:00	--	gnutls: receiving 4 certificates
+2013-12-05 10:47:00	--	 - certificate[1] info:
+2013-12-05 10:47:00	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-05 10:47:00	--	 - certificate[2] info:
+2013-12-05 10:47:00	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-05 10:47:00	--	 - certificate[3] info:
+2013-12-05 10:47:00	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-05 10:47:00	--	 - certificate[4] info:
+2013-12-05 10:47:00	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-05 10:47:00	--	gnutls: sending one certificate
+2013-12-05 10:47:00	--	 - client certificate info (/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/certificate.pem):
+2013-12-05 10:47:00	--	  - subject `EMAIL=Mark.McDonnell@bbc.co.uk,CN=Mark McDonnell,OU=BBC - News And Knowledge,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Staff CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-01-07 12:54:44 UTC', expires `2014-01-07 12:54:44 UTC', SHA-1 fingerprint `f7b525b2ae63b7c2a5c4e49933899c76e9546c00'
+2013-12-05 10:47:00	--	irc: connected to irc.dev.bbc.co.uk/6697 (212.58.245.163)
+2013-12-05 10:47:00	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): *** Looking up your hostname...
+2013-12-05 10:47:00	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): *** Found your hostname (localhost) -- cached
+2013-12-05 10:47:00	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): Welcome to BBC!
+2013-12-05 10:47:00	--	Welcome to the BBC IRC Network Integralist!Integralist@localhost
+2013-12-05 10:47:00	--	Your host is irc101.back.mgmt.telhc.local, running version InspIRCd-2.0
+2013-12-05 10:47:00	--	This server was created 17:13:42 Jan 23 2012
+2013-12-05 10:47:00	--	irc101.back.mgmt.telhc.local InspIRCd-2.0 HIiosw ABHKLPXYbiklmnopstvy HLXYbklovy
+2013-12-05 10:47:00	--	AWAYLEN=201 CASEMAPPING=rfc1459 CHANMODES=XYb,k,HLl,ABKPimnpst CHANTYPES=# CHARSET=ascii ELIST=MU EXTBAN=,AB FNC KICKLEN=256 MAP MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 :are supported by this server
+2013-12-05 10:47:00	--	MAXTARGETS=20 MODES=20 NETWORK=BBC NICKLEN=32 OPERLOG OVERRIDE PREFIX=(yov)!@+ STATUSMSG=!@+ TOPICLEN=1025 VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2013-12-05 10:47:00	--	445AAAYW6 :your unique ID
+2013-12-05 10:47:00	--	irc101.back.mgmt.telhc.local message of the day
+2013-12-05 10:47:00	--	-
+2013-12-05 10:47:00	--	- .`oooooooooooooooooooo   +ooooooooooooooooooo`  /ooooooooooooooooooo-.
+2013-12-05 10:47:00	--	- ..MMMMMmmmmmmMMMMMMMMM`  NMMMMNmmmmmNMMMMMMMM-  hMMMMMMMNmdddmMMMMMM/.
+2013-12-05 10:47:00	--	- ..MMMMM- `..` :dMMMMMM`  NMMMM/  ..` -yMMMMMM-  hMMMMd+. `.-.“-mMMM/.
+2013-12-05 10:47:00	--	- ..MMMMM- +MMM/ `MMMMMM`  NMMMM/ -MMMo  NMMMMM-  hMMM/ `smMMMMMmymMMM/.
+2013-12-05 10:47:00	--	- ..MMMMM- :yyo“ sMMMMMM`  NMMMM/ .yyo.`+MMMMMM-  hMMo `mMMMMMMMMMMMMM/.
+2013-12-05 10:47:00	--	- ..MMMMM- .:::-`:hMMMMM`  NMMMM/ `:::-`-yMMMMM-  hMM/ .MMMMMMMMMMMMMM/.
+2013-12-05 10:47:00	--	- ..MMMMM- +MMMMy  mMMMM`  NMMMM/ -MMMMd  hMMMM-  hMMd` oNMMMMMMMMNMMM/.
+2013-12-05 10:47:00	--	- ..MMMMM- -sso+` :MMMMM`  NMMMM/ .sss+. .NMMMM-  hMMMm/ `/osys+:`yMMM/.
+2013-12-05 10:47:00	--	- ..MMMMMo+++++osdMMMMMM`  NMMMMy++++++sdMMMMMM-  hMMMMMNyo////+shNMMM/.
+2013-12-05 10:47:00	--	- .`NNNNNNNNNNNNNNNNNNNm   mNNNNNNNNNNNNNNNNNNN-  yNNNNNNNNNNNNNNNNNNN/.
+2013-12-05 10:47:00	--	-
+2013-12-05 10:47:00	--	- As a courtesy to other users, please identify yourselves. It's OK to use
+2013-12-05 10:47:00	--	- a short name, but please give your real name in the WHOIS info To do
+2013-12-05 10:47:00	--	- this in cz, it's: Chatzilla > Preferences > Global Settings > General
+2013-12-05 10:47:00	--	- > Description. Many people seem to be named "New Now Know How"
+2013-12-05 10:47:00	--	-
+2013-12-05 10:47:00	--	-
+2013-12-05 10:47:00	--	End of message of the day.
+2013-12-05 10:47:00	--	There are 108 users and 154 invisible on 2 servers
+2013-12-05 10:47:00	--	1 :unknown connections
+2013-12-05 10:47:00	--	159 :channels formed
+2013-12-05 10:47:00	--	I have 127 clients and 1 servers
+2013-12-05 10:47:00	--	Current Local Users: 127  Max: 150
+2013-12-05 10:47:00	--	Current Global Users: 262  Max: 293
+2013-12-05 10:47:00	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): Setting your virtual host: SSL
+2013-12-05 10:47:00	--	SSL :is now your displayed host
+2013-12-05 10:47:00	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #news - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/news/log.html to see the most recent conversation.
+2013-12-05 10:47:00	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #frameworks - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/frameworks/log.html to see the most recent conversation.
+2013-12-05 10:47:00	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #operations - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/operations/log.html to see the most recent conversation.
+2013-12-05 13:14:50	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-05 13:14:50	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-05 13:14:50	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-05 13:14:50	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-05 13:14:50	--	gnutls: receiving 4 certificates
+2013-12-05 13:14:50	--	 - certificate[1] info:
+2013-12-05 13:14:50	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-05 13:14:50	--	 - certificate[2] info:
+2013-12-05 13:14:50	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-05 13:14:50	--	 - certificate[3] info:
+2013-12-05 13:14:50	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-05 13:14:50	--	 - certificate[4] info:
+2013-12-05 13:14:50	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-05 13:14:50	--	gnutls: sending one certificate
+2013-12-05 13:14:50	--	 - client certificate info (/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/certificate.pem):
+2013-12-05 13:14:50	--	  - subject `EMAIL=Mark.McDonnell@bbc.co.uk,CN=Mark McDonnell,OU=BBC - News And Knowledge,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Staff CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-01-07 12:54:44 UTC', expires `2014-01-07 12:54:44 UTC', SHA-1 fingerprint `f7b525b2ae63b7c2a5c4e49933899c76e9546c00'
+2013-12-05 13:14:50	--	irc: connected to irc.dev.bbc.co.uk/6697 (212.58.245.163)
+2013-12-05 13:14:50	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): *** Looking up your hostname...
+2013-12-05 13:14:50	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): *** Found your hostname (localhost) -- cached
+2013-12-05 13:14:51	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): Welcome to BBC!
+2013-12-05 13:14:51	--	Welcome to the BBC IRC Network Integralist!Integralist@localhost
+2013-12-05 13:14:51	--	Your host is irc101.back.mgmt.telhc.local, running version InspIRCd-2.0
+2013-12-05 13:14:51	--	This server was created 17:13:42 Jan 23 2012
+2013-12-05 13:14:51	--	irc101.back.mgmt.telhc.local InspIRCd-2.0 HIiosw ABHKLPXYbiklmnopstvy HLXYbklovy
+2013-12-05 13:14:51	--	AWAYLEN=201 CASEMAPPING=rfc1459 CHANMODES=XYb,k,HLl,ABKPimnpst CHANTYPES=# CHARSET=ascii ELIST=MU EXTBAN=,AB FNC KICKLEN=256 MAP MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 :are supported by this server
+2013-12-05 13:14:51	--	MAXTARGETS=20 MODES=20 NETWORK=BBC NICKLEN=32 OPERLOG OVERRIDE PREFIX=(yov)!@+ STATUSMSG=!@+ TOPICLEN=1025 VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2013-12-05 13:14:51	--	445AAAZCB :your unique ID
+2013-12-05 13:14:51	--	irc101.back.mgmt.telhc.local message of the day
+2013-12-05 13:14:51	--	-
+2013-12-05 13:14:51	--	- .`oooooooooooooooooooo   +ooooooooooooooooooo`  /ooooooooooooooooooo-.
+2013-12-05 13:14:51	--	- ..MMMMMmmmmmmMMMMMMMMM`  NMMMMNmmmmmNMMMMMMMM-  hMMMMMMMNmdddmMMMMMM/.
+2013-12-05 13:14:51	--	- ..MMMMM- `..` :dMMMMMM`  NMMMM/  ..` -yMMMMMM-  hMMMMd+. `.-.“-mMMM/.
+2013-12-05 13:14:51	--	- ..MMMMM- +MMM/ `MMMMMM`  NMMMM/ -MMMo  NMMMMM-  hMMM/ `smMMMMMmymMMM/.
+2013-12-05 13:14:51	--	- ..MMMMM- :yyo“ sMMMMMM`  NMMMM/ .yyo.`+MMMMMM-  hMMo `mMMMMMMMMMMMMM/.
+2013-12-05 13:14:51	--	- ..MMMMM- .:::-`:hMMMMM`  NMMMM/ `:::-`-yMMMMM-  hMM/ .MMMMMMMMMMMMMM/.
+2013-12-05 13:14:51	--	- ..MMMMM- +MMMMy  mMMMM`  NMMMM/ -MMMMd  hMMMM-  hMMd` oNMMMMMMMMNMMM/.
+2013-12-05 13:14:51	--	- ..MMMMM- -sso+` :MMMMM`  NMMMM/ .sss+. .NMMMM-  hMMMm/ `/osys+:`yMMM/.
+2013-12-05 13:14:51	--	- ..MMMMMo+++++osdMMMMMM`  NMMMMy++++++sdMMMMMM-  hMMMMMNyo////+shNMMM/.
+2013-12-05 13:14:51	--	- .`NNNNNNNNNNNNNNNNNNNm   mNNNNNNNNNNNNNNNNNNN-  yNNNNNNNNNNNNNNNNNNN/.
+2013-12-05 13:14:51	--	-
+2013-12-05 13:14:51	--	- As a courtesy to other users, please identify yourselves. It's OK to use
+2013-12-05 13:14:51	--	- a short name, but please give your real name in the WHOIS info To do
+2013-12-05 13:14:51	--	- this in cz, it's: Chatzilla > Preferences > Global Settings > General
+2013-12-05 13:14:51	--	- > Description. Many people seem to be named "New Now Know How"
+2013-12-05 13:14:51	--	-
+2013-12-05 13:14:51	--	-
+2013-12-05 13:14:51	--	End of message of the day.
+2013-12-05 13:14:51	--	There are 103 users and 165 invisible on 2 servers
+2013-12-05 13:14:51	--	170 :channels formed
+2013-12-05 13:14:51	--	I have 127 clients and 1 servers
+2013-12-05 13:14:51	--	Current Local Users: 127  Max: 150
+2013-12-05 13:14:51	--	Current Global Users: 268  Max: 293
+2013-12-05 13:14:51	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): Setting your virtual host: SSL
+2013-12-05 13:14:51	--	SSL :is now your displayed host
+2013-12-05 13:14:51	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #news - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/news/log.html to see the most recent conversation.
+2013-12-05 13:14:51	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #frameworks - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/frameworks/log.html to see the most recent conversation.
+2013-12-05 13:14:51	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #operations - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/operations/log.html to see the most recent conversation.
+2013-12-05 14:51:09	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-05 14:51:09	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-05 14:51:09	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-05 14:51:09	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-05 14:51:09	--	gnutls: receiving 4 certificates
+2013-12-05 14:51:09	--	 - certificate[1] info:
+2013-12-05 14:51:09	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-05 14:51:09	--	 - certificate[2] info:
+2013-12-05 14:51:09	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-05 14:51:09	--	 - certificate[3] info:
+2013-12-05 14:51:09	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-05 14:51:09	--	 - certificate[4] info:
+2013-12-05 14:51:09	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-05 14:51:09	--	gnutls: sending one certificate
+2013-12-05 14:51:10	--	 - client certificate info (/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/certificate.pem):
+2013-12-05 14:51:10	--	  - subject `EMAIL=Mark.McDonnell@bbc.co.uk,CN=Mark McDonnell,OU=BBC - News And Knowledge,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Staff CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-01-07 12:54:44 UTC', expires `2014-01-07 12:54:44 UTC', SHA-1 fingerprint `f7b525b2ae63b7c2a5c4e49933899c76e9546c00'
+2013-12-05 14:51:10	--	irc: connected to irc.dev.bbc.co.uk/6697 (212.58.245.163)
+2013-12-05 14:51:10	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): *** Looking up your hostname...
+2013-12-05 14:51:10	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): *** Found your hostname (localhost) -- cached
+2013-12-05 14:51:11	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): Welcome to BBC!
+2013-12-05 14:51:11	--	Welcome to the BBC IRC Network Integralist!Integralist@localhost
+2013-12-05 14:51:11	--	Your host is irc101.back.mgmt.telhc.local, running version InspIRCd-2.0
+2013-12-05 14:51:11	--	This server was created 17:13:42 Jan 23 2012
+2013-12-05 14:51:11	--	irc101.back.mgmt.telhc.local InspIRCd-2.0 HIiosw ABHKLPXYbiklmnopstvy HLXYbklovy
+2013-12-05 14:51:11	--	AWAYLEN=201 CASEMAPPING=rfc1459 CHANMODES=XYb,k,HLl,ABKPimnpst CHANTYPES=# CHARSET=ascii ELIST=MU EXTBAN=,AB FNC KICKLEN=256 MAP MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 :are supported by this server
+2013-12-05 14:51:11	--	MAXTARGETS=20 MODES=20 NETWORK=BBC NICKLEN=32 OPERLOG OVERRIDE PREFIX=(yov)!@+ STATUSMSG=!@+ TOPICLEN=1025 VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2013-12-05 14:51:11	--	445AAAZL8 :your unique ID
+2013-12-05 14:51:11	--	irc101.back.mgmt.telhc.local message of the day
+2013-12-05 14:51:11	--	-
+2013-12-05 14:51:11	--	- .`oooooooooooooooooooo   +ooooooooooooooooooo`  /ooooooooooooooooooo-.
+2013-12-05 14:51:11	--	- ..MMMMMmmmmmmMMMMMMMMM`  NMMMMNmmmmmNMMMMMMMM-  hMMMMMMMNmdddmMMMMMM/.
+2013-12-05 14:51:11	--	- ..MMMMM- `..` :dMMMMMM`  NMMMM/  ..` -yMMMMMM-  hMMMMd+. `.-.“-mMMM/.
+2013-12-05 14:51:11	--	- ..MMMMM- +MMM/ `MMMMMM`  NMMMM/ -MMMo  NMMMMM-  hMMM/ `smMMMMMmymMMM/.
+2013-12-05 14:51:11	--	- ..MMMMM- :yyo“ sMMMMMM`  NMMMM/ .yyo.`+MMMMMM-  hMMo `mMMMMMMMMMMMMM/.
+2013-12-05 14:51:11	--	- ..MMMMM- .:::-`:hMMMMM`  NMMMM/ `:::-`-yMMMMM-  hMM/ .MMMMMMMMMMMMMM/.
+2013-12-05 14:51:11	--	- ..MMMMM- +MMMMy  mMMMM`  NMMMM/ -MMMMd  hMMMM-  hMMd` oNMMMMMMMMNMMM/.
+2013-12-05 14:51:11	--	- ..MMMMM- -sso+` :MMMMM`  NMMMM/ .sss+. .NMMMM-  hMMMm/ `/osys+:`yMMM/.
+2013-12-05 14:51:11	--	- ..MMMMMo+++++osdMMMMMM`  NMMMMy++++++sdMMMMMM-  hMMMMMNyo////+shNMMM/.
+2013-12-05 14:51:11	--	- .`NNNNNNNNNNNNNNNNNNNm   mNNNNNNNNNNNNNNNNNNN-  yNNNNNNNNNNNNNNNNNNN/.
+2013-12-05 14:51:11	--	-
+2013-12-05 14:51:11	--	- As a courtesy to other users, please identify yourselves. It's OK to use
+2013-12-05 14:51:11	--	- a short name, but please give your real name in the WHOIS info To do
+2013-12-05 14:51:11	--	- this in cz, it's: Chatzilla > Preferences > Global Settings > General
+2013-12-05 14:51:11	--	- > Description. Many people seem to be named "New Now Know How"
+2013-12-05 14:51:11	--	-
+2013-12-05 14:51:11	--	-
+2013-12-05 14:51:11	--	End of message of the day.
+2013-12-05 14:51:11	--	There are 104 users and 179 invisible on 2 servers
+2013-12-05 14:51:11	--	169 :channels formed
+2013-12-05 14:51:11	--	I have 138 clients and 1 servers
+2013-12-05 14:51:11	--	Current Local Users: 138  Max: 150
+2013-12-05 14:51:11	--	Current Global Users: 283  Max: 293
+2013-12-05 14:51:11	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): Setting your virtual host: SSL
+2013-12-05 14:51:11	--	SSL :is now your displayed host
+2013-12-05 14:51:11	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #news - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/news/log.html to see the most recent conversation.
+2013-12-05 14:51:11	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #frameworks - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/frameworks/log.html to see the most recent conversation.
+2013-12-05 14:51:11	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #operations - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/operations/log.html to see the most recent conversation.
+2013-12-05 15:43:23	=!=	irc: reading data on socket: error -54 Error in the pull function.
+2013-12-05 15:43:23	--	irc: disconnecting from server...
+2013-12-05 15:43:23	--	irc: disconnected from server
+2013-12-05 15:43:23	--	irc: reconnecting to server in 10 seconds
+2013-12-05 15:43:33	--	irc: reconnecting to server...
+2013-12-05 15:43:33	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-05 15:43:33	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-05 15:43:33	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-05 15:43:33	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-05 15:43:33	--	gnutls: receiving 4 certificates
+2013-12-05 15:43:33	--	 - certificate[1] info:
+2013-12-05 15:43:33	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-05 15:43:33	--	 - certificate[2] info:
+2013-12-05 15:43:33	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-05 15:43:33	--	 - certificate[3] info:
+2013-12-05 15:43:33	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-05 15:43:33	--	 - certificate[4] info:
+2013-12-05 15:43:33	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-05 15:43:33	--	gnutls: sending one certificate
+2013-12-05 15:43:33	--	 - client certificate info (/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/certificate.pem):
+2013-12-05 15:43:33	--	  - subject `EMAIL=Mark.McDonnell@bbc.co.uk,CN=Mark McDonnell,OU=BBC - News And Knowledge,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Staff CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-01-07 12:54:44 UTC', expires `2014-01-07 12:54:44 UTC', SHA-1 fingerprint `f7b525b2ae63b7c2a5c4e49933899c76e9546c00'
+2013-12-05 15:43:33	--	irc: connected to irc.dev.bbc.co.uk/6697 (212.58.245.163)
+2013-12-05 15:43:33	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): *** Looking up your hostname...
+2013-12-05 15:43:33	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): *** Found your hostname (localhost) -- cached
+2013-12-05 15:43:34	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): Welcome to BBC!
+2013-12-05 15:43:34	--	Welcome to the BBC IRC Network Integralist!Integralist@localhost
+2013-12-05 15:43:34	--	Your host is irc101.back.mgmt.telhc.local, running version InspIRCd-2.0
+2013-12-05 15:43:34	--	This server was created 17:13:42 Jan 23 2012
+2013-12-05 15:43:34	--	irc101.back.mgmt.telhc.local InspIRCd-2.0 HIiosw ABHKLPXYbiklmnopstvy HLXYbklovy
+2013-12-05 15:43:34	--	AWAYLEN=201 CASEMAPPING=rfc1459 CHANMODES=XYb,k,HLl,ABKPimnpst CHANTYPES=# CHARSET=ascii ELIST=MU EXTBAN=,AB FNC KICKLEN=256 MAP MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 :are supported by this server
+2013-12-05 15:43:34	--	MAXTARGETS=20 MODES=20 NETWORK=BBC NICKLEN=32 OPERLOG OVERRIDE PREFIX=(yov)!@+ STATUSMSG=!@+ TOPICLEN=1025 VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2013-12-05 15:43:34	--	445AAAZQ9 :your unique ID
+2013-12-05 15:43:34	--	irc101.back.mgmt.telhc.local message of the day
+2013-12-05 15:43:34	--	-
+2013-12-05 15:43:34	--	- .`oooooooooooooooooooo   +ooooooooooooooooooo`  /ooooooooooooooooooo-.
+2013-12-05 15:43:34	--	- ..MMMMMmmmmmmMMMMMMMMM`  NMMMMNmmmmmNMMMMMMMM-  hMMMMMMMNmdddmMMMMMM/.
+2013-12-05 15:43:34	--	- ..MMMMM- `..` :dMMMMMM`  NMMMM/  ..` -yMMMMMM-  hMMMMd+. `.-.“-mMMM/.
+2013-12-05 15:43:34	--	- ..MMMMM- +MMM/ `MMMMMM`  NMMMM/ -MMMo  NMMMMM-  hMMM/ `smMMMMMmymMMM/.
+2013-12-05 15:43:34	--	- ..MMMMM- :yyo“ sMMMMMM`  NMMMM/ .yyo.`+MMMMMM-  hMMo `mMMMMMMMMMMMMM/.
+2013-12-05 15:43:34	--	- ..MMMMM- .:::-`:hMMMMM`  NMMMM/ `:::-`-yMMMMM-  hMM/ .MMMMMMMMMMMMMM/.
+2013-12-05 15:43:34	--	- ..MMMMM- +MMMMy  mMMMM`  NMMMM/ -MMMMd  hMMMM-  hMMd` oNMMMMMMMMNMMM/.
+2013-12-05 15:43:34	--	- ..MMMMM- -sso+` :MMMMM`  NMMMM/ .sss+. .NMMMM-  hMMMm/ `/osys+:`yMMM/.
+2013-12-05 15:43:34	--	- ..MMMMMo+++++osdMMMMMM`  NMMMMy++++++sdMMMMMM-  hMMMMMNyo////+shNMMM/.
+2013-12-05 15:43:34	--	- .`NNNNNNNNNNNNNNNNNNNm   mNNNNNNNNNNNNNNNNNNN-  yNNNNNNNNNNNNNNNNNNN/.
+2013-12-05 15:43:34	--	-
+2013-12-05 15:43:34	--	- As a courtesy to other users, please identify yourselves. It's OK to use
+2013-12-05 15:43:34	--	- a short name, but please give your real name in the WHOIS info To do
+2013-12-05 15:43:34	--	- this in cz, it's: Chatzilla > Preferences > Global Settings > General
+2013-12-05 15:43:34	--	- > Description. Many people seem to be named "New Now Know How"
+2013-12-05 15:43:34	--	-
+2013-12-05 15:43:34	--	-
+2013-12-05 15:43:34	--	End of message of the day.
+2013-12-05 15:43:34	--	There are 99 users and 180 invisible on 2 servers
+2013-12-05 15:43:34	--	172 :channels formed
+2013-12-05 15:43:34	--	I have 131 clients and 1 servers
+2013-12-05 15:43:34	--	Current Local Users: 131  Max: 150
+2013-12-05 15:43:34	--	Current Global Users: 279  Max: 293
+2013-12-05 15:43:34	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): Setting your virtual host: SSL
+2013-12-05 15:43:34	--	SSL :is now your displayed host
+2013-12-05 15:43:39	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #news - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/news/log.html to see the most recent conversation.
+2013-12-05 15:43:43	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #frameworks - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/frameworks/log.html to see the most recent conversation.
+2013-12-05 15:43:47	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #operations - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/operations/log.html to see the most recent conversation.
+2013-12-05 15:56:26	=!=	irc: reading data on socket: error -54 Error in the pull function.
+2013-12-05 15:56:26	--	irc: disconnecting from server...
+2013-12-05 15:56:26	--	irc: disconnected from server
+2013-12-05 15:56:26	--	irc: reconnecting to server in 10 seconds
+2013-12-05 15:56:36	--	irc: reconnecting to server...
+2013-12-05 15:56:36	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-05 15:56:36	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-05 15:56:36	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-05 15:56:36	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-05 15:56:36	--	gnutls: receiving 4 certificates
+2013-12-05 15:56:36	--	 - certificate[1] info:
+2013-12-05 15:56:36	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-05 15:56:36	--	 - certificate[2] info:
+2013-12-05 15:56:36	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-05 15:56:36	--	 - certificate[3] info:
+2013-12-05 15:56:36	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-05 15:56:36	--	 - certificate[4] info:
+2013-12-05 15:56:36	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-05 15:56:36	--	gnutls: sending one certificate
+2013-12-05 15:56:36	--	 - client certificate info (/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/certificate.pem):
+2013-12-05 15:56:36	--	  - subject `EMAIL=Mark.McDonnell@bbc.co.uk,CN=Mark McDonnell,OU=BBC - News And Knowledge,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Staff CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-01-07 12:54:44 UTC', expires `2014-01-07 12:54:44 UTC', SHA-1 fingerprint `f7b525b2ae63b7c2a5c4e49933899c76e9546c00'
+2013-12-05 15:56:36	--	irc: connected to irc.dev.bbc.co.uk/6697 (212.58.245.163)
+2013-12-05 15:56:36	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): *** Looking up your hostname...
+2013-12-05 15:56:36	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): *** Found your hostname (localhost) -- cached
+2013-12-05 15:56:37	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): Welcome to BBC!
+2013-12-05 15:56:37	--	Welcome to the BBC IRC Network Integralist!Integralist@localhost
+2013-12-05 15:56:37	--	Your host is irc101.back.mgmt.telhc.local, running version InspIRCd-2.0
+2013-12-05 15:56:37	--	This server was created 17:13:42 Jan 23 2012
+2013-12-05 15:56:37	--	irc101.back.mgmt.telhc.local InspIRCd-2.0 HIiosw ABHKLPXYbiklmnopstvy HLXYbklovy
+2013-12-05 15:56:37	--	AWAYLEN=201 CASEMAPPING=rfc1459 CHANMODES=XYb,k,HLl,ABKPimnpst CHANTYPES=# CHARSET=ascii ELIST=MU EXTBAN=,AB FNC KICKLEN=256 MAP MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 :are supported by this server
+2013-12-05 15:56:37	--	MAXTARGETS=20 MODES=20 NETWORK=BBC NICKLEN=32 OPERLOG OVERRIDE PREFIX=(yov)!@+ STATUSMSG=!@+ TOPICLEN=1025 VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2013-12-05 15:56:37	--	445AAAZSQ :your unique ID
+2013-12-05 15:56:37	--	irc101.back.mgmt.telhc.local message of the day
+2013-12-05 15:56:37	--	-
+2013-12-05 15:56:37	--	- .`oooooooooooooooooooo   +ooooooooooooooooooo`  /ooooooooooooooooooo-.
+2013-12-05 15:56:37	--	- ..MMMMMmmmmmmMMMMMMMMM`  NMMMMNmmmmmNMMMMMMMM-  hMMMMMMMNmdddmMMMMMM/.
+2013-12-05 15:56:37	--	- ..MMMMM- `..` :dMMMMMM`  NMMMM/  ..` -yMMMMMM-  hMMMMd+. `.-.“-mMMM/.
+2013-12-05 15:56:37	--	- ..MMMMM- +MMM/ `MMMMMM`  NMMMM/ -MMMo  NMMMMM-  hMMM/ `smMMMMMmymMMM/.
+2013-12-05 15:56:37	--	- ..MMMMM- :yyo“ sMMMMMM`  NMMMM/ .yyo.`+MMMMMM-  hMMo `mMMMMMMMMMMMMM/.
+2013-12-05 15:56:37	--	- ..MMMMM- .:::-`:hMMMMM`  NMMMM/ `:::-`-yMMMMM-  hMM/ .MMMMMMMMMMMMMM/.
+2013-12-05 15:56:37	--	- ..MMMMM- +MMMMy  mMMMM`  NMMMM/ -MMMMd  hMMMM-  hMMd` oNMMMMMMMMNMMM/.
+2013-12-05 15:56:37	--	- ..MMMMM- -sso+` :MMMMM`  NMMMM/ .sss+. .NMMMM-  hMMMm/ `/osys+:`yMMM/.
+2013-12-05 15:56:37	--	- ..MMMMMo+++++osdMMMMMM`  NMMMMy++++++sdMMMMMM-  hMMMMMNyo////+shNMMM/.
+2013-12-05 15:56:37	--	- .`NNNNNNNNNNNNNNNNNNNm   mNNNNNNNNNNNNNNNNNNN-  yNNNNNNNNNNNNNNNNNNN/.
+2013-12-05 15:56:37	--	-
+2013-12-05 15:56:37	--	- As a courtesy to other users, please identify yourselves. It's OK to use
+2013-12-05 15:56:37	--	- a short name, but please give your real name in the WHOIS info To do
+2013-12-05 15:56:37	--	- this in cz, it's: Chatzilla > Preferences > Global Settings > General
+2013-12-05 15:56:37	--	- > Description. Many people seem to be named "New Now Know How"
+2013-12-05 15:56:37	--	-
+2013-12-05 15:56:37	--	-
+2013-12-05 15:56:37	--	End of message of the day.
+2013-12-05 15:56:37	--	There are 103 users and 179 invisible on 2 servers
+2013-12-05 15:56:37	--	172 :channels formed
+2013-12-05 15:56:37	--	I have 136 clients and 1 servers
+2013-12-05 15:56:37	--	Current Local Users: 136  Max: 150
+2013-12-05 15:56:37	--	Current Global Users: 282  Max: 293
+2013-12-05 15:56:37	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): Setting your virtual host: SSL
+2013-12-05 15:56:37	--	SSL :is now your displayed host
+2013-12-05 15:56:37	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #news - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/news/log.html to see the most recent conversation.
+2013-12-05 15:56:39	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #frameworks - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/frameworks/log.html to see the most recent conversation.
+2013-12-05 15:56:41	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #operations - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/operations/log.html to see the most recent conversation.
+2013-12-05 16:01:45	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-05 16:01:45	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-05 16:01:45	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-05 16:01:45	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-05 16:01:45	--	gnutls: receiving 4 certificates
+2013-12-05 16:01:45	--	 - certificate[1] info:
+2013-12-05 16:01:45	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-05 16:01:45	--	 - certificate[2] info:
+2013-12-05 16:01:45	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-05 16:01:45	--	 - certificate[3] info:
+2013-12-05 16:01:45	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-05 16:01:45	--	 - certificate[4] info:
+2013-12-05 16:01:45	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-05 16:01:45	--	gnutls: sending one certificate
+2013-12-05 16:01:45	--	 - client certificate info (/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/certificate.pem):
+2013-12-05 16:01:45	--	  - subject `EMAIL=Mark.McDonnell@bbc.co.uk,CN=Mark McDonnell,OU=BBC - News And Knowledge,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Staff CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-01-07 12:54:44 UTC', expires `2014-01-07 12:54:44 UTC', SHA-1 fingerprint `f7b525b2ae63b7c2a5c4e49933899c76e9546c00'
+2013-12-05 16:01:45	--	irc: connected to irc.dev.bbc.co.uk/6697 (212.58.247.163)
+2013-12-05 16:01:45	--	irc001.back.mgmt.cwwtf.local (irc001.back.mgmt.cwwtf.local): *** Looking up your hostname...
+2013-12-05 16:01:45	--	irc001.back.mgmt.cwwtf.local (irc001.back.mgmt.cwwtf.local): *** Found your hostname (localhost) -- cached
+2013-12-05 16:01:46	--	irc001.back.mgmt.cwwtf.local (irc001.back.mgmt.cwwtf.local): Welcome to BBC!
+2013-12-05 16:01:46	--	Welcome to the BBC IRC Network Integralist!Integralist@localhost
+2013-12-05 16:01:46	--	Your host is irc001.back.mgmt.cwwtf.local, running version InspIRCd-2.0
+2013-12-05 16:01:46	--	This server was created 17:13:42 Jan 23 2012
+2013-12-05 16:01:46	--	irc001.back.mgmt.cwwtf.local InspIRCd-2.0 HIiosw ABHKLPXYbiklmnopstvy HLXYbklovy
+2013-12-05 16:01:46	--	AWAYLEN=201 CASEMAPPING=rfc1459 CHANMODES=XYb,k,HLl,ABKPimnpst CHANTYPES=# CHARSET=ascii ELIST=MU EXTBAN=,AB FNC KICKLEN=256 MAP MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 :are supported by this server
+2013-12-05 16:01:46	--	MAXTARGETS=20 MODES=20 NETWORK=BBC NICKLEN=32 OPERLOG OVERRIDE PREFIX=(yov)!@+ STATUSMSG=!@+ TOPICLEN=1025 VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2013-12-05 16:01:46	--	054AAD1RG :your unique ID
+2013-12-05 16:01:46	--	irc001.back.mgmt.cwwtf.local message of the day
+2013-12-05 16:01:46	--	-
+2013-12-05 16:01:46	--	- .`oooooooooooooooooooo   +ooooooooooooooooooo`  /ooooooooooooooooooo-.
+2013-12-05 16:01:46	--	- ..MMMMMmmmmmmMMMMMMMMM`  NMMMMNmmmmmNMMMMMMMM-  hMMMMMMMNmdddmMMMMMM/.
+2013-12-05 16:01:46	--	- ..MMMMM- `..` :dMMMMMM`  NMMMM/  ..` -yMMMMMM-  hMMMMd+. `.-.“-mMMM/.
+2013-12-05 16:01:46	--	- ..MMMMM- +MMM/ `MMMMMM`  NMMMM/ -MMMo  NMMMMM-  hMMM/ `smMMMMMmymMMM/.
+2013-12-05 16:01:46	--	- ..MMMMM- :yyo“ sMMMMMM`  NMMMM/ .yyo.`+MMMMMM-  hMMo `mMMMMMMMMMMMMM/.
+2013-12-05 16:01:46	--	- ..MMMMM- .:::-`:hMMMMM`  NMMMM/ `:::-`-yMMMMM-  hMM/ .MMMMMMMMMMMMMM/.
+2013-12-05 16:01:46	--	- ..MMMMM- +MMMMy  mMMMM`  NMMMM/ -MMMMd  hMMMM-  hMMd` oNMMMMMMMMNMMM/.
+2013-12-05 16:01:46	--	- ..MMMMM- -sso+` :MMMMM`  NMMMM/ .sss+. .NMMMM-  hMMMm/ `/osys+:`yMMM/.
+2013-12-05 16:01:46	--	- ..MMMMMo+++++osdMMMMMM`  NMMMMy++++++sdMMMMMM-  hMMMMMNyo////+shNMMM/.
+2013-12-05 16:01:46	--	- .`NNNNNNNNNNNNNNNNNNNm   mNNNNNNNNNNNNNNNNNNN-  yNNNNNNNNNNNNNNNNNNN/.
+2013-12-05 16:01:46	--	-
+2013-12-05 16:01:46	--	- As a courtesy to other users, please identify yourselves. It's OK to use
+2013-12-05 16:01:46	--	- a short name, but please give your real name in the WHOIS info To do
+2013-12-05 16:01:46	--	- this in cz, it's: Chatzilla > Preferences > Global Settings > General
+2013-12-05 16:01:46	--	- > Description. Many people seem to be named "New Now Know How"
+2013-12-05 16:01:46	--	-
+2013-12-05 16:01:46	--	-
+2013-12-05 16:01:46	--	End of message of the day.
+2013-12-05 16:01:46	--	There are 105 users and 175 invisible on 2 servers
+2013-12-05 16:01:46	--	172 :channels formed
+2013-12-05 16:01:46	--	I have 143 clients and 1 servers
+2013-12-05 16:01:46	--	Current Local Users: 143  Max: 249
+2013-12-05 16:01:46	--	Current Global Users: 280  Max: 298
+2013-12-05 16:01:46	--	irc001.back.mgmt.cwwtf.local (irc001.back.mgmt.cwwtf.local): Setting your virtual host: SSL
+2013-12-05 16:01:46	--	SSL :is now your displayed host
+2013-12-05 16:01:46	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #news - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/news/log.html to see the most recent conversation.
+2013-12-05 16:01:48	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #frameworks - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/frameworks/log.html to see the most recent conversation.
+2013-12-05 16:01:52	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #operations - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/operations/log.html to see the most recent conversation.
+2013-12-05 16:04:43	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-05 16:04:43	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-05 16:04:43	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-05 16:04:43	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-05 16:04:43	--	gnutls: receiving 4 certificates
+2013-12-05 16:04:43	--	 - certificate[1] info:
+2013-12-05 16:04:43	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-05 16:04:43	--	 - certificate[2] info:
+2013-12-05 16:04:43	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-05 16:04:43	--	 - certificate[3] info:
+2013-12-05 16:04:43	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-05 16:04:43	--	 - certificate[4] info:
+2013-12-05 16:04:43	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-05 16:04:43	--	gnutls: sending one certificate
+2013-12-05 16:04:43	--	 - client certificate info (/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/certificate.pem):
+2013-12-05 16:04:43	--	  - subject `EMAIL=Mark.McDonnell@bbc.co.uk,CN=Mark McDonnell,OU=BBC - News And Knowledge,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Staff CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-01-07 12:54:44 UTC', expires `2014-01-07 12:54:44 UTC', SHA-1 fingerprint `f7b525b2ae63b7c2a5c4e49933899c76e9546c00'
+2013-12-05 16:04:43	--	irc: connected to irc.dev.bbc.co.uk/6697 (212.58.245.163)
+2013-12-05 16:04:43	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): *** Looking up your hostname...
+2013-12-05 16:04:43	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): *** Found your hostname (localhost) -- cached
+2013-12-05 16:04:44	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): Welcome to BBC!
+2013-12-05 16:04:44	--	Welcome to the BBC IRC Network Integralist!Integralist@localhost
+2013-12-05 16:04:44	--	Your host is irc101.back.mgmt.telhc.local, running version InspIRCd-2.0
+2013-12-05 16:04:44	--	This server was created 17:13:42 Jan 23 2012
+2013-12-05 16:04:44	--	irc101.back.mgmt.telhc.local InspIRCd-2.0 HIiosw ABHKLPXYbiklmnopstvy HLXYbklovy
+2013-12-05 16:04:44	--	AWAYLEN=201 CASEMAPPING=rfc1459 CHANMODES=XYb,k,HLl,ABKPimnpst CHANTYPES=# CHARSET=ascii ELIST=MU EXTBAN=,AB FNC KICKLEN=256 MAP MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 :are supported by this server
+2013-12-05 16:04:44	--	MAXTARGETS=20 MODES=20 NETWORK=BBC NICKLEN=32 OPERLOG OVERRIDE PREFIX=(yov)!@+ STATUSMSG=!@+ TOPICLEN=1025 VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2013-12-05 16:04:44	--	445AAAZTN :your unique ID
+2013-12-05 16:04:44	--	irc101.back.mgmt.telhc.local message of the day
+2013-12-05 16:04:44	--	-
+2013-12-05 16:04:44	--	- .`oooooooooooooooooooo   +ooooooooooooooooooo`  /ooooooooooooooooooo-.
+2013-12-05 16:04:44	--	- ..MMMMMmmmmmmMMMMMMMMM`  NMMMMNmmmmmNMMMMMMMM-  hMMMMMMMNmdddmMMMMMM/.
+2013-12-05 16:04:44	--	- ..MMMMM- `..` :dMMMMMM`  NMMMM/  ..` -yMMMMMM-  hMMMMd+. `.-.“-mMMM/.
+2013-12-05 16:04:44	--	- ..MMMMM- +MMM/ `MMMMMM`  NMMMM/ -MMMo  NMMMMM-  hMMM/ `smMMMMMmymMMM/.
+2013-12-05 16:04:44	--	- ..MMMMM- :yyo“ sMMMMMM`  NMMMM/ .yyo.`+MMMMMM-  hMMo `mMMMMMMMMMMMMM/.
+2013-12-05 16:04:44	--	- ..MMMMM- .:::-`:hMMMMM`  NMMMM/ `:::-`-yMMMMM-  hMM/ .MMMMMMMMMMMMMM/.
+2013-12-05 16:04:44	--	- ..MMMMM- +MMMMy  mMMMM`  NMMMM/ -MMMMd  hMMMM-  hMMd` oNMMMMMMMMNMMM/.
+2013-12-05 16:04:44	--	- ..MMMMM- -sso+` :MMMMM`  NMMMM/ .sss+. .NMMMM-  hMMMm/ `/osys+:`yMMM/.
+2013-12-05 16:04:44	--	- ..MMMMMo+++++osdMMMMMM`  NMMMMy++++++sdMMMMMM-  hMMMMMNyo////+shNMMM/.
+2013-12-05 16:04:44	--	- .`NNNNNNNNNNNNNNNNNNNm   mNNNNNNNNNNNNNNNNNNN-  yNNNNNNNNNNNNNNNNNNN/.
+2013-12-05 16:04:44	--	-
+2013-12-05 16:04:44	--	- As a courtesy to other users, please identify yourselves. It's OK to use
+2013-12-05 16:04:44	--	- a short name, but please give your real name in the WHOIS info To do
+2013-12-05 16:04:44	--	- this in cz, it's: Chatzilla > Preferences > Global Settings > General
+2013-12-05 16:04:44	--	- > Description. Many people seem to be named "New Now Know How"
+2013-12-05 16:04:44	--	-
+2013-12-05 16:04:44	--	-
+2013-12-05 16:04:44	--	End of message of the day.
+2013-12-05 16:04:44	--	There are 102 users and 176 invisible on 2 servers
+2013-12-05 16:04:44	--	173 :channels formed
+2013-12-05 16:04:44	--	I have 136 clients and 1 servers
+2013-12-05 16:04:44	--	Current Local Users: 136  Max: 150
+2013-12-05 16:04:44	--	Current Global Users: 278  Max: 293
+2013-12-05 16:04:44	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): Setting your virtual host: SSL
+2013-12-05 16:04:44	--	SSL :is now your displayed host
+2013-12-05 16:04:44	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #news - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/news/log.html to see the most recent conversation.
+2013-12-05 16:04:44	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #frameworks - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/frameworks/log.html to see the most recent conversation.
+2013-12-05 16:04:44	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #operations - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/operations/log.html to see the most recent conversation.
+2013-12-05 16:06:05	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-05 16:06:05	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-05 16:06:05	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-05 16:06:05	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-05 16:06:05	--	gnutls: receiving 4 certificates
+2013-12-05 16:06:05	--	 - certificate[1] info:
+2013-12-05 16:06:05	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-05 16:06:05	--	 - certificate[2] info:
+2013-12-05 16:06:05	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-05 16:06:05	--	 - certificate[3] info:
+2013-12-05 16:06:05	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-05 16:06:05	--	 - certificate[4] info:
+2013-12-05 16:06:05	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-05 16:06:05	--	gnutls: sending one certificate
+2013-12-05 16:06:05	--	 - client certificate info (/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/certificate.pem):
+2013-12-05 16:06:05	--	  - subject `EMAIL=Mark.McDonnell@bbc.co.uk,CN=Mark McDonnell,OU=BBC - News And Knowledge,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Staff CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-01-07 12:54:44 UTC', expires `2014-01-07 12:54:44 UTC', SHA-1 fingerprint `f7b525b2ae63b7c2a5c4e49933899c76e9546c00'
+2013-12-05 16:06:05	--	irc: connected to irc.dev.bbc.co.uk/6697 (212.58.245.163)
+2013-12-05 16:06:05	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): *** Looking up your hostname...
+2013-12-05 16:06:05	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): *** Found your hostname (localhost) -- cached
+2013-12-05 16:06:06	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): Welcome to BBC!
+2013-12-05 16:06:06	--	Welcome to the BBC IRC Network Integralist!Integralist@localhost
+2013-12-05 16:06:06	--	Your host is irc101.back.mgmt.telhc.local, running version InspIRCd-2.0
+2013-12-05 16:06:06	--	This server was created 17:13:42 Jan 23 2012
+2013-12-05 16:06:06	--	irc101.back.mgmt.telhc.local InspIRCd-2.0 HIiosw ABHKLPXYbiklmnopstvy HLXYbklovy
+2013-12-05 16:06:06	--	AWAYLEN=201 CASEMAPPING=rfc1459 CHANMODES=XYb,k,HLl,ABKPimnpst CHANTYPES=# CHARSET=ascii ELIST=MU EXTBAN=,AB FNC KICKLEN=256 MAP MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 :are supported by this server
+2013-12-05 16:06:06	--	MAXTARGETS=20 MODES=20 NETWORK=BBC NICKLEN=32 OPERLOG OVERRIDE PREFIX=(yov)!@+ STATUSMSG=!@+ TOPICLEN=1025 VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2013-12-05 16:06:06	--	445AAAZTW :your unique ID
+2013-12-05 16:06:06	--	irc101.back.mgmt.telhc.local message of the day
+2013-12-05 16:06:06	--	-
+2013-12-05 16:06:06	--	- .`oooooooooooooooooooo   +ooooooooooooooooooo`  /ooooooooooooooooooo-.
+2013-12-05 16:06:06	--	- ..MMMMMmmmmmmMMMMMMMMM`  NMMMMNmmmmmNMMMMMMMM-  hMMMMMMMNmdddmMMMMMM/.
+2013-12-05 16:06:06	--	- ..MMMMM- `..` :dMMMMMM`  NMMMM/  ..` -yMMMMMM-  hMMMMd+. `.-.“-mMMM/.
+2013-12-05 16:06:06	--	- ..MMMMM- +MMM/ `MMMMMM`  NMMMM/ -MMMo  NMMMMM-  hMMM/ `smMMMMMmymMMM/.
+2013-12-05 16:06:06	--	- ..MMMMM- :yyo“ sMMMMMM`  NMMMM/ .yyo.`+MMMMMM-  hMMo `mMMMMMMMMMMMMM/.
+2013-12-05 16:06:06	--	- ..MMMMM- .:::-`:hMMMMM`  NMMMM/ `:::-`-yMMMMM-  hMM/ .MMMMMMMMMMMMMM/.
+2013-12-05 16:06:06	--	- ..MMMMM- +MMMMy  mMMMM`  NMMMM/ -MMMMd  hMMMM-  hMMd` oNMMMMMMMMNMMM/.
+2013-12-05 16:06:06	--	- ..MMMMM- -sso+` :MMMMM`  NMMMM/ .sss+. .NMMMM-  hMMMm/ `/osys+:`yMMM/.
+2013-12-05 16:06:06	--	- ..MMMMMo+++++osdMMMMMM`  NMMMMy++++++sdMMMMMM-  hMMMMMNyo////+shNMMM/.
+2013-12-05 16:06:06	--	- .`NNNNNNNNNNNNNNNNNNNm   mNNNNNNNNNNNNNNNNNNN-  yNNNNNNNNNNNNNNNNNNN/.
+2013-12-05 16:06:06	--	-
+2013-12-05 16:06:06	--	- As a courtesy to other users, please identify yourselves. It's OK to use
+2013-12-05 16:06:06	--	- a short name, but please give your real name in the WHOIS info To do
+2013-12-05 16:06:06	--	- this in cz, it's: Chatzilla > Preferences > Global Settings > General
+2013-12-05 16:06:06	--	- > Description. Many people seem to be named "New Now Know How"
+2013-12-05 16:06:06	--	-
+2013-12-05 16:06:06	--	-
+2013-12-05 16:06:06	--	End of message of the day.
+2013-12-05 16:06:06	--	There are 103 users and 175 invisible on 2 servers
+2013-12-05 16:06:06	--	173 :channels formed
+2013-12-05 16:06:06	--	I have 136 clients and 1 servers
+2013-12-05 16:06:06	--	Current Local Users: 136  Max: 150
+2013-12-05 16:06:06	--	Current Global Users: 278  Max: 293
+2013-12-05 16:06:06	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): Setting your virtual host: SSL
+2013-12-05 16:06:06	--	SSL :is now your displayed host
+2013-12-05 16:06:10	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #news - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/news/log.html to see the most recent conversation.
+2013-12-05 16:06:14	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #frameworks - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/frameworks/log.html to see the most recent conversation.
+2013-12-05 16:06:17	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #operations - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/operations/log.html to see the most recent conversation.
+2013-12-05 19:24:40	=!=	irc: reading data on socket: error -54 Error in the pull function.
+2013-12-05 19:24:40	--	irc: disconnecting from server...
+2013-12-05 19:24:40	--	irc: disconnected from server
+2013-12-05 19:24:40	--	irc: reconnecting to server in 10 seconds
+2013-12-05 19:24:50	--	irc: reconnecting to server...
+2013-12-05 19:24:50	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-05 19:24:50	=!=	irc: address "irc.dev.bbc.co.uk" not found
+2013-12-05 19:24:50	=!=	irc: error: nodename nor servname provided, or not known
+2013-12-05 19:24:50	--	irc: reconnecting to server in 20 seconds
+2013-12-06 08:46:48	--	irc: reconnecting to server...
+2013-12-06 08:46:48	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-06 08:46:48	=!=	irc: address "irc.dev.bbc.co.uk" not found
+2013-12-06 08:46:48	=!=	irc: error: nodename nor servname provided, or not known
+2013-12-06 08:46:48	--	irc: reconnecting to server in 40 seconds
+2013-12-06 08:47:28	--	irc: reconnecting to server...
+2013-12-06 08:47:28	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-06 08:47:28	=!=	irc: address "irc.dev.bbc.co.uk" not found
+2013-12-06 08:47:28	=!=	irc: error: nodename nor servname provided, or not known
+2013-12-06 08:47:28	--	irc: reconnecting to server in 1 minutes, 20 seconds
+2013-12-06 08:48:48	--	irc: reconnecting to server...
+2013-12-06 08:48:48	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-06 08:48:48	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-06 08:48:48	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-06 08:48:48	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-06 08:48:48	--	gnutls: receiving 4 certificates
+2013-12-06 08:48:48	--	 - certificate[1] info:
+2013-12-06 08:48:48	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-06 08:48:48	--	 - certificate[2] info:
+2013-12-06 08:48:48	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-06 08:48:48	--	 - certificate[3] info:
+2013-12-06 08:48:48	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-06 08:48:48	--	 - certificate[4] info:
+2013-12-06 08:48:48	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-06 08:48:48	--	gnutls: sending one certificate
+2013-12-06 08:48:48	--	 - client certificate info (/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/certificate.pem):
+2013-12-06 08:48:48	--	  - subject `EMAIL=Mark.McDonnell@bbc.co.uk,CN=Mark McDonnell,OU=BBC - News And Knowledge,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Staff CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-01-07 12:54:44 UTC', expires `2014-01-07 12:54:44 UTC', SHA-1 fingerprint `f7b525b2ae63b7c2a5c4e49933899c76e9546c00'
+2013-12-06 08:48:48	--	irc: connected to irc.dev.bbc.co.uk/6697 (212.58.247.163)
+2013-12-06 08:48:48	--	irc001.back.mgmt.cwwtf.local (irc001.back.mgmt.cwwtf.local): *** Looking up your hostname...
+2013-12-06 08:48:48	--	irc001.back.mgmt.cwwtf.local (irc001.back.mgmt.cwwtf.local): *** Found your hostname (localhost) -- cached
+2013-12-06 08:48:49	--	irc001.back.mgmt.cwwtf.local (irc001.back.mgmt.cwwtf.local): Welcome to BBC!
+2013-12-06 08:48:49	--	Welcome to the BBC IRC Network Integralist!Integralist@localhost
+2013-12-06 08:48:49	--	Your host is irc001.back.mgmt.cwwtf.local, running version InspIRCd-2.0
+2013-12-06 08:48:49	--	This server was created 17:13:42 Jan 23 2012
+2013-12-06 08:48:49	--	irc001.back.mgmt.cwwtf.local InspIRCd-2.0 HIiosw ABHKLPXYbiklmnopstvy HLXYbklovy
+2013-12-06 08:48:49	--	AWAYLEN=201 CASEMAPPING=rfc1459 CHANMODES=XYb,k,HLl,ABKPimnpst CHANTYPES=# CHARSET=ascii ELIST=MU EXTBAN=,AB FNC KICKLEN=256 MAP MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 :are supported by this server
+2013-12-06 08:48:49	--	MAXTARGETS=20 MODES=20 NETWORK=BBC NICKLEN=32 OPERLOG OVERRIDE PREFIX=(yov)!@+ STATUSMSG=!@+ TOPICLEN=1025 VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2013-12-06 08:48:49	--	054AAD38U :your unique ID
+2013-12-06 08:48:49	--	irc001.back.mgmt.cwwtf.local message of the day
+2013-12-06 08:48:49	--	-
+2013-12-06 08:48:49	--	- .`oooooooooooooooooooo   +ooooooooooooooooooo`  /ooooooooooooooooooo-.
+2013-12-06 08:48:49	--	- ..MMMMMmmmmmmMMMMMMMMM`  NMMMMNmmmmmNMMMMMMMM-  hMMMMMMMNmdddmMMMMMM/.
+2013-12-06 08:48:49	--	- ..MMMMM- `..` :dMMMMMM`  NMMMM/  ..` -yMMMMMM-  hMMMMd+. `.-.“-mMMM/.
+2013-12-06 08:48:49	--	- ..MMMMM- +MMM/ `MMMMMM`  NMMMM/ -MMMo  NMMMMM-  hMMM/ `smMMMMMmymMMM/.
+2013-12-06 08:48:49	--	- ..MMMMM- :yyo“ sMMMMMM`  NMMMM/ .yyo.`+MMMMMM-  hMMo `mMMMMMMMMMMMMM/.
+2013-12-06 08:48:49	--	- ..MMMMM- .:::-`:hMMMMM`  NMMMM/ `:::-`-yMMMMM-  hMM/ .MMMMMMMMMMMMMM/.
+2013-12-06 08:48:49	--	- ..MMMMM- +MMMMy  mMMMM`  NMMMM/ -MMMMd  hMMMM-  hMMd` oNMMMMMMMMNMMM/.
+2013-12-06 08:48:49	--	- ..MMMMM- -sso+` :MMMMM`  NMMMM/ .sss+. .NMMMM-  hMMMm/ `/osys+:`yMMM/.
+2013-12-06 08:48:49	--	- ..MMMMMo+++++osdMMMMMM`  NMMMMy++++++sdMMMMMM-  hMMMMMNyo////+shNMMM/.
+2013-12-06 08:48:49	--	- .`NNNNNNNNNNNNNNNNNNNm   mNNNNNNNNNNNNNNNNNNN-  yNNNNNNNNNNNNNNNNNNN/.
+2013-12-06 08:48:49	--	-
+2013-12-06 08:48:49	--	- As a courtesy to other users, please identify yourselves. It's OK to use
+2013-12-06 08:48:49	--	- a short name, but please give your real name in the WHOIS info To do
+2013-12-06 08:48:49	--	- this in cz, it's: Chatzilla > Preferences > Global Settings > General
+2013-12-06 08:48:49	--	- > Description. Many people seem to be named "New Now Know How"
+2013-12-06 08:48:49	--	-
+2013-12-06 08:48:49	--	-
+2013-12-06 08:48:49	--	End of message of the day.
+2013-12-06 08:48:49	--	There are 49 users and 59 invisible on 2 servers
+2013-12-06 08:48:49	--	135 :channels formed
+2013-12-06 08:48:49	--	I have 74 clients and 1 servers
+2013-12-06 08:48:49	--	Current Local Users: 74  Max: 249
+2013-12-06 08:48:49	--	Current Global Users: 108  Max: 298
+2013-12-06 08:48:49	--	irc001.back.mgmt.cwwtf.local (irc001.back.mgmt.cwwtf.local): Setting your virtual host: SSL
+2013-12-06 08:48:49	--	SSL :is now your displayed host
+2013-12-06 08:48:49	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #news - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/news/log.html to see the most recent conversation.
+2013-12-06 08:48:51	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #frameworks - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/frameworks/log.html to see the most recent conversation.
+2013-12-06 08:48:53	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #operations - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/operations/log.html to see the most recent conversation.
+2013-12-06 09:24:18	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-06 09:24:18	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-06 09:24:18	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-06 09:24:18	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-06 09:24:18	--	gnutls: receiving 4 certificates
+2013-12-06 09:24:18	--	 - certificate[1] info:
+2013-12-06 09:24:18	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-06 09:24:18	--	 - certificate[2] info:
+2013-12-06 09:24:18	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-06 09:24:18	--	 - certificate[3] info:
+2013-12-06 09:24:18	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-06 09:24:18	--	 - certificate[4] info:
+2013-12-06 09:24:18	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-06 09:24:18	--	gnutls: sending one certificate
+2013-12-06 09:24:18	--	 - client certificate info (/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/certificate.pem):
+2013-12-06 09:24:18	--	  - subject `EMAIL=Mark.McDonnell@bbc.co.uk,CN=Mark McDonnell,OU=BBC - News And Knowledge,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Staff CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-01-07 12:54:44 UTC', expires `2014-01-07 12:54:44 UTC', SHA-1 fingerprint `f7b525b2ae63b7c2a5c4e49933899c76e9546c00'
+2013-12-06 09:24:18	--	irc: connected to irc.dev.bbc.co.uk/6697 (212.58.245.163)
+2013-12-06 09:24:18	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): *** Looking up your hostname...
+2013-12-06 09:24:18	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): *** Found your hostname (localhost) -- cached
+2013-12-06 09:24:19	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): Welcome to BBC!
+2013-12-06 09:24:19	--	Welcome to the BBC IRC Network Integralist!Integralist@localhost
+2013-12-06 09:24:19	--	Your host is irc101.back.mgmt.telhc.local, running version InspIRCd-2.0
+2013-12-06 09:24:19	--	This server was created 17:13:42 Jan 23 2012
+2013-12-06 09:24:19	--	irc101.back.mgmt.telhc.local InspIRCd-2.0 HIiosw ABHKLPXYbiklmnopstvy HLXYbklovy
+2013-12-06 09:24:19	--	AWAYLEN=201 CASEMAPPING=rfc1459 CHANMODES=XYb,k,HLl,ABKPimnpst CHANTYPES=# CHARSET=ascii ELIST=MU EXTBAN=,AB FNC KICKLEN=256 MAP MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 :are supported by this server
+2013-12-06 09:24:19	--	MAXTARGETS=20 MODES=20 NETWORK=BBC NICKLEN=32 OPERLOG OVERRIDE PREFIX=(yov)!@+ STATUSMSG=!@+ TOPICLEN=1025 VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2013-12-06 09:24:19	--	445AAA2CU :your unique ID
+2013-12-06 09:24:19	--	irc101.back.mgmt.telhc.local message of the day
+2013-12-06 09:24:19	--	-
+2013-12-06 09:24:19	--	- .`oooooooooooooooooooo   +ooooooooooooooooooo`  /ooooooooooooooooooo-.
+2013-12-06 09:24:19	--	- ..MMMMMmmmmmmMMMMMMMMM`  NMMMMNmmmmmNMMMMMMMM-  hMMMMMMMNmdddmMMMMMM/.
+2013-12-06 09:24:19	--	- ..MMMMM- `..` :dMMMMMM`  NMMMM/  ..` -yMMMMMM-  hMMMMd+. `.-.“-mMMM/.
+2013-12-06 09:24:19	--	- ..MMMMM- +MMM/ `MMMMMM`  NMMMM/ -MMMo  NMMMMM-  hMMM/ `smMMMMMmymMMM/.
+2013-12-06 09:24:19	--	- ..MMMMM- :yyo“ sMMMMMM`  NMMMM/ .yyo.`+MMMMMM-  hMMo `mMMMMMMMMMMMMM/.
+2013-12-06 09:24:19	--	- ..MMMMM- .:::-`:hMMMMM`  NMMMM/ `:::-`-yMMMMM-  hMM/ .MMMMMMMMMMMMMM/.
+2013-12-06 09:24:19	--	- ..MMMMM- +MMMMy  mMMMM`  NMMMM/ -MMMMd  hMMMM-  hMMd` oNMMMMMMMMNMMM/.
+2013-12-06 09:24:19	--	- ..MMMMM- -sso+` :MMMMM`  NMMMM/ .sss+. .NMMMM-  hMMMm/ `/osys+:`yMMM/.
+2013-12-06 09:24:19	--	- ..MMMMMo+++++osdMMMMMM`  NMMMMy++++++sdMMMMMM-  hMMMMMNyo////+shNMMM/.
+2013-12-06 09:24:19	--	- .`NNNNNNNNNNNNNNNNNNNm   mNNNNNNNNNNNNNNNNNNN-  yNNNNNNNNNNNNNNNNNNN/.
+2013-12-06 09:24:19	--	-
+2013-12-06 09:24:19	--	- As a courtesy to other users, please identify yourselves. It's OK to use
+2013-12-06 09:24:19	--	- a short name, but please give your real name in the WHOIS info To do
+2013-12-06 09:24:19	--	- this in cz, it's: Chatzilla > Preferences > Global Settings > General
+2013-12-06 09:24:19	--	- > Description. Many people seem to be named "New Now Know How"
+2013-12-06 09:24:19	--	-
+2013-12-06 09:24:19	--	-
+2013-12-06 09:24:19	--	End of message of the day.
+2013-12-06 09:24:19	--	There are 66 users and 77 invisible on 2 servers
+2013-12-06 09:24:19	--	139 :channels formed
+2013-12-06 09:24:19	--	I have 56 clients and 1 servers
+2013-12-06 09:24:19	--	Current Local Users: 56  Max: 150
+2013-12-06 09:24:19	--	Current Global Users: 143  Max: 293
+2013-12-06 09:24:19	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): Setting your virtual host: SSL
+2013-12-06 09:24:19	--	SSL :is now your displayed host
+2013-12-06 09:24:19	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #news - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/news/log.html to see the most recent conversation.
+2013-12-06 09:24:19	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #frameworks - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/frameworks/log.html to see the most recent conversation.
+2013-12-06 09:24:19	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #operations - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/operations/log.html to see the most recent conversation.
+2013-12-06 09:47:37	--	irc: connecting to server irc.dev.bbc.co.uk/6697 (SSL)...
+2013-12-06 09:47:37	--	gnutls: connected using 2048-bit Diffie-Hellman shared secret exchange
+2013-12-06 09:47:37	=!=	gnutls: peer's certificate is NOT trusted
+2013-12-06 09:47:37	=!=	gnutls: peer's certificate issuer is unknown
+2013-12-06 09:47:37	--	gnutls: receiving 4 certificates
+2013-12-06 09:47:37	--	 - certificate[1] info:
+2013-12-06 09:47:37	--	   - subject `EMAIL=FMTForgeAdmins@bbc.co.uk,CN=irc.dev.bbc.co.uk,OU=Greenhouse Server,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', RSA key 1024 bits, signed using RSA-SHA1, activated `2012-06-25 14:21:26 UTC', expires `2014-06-15 14:21:26 UTC', SHA-1 fingerprint `e86c91eb52611020168fd3fa30775e2167f71dc5'
+2013-12-06 09:47:37	--	 - certificate[2] info:
+2013-12-06 09:47:37	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Servers and Services CA', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:47:02 UTC', expires `2018-07-20 11:47:02 UTC', SHA-1 fingerprint `3dd60cc5f8a9ae5dc644b35170b6a542ec32f7c1'
+2013-12-06 09:47:37	--	 - certificate[3] info:
+2013-12-06 09:47:37	--	   - subject `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC FMT Greenhouse - Development', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-SHA1, activated `2008-07-22 11:12:58 UTC', expires `2018-07-20 11:12:58 UTC', SHA-1 fingerprint `18732727d288ce1f892e546f03e00cb5f31f5810'
+2013-12-06 09:47:37	--	 - certificate[4] info:
+2013-12-06 09:47:37	--	   - subject `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', issuer `CN=BBC FMT Greenhouse - Root,OU=FMT Greenhouse,O=British Broadcasting Corporation,L=London,C=GB', RSA key 2048 bits, signed using RSA-MD5 (broken!), activated `2008-07-22 11:12:55 UTC', expires `2028-07-17 11:12:55 UTC', SHA-1 fingerprint `b8bc9a18c1b5ca0846b831eae29c7c258a94739c'
+2013-12-06 09:47:37	--	gnutls: sending one certificate
+2013-12-06 09:47:37	--	 - client certificate info (/Users/markmcdonnell/Google Drive/Dropbox/Work/BBC/Certificates/certificate.pem):
+2013-12-06 09:47:37	--	  - subject `EMAIL=Mark.McDonnell@bbc.co.uk,CN=Mark McDonnell,OU=BBC - News And Knowledge,O=British Broadcasting Corporation,L=London,C=GB', issuer `C=GB,L=London,O=British Broadcasting Corporation,OU=FMT Greenhouse,CN=BBC Greenhouse Development Staff CA', RSA key 2048 bits, signed using RSA-SHA1, activated `2013-01-07 12:54:44 UTC', expires `2014-01-07 12:54:44 UTC', SHA-1 fingerprint `f7b525b2ae63b7c2a5c4e49933899c76e9546c00'
+2013-12-06 09:47:37	--	irc: connected to irc.dev.bbc.co.uk/6697 (212.58.245.163)
+2013-12-06 09:47:37	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): *** Looking up your hostname...
+2013-12-06 09:47:37	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): *** Found your hostname (localhost) -- cached
+2013-12-06 09:47:38	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): Welcome to BBC!
+2013-12-06 09:47:38	--	Welcome to the BBC IRC Network Integralist!Integralist@localhost
+2013-12-06 09:47:38	--	Your host is irc101.back.mgmt.telhc.local, running version InspIRCd-2.0
+2013-12-06 09:47:38	--	This server was created 17:13:42 Jan 23 2012
+2013-12-06 09:47:38	--	irc101.back.mgmt.telhc.local InspIRCd-2.0 HIiosw ABHKLPXYbiklmnopstvy HLXYbklovy
+2013-12-06 09:47:38	--	AWAYLEN=201 CASEMAPPING=rfc1459 CHANMODES=XYb,k,HLl,ABKPimnpst CHANTYPES=# CHARSET=ascii ELIST=MU EXTBAN=,AB FNC KICKLEN=256 MAP MAXBANS=60 MAXCHANNELS=100 MAXPARA=32 :are supported by this server
+2013-12-06 09:47:38	--	MAXTARGETS=20 MODES=20 NETWORK=BBC NICKLEN=32 OPERLOG OVERRIDE PREFIX=(yov)!@+ STATUSMSG=!@+ TOPICLEN=1025 VBANLIST WALLCHOPS WALLVOICES :are supported by this server
+2013-12-06 09:47:38	--	445AAA2E8 :your unique ID
+2013-12-06 09:47:38	--	irc101.back.mgmt.telhc.local message of the day
+2013-12-06 09:47:38	--	-
+2013-12-06 09:47:38	--	- .`oooooooooooooooooooo   +ooooooooooooooooooo`  /ooooooooooooooooooo-.
+2013-12-06 09:47:38	--	- ..MMMMMmmmmmmMMMMMMMMM`  NMMMMNmmmmmNMMMMMMMM-  hMMMMMMMNmdddmMMMMMM/.
+2013-12-06 09:47:38	--	- ..MMMMM- `..` :dMMMMMM`  NMMMM/  ..` -yMMMMMM-  hMMMMd+. `.-.“-mMMM/.
+2013-12-06 09:47:38	--	- ..MMMMM- +MMM/ `MMMMMM`  NMMMM/ -MMMo  NMMMMM-  hMMM/ `smMMMMMmymMMM/.
+2013-12-06 09:47:38	--	- ..MMMMM- :yyo“ sMMMMMM`  NMMMM/ .yyo.`+MMMMMM-  hMMo `mMMMMMMMMMMMMM/.
+2013-12-06 09:47:38	--	- ..MMMMM- .:::-`:hMMMMM`  NMMMM/ `:::-`-yMMMMM-  hMM/ .MMMMMMMMMMMMMM/.
+2013-12-06 09:47:38	--	- ..MMMMM- +MMMMy  mMMMM`  NMMMM/ -MMMMd  hMMMM-  hMMd` oNMMMMMMMMNMMM/.
+2013-12-06 09:47:38	--	- ..MMMMM- -sso+` :MMMMM`  NMMMM/ .sss+. .NMMMM-  hMMMm/ `/osys+:`yMMM/.
+2013-12-06 09:47:38	--	- ..MMMMMo+++++osdMMMMMM`  NMMMMy++++++sdMMMMMM-  hMMMMMNyo////+shNMMM/.
+2013-12-06 09:47:38	--	- .`NNNNNNNNNNNNNNNNNNNm   mNNNNNNNNNNNNNNNNNNN-  yNNNNNNNNNNNNNNNNNNN/.
+2013-12-06 09:47:38	--	-
+2013-12-06 09:47:38	--	- As a courtesy to other users, please identify yourselves. It's OK to use
+2013-12-06 09:47:38	--	- a short name, but please give your real name in the WHOIS info To do
+2013-12-06 09:47:38	--	- this in cz, it's: Chatzilla > Preferences > Global Settings > General
+2013-12-06 09:47:38	--	- > Description. Many people seem to be named "New Now Know How"
+2013-12-06 09:47:38	--	-
+2013-12-06 09:47:38	--	-
+2013-12-06 09:47:38	--	End of message of the day.
+2013-12-06 09:47:38	--	There are 82 users and 95 invisible on 2 servers
+2013-12-06 09:47:38	--	146 :channels formed
+2013-12-06 09:47:38	--	I have 70 clients and 1 servers
+2013-12-06 09:47:38	--	Current Local Users: 70  Max: 150
+2013-12-06 09:47:38	--	Current Global Users: 177  Max: 293
+2013-12-06 09:47:38	--	irc101.back.mgmt.telhc.local (irc101.back.mgmt.telhc.local): Setting your virtual host: SSL
+2013-12-06 09:47:38	--	SSL :is now your displayed host
+2013-12-06 09:47:38	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #news - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/news/log.html to see the most recent conversation.
+2013-12-06 09:47:38	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #frameworks - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/frameworks/log.html to see the most recent conversation.
+2013-12-06 09:47:38	--	LogBot (logbot@SSL): Integralist!Integralist@SSL: Note that logging is enabled on this channel, #operations - consult https://server2.incubator.bbc.co.uk:1443/bots/logbot/operations/log.html to see the most recent conversation.

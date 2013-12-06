@@ -62,3 +62,437 @@
 2013-12-05 10:20:45	<--	jcleveley (jcleveley@SSL) has quit (Connection closed)
 2013-12-05 10:21:06	-->	jcleveley (jcleveley@SSL) has joined #frameworks
 2013-12-05 10:21:32	-->	brownt31 (chatzilla@SSL) has joined #frameworks
+2013-12-05 10:27:04	-->	Integralist (Integralist@SSL) has joined #frameworks
+2013-12-05 10:27:04	--	Topic for #frameworks is "Welcome to #frameworks, home of Barlesque, PAL, Zend, Varnish and others. If you have a problem please ask for ?eagles in the channel."
+2013-12-05 10:27:04	--	Topic set by nevali on Tue, 05 Nov 2013 15:50:29
+2013-12-05 10:27:04	--	Nicks #frameworks: [adriandaigle-livesite AdrianThomson ajk AlexH alistair Andrew_Hutson AndrewW AndrewWalsh Andy_Hillel andyf AndyH azizur b3cft bard BrettScott brownt31 charlie ChrisP darrenlucas Dieter Dip edmund Eduardo_Power Faux fedeB Fod fordn01 gaz gemma GeoffAdams Gilbert glen Graeme Integralist jak James James-G james-loadtest_salford james_skinner James_SportLive jameshd JasonW jcleveley johnson Kapil kenny Lalkhum LogBot Luke Luque MarkB MarkGledhill Mike_Suggitt MikeAtkins MikeChapman MikeT mosesa Muz_WoodNorton nevali njh OliVG overlord PaulClifford PaulL PaulTweedy Peter_Dudbridge Piyush Rachel-WFH Ralfas Ray RichardClose RichardE RichardN RichLees sam_french SebF stan Steve_B stevebakh StevenJack sthulb Stuart_Grist_BC5A3 StuartH StuartW Thom tian TimRoss Tom_OpenGames TomY TonyH tsipan01 yavor ZsoltK]
+2013-12-05 10:27:04	--	Channel #frameworks: 93 nicks (0 ops, 0 voices, 93 normals)
+2013-12-05 10:27:08	--	Mode #frameworks [+An]
+2013-12-05 10:27:08	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-05 10:27:15	<--	MikeAtkins (MikeAtkins@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 10:29:18	-->	gavin (jamesg04@SSL) has joined #frameworks
+2013-12-05 10:29:30	<--	RichardE (RichardE@SSL) has quit (Leaving.)
+2013-12-05 10:29:59	<--	SebF (Adium@SSL) has quit (Leaving.)
+2013-12-05 10:31:05	<--	StuartW (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 10:31:28	-->	BPScott (BPScott@SSL) has joined #frameworks
+2013-12-05 10:31:38	-->	RichardE (RichardE@SSL) has joined #frameworks
+2013-12-05 10:32:05	-->	SebF (Adium@SSL) has joined #frameworks
+2013-12-05 10:32:31	mosesa	?eagles does cosmos genesis take the location of a project.json file as a configurable perimeter?
+2013-12-05 10:32:31	overlord	Eagles: mosesa is looking for assistance /cc OliVG inad922 tsouk tsipan01 MarkGledhill Eduardo_Power
+2013-12-05 10:33:06	-->	Sula (SulaMckeown@SSL) has joined #frameworks
+2013-12-05 10:33:30	-->	StuartW (chatzilla@SSL) has joined #frameworks
+2013-12-05 10:33:31	--	JasonW is now known as JasonWH
+2013-12-05 10:33:55	<--	jcleveley (jcleveley@SSL) has quit (Connection closed)
+2013-12-05 10:34:16	-->	jcleveley (jcleveley@SSL) has joined #frameworks
+2013-12-05 10:34:57	<--	MikeT (MikeT@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 10:35:06	-->	Izas (Adium@SSL) has joined #frameworks
+2013-12-05 10:35:56	-->	MikeT (MikeT@SSL) has joined #frameworks
+2013-12-05 10:36:10	-->	mednam01 (chatzilla@SSL) has joined #frameworks
+2013-12-05 10:36:42	ChrisP	MarkB, https://jira.dev.bbc.co.uk/browse/OPS-103512
+2013-12-05 10:37:26	-->	Ben (chatzilla@SSL) has joined #frameworks
+2013-12-05 10:38:18	<--	jcleveley (jcleveley@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 10:40:20	MarkB	ChrisP: thanks
+2013-12-05 10:42:00	OliVG	mosesa: Not that I'm aware of. The project.json file should be located in the root directory of the project
+2013-12-05 10:42:10	-->	RobinM (anonymous@SSL) has joined #frameworks
+2013-12-05 10:42:18	-->	Richard (richard@SSL) has joined #frameworks
+2013-12-05 10:47:00	-->	Integralist (Integralist@SSL) has joined #frameworks
+2013-12-05 10:47:00	--	Topic for #frameworks is "Welcome to #frameworks, home of Barlesque, PAL, Zend, Varnish and others. If you have a problem please ask for ?eagles in the channel."
+2013-12-05 10:47:00	--	Topic set by nevali on Tue, 05 Nov 2013 15:50:29
+2013-12-05 10:47:00	--	Nicks #frameworks: [adriandaigle-livesite AdrianThomson ajk AlexH alistair Andrew_Hutson AndrewW AndrewWalsh Andy_Hillel andyf AndyH azizur b3cft bard Ben BPScott BrettScott brownt31 charlie ChrisP darrenlucas Dieter Dip edmund Eduardo_Power Faux fedeB Fod fordn01 gavin gaz gemma GeoffAdams Gilbert glen Graeme Integralist Izas jak James James-G james-loadtest_salford james_skinner James_SportLive jameshd JasonWH johnson Kapil kenny Lalkhum LogBot Luke Luque MarkB MarkGledhill mednam01 Mike_Suggitt MikeChapman MikeT mosesa Muz_WoodNorton nevali njh OliVG overlord PaulClifford PaulL PaulTweedy Peter_Dudbridge Piyush Rachel-WFH Ralfas Ray Richard RichardClose RichardE RichardN RichLees RobinM sam_french SebF stan Steve_B stevebakh StevenJack sthulb Stuart_Grist_BC5A3 StuartH StuartW Sula Thom tian TimRoss Tom_OpenGames TomY TonyH tsipan01 yavor ZsoltK]
+2013-12-05 10:47:00	--	Channel #frameworks: 99 nicks (0 ops, 0 voices, 99 normals)
+2013-12-05 10:47:04	--	Mode #frameworks [+An]
+2013-12-05 10:47:04	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-05 10:47:05	<--	Lalkhum (sangal01@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 10:47:29	<--	azizur (azizur@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 10:48:56	-->	Jops (chatzilla@SSL) has joined #frameworks
+2013-12-05 10:50:42	<--	TonyH (Loadtester@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-05 10:53:37	<--	James_SportLive (anonymous@SSL) has quit (Client exited)
+2013-12-05 10:55:02	-->	Phil (chatzilla@SSL) has joined #frameworks
+2013-12-05 10:55:32	-->	James_SportLive (anonymous@SSL) has joined #frameworks
+2013-12-05 10:56:16	<--	BrettScott (BrettScott___@SSL) has quit (Leaving)
+2013-12-05 10:56:38	-->	phillamond (chatzilla@SSL) has joined #frameworks
+2013-12-05 10:56:44	-->	BrettScott (BrettScott___@SSL) has joined #frameworks
+2013-12-05 10:57:01	-->	patrickcunningham (chatzilla@SSL) has joined #frameworks
+2013-12-05 10:57:19	-->	johns (chatzilla@SSL) has joined #frameworks
+2013-12-05 10:57:42	-->	StuartW_ (chatzilla@SSL) has joined #frameworks
+2013-12-05 10:58:05	<--	StuartW (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 10:58:05	--	StuartW_ is now known as StuartW
+2013-12-05 11:01:31	-->	ChrisN_KnowLearn (northc08@SSL) has joined #frameworks
+2013-12-05 11:01:38	<--	ChrisP (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 11:01:49	<--	RichardE (RichardE@SSL) has quit (Leaving.)
+2013-12-05 11:02:14	<--	James_SportLive (anonymous@SSL) has quit (Client exited)
+2013-12-05 11:02:17	<--	MikeT (MikeT@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 11:02:41	<--	James (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 11:02:47	-->	James_SportLive (anonymous@SSL) has joined #frameworks
+2013-12-05 11:02:50	<--	James_SportLive (anonymous@SSL) has quit (Client exited)
+2013-12-05 11:03:02	-->	MikeT (MikeT@SSL) has joined #frameworks
+2013-12-05 11:03:26	-->	James_SportLive (anonymous@SSL) has joined #frameworks
+2013-12-05 11:03:44	<--	phillamond (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 11:05:08	-->	gemma_ (gemma@SSL) has joined #frameworks
+2013-12-05 11:05:40	-->	azizur (azizur@SSL) has joined #frameworks
+2013-12-05 11:06:29	<--	gemma (gemma@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 11:07:22	-->	dineshraj (dineshraj@SSL) has joined #frameworks
+2013-12-05 11:07:36	<--	OliVG (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 11:10:23	<--	TomY (yandet01@SSL) has quit (This computer has gone to sleep)
+2013-12-05 11:10:38	-->	phillamond (chatzilla@SSL) has joined #frameworks
+2013-12-05 11:11:49	-->	ravi (chatzilla@SSL) has joined #frameworks
+2013-12-05 11:12:28	-->	OliVG (chatzilla@SSL) has joined #frameworks
+2013-12-05 11:13:02	-->	TomY (yandet01@SSL) has joined #frameworks
+2013-12-05 11:13:27	kenny	?eagles can anyone tell me what happens to my logs for a cosmos deployed app if I set a custom_log_locations in the project.json?
+2013-12-05 11:13:27	overlord	Eagles: kenny is looking for assistance /cc OliVG inad922 tsouk tsipan01 MarkGledhill Eduardo_Power
+2013-12-05 11:13:42	<--	azizur (azizur@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 11:15:03	<--	Sula (SulaMckeown@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 11:15:35	-->	TimRoss_ (TimRoss@SSL) has joined #frameworks
+2013-12-05 11:15:40	-->	ChrisP (chatzilla@SSL) has joined #frameworks
+2013-12-05 11:15:45	-->	azizur (azizur@SSL) has joined #frameworks
+2013-12-05 11:15:53	-->	DJ (clackd01@SSL) has joined #frameworks
+2013-12-05 11:16:33	<--	TimRoss (TimRoss@SSL) has quit (Connection closed)
+2013-12-05 11:16:51	--	TimRoss_ is now known as TimRoss
+2013-12-05 11:17:18	-->	James (chatzilla@SSL) has joined #frameworks
+2013-12-05 11:17:36	<--	TomY (yandet01@SSL) has quit (This computer has gone to sleep)
+2013-12-05 11:19:09	-->	TomY (yandet01@SSL) has joined #frameworks
+2013-12-05 11:19:47	kenny	strike that, should have rtfm: https://confluence.dev.bbc.co.uk/display/platform/Logging+for+your+service
+2013-12-05 11:20:32	<--	TomY (yandet01@SSL) has quit (This computer has gone to sleep)
+2013-12-05 11:21:00	-->	TomY (yandet01@SSL) has joined #frameworks
+2013-12-05 11:21:45	-->	Will-Perkins (chatzilla@SSL) has joined #frameworks
+2013-12-05 11:22:03	<--	dineshraj (dineshraj@SSL) has quit (Connection closed)
+2013-12-05 11:22:50	<--	glen (birnig01@SSL) has quit (Client exited)
+2013-12-05 11:24:03	azizur	Hello
+2013-12-05 11:24:27	azizur	Can somoene tell me how I can specify the theme config for ORB XML webservice?
+2013-12-05 11:25:17	azizur	http://www.live.bbc.co.uk/frameworks/barlesque/webservice.xml?blq_version=4&blq_footer_colour=transparent does not work
+2013-12-05 11:25:43	-->	RichardE (RichardE@SSL) has joined #frameworks
+2013-12-05 11:25:48	<--	RichardClose (closer01@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 11:26:01	azizur	We require this configuration: http://www.live.bbc.co.uk/frameworks/barlesque/webservice.xml?blq_version=4&blq_masthead_background=white&blq_footer_colour=transparent&blq_footer_text_colour=dark
+2013-12-05 11:28:18	-->	gemma (gemma@SSL) has joined #frameworks
+2013-12-05 11:29:18	<--	gemma_ (gemma@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 11:30:03	-->	inad922 (inad922@SSL) has joined #frameworks
+2013-12-05 11:30:25	-->	RichardClose (closer01@SSL) has joined #frameworks
+2013-12-05 11:32:53	<--	James (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 11:35:06	<--	StuartW (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 11:35:36	-->	James (chatzilla@SSL) has joined #frameworks
+2013-12-05 11:36:29	<--	SebF (Adium@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 11:36:56	<--	TomY (yandet01@SSL) has quit (This computer has gone to sleep)
+2013-12-05 11:37:02	-->	StuartW (chatzilla@SSL) has joined #frameworks
+2013-12-05 11:37:50	-->	Magnus (Magnus@SSL) has joined #frameworks
+2013-12-05 11:39:16	<--	ravi (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 11:40:30	-->	Tom_Maslen__London (chatzilla@SSL) has joined #frameworks
+2013-12-05 11:40:58	Tom_Maslen__London	?eagles can you help me get the file /etc/bbc/authorisation/indepthtoolkitadmin.txt created on all environments?
+2013-12-05 11:40:58	overlord	Eagles: Tom_Maslen__London is looking for assistance /cc OliVG inad922 tsouk tsipan01 MarkGledhill Eduardo_Power
+2013-12-05 11:41:11	Tom_Maslen__London	I think this is a platform services job?
+2013-12-05 11:41:17	<--	inad922 (inad922@SSL) has quit (Connection closed)
+2013-12-05 11:41:40	James-G	Tom_Maslen__London: it'll be livesite I imagine, since it'll probably get pushed out via puppet
+2013-12-05 11:42:17	Tom_Maslen__London	which room do they live in, operations?
+2013-12-05 11:42:47	James-G	ask in #operations for someone from livesite.
+2013-12-05 11:42:57	Tom_Maslen__London	thanks James-G
+2013-12-05 11:43:35	<--	MikeT (MikeT@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 11:44:07	-->	TomY (yandet01@SSL) has joined #frameworks
+2013-12-05 11:45:05	-->	MikeT (MikeT@SSL) has joined #frameworks
+2013-12-05 11:45:19	<--	Andy_Hillel (AndyHillel@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 11:46:14	azizur	?eagles We require this configuration: http://www.live.bbc.co.uk/frameworks/barlesque/webservice.xml?blq_version=4&blq_masthead_background=white&blq_footer_colour=transparent&blq_footer_text_colour=dark
+2013-12-05 11:46:14	overlord	Eagles: azizur is looking for assistance /cc OliVG inad922 tsouk tsipan01 MarkGledhill Eduardo_Power
+2013-12-05 11:46:15	-->	Andy_Hillel (AndyHillel@SSL) has joined #frameworks
+2013-12-05 11:46:49	<--	StevenJack (StevenJack@SSL) has left #frameworks
+2013-12-05 13:14:51	-->	Integralist (Integralist@SSL) has joined #frameworks
+2013-12-05 13:14:51	--	Topic for #frameworks is "Welcome to #frameworks, home of Barlesque, PAL, Zend, Varnish and others. If you have a problem please ask for ?eagles in the channel."
+2013-12-05 13:14:51	--	Topic set by nevali on Tue, 05 Nov 2013 15:50:29
+2013-12-05 13:14:51	--	Nicks #frameworks: [adriandaigle-livesite AdrianThomson ajk AlexH alistair Andrew_Hutson AndrewW AndrewWalsh Andy_Hillel andyf b3cft bard Ben BPScott BrettScott charlie ChrisN_KnowLearn ChrisP darrenlucas Dieter Dip DJ edmund Eduardo_Power Faux fedeB Fod fordn01 gavin gaz gemma GeoffAdams Gilbert glen Graeme inad922 Integralist jak James James-G james_skinner James_SportLive JasonWH jcleveley JohnK_247 johns johnson Jops LogBot Luke Luque Magnus MarkB MarkGledhill mednam01 Mike_Suggitt MikeAtkins MikeChapman MikeT mosesa Muz_WoodNorton nevali njh OliVG overlord PaulClifford PaulTweedy Peter_Dudbridge Phil phillamond Rachel Ray RichardClose RichardE RichardN RichLees sam_french SebF stan Steve_B stevebakh sthulb Stuart_Grist_BC5A3 StuartH StuartW Sula Thom tian TimRoss Tom_Maslen__London Tom_OpenGames tomkershaw TonyH tsipan01 tsouk victoria_monitoring-wfh Will-Perkins yavor ZsoltK]
+2013-12-05 13:14:51	--	Channel #frameworks: 99 nicks (0 ops, 0 voices, 99 normals)
+2013-12-05 13:14:55	--	Mode #frameworks [+An]
+2013-12-05 13:14:55	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-05 14:51:11	-->	Integralist (Integralist@SSL) has joined #frameworks
+2013-12-05 14:51:11	--	Topic for #frameworks is "Welcome to #frameworks, home of Barlesque, PAL, Zend, Varnish and others. If you have a problem please ask for ?eagles in the channel."
+2013-12-05 14:51:11	--	Topic set by nevali on Tue, 05 Nov 2013 15:50:29
+2013-12-05 14:51:11	--	Nicks #frameworks: [AdamE_CBeebies_OnLunch AdrianThomson ajk AlexH alistair Andrew_Hutson AndrewW AndrewWalsh andyf azizur b3cft bard Ben BPScott BrettScott charlie clair darrenlucas Dieter Dip DJ edmund Eduardo_Power Faux fedeB Fod fordn01 gaz GeoffAdams Gilbert glen glen_laptop Graeme inad922 Integralist jak James James-G james-loadtest_salford james_skinner James_SportLive jameshd JasonWH JohnK_247 johns johnson Kapil LogBot Luke Luque Magnus MarkB matatat mednam01 Mike_Suggitt MikeChapman mosesa Muz_WoodNorton nevali njh OliVG overlord PaulClifford PaulL PaulTweedy Peter_Dudbridge Phil Rachel Ralfas Ray Richard RichardClose RichardE RichardN RichLees RobinM sam_french SebF stan Steve_B stevebakh StevenJack sthulb Stuart_Grist_BC5A3 StuartH StuartW Sula Thom tian TimRoss Tom_Maslen__London Tom_OpenGames tomkershaw TonyH tsipan01 tsouk umesh victoria_monitoring-wfh-NOTHERE Will-Perkins yavor ZsoltK]
+2013-12-05 14:51:11	--	Channel #frameworks: 101 nicks (0 ops, 0 voices, 101 normals)
+2013-12-05 14:51:15	--	Mode #frameworks [+An]
+2013-12-05 14:51:15	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-05 14:51:18	<--	glen (birnig01@SSL) has quit (Client exited)
+2013-12-05 14:53:02	-->	kenny (kenny@SSL) has joined #frameworks
+2013-12-05 14:53:02	-->	patrickcunningham (chatzilla@SSL) has joined #frameworks
+2013-12-05 14:54:42	-->	ChrisP (chatzilla@SSL) has joined #frameworks
+2013-12-05 14:54:55	-->	glen (birnig01@SSL) has joined #frameworks
+2013-12-05 14:55:14	-->	TomY (yandet01@SSL) has joined #frameworks
+2013-12-05 14:55:39	<--	SebF (Adium@SSL) has quit (Leaving.)
+2013-12-05 14:57:26	-->	SebF (Adium@SSL) has joined #frameworks
+2013-12-05 15:01:51	<--	RichLees (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 15:02:30	<--	Steve_B (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 15:02:59	-->	gavin (jamesg04@SSL) has joined #frameworks
+2013-12-05 15:03:26	<--	patrickcunningham (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 15:04:35	<--	Gilbert (Gilbert@SSL) has quit (Leaving)
+2013-12-05 15:05:54	<--	Ralfas (jegorr01@SSL) has quit (This computer has gone to sleep)
+2013-12-05 15:11:22	<--	Magnus (Magnus@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 15:12:25	-->	patrickcunningham (chatzilla@SSL) has joined #frameworks
+2013-12-05 15:12:44	<--	SebF (Adium@SSL) has quit (Leaving.)
+2013-12-05 15:43:23	--	irc: disconnected from server
+2013-12-05 15:43:36	-->	Integralist (Integralist@SSL) has joined #frameworks
+2013-12-05 15:43:36	--	Topic for #frameworks is "Welcome to #frameworks, home of Barlesque, PAL, Zend, Varnish and others. If you have a problem please ask for ?eagles in the channel."
+2013-12-05 15:43:36	--	Topic set by nevali on Tue, 05 Nov 2013 15:50:29
+2013-12-05 15:43:36	--	Nicks #frameworks: [AdamE_CBeebies_OnLunch AdrianThomson ajk AlexH alistair Andrew_Hutson AndrewW AndrewWalsh andyf andystanton azizur b3cft bard Ben BPScott BrettScott charlie ChrisP clair darrenlucas Dieter Dip DJ edmund Eduardo_Power Faux fedeB Fod fordn01 gavin gaz GeoffAdams glen_laptop Graeme inad922 Integralist jak James James-G james_skinner James_SportLive jameshd JasonWH jcleveley JohnK_247 johns johnson Kapil kenny LogBot Luke Luque Magnus Maria_G MarkB matatat mednam01 MikeChapman MikeT mosesa Muz_WoodNorton nevali njh OliVG overlord patrickcunningham PaulClifford PaulL PaulTweedy Peter_Dudbridge Phil Piyush Rachel Ralfas Ray Richard RichardN RobinM stan stevebakh StevenJack sthulb Stuart_Grist_BC5A3 StuartH StuartW Sula Thom tian TimRoss Tom_Maslen__London Tom_OpenGames tomkershaw TomY TonyH tsipan01 tsouk victoria_monitoring-wfh-NOTHERE Will-Perkins yavor ZsoltK]
+2013-12-05 15:43:36	--	Channel #frameworks: 100 nicks (0 ops, 0 voices, 100 normals)
+2013-12-05 15:43:42	--	Mode #frameworks [+An]
+2013-12-05 15:43:42	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-05 15:56:26	--	irc: disconnected from server
+2013-12-05 15:56:39	-->	Integralist (Integralist@SSL) has joined #frameworks
+2013-12-05 15:56:39	--	Topic for #frameworks is "Welcome to #frameworks, home of Barlesque, PAL, Zend, Varnish and others. If you have a problem please ask for ?eagles in the channel."
+2013-12-05 15:56:39	--	Topic set by nevali on Tue, 05 Nov 2013 15:50:29
+2013-12-05 15:56:39	--	Nicks #frameworks: [AdamE_CBeebies_OnLunch AdrianThomson ajk AlexH alistair Andrew_Hutson AndrewW AndrewWalsh Andy_Hillel andyf andystanton b3cft bard Ben BPScott BrettScott charlie ChrisP clair darrenlucas Dip DJ edmund Eduardo_Power Faux fedeB Fod gavin gaz gemma GeoffAdams glen glen_laptop Graeme inad922 Integralist jak James James-G james_skinner James_SportLive jameshd JasonWH jcleveley JohnK_247 johns johnson Kapil Lalkhum LogBot Luke Luque Magnus Maria_G MarkB matatat mednam01 MikeChapman MikeT mosesa Muz_WoodNorton nevali njh OliVG overlord PaulClifford PaulL PaulTweedy Peter_Dudbridge Phil phillamond Piyush Rachel Ralfas Ray Richard RichardN RobinM stan stevebakh StevenJack sthulb Stuart_Grist_BC5A3 StuartH StuartW Sula Thom tian TimRoss Tom_Maslen__London Tom_OpenGames tomkershaw TomY tsipan01 tsouk umesh victoria_monitoring-wfh-NOTHERE Will-Perkins yavor ZsoltK]
+2013-12-05 15:56:39	--	Channel #frameworks: 100 nicks (0 ops, 0 voices, 100 normals)
+2013-12-05 15:56:45	--	Mode #frameworks [+An]
+2013-12-05 15:56:45	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-05 15:56:46	TomY	sure
+2013-12-05 15:56:57	sthulb	I want to go through a component we want to create on Cosmos
+2013-12-05 15:57:02	sthulb	any particular time?
+2013-12-05 15:57:09	TomY	should be able to see my availability in outlook (nothing booked yet)
+2013-12-05 15:57:13	-->	kenny (kenny@SSL) has joined #frameworks
+2013-12-05 15:57:18	sthulb	Thanks
+2013-12-05 15:57:26	sthulb	I'll send an invite shortly
+2013-12-05 15:57:32	<--	ChrisP (chatzilla@SSL) has quit (Connection closed)
+2013-12-05 15:57:38	TomY	have you got through the CD steering group?
+2013-12-05 15:58:28	sthulb	We've been signed off for the architecture, but I think there's probably a much simpler way
+2013-12-05 15:58:31	<--	gemma (gemma@SSL) has quit (Connection closed)
+2013-12-05 15:58:34	-->	gemma (gemma@SSL) has joined #frameworks
+2013-12-05 15:58:51	sthulb	I just need guidance on the simpler way
+2013-12-05 15:59:10	Richard	sthulb: Steve_B is just telling me about it. Sounds cool
+2013-12-05 15:59:46	TomY	cool, put something in
+2013-12-05 16:01:46	-->	Integralist (Integralist@SSL) has joined #frameworks
+2013-12-05 16:01:46	--	Topic for #frameworks is "Welcome to #frameworks, home of Barlesque, PAL, Zend, Varnish and others. If you have a problem please ask for ?eagles in the channel."
+2013-12-05 16:01:46	--	Topic set by nevali on Tue, 05 Nov 2013 15:50:29
+2013-12-05 16:01:46	--	Nicks #frameworks: [AdamE_CBeebies_OnLunch AdrianThomson ajk AlexH alistair Andrew_Hutson AndrewW AndrewWalsh Andy_Hillel andyf andystanton b3cft bard Ben BPScott BrettScott charlie clair darrenlucas Dip DJ edmund Eduardo_Power Faux fedeB Fod gavin gaz gemma GeoffAdams glen glen_laptop Graeme inad922 Integralist jak James James-G james_skinner James_SportLive jameshd JasonWH jcleveley JohnK_247 johns johnson Kapil kenny Lalkhum LogBot Luke Luque Magnus Maria_G MarkB matatat MattH mednam01 MikeChapman MikeT mosesa Muz_WoodNorton nevali njh OliVG overlord PaulClifford PaulL PaulTweedy Peter_Dudbridge Phil phillamond Piyush Rachel Ralfas Ray Richard RichardN RobinM stan stevebakh StevenJack sthulb Stuart_Grist_BC5A3 StuartH StuartW Sula Thom tian TimRoss Tom_Maslen__London Tom_OpenGames tomkershaw TomY tsipan01 tsouk umesh victoria_monitoring-wfh-NOTHERE Will-Perkins yavor ZsoltK]
+2013-12-05 16:01:46	--	Channel #frameworks: 101 nicks (0 ops, 0 voices, 101 normals)
+2013-12-05 16:01:50	--	Mode #frameworks [+An]
+2013-12-05 16:01:50	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-05 16:01:55	-->	Jops (chatzilla@SSL) has joined #frameworks
+2013-12-05 16:02:23	<--	AdrianThomson (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:03:05	<--	tian (Adium@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:03:32	sthulb	TomY: 10am ok?
+2013-12-05 16:04:04	-->	SebF (Adium@SSL) has joined #frameworks
+2013-12-05 16:04:31	TomY	sure
+2013-12-05 16:04:44	-->	Integralist (Integralist@SSL) has joined #frameworks
+2013-12-05 16:04:44	--	Topic for #frameworks is "Welcome to #frameworks, home of Barlesque, PAL, Zend, Varnish and others. If you have a problem please ask for ?eagles in the channel."
+2013-12-05 16:04:44	--	Topic set by nevali on Tue, 05 Nov 2013 15:50:29
+2013-12-05 16:04:44	--	Nicks #frameworks: [AdamE_CBeebies_OnLunch AlexH alistair Andrew_Hutson AndrewW AndrewWalsh andyf andystanton b3cft bard Ben BPScott BrettScott charlie clair darrenlucas Dip DJ edmund Eduardo_Power Faux fedeB Fod gavin gaz gemma GeoffAdams glen glen_laptop Graeme inad922 Integralist jak James James-G james_skinner James_SportLive jameshd JasonWH jcleveley JohnK_247 johns johnson Jops Kapil kenny Lalkhum LogBot Luke Luque Magnus Maria_G MarkB matatat MattH mednam01 MikeChapman MikeT mosesa Muz_WoodNorton nevali njh OliVG overlord PaulClifford PaulL PaulTweedy Peter_Dudbridge Phil phillamond Piyush Rachel Ralfas Ray Richard RichardN RobinM SebF stan stevebakh StevenJack sthulb Stuart_Grist_BC5A3 StuartH StuartW Sula Thom TimRoss Tom_Maslen__London Tom_OpenGames tomkershaw TomY tsipan01 tsouk umesh victoria_monitoring-wfh-NOTHERE Will-Perkins yavor ZsoltK]
+2013-12-05 16:04:44	--	Channel #frameworks: 99 nicks (0 ops, 0 voices, 99 normals)
+2013-12-05 16:04:48	<--	Luque (luque@SSL) has quit (Leaving.)
+2013-12-05 16:04:48	--	Mode #frameworks [+An]
+2013-12-05 16:04:48	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-05 16:05:07	<--	umesh (Adium@SSL) has quit (Leaving.)
+2013-12-05 16:05:16	-->	Steve_B (chatzilla@SSL) has joined #frameworks
+2013-12-05 16:05:29	<--	clair (clair@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-05 16:05:36	-->	umesh (Adium@SSL) has joined #frameworks
+2013-12-05 16:06:06	-->	Integralist (Integralist@SSL) has joined #frameworks
+2013-12-05 16:06:06	--	Topic for #frameworks is "Welcome to #frameworks, home of Barlesque, PAL, Zend, Varnish and others. If you have a problem please ask for ?eagles in the channel."
+2013-12-05 16:06:06	--	Topic set by nevali on Tue, 05 Nov 2013 15:50:29
+2013-12-05 16:06:06	--	Nicks #frameworks: [AdamE_CBeebies_OnLunch AlexH alistair Andrew_Hutson AndrewW AndrewWalsh andyf andystanton b3cft bard Ben BPScott BrettScott charlie darrenlucas Dip DJ edmund Eduardo_Power Faux fedeB Fod gavin gaz gemma GeoffAdams glen glen_laptop Graeme inad922 Integralist jak James James-G james_skinner James_SportLive jameshd JasonWH jclevele_ jcleveley JohnK_247 johns johnson Jops Kapil kenny Lalkhum LogBot Luke Magnus Maria_G MarkB matatat MattH mednam01 MikeChapman MikeT mosesa Muz_WoodNorton nevali njh OliVG overlord PaulClifford PaulL PaulTweedy Peter_Dudbridge Phil phillamond Piyush Rachel Ralfas Ray Richard RichardN RobinM SebF stan Steve_B stevebakh StevenJack sthulb Stuart_Grist_BC5A3 StuartH StuartW Sula Thom TimRoss Tom_Maslen__London Tom_OpenGames tomkershaw TomY tsipan01 tsouk umesh victoria_monitoring-wfh-NOTHERE Will-Perkins yavor ZsoltK]
+2013-12-05 16:06:06	--	Channel #frameworks: 99 nicks (0 ops, 0 voices, 99 normals)
+2013-12-05 16:06:10	--	Mode #frameworks [+An]
+2013-12-05 16:06:10	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-05 16:06:15	sthulb	thanks
+2013-12-05 16:07:08	TomY	sthulb: do you work on news?
+2013-12-05 16:07:36	sthulb	Yes :)
+2013-12-05 16:07:48	-->	MarkGledhill (gledhm01@SSL) has joined #frameworks
+2013-12-05 16:08:20	-->	Mike_Suggitt (chatzilla@SSL) has joined #frameworks
+2013-12-05 16:08:50	<--	jcleveley (jcleveley@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:09:53	<--	Lalkhum (sangal01@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:10:51	<--	matatat (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:11:04	-->	RichardE (RichardE@SSL) has joined #frameworks
+2013-12-05 16:11:15	<--	Jops (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 26.0/20131111154639])
+2013-12-05 16:13:35	-->	azizur (azizur@SSL) has joined #frameworks
+2013-12-05 16:14:28	-->	patrickcunningham (chatzilla@SSL) has joined #frameworks
+2013-12-05 16:15:00	<--	alistair (alistair@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:15:06	Mike_Suggitt	?eagles I'm having an issue apparently resolving proxies from Sandbox6, Can anyone help at all?
+2013-12-05 16:15:06	overlord	Eagles: Mike_Suggitt is looking for assistance /cc OliVG inad922 tsouk tsipan01 MarkGledhill Eduardo_Power
+2013-12-05 16:17:17	-->	matatat (chatzilla@SSL) has joined #frameworks
+2013-12-05 16:18:56	<--	gemma (gemma@SSL) has quit (This computer has gone to sleep)
+2013-12-05 16:19:08	<--	RichardE (RichardE@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:19:14	<--	umesh (Adium@SSL) has quit (Leaving.)
+2013-12-05 16:19:24	<--	victoria_monitoring-wfh-NOTHERE (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:19:37	<--	jameshd (Adium@SSL) has quit (Leaving.)
+2013-12-05 16:22:34	<--	PaulClifford (PaulClifford@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:23:30	-->	PaulClifford (PaulClifford@SSL) has joined #frameworks
+2013-12-05 16:27:37	<--	James (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:28:03	-->	umesh (Adium@SSL) has joined #frameworks
+2013-12-05 16:29:06	-->	James (chatzilla@SSL) has joined #frameworks
+2013-12-05 16:31:00	Mike_Suggitt	?
+2013-12-05 16:31:52	James-G	faster to ask your question, as opposed to asking to ask.
+2013-12-05 16:32:04	Mike_Suggitt	fair enough
+2013-12-05 16:32:22	Mike_Suggitt	my sandbox6 seems to have the capability to resolve proxy www-cache.reith.bbc.co.uk
+2013-12-05 16:32:45	Mike_Suggitt	am i missing something obvious? not had this before
+2013-12-05 16:33:01	Mike_Suggitt	lost the capability*
+2013-12-05 16:35:06	<--	inad922 (inad922@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:38:32	-->	jose (jose@SSL) has joined #frameworks
+2013-12-05 16:39:18	-->	BinhBui (via@SSL) has joined #frameworks
+2013-12-05 16:39:20	<--	patrickcunningham (chatzilla@SSL) has quit (Connection closed)
+2013-12-05 16:40:42	-->	tian (Adium@SSL) has joined #frameworks
+2013-12-05 16:42:03	<--	Stuart_Grist_BC5A3 (chatzilla@SSL) has quit (Connection closed)
+2013-12-05 16:42:37	<--	jose (jose@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:44:23	<--	bard (bardws01@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:47:02	<--	tian (Adium@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:47:02	<--	AdamE_CBeebies_OnLunch (AdamE_CBeebie@SSL) has quit (Connection closed)
+2013-12-05 16:49:04	-->	inad922 (inad922@SSL) has joined #frameworks
+2013-12-05 16:51:17	-->	bard (bardws01@SSL) has joined #frameworks
+2013-12-05 16:51:24	<--	Steve_B (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:54:46	Richard	Mike_Suggitt: when I go on and off reith my sandbox usually gets confused :/
+2013-12-05 16:55:29	<--	MarkGledhill (gledhm01@SSL) has quit (This computer has gone to sleep)
+2013-12-05 16:55:41	<--	bard (bardws01@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:55:53	Mike_Suggitt	if i do a network restart it fails on eth1 :S
+2013-12-05 16:55:57	-->	gemma (gemma@SSL) has joined #frameworks
+2013-12-05 16:57:47	-->	tian (Adium@SSL) has joined #frameworks
+2013-12-05 16:58:01	<--	StevenJack (StevenJack@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:58:18	<--	Phil (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 16:58:46	<--	Eduardo_Power (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-05 16:59:16	<--	StuartW (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-05 16:59:27	Mike_Suggitt	managed to fix it, turns out uninstalling virtualbox (even though i dont use it) changed VMWarePlayer settings!
+2013-12-05 17:00:17	-->	bard (bardws01@SSL) has joined #frameworks
+2013-12-05 17:01:37	-->	StevenJack (StevenJack@SSL) has joined #frameworks
+2013-12-05 17:01:58	<--	RobinM (anonymous@SSL) has quit (Client exited)
+2013-12-05 17:02:45	<--	James (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:03:06	-->	baixi (baix01@SSL) has joined #frameworks
+2013-12-05 17:03:34	<--	stevebakh (bakhts01@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:06:01	-->	Andy_Hillel (AndyHillel@SSL) has joined #frameworks
+2013-12-05 17:06:13	-->	Lalkhum (sangal01@SSL) has joined #frameworks
+2013-12-05 17:06:31	nevali	speculating, I imagine one of the virtual network adapters was confusing the other
+2013-12-05 17:06:51	nevali	and vmware player was trying to bridge or nat through the virtualbox interface, or somesuch
+2013-12-05 17:07:38	<--	umesh (Adium@SSL) has quit (Leaving.)
+2013-12-05 17:10:24	<--	Andrew_Hutson (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:10:51	-->	umesh (Adium@SSL) has joined #frameworks
+2013-12-05 17:12:04	<--	StevenJack (StevenJack@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:12:15	<--	Lalkhum (sangal01@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:14:03	<--	Andy_Hillel (AndyHillel@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:14:05	<--	yavor (yavor@SSL) has quit (This computer has gone to sleep)
+2013-12-05 17:14:07	<--	AndrewWalsh (AndrewWalsh@SSL) has quit (Client exited)
+2013-12-05 17:15:56	<--	Magnus (Magnus@SSL) has quit (Hejdå)
+2013-12-05 17:17:05	<--	Mike_Suggitt (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-05 17:18:43	<--	DJ (clackd01@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:19:01	<--	JohnK_247 (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-05 17:19:56	<--	OliVG (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:22:35	<--	MikeT (MikeT@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:24:03	<--	glen_laptop (chatzilla@SSL) has quit (Connection closed)
+2013-12-05 17:26:53	<--	RichardN (RichardN@SSL) has quit (This computer has gone to sleep)
+2013-12-05 17:27:02	-->	GaryWatson (watsog07@SSL) has joined #frameworks
+2013-12-05 17:27:34	<--	jclevele_ (jcleveley@SSL) has quit (Connection closed)
+2013-12-05 17:27:56	-->	jcleveley (jcleveley@SSL) has joined #frameworks
+2013-12-05 17:27:56	<--	jcleveley (jcleveley@SSL) has quit (Connection closed)
+2013-12-05 17:27:57	-->	jcleveley (jcleveley@SSL) has joined #frameworks
+2013-12-05 17:28:26	<--	GaryWatson (watsog07@SSL) has quit (This computer has gone to sleep)
+2013-12-05 17:28:45	-->	Andy_Hillel (AndyHillel@SSL) has joined #frameworks
+2013-12-05 17:29:02	<--	TomY (yandet01@SSL) has quit (This computer has gone to sleep)
+2013-12-05 17:29:12	<--	PaulL (chatzilla@SSL) has quit (Connection closed)
+2013-12-05 17:29:15	<--	SebF (Adium@SSL) has quit (Leaving.)
+2013-12-05 17:29:26	<--	tsouk (tsouk@SSL) has quit (zzzZZZZZzz...)
+2013-12-05 17:29:43	<--	tsipan01 (tsipan01@SSL) has quit (Connection closed)
+2013-12-05 17:30:27	<--	phillamond (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:30:50	<--	james_skinner (skinnj04@SSL) has quit (Leaving)
+2013-12-05 17:32:26	-->	SebF (Adium@SSL) has joined #frameworks
+2013-12-05 17:34:06	<--	Thom (Thom@SSL) has quit (Connection closed)
+2013-12-05 17:34:15	andystanton	?eagles I have a problem with a build job on the db-int hudson server and don't know where to start in terms of fixing it.
+2013-12-05 17:34:15	overlord	Eagles: andystanton is looking for assistance /cc OliVG inad922 tsouk tsipan01 MarkGledhill Eduardo_Power
+2013-12-05 17:34:20	andystanton	the error I get is 'Rpmdb checksum is invalid: dCDPT(pkg checksums): bbc-database-mysql-smservice-db.noarch 0:1.10.11-1328270.47 - u'
+2013-12-05 17:34:41	inad922	andystanton: Which job is that?
+2013-12-05 17:34:58	andystanton	inad922: https://ci-db.int.bbc.co.uk/hudson/job/smservice-db-mysql/
+2013-12-05 17:35:08	<--	umesh (Adium@SSL) has quit (Leaving.)
+2013-12-05 17:36:22	<--	MikeChapman (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-05 17:36:41	<--	Sula (SulaMckeown@SSL) has quit (Leaving)
+2013-12-05 17:37:01	<--	stan (stan@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:39:10	andystanton	inad922: I might be being a massive numpty
+2013-12-05 17:39:54	andystanton	we changed our db release procedure a while ago and I might have missed a step
+2013-12-05 17:40:30	andystanton	going to try it again with the step I missed
+2013-12-05 17:41:05	<--	johns (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:41:22	<--	matatat (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:41:24	<--	gavin (jamesg04@SSL) has quit (Client exited)
+2013-12-05 17:43:49	<--	Rachel (rve@SSL) has quit (Leaving.)
+2013-12-05 17:43:51	andystanton	hmm no that hasn't helped
+2013-12-05 17:43:57	<--	Kapil (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:44:16	<--	kenny (kenny@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:44:34	<--	TimRoss (TimRoss@SSL) has quit (Leaving)
+2013-12-05 17:45:19	<--	jcleveley (jcleveley@SSL) has quit (Connection closed)
+2013-12-05 17:45:45	<--	Tom_Maslen__London (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:49:43	<--	Piyush (bedip01@SSL) has quit (This computer has gone to sleep)
+2013-12-05 17:50:42	<--	Maria_G (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:50:55	-->	kenny (kenny@SSL) has joined #frameworks
+2013-12-05 17:51:55	-->	RobinM (anonymous@SSL) has joined #frameworks
+2013-12-05 17:52:17	<--	andyf (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:53:28	<--	Ralfas (jegorr01@SSL) has quit (This computer has gone to sleep)
+2013-12-05 17:53:28	<--	andystanton (chatzilla@SSL) has quit (Connection closed)
+2013-12-05 17:53:44	-->	andystanton (chatzilla@SSL) has joined #frameworks
+2013-12-05 17:54:20	<--	Tom_OpenGames (robint06@SSL) has quit (Connection closed)
+2013-12-05 17:54:22	-->	Ralfas (jegorr01@SSL) has joined #frameworks
+2013-12-05 17:54:24	<--	andystanton (chatzilla@SSL) has quit (Connection closed)
+2013-12-05 17:55:17	<--	Will-Perkins (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-05 17:55:24	<--	Ben (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 16.0.2/20121025212310])
+2013-12-05 17:57:53	<--	GeoffAdams (GeoffAdams@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 17:58:13	<--	James_SportLive (anonymous@SSL) has quit (Connection closed)
+2013-12-05 17:59:22	<--	bard (bardws01@SSL) has quit (Leaving.)
+2013-12-05 18:01:01	<--	tian (Adium@SSL) has quit (Leaving.)
+2013-12-05 18:01:34	<--	fedeB (fedeB@SSL) has quit (This computer has gone to sleep)
+2013-12-05 18:03:43	-->	jcleveley (jcleveley@SSL) has joined #frameworks
+2013-12-05 18:03:47	<--	Andy_Hillel (AndyHillel@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-05 18:10:11	<--	Graeme (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-05 18:10:59	<--	JasonWH (chatzilla@SSL) has quit (ChatZilla 0.9.90.1 [Firefox 25.0.1/20131112160018])
+2013-12-05 18:11:01	<--	jcleveley (jcleveley@SSL) has quit (Connection closed)
+2013-12-05 18:11:14	-->	jcleveley (jcleveley@SSL) has joined #frameworks
+2013-12-05 18:11:17	<--	jcleveley (jcleveley@SSL) has quit (Connection closed)
+2013-12-05 19:24:40	--	irc: disconnected from server
+2013-12-06 08:48:51	-->	Integralist (Integralist@SSL) has joined #frameworks
+2013-12-06 08:48:51	--	Topic for #frameworks is "Welcome to #frameworks, home of Barlesque, PAL, Zend, Varnish and others. If you have a problem please ask for ?eagles in the channel."
+2013-12-06 08:48:51	--	Topic set by nevali on Tue, 05 Nov 2013 15:50:29
+2013-12-06 08:48:51	--	Nicks #frameworks: [AdrianThomson AlexH alistair AndrewW AndrewWalsh b3cft BrettScott charlie Dieter Dip edmund Faux gaz Gilbert Integralist jak James-G JamesM_SportLive johnson LogBot Luke Luque marek MarkB MarkGledhill mosesa Muz_WoodNorton nevali njh overlord PaulTweedy pmerry Ralfas RichardE RichLees stevebakh sthulb StuartH TonyH tsipan01 ZsoltK]
+2013-12-06 08:48:51	--	Channel #frameworks: 41 nicks (0 ops, 0 voices, 41 normals)
+2013-12-06 08:48:57	--	Mode #frameworks [+An]
+2013-12-06 08:48:57	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-06 08:49:58	-->	Steve_B (chatzilla@SSL) has joined #frameworks
+2013-12-06 08:51:11	-->	ChrisP (chatzilla@SSL) has joined #frameworks
+2013-12-06 08:51:41	-->	kenny (kenny@SSL) has joined #frameworks
+2013-12-06 08:54:07	-->	Eduardo_Power (chatzilla@SSL) has joined #frameworks
+2013-12-06 08:56:17	-->	DavidS (DavidS@SSL) has joined #frameworks
+2013-12-06 08:57:04	-->	Sean (chatzilla@SSL) has joined #frameworks
+2013-12-06 08:57:21	Eduardo_Power	?eagles update OliVG inad922 micmath tsipan01 MarkGledhill Eduardo_Power
+2013-12-06 09:01:15	<--	tsipan01 (tsipan01@SSL) has quit (Connection closed)
+2013-12-06 09:03:07	-->	Rachel (rve@SSL) has joined #frameworks
+2013-12-06 09:09:25	-->	ajk (Adium@SSL) has joined #frameworks
+2013-12-06 09:09:57	<--	ajk (Adium@SSL) has quit (Leaving.)
+2013-12-06 09:10:22	-->	ajk (Adium@SSL) has joined #frameworks
+2013-12-06 09:10:29	-->	Andy_Hillel (AndyHillel@SSL) has joined #frameworks
+2013-12-06 09:11:29	<--	ajk (Adium@SSL) has quit (Leaving.)
+2013-12-06 09:11:41	-->	ajk (Adium@SSL) has joined #frameworks
+2013-12-06 09:12:02	-->	tsipan01 (tsipan01@SSL) has joined #frameworks
+2013-12-06 09:13:32	-->	GaryWatson (watsog07@SSL) has joined #frameworks
+2013-12-06 09:14:17	-->	MikeChapman (chatzilla@SSL) has joined #frameworks
+2013-12-06 09:16:57	-->	Andrew_Hutson (chatzilla@SSL) has joined #frameworks
+2013-12-06 09:20:03	-->	tsouk (tsouk@SSL) has joined #frameworks
+2013-12-06 09:20:29	<--	kenny (kenny@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-06 09:21:07	-->	Richard (richard@SSL) has joined #frameworks
+2013-12-06 09:22:23	-->	JohnathanI (ilikecake@SSL) has joined #frameworks
+2013-12-06 09:23:42	-->	SebF (Adium@SSL) has joined #frameworks
+2013-12-06 09:24:19	-->	Integralist (Integralist@SSL) has joined #frameworks
+2013-12-06 09:24:19	--	Topic for #frameworks is "Welcome to #frameworks, home of Barlesque, PAL, Zend, Varnish and others. If you have a problem please ask for ?eagles in the channel."
+2013-12-06 09:24:19	--	Topic set by nevali on Tue, 05 Nov 2013 15:50:29
+2013-12-06 09:24:19	--	Nicks #frameworks: [AdrianThomson ajk AlexH alistair Andrew_Hutson AndrewW AndrewWalsh Andy_Hillel b3cft BrettScott charlie ChrisP DavidS Dieter Dip edmund Eduardo_Power Faux GaryWatson gaz Gilbert Integralist jak James-G JamesM_SportLive JohnathanI johnson LogBot Luke Luque marek MarkB MarkGledhill MikeChapman mosesa Muz_WoodNorton nevali njh overlord PaulTweedy pmerry Rachel Ralfas Richard RichardE RichLees Sean SebF Steve_B stevebakh sthulb StuartH TonyH tsipan01 tsouk ZsoltK]
+2013-12-06 09:24:19	--	Channel #frameworks: 56 nicks (0 ops, 0 voices, 56 normals)
+2013-12-06 09:24:23	--	Mode #frameworks [+An]
+2013-12-06 09:24:23	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-06 09:24:43	-->	micmath (Michael@SSL) has joined #frameworks
+2013-12-06 09:24:48	-->	micmath_ (Michael@SSL) has joined #frameworks
+2013-12-06 09:24:58	<--	micmath (Michael@SSL) has left #frameworks (Leaving)
+2013-12-06 09:25:12	--	micmath_ is now known as micmath
+2013-12-06 09:30:00	-->	stan (stan@SSL) has joined #frameworks
+2013-12-06 09:30:21	-->	fedeB (fedeB@SSL) has joined #frameworks
+2013-12-06 09:30:23	-->	Fod (tzellf01@SSL) has joined #frameworks
+2013-12-06 09:32:06	-->	yavor (yavor@SSL) has joined #frameworks
+2013-12-06 09:35:04	-->	MikeAtkins (MikeAtkins@SSL) has joined #frameworks
+2013-12-06 09:35:57	-->	Thom (Thom@SSL) has joined #frameworks
+2013-12-06 09:36:10	-->	darrenlucas (Adium@SSL) has joined #frameworks
+2013-12-06 09:36:39	-->	OliVG (chatzilla@SSL) has joined #frameworks
+2013-12-06 09:38:18	-->	james-loadtest_salford (chatzilla@SSL) has joined #frameworks
+2013-12-06 09:38:37	-->	Piyush (bedip01@SSL) has joined #frameworks
+2013-12-06 09:44:53	-->	PaulL (chatzilla@SSL) has joined #frameworks
+2013-12-06 09:45:52	-->	StevenJack (StevenJack@SSL) has joined #frameworks
+2013-12-06 09:47:38	-->	Integralist (Integralist@SSL) has joined #frameworks
+2013-12-06 09:47:38	--	Topic for #frameworks is "Welcome to #frameworks, home of Barlesque, PAL, Zend, Varnish and others. If you have a problem please ask for ?eagles in the channel."
+2013-12-06 09:47:38	--	Topic set by nevali on Tue, 05 Nov 2013 15:50:29
+2013-12-06 09:47:38	--	Nicks #frameworks: [AdrianThomson ajk AlexH alistair Andrew_Hutson AndrewW AndrewWalsh Andy_Hillel b3cft BrettScott charlie ChrisP darrenlucas DavidS Dieter Dip edmund Eduardo_Power Faux fedeB Fod GaryWatson gaz Gilbert Integralist jak James-G james-loadtest_salford JamesM_SportLive JohnathanI johnson LogBot Luke Luque marek MarkB MarkGledhill micmath MikeAtkins MikeChapman mosesa Muz_WoodNorton nevali njh OliVG overlord PaulL PaulTweedy Piyush pmerry Rachel Ralfas Richard RichardE RichLees Sean SebF stan Steve_B stevebakh StevenJack sthulb StuartH Thom TonyH tsipan01 tsouk yavor ZsoltK]
+2013-12-06 09:47:38	--	Channel #frameworks: 69 nicks (0 ops, 0 voices, 69 normals)
+2013-12-06 09:47:43	--	Mode #frameworks [+An]
+2013-12-06 09:47:43	--	Channel created on Sun, 07 Apr 2013 22:20:38
+2013-12-06 09:47:44	-->	GeoffAdams (GeoffAdams@SSL) has joined #frameworks
+2013-12-06 09:47:59	-->	Jops (chatzilla@SSL) has joined #frameworks
+2013-12-06 09:49:10	-->	matatat (chatzilla@SSL) has joined #frameworks
