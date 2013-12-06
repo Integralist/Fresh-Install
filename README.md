@@ -311,7 +311,8 @@ Once installed via Hombrew we need to sync our configuration file (irc.conf with
 
 - `/connect {config_name}` to connect to channel
 - `/quit`
-- `q {user_name}` for private chat
+- `/q {user_name}` for private chat
+- `/close` to close a window
 - `ESC {window_number}` to change windows
 - `/help` do this in the status window (1) to see all commands
 - `/buffer close` to close a window

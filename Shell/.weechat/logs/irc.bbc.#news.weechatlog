@@ -437,3 +437,41 @@
 2013-12-06 09:48:17	sthulb	It's probably 1939
 2013-12-06 09:49:02	Andrew_Hutson	has 1939 removed requested-with as well (once it gets deployed)?
 2013-12-06 09:49:06	-->	matatat (chatzilla@SSL) has joined #news
+2013-12-06 09:50:04	sthulb	1939 should be been deployed already, if it isn't deployed, we've failed... :(
+2013-12-06 09:50:25	Andrew_Hutson	x-transclude is definitely not there on the hits i'm seeing
+2013-12-06 09:50:33	Andrew_Hutson	but x-requested-with is in its place :(
+2013-12-06 09:50:44	sthulb	Then we should probably remove it :)
+2013-12-06 09:50:52	Andrew_Hutson	deffo
+2013-12-06 09:51:07	<--	StevenJack (StevenJack@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-06 09:51:13	sthulb	Essentially, we're allowed to have no custom headers... :(
+2013-12-06 09:51:44	Andrew_Hutson	yes, on resources that are intended to be served by CDN
+2013-12-06 09:51:51	sthulb	Andrew_Hutson: I'll get someone to fix this :)
+2013-12-06 09:52:29	Andrew_Hutson	great, ta
+2013-12-06 09:58:50	-->	Federico (Federico@SSL) has joined #news
+2013-12-06 09:59:12	-->	oliver (chatzilla@SSL) has joined #news
+2013-12-06 09:59:19	oliver	Morning All ;-)
+2013-12-06 09:59:22	 *	oliver tips hat
+2013-12-06 10:00:08	-->	DavidV (chatzilla@SSL) has joined #news
+2013-12-06 10:01:40	-->	RobinM (anonymous@SSL) has joined #news
+2013-12-06 10:01:42	-->	JakeChampion (JakeChampion@SSL) has joined #news
+2013-12-06 10:02:53	-->	Dave (chatzilla@SSL) has joined #news
+2013-12-06 10:08:10	sthulb	Servus oliver 
+2013-12-06 10:09:02	Integralist	Q Dave
+2013-12-06 10:09:25	Integralist	Dave: I'm getting a failing cuke and I'm not sure how to resolve it as it's specific to mobile?
+2013-12-06 10:09:28	Integralist	Dave: features/media_asset_page.feature:146
+2013-12-06 10:10:01	Integralist	Dave: when I @debug to open up in the browser the player can playback Audio and so the message the scenario is expecting to see doesn't appear
+2013-12-06 10:11:03	sthulb	busy last night: http://i.imgur.com/vWq7MSB.png
+2013-12-06 10:11:04	Dave	yeh, Federico and I talked about that, it is because SMP is there now, so it expects the SMP error message
+2013-12-06 10:11:16	Dave	It only applies to WS sites
+2013-12-06 10:11:50	Dave	as the audio player for WS is using RMP
+2013-12-06 10:12:45	Integralist	Federico: Dave so I guess I'll need to change the test to only apply to WS then (not sure how best to do that so if in the mean time any one has any suggestions then let me know otherwise I'll look into it now)
+2013-12-06 10:14:43	Dave	if WS are moving to SMP over xmas, we should just WIP it and manually check it
+2013-12-06 10:16:31	-->	James (chatzilla@SSL) has joined #news
+2013-12-06 10:16:45	Integralist	Dave: Federico I'll do that! Much easier/quicker to deal with
+2013-12-06 10:17:21	Dave	or you could put the new error message from SMP in, but that doesnt prove the test works, only that flash isnt install in phantom
+2013-12-06 10:18:02	Integralist	Dave: I'll WIP it and put a note in the feature file about it
+2013-12-06 10:18:16	Dave	this is the dissadvantage of news and ws not using the same player, pradeep__kumar, when test is built, if you could find some audio pages on ws sites and check you get error messages on andoird devices
+2013-12-06 10:19:08	-->	st_belloro (chatzilla@SSL) has joined #news
+2013-12-06 10:19:18	-->	manjit_ (chatzilla@SSL) has joined #news
+2013-12-06 10:20:40	<--	manjit (chatzilla@SSL) has quit (Ping timeout: 121 seconds)
+2013-12-06 10:20:45	--	manjit_ is now known as manjit
