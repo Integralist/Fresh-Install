@@ -8,8 +8,8 @@
 set runtimepath+=$SYNCFOLDER/Fresh\ Install/Shell/vim
 runtime settings.vim
 runtime vundle.vim
-" runtime mapping.vim
-" runtime commands.vim
+runtime mapping.vim
+runtime commands.vim
 
 " note:
 " we could also of used...
