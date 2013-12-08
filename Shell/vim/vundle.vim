@@ -22,10 +22,8 @@ Bundle 'jlangston/tomorrow-night-vim'
 " Markdown
 Bundle 'tpope/vim-markdown'
 
-" Markdown (allow piping of markdown files to the browser)
-au BufEnter,BufNew *.md map <enter> :wa\|!rbfu rdiscount % \| bcat<cr>
-
 " Cucumber
+" Press ctrl-] on a step to jump to its Ruby definition
 Bundle 'tpope/vim-cucumber'
 
 " Tags
@@ -40,8 +38,8 @@ let g:tagbar_ctags_bin='/usr/local/bin/ctags'
 " And automatically close it after selecting something
 :map <leader>b :TagbarOpenAutoClose<cr>
 
-" Tab completion
-Bundle 'ervandew/supertab'
+" Tab completion (previously used 'ervandew/supertab')
+Bundle 'Valloric/YouCompleteMe'
 
 " Enable repeating supported plugin maps with '.'
 Bundle 'tpope/vim-repeat'
@@ -72,12 +70,8 @@ let g:github_token = $GITHUB_TOKEN
 " HTML generation (in NORMAL mode Ctrl+y then , <C-y,>)
 Bundle 'mattn/emmet-vim'
 
-" Rename variables and files in your code
+" Rename variables and files in your code (:Rename[!] {newname})
 Bundle 'vim-scripts/rename.vim'
-
-" tmux switcher
-" http://robots.thoughtbot.com/post/53022241323/seamlessly-navigate-vim-and-tmux-splits
-Bundle 'christoomey/vim-tmux-navigator'
 
 " Git gutter
 Bundle 'airblade/vim-gitgutter'
@@ -89,11 +83,6 @@ highlight clear SignColumn
 " File System
 Bundle 'scrooloose/nerdtree'
 map <leader>' :NERDTreeToggle<cr>
-
-" Snippets
-Bundle 'MarcWeber/vim-addon-mw-utils'
-Bundle 'tomtom/tlib_vim'
-Bundle 'garbas/vim-snipmate'
 
 " SCSS, Sass & Haml Syntax Support
 Bundle 'tpope/vim-haml'
@@ -108,8 +97,5 @@ Bundle 'othree/html5.vim'
 Bundle 'godlygeek/tabular'
 map <Leader>e :Tabularize /=<cr>
 map <Leader>c :Tabularize /:<cr>
-
-" JS Hint
-Bundle 'Shutnik/jshint2.vim'
 
 filetype plugin indent on " required by Vundle Plugin Manager

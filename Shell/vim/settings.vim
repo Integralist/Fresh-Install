@@ -92,6 +92,6 @@ set clipboard+=unnamed
 " don't show intro
 set shortmess+=I
 
-" better splits
+" better splits (new windows appear below and to the right)
 set splitbelow
 set splitright
