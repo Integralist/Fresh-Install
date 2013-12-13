@@ -48,7 +48,7 @@ else
 fi;
 
 alias r="source ~/.zshrc"
-alias st="git status"
+alias st="cd tabloid/webapp/static"
 alias rubyv="ls /opt/rubies/"
 alias grunt="grunt --verbose --stack"
 alias tka="tmux ls | cut -d : -f 1 | xargs -I {} tmux kill-session -t {}" # tmux kill all sessions
