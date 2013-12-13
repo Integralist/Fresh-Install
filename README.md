@@ -15,6 +15,7 @@ Mavericks recently) then [click here](#step-by-step)
 		- ruby-build uses older ruby gems version which works on my laptop, where as newer ruby gems from ruby install didn't work? `ruby-build 1.8.7-p302 /opt/rubies/1.8.7-p302`
 	- `brew install tmux`
 		- `brew install reattach-to-user-namespace` (used by tmux and add `set -g default-command "reattach-to-user-namespace -l \"/bin/zsh\""` to your .tmux.conf)
+	- `brew install gnu-sed`
 	- `brew install rename` (change File-A-B.gif to File-AB.gif with `rename 's/(.+)-(.+)$/$1$2/' File-*`)
 	- `brew install tree`
 	- `brew install wget`
