@@ -97,5 +97,7 @@ Bundle 'othree/html5.vim'
 Bundle 'godlygeek/tabular'
 map <Leader>e :Tabularize /=<cr>
 map <Leader>c :Tabularize /:<cr>
+map <Leader>es :Tabularize /=\zs<cr>
+map <Leader>cs :Tabularize /:\zs<cr>
 
 filetype plugin indent on " required by Vundle Plugin Manager
