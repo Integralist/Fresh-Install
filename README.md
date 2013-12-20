@@ -323,3 +323,15 @@ Once installed via Hombrew we need to sync our configuration file (irc.conf with
 - `/set weechat.*` to see all options
 - Shift and up/down arrow keys moves you up/down the discussion window content
   (use fn key as well if on a small Mac laptop)
+
+The status bar can be a bit confusing...
+
+`[11:55] [4] [irc/BBC] 2:#news [H: 3(6,2), 4(3)]`
+
+...but it breaks down like this...
+
+- `[11:55]` = time
+- `[4]` = number of buffers (windows/panes) open
+- `[irc/BBC]` = server connected to currently
+- `2:#news` = current buffer being viewed + channel connected to
+- `[H: 3(6,2), 4(3)]` tells you what has changed. So buffer 3 has 6 messages since you last looked and 2 connections (someone has joined or left) and buffer 4 has either 3 connections or 3 messages depending on the colour (if white then its a connection, if its yellow its a message).
