@@ -155,6 +155,10 @@ function phpserver() {
     php -S localhost:8888
 }
 
+function rubyserver() {
+    ruby -run -e httpd . -p 5000
+}
+
 # get gzipped size
 function gz() {
     echo "orig size    (bytes): "
