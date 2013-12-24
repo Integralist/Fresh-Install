@@ -38,3 +38,25 @@ map <leader>w] <C-W>_ " fill screen
 " Make splitting Vim windows easier
 map <leader>; <C-W>s
 map <leader>` <C-W>v
+
+" Running Tests...
+" See also <https://gist.github.com/8114940>
+
+" Run currently open RSpec test file
+map <Leader>rf :w<cr>:!rspec % --format nested<cr>
+
+" Run current RSpec test
+" RSpec is clever enough to work out the test to run if the cursor is on any line within the test
+map <Leader>rl :w<cr>:exe "!rspec %" . ":" . line(".")<cr>
+
+" Run all RSpec tests
+map <Leader>rt :w<cr>:!rspec --format nested<cr>
+
+" Run currently open cucumber feature file
+map <Leader>cf :w<cr>:!cucumber %<cr>
+
+" Run current cucumber scenario
+map <Leader>cl :w<cr>:exe "!cucumber %" . ":" . line(".")<cr>
+
+" Run all cucumber feature files
+map <Leader>ct :w<cr>:!cucumber<cr>
