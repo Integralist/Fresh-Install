@@ -59,7 +59,10 @@ Bundle 'bling/vim-airline'
 let g:airline_powerline_fonts = 1
 
     " Bundle 'Lokaltog/powerline'
-    " set rtp+=$HOME/.vim/bundle/powerline/powerline/bindings/vim
+    "     " set rtp+=$HOME/.vim/bundle/powerline/powerline/bindings/vim
+
+" Status line support within tmux
+Bundle 'edkolev/tmuxline.vim'
 
 " Gists
 Bundle 'mattn/webapi-vim'

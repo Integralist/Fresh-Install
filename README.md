@@ -115,6 +115,18 @@ The contents of the .vimrc file are taken directly from the sthulb repo [https:/
 
 Launch `vim`, run `:BundleInstall` or just run from the command line `vim +BundleInstall`
 
+### Vim and tmux status line improvements
+
+We use a specific plugin (installed via Vundle) to handle status bar line enhancements (both for Vim and Vim running inside tmux).
+
+Open tmux and then Vim inside it and run the following commands...
+
+- `:let g:tmuxline_preset = 'full'`
+- `:Tmuxline`
+- `:TmuxlineSnapshot ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/tmux-snapshot.conf`
+
+...then inside our tmux.conf file we add `source-file ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/tmux-snapshot.conf` (or just copy the content directly into .tmux.conf)
+
 ## Upgrading to Mac OS X Mavericks
 
 There were issues with the C++ compiler.

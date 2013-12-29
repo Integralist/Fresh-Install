@@ -6,7 +6,8 @@ syncfolder="$HOME/Google Drive/Dropbox" # sourcing a file breaks with backslashe
 syncfolderalias="$HOME/Google\ Drive/Dropbox" # aliasing needs backslashes as it's an actual command
 
 # Export the path so it can be used elsewhere (such as in our .vimrc file)
-export SYNCFOLDER=$syncfolderalias
+export SYNCFOLDER=$syncfolder
+export SYNCFOLDERALIAS=$syncfolderalias
 
 # Vagrant fixes issue with Chef not completing
 if `tty -s`; then

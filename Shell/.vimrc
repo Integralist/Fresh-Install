@@ -1,11 +1,11 @@
-" if [[ -d $SYNCFOLDER/Fresh\ Install/Shell/vim ]]; then
-"   for conf in $SYNCFOLDER/Fresh\ Install/Shell/vim/*.zsh; do
+" if [[ -d $SYNCFOLDERALIAS/Fresh\ Install/Shell/vim ]]; then
+"   for conf in $SYNCFOLDERALIAS/Fresh\ Install/Shell/vim/*.zsh; do
 "     source $conf
 "   done
 " fi
 
-" $SYNCFOLDER is set via .zshrc file
-set runtimepath+=$SYNCFOLDER/Fresh\ Install/Shell/vim
+" $SYNCFOLDERALIAS is set via .zshrc file
+set runtimepath+=$SYNCFOLDERALIAS/Fresh\ Install/Shell/vim
 runtime settings.vim
 runtime vundle.vim
 runtime mapping.vim
