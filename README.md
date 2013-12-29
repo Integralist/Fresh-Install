@@ -12,9 +12,8 @@ Mavericks recently) then [click here](#step-by-step)
 	- `brew install the_silver_searcher` (e.g. `ag 'js\b' ./some-directory`)
 	- `brew install phantomjs`
 	- `brew install https://raw.github.com/postmodern/chgems/master/homebrew/chgems.rb` && `brew install chruby` && `brew install ruby-install`
-		- ruby-build uses older ruby gems version which works on my laptop, where as newer ruby gems from ruby install didn't work? `ruby-build 1.8.7-p302 /opt/rubies/1.8.7-p302`
 	- `brew install tmux`
-		- `brew install reattach-to-user-namespace` (used by tmux and add `set -g default-command "reattach-to-user-namespace -l \"/bin/zsh\""` to your .tmux.conf)
+		- `brew install reattach-to-user-namespace` ([see below](#vim-tmux-and-vundle))
 	- `brew install gnu-sed`
 	- `brew install rename` (change File-A-B.gif to File-AB.gif with `rename 's/(.+)-(.+)$/$1$2/' File-*`)
 	- `brew install tree`
@@ -23,7 +22,6 @@ Mavericks recently) then [click here](#step-by-step)
 	- `brew install ctags` for use with Vim (you might need to change the system version of ctags like so `sudo mv /usr/bin/ctags /usr/bin/ctags-original` so the Homebrew version gets picked up when you do `which ctags`)
     - `brew install weechat` (see below for details)
 - [Pure ZSH](https://github.com/sindresorhus/pure)
-	- [Prezto](https://github.com/sorin-ionescu/prezto)
 	- [PHPShell](http://www.phpsh.org/)
 - [Grunt](http://gruntjs.com/)
 	- `npm install -g grunt-cli`
@@ -101,19 +99,23 @@ We need to make sure one of the fonts in the `Shell/fonts` folder is installed a
 
 ## VIM, TMUX and VUNDLE
 
-To install tmux see above brew command.
+All of the following is already set within the dot files but I've explained them below as it's important to understand why they are there.
 
-With tmux (once `brew install reattach-to-user-namespace`) make sure to add to your `.vimrc` as it fixes a bug with not being able to paste content between tmux sessions:
+With tmux and `brew install reattach-to-user-namespace` both installed, make sure to add to your `.tmux.conf` the following settings...
+
 ```
 set -g default-command "reattach-to-user-namespace -l \"/bin/zsh\""
 set-option -g default-shell /bin/zsh
 ```
 
+...the first setting fixes an issue where you're unable to paste content copied from tmux into another application (or even another tmux session).
+
 To install vundle do `git clone https://github.com/gmarik/vundle.git ~/Dropbox/Fresh\ Install/Shell/.vim/bundle/vundle`
 
-The contents of the .vimrc file are taken directly from the sthulb repo [https://github.com/sthulb/dotfiles/tree/master/vim](https://github.com/sthulb/dotfiles/tree/master/vim)
+To install the Vim plugins either:
 
-Launch `vim`, run `:BundleInstall` or just run from the command line `vim +BundleInstall`
+- launch `vim` and run `:BundleInstall`
+- or just run from the command line `vim +BundleInstall`
 
 ### Vim and tmux status line improvements
 
@@ -192,89 +194,15 @@ ln -s /usr/local/bin/gcc-4.2 /usr/local/bin/cc
 ln -s /usr/local/bin/gcc-4.2 /usr/local/bin/g++ # gem unf_ext uses g++
 ```
 
-### Vagrant Plugin
-
-`vagrant plugin install vagrant-box-updater`
-
 ### Grunt error `Error: spawn EMFILE`
+
+This was an issue with using the Node static site generator: CabinJS.
 
 See [https://github.com/gruntjs/grunt/issues/788](https://github.com/gruntjs/grunt/issues/788)
 
 The solution is to run `ulimit -n 10240` and then restart the shell.
 
-## Step by Step
-
-These are the steps I took when I recently did a fresh install...
-
-### Install
-
-- Google Drive (25gb of space)
-- Dropbox (install inside of Google Drive)
-- Google Chrome
-- Right Zoom
-
-### Settings
-
-- Change Keyboard delay to be fastest setting possible (inside System
-  Preferences)
-
-### While Dropbox Syncs
-
-This can take quite a long time as while Dropbox is syncing it causes the
-containing Google Drive to sync as well.
-
-Ideally you'll turn off Google Drive until Dropbox is finished.
-
-- Switch to Zsh (`chsh -s /bin/zsh`)
-- Install Homebrew (`ruby -e "$(curl -fsSL
-  https://raw.github.com/mxcl/homebrew/go)”` which installs the Command Line
-Tools for you)
-- Check $PATH (`echo $PATH` should now look something like:
-  `/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin` - notice that our local bin
-where we’ll install all custom stuff via Brew or NPM or wherever is actually
-last in the pecking order so the Mac will look at its own system bin first
-before checking our local bin, also it’ll only have a single package ’brew’
-inside it for now)
-- Check if you even need to install (via Homebrew) things like Vim or Git as the
-  versions installed might be close enough to current releases any way (I
-thought I didn't need Vim installed but I did because of lack of clipboard
-support in system version).
-- `brew install node` (this can take ~9mins, this creates a Cellar directory
-  inside your `/usr/local` which holds the installed versions of Node. Cellar
-belongs to Homebrew and so all packages you install go in this folder along with
-any dependencies those packages themselves require)
-- `brew install the_silver_searcher`
-- `brew install phantomjs`
-- `brew install chruby`
-- `brew install ruby-build` (as our local bin is after our system bin for now,
-but when Dropbox finishes syncing then it'll be switched by our .zshrc + also check 
-`gem env` in both a directory that has no `.ruby-version` file and one that does to 
-make sure the shell switches between system ruby and custom ruby)
-- App Store iAWriter
-- App Store Dash
-- App Store Cloud
-- App Store Twitter
-- App Store Caffeine
-- App Store Pocket
-- VLC Player
-- Regexr
-
-### Once Dropbox is synced...
-
-- [Install Terminal
-  theme](https://github.com/Integralist/Fresh-Install/blob/master/Shell/Tomorrow%20Night%20Bright.terminal)
-- Symlink dotfiles (see earlier in this README)
-- Check Vim copy and paste (and install `brew install
-  reattach-to-user-namespace` if necessary)
-- `brew install tmux`
-- `brew install rename`
-- `brew install vim` (needed to do this as the default vim didn’t have the
-  `+clipboard` feature enabled)
-- Need to regenerate my SSH keys for GitHub
-- Install task manager (see below)
-- Run all the symlinks
-
-### CLI Task Manager
+## CLI Task Manager
 
 www.taskwarrior.org
 
@@ -348,3 +276,75 @@ The status bar can be a bit confusing...
 - `[irc/BBC]` = server connected to currently
 - `2:#news` = current buffer being viewed + channel connected to
 - `[H: 3(6,2), 4(3)]` tells you what has changed. So buffer 3 has 6 messages since you last looked and 2 connections (someone has joined or left) and buffer 4 has either 3 connections or 3 messages depending on the colour (if white then its a connection, if its yellow its a message).
+
+## Step by Step
+
+These are the steps I took when I recently did a fresh install...
+
+### Install
+
+- Google Drive (25gb of space)
+- Dropbox (install inside of Google Drive)
+- Google Chrome
+- Right Zoom
+
+### Settings
+
+- Change Keyboard delay to be fastest setting possible (inside System
+  Preferences)
+
+### While Dropbox Syncs
+
+This can take quite a long time as while Dropbox is syncing it causes the
+containing Google Drive to sync as well.
+
+Ideally you'll turn off Google Drive until Dropbox is finished.
+
+- Switch to Zsh (`chsh -s /bin/zsh`)
+- Install Homebrew (`ruby -e "$(curl -fsSL
+  https://raw.github.com/mxcl/homebrew/go)”` which installs the Command Line
+Tools for you)
+- Check $PATH (`echo $PATH` should now look something like:
+  `/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin` - notice that our local bin
+where we’ll install all custom stuff via Brew or NPM or wherever is actually
+last in the pecking order so the Mac will look at its own system bin first
+before checking our local bin, also it’ll only have a single package ’brew’
+inside it for now)
+- Check if you even need to install (via Homebrew) things like Vim or Git as the
+  versions installed might be close enough to current releases any way (I
+thought I didn't need Vim installed but I did because of lack of clipboard
+support in system version).
+- `brew install node` (this can take ~9mins, this creates a Cellar directory
+  inside your `/usr/local` which holds the installed versions of Node. Cellar
+belongs to Homebrew and so all packages you install go in this folder along with
+any dependencies those packages themselves require)
+- `brew install the_silver_searcher`
+- `brew install phantomjs`
+- `brew install chruby`
+- `brew install ruby-build` (as our local bin is after our system bin for now,
+but when Dropbox finishes syncing then it'll be switched by our .zshrc + also check 
+`gem env` in both a directory that has no `.ruby-version` file and one that does to 
+make sure the shell switches between system ruby and custom ruby)
+- App Store iAWriter
+- App Store Dash
+- App Store Cloud
+- App Store Twitter
+- App Store Caffeine
+- App Store Pocket
+- VLC Player
+- Regexr
+
+### Once Dropbox is synced...
+
+- [Install Terminal
+  theme](https://github.com/Integralist/Fresh-Install/blob/master/Shell/Tomorrow%20Night%20Bright.terminal)
+- Symlink dotfiles (see earlier in this README)
+- Check Vim copy and paste (and install `brew install
+  reattach-to-user-namespace` if necessary)
+- `brew install tmux`
+- `brew install rename`
+- `brew install vim` (needed to do this as the default vim didn’t have the
+  `+clipboard` feature enabled)
+- Need to regenerate my SSH keys for GitHub
+- Install task manager (see below)
+- Run all the symlinks
