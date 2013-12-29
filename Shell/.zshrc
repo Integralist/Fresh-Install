@@ -86,8 +86,8 @@ export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;32'
 
 # Makes installing versions of Ruby slightly easier
-function rb() {
-    ruby-build $1 /opt/rubies/$1
+function ri() {
+    ruby-install ruby $1
 }
 
 # Makes creating a new tmux session (with a specific name) easier
