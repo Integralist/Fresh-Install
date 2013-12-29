@@ -55,8 +55,11 @@ let g:ackprg = 'ag --nogroup --nocolor --column'
 Bundle 'tpope/vim-endwise'
 
 " Status line design improvements
-Bundle 'Lokaltog/powerline'
-set rtp+=$HOME/.vim/bundle/powerline/powerline/bindings/vim
+Bundle 'bling/vim-airline'
+let g:airline_powerline_fonts = 1
+
+    " Bundle 'Lokaltog/powerline'
+    " set rtp+=$HOME/.vim/bundle/powerline/powerline/bindings/vim
 
 " Gists
 Bundle 'mattn/webapi-vim'

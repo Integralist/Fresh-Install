@@ -22,7 +22,6 @@ Mavericks recently) then [click here](#step-by-step)
 	- `brew install cake`
 	- `brew install ctags` for use with Vim (you might need to change the system version of ctags like so `sudo mv /usr/bin/ctags /usr/bin/ctags-original` so the Homebrew version gets picked up when you do `which ctags`)
     - `brew install weechat` (see below for details)
-- `gem install tmuxinator`
 - [Pure ZSH](https://github.com/sindresorhus/pure)
 	- [Prezto](https://github.com/sorin-ionescu/prezto)
 	- [PHPShell](http://www.phpsh.org/)
@@ -88,15 +87,17 @@ We need to symlink our .zshrc, .vimrc and .tmux.conf files (and our .vim) from o
 
 `ln -s ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/.weechat ~/.weechat`
 
-Rather than export a $PATH you *could* (not that I'd recommend it) also edit the file directly: `vim /private/etc/paths`
-
-## Shell Font
-
-We need to make sure the font `Droid+Sans+Mono+for+Powerline.otf` is installed and also the terminal theme (see below is updated to use that font)
+Note: rather than export a $PATH you *could* (not that I'd recommend it) also edit the file directly: `vim /private/etc/paths`
 
 ## Shell Theme
 
-Use the Tomorrow Night Bright theme which you can find in the `shell` folder. Just double click to install (don't forget to open up the terminal preferences and make sure it's the default theme and to increase the font size).
+Use one of the themes inside the `Shell/themes` folder.
+
+Just double click to install (don't forget to open up the terminal preferences and make sure it's the default theme and to increase the font size).
+
+## Shell Font
+
+We need to make sure one of the fonts in the `Shell/fonts` folder is installed and set within the terminal preferences for the terminal theme
 
 ## VIM, TMUX and VUNDLE
 
