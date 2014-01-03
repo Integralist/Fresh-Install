@@ -18,7 +18,10 @@ fi
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 # When installing Node via Homebrew you may need to add NPM to your $PATH
-export PATH="$PATH:/usr/local/share/npm/bin"
+    # export PATH="$PATH:/usr/local/share/npm/bin"
+# Noticed to update NPM using `npm i -g npm` that my path picks up `/usr/local/bin/npm` first
+# So instead I'm moving that to the start of my path
+export PATH="/usr/local/share/npm/bin:$PATH"
 
 # sets up chruby and allows us to use .ruby-version files to switch ruby versions
 source /usr/local/opt/chruby/share/chruby/chruby.sh
