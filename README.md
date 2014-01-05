@@ -11,7 +11,7 @@ Mavericks recently) then [click here](#step-by-step)
 	- `brew install git`
 	- `brew install the_silver_searcher` (e.g. `ag 'js\b' ./some-directory`)
 	- `brew install phantomjs`
-	- `brew install https://raw.github.com/postmodern/chgems/master/homebrew/chgems.rb` && `brew install chruby` && `brew install ruby-install`
+	- `brew install chruby` && `brew install ruby-install`
 	- `brew install tmux`
 		- `brew install reattach-to-user-namespace` ([see below](#vim-tmux-and-vundle))
 	- `brew install gnu-sed`
@@ -24,13 +24,9 @@ Mavericks recently) then [click here](#step-by-step)
 - [Pure ZSH](https://github.com/sindresorhus/pure)
 	- [PHPShell](http://www.phpsh.org/)
 - [Grunt](http://gruntjs.com/)
-	- `npm install -g grunt-cli`
-	- `npm install -g grunt-init`
-	- `npm init` (creates a package.json file)
 - [Lo-Dash](https://npmjs.org/package/lodash)
 - [Uglify](https://npmjs.org/package/uglify-js2) (`npm install uglify-js2`)
 - Nave (Node Version Manager) `npm install -g nave` (could need `PATH=${NAVEPATH}:$PATH`)
-- [Sass](http://sass-lang.com/) (`gem install sass`)
 - [Xcode Command Line Tools](http://connect.apple.com/)
 - Google Chrome Plugins (should come from Google account sync)
 	- [Quick JavaScript Switcher](https://t.co/ryLRETND)
@@ -48,16 +44,14 @@ Mavericks recently) then [click here](#step-by-step)
 	- AppCleaner
 	- RightZoom
 	- Dropbox
-	- Google Drive
 	- CloudApp
 	- VLC Player
 	- Fantastical
 	- Vienna
 	- Clean My Mac
-	- Colloquy ([Succinct theme](https://github.com/JohnAlbin/succinct-for-colloquy))
 	- Memory Clean
 	- [LiceCap](http://www.cockos.com/licecap/) (animated GIF from screen recording)
-    - Dash
+	- Dash
 
 ## Dot Files
 
@@ -97,7 +91,7 @@ Just double click to install (don't forget to open up the terminal preferences a
 
 We need to make sure one of the fonts in the `Shell/fonts` folder is installed and set within the terminal preferences for the terminal theme
 
-## VIM, TMUX and VUNDLE
+## Vim, tmux and Vundle
 
 All of the following is already set within the dot files but I've explained them below as it's important to understand why they are there.
 
@@ -128,79 +122,6 @@ Open tmux and then Vim inside it and run the following commands...
 - `:TmuxlineSnapshot ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/tmux-snapshot.conf`
 
 ...then inside our tmux.conf file we add `source-file ~/Google\ Drive/Dropbox/Fresh\ Install/Shell/tmux-snapshot.conf` (or just copy the content directly into .tmux.conf)
-
-## Upgrading to Mac OS X Mavericks
-
-There were issues with the C++ compiler.
-
-Seems it changed from `libstdc++` to `libc++` and on top of that my own work set-up was different in that we needed to use a specific Apple based C++ compiler called `apple-gcc42`.
-
-When running `gcc --version` we want to see the Apple version being used.
-
-To swap to `apple-gcc42` we need to rename the existing compilers and then symlink to the new ones...
-
-- `cd /usr/bin`
-- `sudo -s` (to switch to `root` user)
-- `mv c++ llvm-c++`
-- `mv cc llvm-cc`
-- `mv gcov llvm-gcov`
-- `mv gcc llvm-gcc`
-- `mv g++ llvm-g++`
-- `mv cpp llvm-cpp`
-- `ln -s /usr/local/bin/c++-4.2 /usr/bin/c++`
-- `ln -s /usr/local/bin/cpp-4.2 /usr/bin/cpp`
-- `ln -s /usr/local/bin/g++-4.2 /usr/bin/g++`
-- `ln -s /usr/local/bin/gcc-4.2 /usr/bin/gcc`
-- `ln -s /usr/local/bin/gcov-4.2 /usr/bin/gcov`
-- `ln -s /usr/local/bin/gcc-4.2 /usr/bin/cc`
-
-You'll know when it's working because before you do the symlinks, if you run `gcc --version` you'll see:
-
-```sh
-Configured with: --prefix=/Library/Developer/CommandLineTools/usr
---with-gxx-include-dir=/usr/include/c++/4.2.1
-
-Apple LLVM version 5.0 (clang-500.2.79) (based on LLVM 3.3svn)
-
-Target: x86_64-apple-darwin13.0.0
-
-Thread model: posix
-```
-
-...and after symlinking you'll see:
-
-```sh
-i686-apple-darwin11-gcc-4.2.1 (GCC) 4.2.1 (Apple Inc. build 5666) (dot 3)
-
-Copyright (C) 2007 Free Software Foundation, Inc.
-
-This is free software; see the source for copying conditions.  There is NO
-
-warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-```
-
-### Symlinks
-
-In `/usr/local/bin`, a simple `ls *4.2` will list 6 files (see above) which will need to be symlinked. Symlink these to the same place but without the 4.2 suffix...
-
-```sh
-ln -s /usr/local/bin/gcc-4.2 /usr/local/bin/gcc
-```
-
-Additional symlinks needed:
-
-```sh
-ln -s /usr/local/bin/gcc-4.2 /usr/local/bin/cc
-ln -s /usr/local/bin/gcc-4.2 /usr/local/bin/g++ # gem unf_ext uses g++
-```
-
-### Grunt error `Error: spawn EMFILE`
-
-This was an issue with using the Node static site generator: CabinJS.
-
-See [https://github.com/gruntjs/grunt/issues/788](https://github.com/gruntjs/grunt/issues/788)
-
-The solution is to run `ulimit -n 10240` and then restart the shell.
 
 ## CLI Task Manager
 
@@ -348,3 +269,76 @@ make sure the shell switches between system ruby and custom ruby)
 - Need to regenerate my SSH keys for GitHub
 - Install task manager (see below)
 - Run all the symlinks
+
+## Grunt error `Error: spawn EMFILE`
+
+This was an issue with using the Node static site generator: CabinJS.
+
+See [https://github.com/gruntjs/grunt/issues/788](https://github.com/gruntjs/grunt/issues/788)
+
+The solution is to run `ulimit -n 10240` and then restart the shell.
+
+## Upgrading to Mac OS X Mavericks
+
+There were issues with the C++ compiler.
+
+Seems it changed from `libstdc++` to `libc++` and on top of that my own work set-up was different in that we needed to use a specific Apple based C++ compiler called `apple-gcc42`.
+
+When running `gcc --version` we want to see the Apple version being used.
+
+To swap to `apple-gcc42` we need to rename the existing compilers and then symlink to the new ones...
+
+- `cd /usr/bin`
+- `sudo -s` (to switch to `root` user)
+- `mv c++ llvm-c++`
+- `mv cc llvm-cc`
+- `mv gcov llvm-gcov`
+- `mv gcc llvm-gcc`
+- `mv g++ llvm-g++`
+- `mv cpp llvm-cpp`
+- `ln -s /usr/local/bin/c++-4.2 /usr/bin/c++`
+- `ln -s /usr/local/bin/cpp-4.2 /usr/bin/cpp`
+- `ln -s /usr/local/bin/g++-4.2 /usr/bin/g++`
+- `ln -s /usr/local/bin/gcc-4.2 /usr/bin/gcc`
+- `ln -s /usr/local/bin/gcov-4.2 /usr/bin/gcov`
+- `ln -s /usr/local/bin/gcc-4.2 /usr/bin/cc`
+
+You'll know when it's working because before you do the symlinks, if you run `gcc --version` you'll see:
+
+```sh
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr
+--with-gxx-include-dir=/usr/include/c++/4.2.1
+
+Apple LLVM version 5.0 (clang-500.2.79) (based on LLVM 3.3svn)
+
+Target: x86_64-apple-darwin13.0.0
+
+Thread model: posix
+```
+
+...and after symlinking you'll see:
+
+```sh
+i686-apple-darwin11-gcc-4.2.1 (GCC) 4.2.1 (Apple Inc. build 5666) (dot 3)
+
+Copyright (C) 2007 Free Software Foundation, Inc.
+
+This is free software; see the source for copying conditions.  There is NO
+
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+```
+
+### Symlinks
+
+In `/usr/local/bin`, a simple `ls *4.2` will list 6 files (see above) which will need to be symlinked. Symlink these to the same place but without the 4.2 suffix...
+
+```sh
+ln -s /usr/local/bin/gcc-4.2 /usr/local/bin/gcc
+```
+
+Additional symlinks needed:
+
+```sh
+ln -s /usr/local/bin/gcc-4.2 /usr/local/bin/cc
+ln -s /usr/local/bin/gcc-4.2 /usr/local/bin/g++ # gem unf_ext uses g++
+```
