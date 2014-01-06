@@ -106,4 +106,13 @@ map <Leader>c :Tabularize /:<cr>
 map <Leader>es :Tabularize /=\zs<cr>
 map <Leader>cs :Tabularize /:\zs<cr>
 
+" Camel Case Motion (for dealing with programming code)
+Bundle 'vim-scripts/camelcasemotion'
+map <silent> w <Plug>CamelCaseMotion_w
+map <silent> b <Plug>CamelCaseMotion_b
+map <silent> e <Plug>CamelCaseMotion_e
+sunmap w
+sunmap b
+sunmap e
+
 filetype plugin indent on " required by Vundle Plugin Manager
