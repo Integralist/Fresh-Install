@@ -173,6 +173,7 @@ Note: you can shorten commands (e.g. `task list project:dotfiles` === `task l pr
 Once installed via Hombrew we need to sync our configuration file (irc.conf within the .weechat directory) via Dropbox so make sure you symlink the dotfiles (see above section with symlinks).
 
 - `/connect {config_name}` to connect to channel
+- `/connect freenode` and then `/join #gulpjs`
 - `/quit`
 - `/q {user_name}` for private chat
 - `/close` to close a window
