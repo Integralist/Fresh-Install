@@ -2,8 +2,8 @@
 export GITHUB_USER="integralist"
 
 # Specify synchronised location
-syncfolder="$HOME/Google Drive/Dropbox" # sourcing a file breaks with backslashes
-syncfolderalias="$HOME/Google\ Drive/Dropbox" # aliasing needs backslashes as it's an actual command
+syncfolder="$HOME/Box Sync" # sourcing a file breaks with backslashes
+syncfolderalias="$HOME/Box\ Sync" # aliasing needs backslashes as it's an actual command
 
 # Export the path so it can be used elsewhere (such as in our .vimrc file)
 export SYNCFOLDER=$syncfolder
@@ -59,7 +59,7 @@ alias tka="tmux ls | cut -d : -f 1 | xargs -I {} tmux kill-session -t {}" # tmux
 alias tmuxsrc="tmux source-file ~/.tmux.conf"
 alias lib="cd $syncfolderalias/Library"
 alias df="cd $syncfolderalias/Fresh\ Install/Shell"
-alias site="cd $syncfolderalias/Library/Github/integralist\ \(CabinJS\)/Website"
+alias site="cd $syncfolderalias/Library/Github/integralist/Website"
 alias vs="vagrant suspend"
 alias vu="vagrant up"
 alias vd="vagrant destroy"
@@ -83,7 +83,7 @@ alias gemu="for i in `gem list --no-versions`; do gem uninstall -aIx $i; done"
 # we send to stdout the content of our log.txt (which is the commit message)
 # we then pipe that commit message over to xargs which runs `git commit` using it
 # finally we `git push origin master`
-alias deploysite="cd $syncfolderalias/Library/Github/integralist\ \(CabinJS\)/Website && touch log.txt && git log --oneline -n 1 | cut -d ' ' -f 2- | xargs -I {} echo {} > log.txt && cd ../integralist.github.com && cp -r ../Website/dist/* ./ && git add . && git add -A && cat ../Website/log.txt | xargs -I {} git commit -m {} && git push origin master"
+alias deploysite="cd $syncfolderalias/Library/Github/integralist/Website && touch log.txt && git log --oneline -n 1 | cut -d ' ' -f 2- | xargs -I {} echo {} > log.txt && cd ../integralist.github.com && cp -r ../Website/dist/* ./ && git add . && git add -A && cat ../Website/log.txt | xargs -I {} git commit -m {} && git push origin master"
 
 # Color grep results
 export GREP_OPTIONS='--color=auto'
