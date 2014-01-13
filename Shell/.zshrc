@@ -65,6 +65,7 @@ alias vu="vagrant up"
 alias vd="vagrant destroy"
 alias vr="vagrant box remove responsive virtualbox"
 alias vst="vagrant status"
+alias gemu="for i in `gem list --no-versions`; do gem uninstall -aIx $i; done"
 
 # Using CabinJS to create my blog, but it only works with GitHub pages
 # So rather than write a Rake task or a Node/Grunt task and have to remember the File system APIs
