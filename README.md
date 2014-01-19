@@ -21,12 +21,10 @@ Mavericks recently) then [click here](#step-by-step)
 	- `brew install wget`
 	- `brew install cmake`
 	- `brew install ctags` for use with Vim (you might need to change the system version of ctags like so `sudo mv /usr/bin/ctags /usr/bin/ctags-original` so the Homebrew version gets picked up when you do `which ctags`)
-    - `brew install weechat` (see below for details)
+	- `brew install weechat` (see below for details)
 - [Pure ZSH](https://github.com/sindresorhus/pure)
 	- [PHPShell](http://www.phpsh.org/)
 - [Grunt](http://gruntjs.com/)
-- [Lo-Dash](https://npmjs.org/package/lodash)
-- [Uglify](https://npmjs.org/package/uglify-js2) (`npm install uglify-js2`)
 - Nave (Node Version Manager) `npm install -g nave` (could need `PATH=${NAVEPATH}:$PATH`)
 - [Xcode Command Line Tools](http://connect.apple.com/)
 - Google Chrome Plugins (should come from Google account sync)
@@ -35,24 +33,24 @@ Mavericks recently) then [click here](#step-by-step)
 	- [Stylish](https://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CC8QFjAA&url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fstylish%2Ffjnbnpbmkenffdnngjfgmeleoegfcffe%3Fhl%3Den&ei=BcAIUtODCIPQhAe4xIGwAg&usg=AFQjCNHqQ_jWum-eFNn9yAtVsdvLWn0fkw&bvm=bv.50500085,d.ZG4)
 	- [Dimensions](https://chrome.google.com/webstore/detail/dimensions/hdmihohhdcbejdkidbfijmfehjbnmifk?utm_source=chrome-ntp-icon)
 - Applications
+	- Box.com
 	- iWriter
-	- NotesTab
-	- xScope
-	- Pocket
 	- Regexr
 	- Caffeine
 	- Alfred
 	- AppCleaner
 	- RightZoom
-	- Dropbox
 	- CloudApp
 	- VLC Player
 	- Fantastical
-	- Vienna
-	- Clean My Mac
 	- Memory Clean
-	- [LiceCap](http://www.cockos.com/licecap/) (animated GIF from screen recording)
 	- Dash
+	- NotesTab
+	- xScope
+	- Pocket
+	- Clean My Mac
+	- Vienna
+	- [LiceCap](http://www.cockos.com/licecap/) (animated GIF from screen recording)
 
 ## Dot Files
 
