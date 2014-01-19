@@ -33,23 +33,23 @@ Mavericks recently) then [click here](#step-by-step)
 	- [Stylish](https://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CC8QFjAA&url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fstylish%2Ffjnbnpbmkenffdnngjfgmeleoegfcffe%3Fhl%3Den&ei=BcAIUtODCIPQhAe4xIGwAg&usg=AFQjCNHqQ_jWum-eFNn9yAtVsdvLWn0fkw&bvm=bv.50500085,d.ZG4)
 	- [Dimensions](https://chrome.google.com/webstore/detail/dimensions/hdmihohhdcbejdkidbfijmfehjbnmifk?utm_source=chrome-ntp-icon)
 - Applications
-	- Box.com
-	- iWriter
-	- Regexr
-	- Caffeine
-	- Alfred
-	- AppCleaner
-	- RightZoom
-	- CloudApp
-	- VLC Player
-	- Fantastical
-	- Memory Clean
-	- Dash
-	- NotesTab
-	- xScope
-	- Pocket
-	- Clean My Mac
-	- Vienna
+	- [Box.com](http://www.box.com/)
+	- [iAWriter](http://www.iawriter.com/)
+	- [Regexr](http://www.regexr.com/desktop/)
+	- [Caffeine](https://itunes.apple.com/gb/app/caffeine/id411246225?mt=12)
+	- [Alfred](http://www.alfredapp.com/)
+	- [AppCleaner](http://www.freemacsoft.net/appcleaner/)
+	- [RightZoom](https://www.macupdate.com/app/mac/30591/right-zoom) ([main site](http://www.blazingtools.com/right_zoom_mac.html))
+	- [CloudApp](http://getcloudapp.com/)
+	- [VLC Player](http://www.videolan.org/vlc/index.html)
+	- [Fantastical](http://flexibits.com/fantastical)
+	- [Memory Clean](https://itunes.apple.com/gb/app/memory-clean/id451444120?mt=12)
+	- [Dash](http://kapeli.com/dash)
+	- [NotesTab](https://itunes.apple.com/gb/app/notestab/id492486856?mt=12)
+	- [xScope](http://iconfactory.com/software/xscope)
+	- [Pocket](http://getpocket.com/)
+	- [Clean My Mac](http://macpaw.com/cleanmymac)
+	- [Vienna](http://www.vienna-rss.org/)
 	- [LiceCap](http://www.cockos.com/licecap/) (animated GIF from screen recording)
 
 ## Dot Files
