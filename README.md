@@ -58,25 +58,25 @@ See the `Shell` directory that includes a .zshrc file which imports a Zsh settin
 
 We need to symlink our .zshrc, .vimrc and .tmux.conf files (and our .vim) from our home directory to our Dropbox versions...
 
-`ln -s ~/Box\ Sync/Fresh\ Install/Shell/.NERDTreeBookmarks ~/.NERDTreeBookmarks`
+`ln -s ~/Dropbox/Fresh\ Install/Shell/.NERDTreeBookmarks ~/.NERDTreeBookmarks`
 
-`ln -s ~/Box\ Sync/Fresh\ Install/Shell/.gitconfig ~/.gitconfig`
+`ln -s ~/Dropbox/Fresh\ Install/Shell/.gitconfig ~/.gitconfig`
 
-`ln -s ~/Box\ Sync/Fresh\ Install/Shell/.gitignore_global ~/.gitignore_global`
+`ln -s ~/Dropbox/Fresh\ Install/Shell/.gitignore_global ~/.gitignore_global`
 
-`ln -s ~/Box\ Sync/Fresh\ Install/Shell/.task ~/.task`
+`ln -s ~/Dropbox/Fresh\ Install/Shell/.task ~/.task`
 
-`ln -s ~/Box\ Sync/Fresh\ Install/Shell/.taskrc ~/.taskrc`
+`ln -s ~/Dropbox/Fresh\ Install/Shell/.taskrc ~/.taskrc`
 
-`ln -s ~/Box\ Sync/Fresh\ Install/Shell/.tmux.conf ~/.tmux.conf`
+`ln -s ~/Dropbox/Fresh\ Install/Shell/.tmux.conf ~/.tmux.conf`
 
-`ln -s ~/Box\ Sync/Fresh\ Install/Shell/.vim ~/.vim`
+`ln -s ~/Dropbox/Fresh\ Install/Shell/.vim ~/.vim`
 
-`ln -s ~/Box\ Sync/Fresh\ Install/Shell/.vimrc ~/.vimrc`
+`ln -s ~/Dropbox/Fresh\ Install/Shell/.vimrc ~/.vimrc`
 
-`ln -s ~/Box\ Sync/Fresh\ Install/Shell/.weechat ~/.weechat`
+`ln -s ~/Dropbox/Fresh\ Install/Shell/.weechat ~/.weechat`
 
-`ln -s ~/Box\ Sync/Fresh\ Install/Shell/.zshrc ~/.zshrc`
+`ln -s ~/Dropbox/Fresh\ Install/Shell/.zshrc ~/.zshrc`
 
 Note: rather than export a $PATH you *could* (not that I'd recommend it) also edit the file directly: `vim /private/etc/paths`
 
