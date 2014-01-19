@@ -2,6 +2,7 @@
 export GITHUB_USER="integralist"
 
 # Specify synchronised location
+dropbox="$HOME/Dropbox"
 syncfolder="$HOME/Box Sync" # sourcing a file breaks with backslashes
 syncfolderalias="$HOME/Box\ Sync" # aliasing needs backslashes as it's an actual command
 
@@ -58,7 +59,7 @@ alias grunt="grunt --verbose --stack"
 alias tka="tmux ls | cut -d : -f 1 | xargs -I {} tmux kill-session -t {}" # tmux kill all sessions
 alias tmuxsrc="tmux source-file ~/.tmux.conf"
 alias lib="cd $syncfolderalias/Library"
-alias df="cd $syncfolderalias/Fresh\ Install/Shell"
+alias df="cd $dropbox/Fresh\ Install/Shell"
 alias site="cd $syncfolderalias/Library/Github/integralist/Website"
 alias vs="vagrant suspend"
 alias vu="vagrant up"
@@ -295,4 +296,4 @@ export MANPAGER="less -X"
 export EDITOR="vim"
 
 # Pull in 'Pure' shell prompt: skin and settings
-source "$syncfolder/Fresh Install/Shell/prompt.zsh"
+source "$dropbox/Fresh Install/Shell/prompt.zsh"
