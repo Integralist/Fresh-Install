@@ -1,0 +1,10 @@
+ln -s ~/Dropbox/Fresh\ Install/Shell/.NERDTreeBookmarks ~/.NERDTreeBookmarks
+ln -s ~/Dropbox/Fresh\ Install/Shell/.gitconfig ~/.gitconfig
+ln -s ~/Dropbox/Fresh\ Install/Shell/.gitignore_global ~/.gitignore_global
+ln -s ~/Dropbox/Fresh\ Install/Shell/.task ~/.task
+ln -s ~/Dropbox/Fresh\ Install/Shell/.taskrc ~/.taskrc
+ln -s ~/Dropbox/Fresh\ Install/Shell/.tmux.conf ~/.tmux.conf
+ln -s ~/Dropbox/Fresh\ Install/Shell/.vim ~/.vim
+ln -s ~/Dropbox/Fresh\ Install/Shell/.vimrc ~/.vimrc
+ln -s ~/Dropbox/Fresh\ Install/Shell/.weechat ~/.weechat
+ln -s ~/Dropbox/Fresh\ Install/Shell/.zshrc ~/.zshrc
