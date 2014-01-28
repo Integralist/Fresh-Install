@@ -214,6 +214,7 @@ function cdf() {
 }
 
 # find shorthand
+# find ./ -name '*.js'
 function f() {
     find . -name "$1"
 }
