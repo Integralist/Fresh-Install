@@ -178,6 +178,8 @@ Note: you can shorten commands (e.g. `task list project:dotfiles` === `task l pr
 
 Once installed via Hombrew we need to sync our configuration file (irc.conf within the .weechat directory) via Dropbox so make sure you symlink the dotfiles (see above section with symlinks).
 
+You'll find my WeeChat configuration files within `shell/.weechat`
+
 **Requirements for notifications:**
 
 - [https://github.com/wallace/weechat-notification-center-rb](https://github.com/wallace/weechat-notification-center-rb)
