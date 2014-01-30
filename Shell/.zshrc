@@ -7,6 +7,7 @@ syncfolder="$HOME/Box Sync" # sourcing a file breaks with backslashes
 syncfolderalias="$HOME/Box\ Sync" # aliasing needs backslashes as it's an actual command
 
 # Export the path so it can be used elsewhere (such as in our .vimrc file)
+export DROPBOX=$dropbox
 export SYNCFOLDER=$syncfolder
 export SYNCFOLDERALIAS=$syncfolderalias
 

@@ -5,7 +5,7 @@
 " fi
 
 " $SYNCFOLDERALIAS is set via .zshrc file
-set runtimepath+=$SYNCFOLDERALIAS/Fresh\ Install/Shell/vim
+set runtimepath+=$DROPBOX/Fresh\ Install/Shell/vim
 runtime settings.vim
 runtime vundle.vim
 runtime mapping.vim
