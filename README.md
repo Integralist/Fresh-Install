@@ -337,3 +337,9 @@ Additional symlinks needed:
 ln -s /usr/local/bin/gcc-4.2 /usr/local/bin/cc
 ln -s /usr/local/bin/gcc-4.2 /usr/local/bin/g++ # gem unf_ext uses g++
 ```
+
+## PHP REPL
+
+- `wget psysh.org/psysh`
+- `chmod +x psysh`
+- `mv ./psysh /usr/local/bin/psysh`
