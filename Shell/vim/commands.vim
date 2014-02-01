@@ -16,7 +16,7 @@ autocmd BufWritePre * call StripTrailingWhitespace()
 " file formats
 autocmd Filetype gitcommit setlocal spell textwidth=72
 autocmd Filetype markdown setlocal wrap linebreak nolist textwidth=0 wrapmargin=0 " http://vim.wikia.com/wiki/Word_wrap_without_line_breaks
-autocmd FileType cucumber,ruby,yaml setl sw=2 sts=2 et
+autocmd FileType sh,cucumber,ruby,yaml setl sw=2 sts=2 et
 
 " specify syntax highlighting for specific files
 au Bufread,BufNewFile *.spv set filetype=php
