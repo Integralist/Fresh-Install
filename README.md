@@ -60,7 +60,7 @@ See the `Shell` directory that includes a .zshrc file which imports a Zsh settin
 
 We need to symlink our .zshrc, .vimrc and .tmux.conf files (and our .vim) from our home directory to our Dropbox versions...
 
-This is handled via [`install.sh`](https://github.com/Integralist/Fresh-Install/blob/master/install.sh)
+This is handled via [`provision.sh`](https://github.com/Integralist/Fresh-Install/blob/master/provision.sh)
 
 `ln -s ~/Dropbox/Fresh\ Install/Shell/.NERDTreeBookmarks ~/.NERDTreeBookmarks`
 
