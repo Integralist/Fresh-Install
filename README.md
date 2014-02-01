@@ -25,8 +25,7 @@ Mavericks recently) then [click here](#step-by-step)
 	- `brew install sitespeedio/sitespeedio/sitespeed.io`
 	- Install [brew-cask](https://github.com/phinze/homebrew-cask)
         - `brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webp-quicklook suspicious-package`
-- [Pure ZSH](https://github.com/sindresorhus/pure)
-	- [PHPShell](http://www.phpsh.org/)
+- [PHP REPL](#php-repl) (links to section below)
 - [Grunt](http://gruntjs.com/)
 - Nave (Node Version Manager) `npm install -g nave` (could need `PATH=${NAVEPATH}:$PATH`)
 - [Xcode Command Line Tools](http://connect.apple.com/)
@@ -86,6 +85,8 @@ This is handled via `install.sh`
 Note: rather than export a $PATH you *could* (not that I'd recommend it) also edit the file directly: `vim /private/etc/paths`
 
 ## Shell Theme
+
+Base settings handled by [Pure ZSH](https://github.com/sindresorhus/pure)
 
 Use one of the themes inside the `Shell/themes` folder.
 
