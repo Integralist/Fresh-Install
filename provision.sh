@@ -43,11 +43,13 @@ function install_php_repl() {
 
 function install_weechat_notifications() {
   cd $HOME
-  gem install weechat
-  gem install terminal-notifier
+  sudo gem install weechat terminal-notifier
+  curl https://raw.github.com/wallace/weechat-notification-center-rb/master/notification_center.rb > \
+        ~/.weechat/ruby/autoload/notification_center.rb
 
   # We have to install these gems into the system Ruby
   # So simplest way is to move into the home directory
+  # We can't run this function until after we've symlinked our dotfiles
 }
 
 function switch_to_zsh() {
@@ -75,8 +77,8 @@ install_homebrew()
 install_brews()
 install_software()
 install_php_repl()
-install_weechat_notifications()
 switch_to_zsh()
 
 echo "We've installed all the software we can. Check the README to see if there is anything else. \
-      Don't forget to execute the symlink_dotfiles function as well once Dropbox is installed"
+      Don't forget to execute the symlink_dotfiles function as well once Dropbox is installed. \
+      When that's done you can run install_weechat_notifications"
