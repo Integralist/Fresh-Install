@@ -1,6 +1,8 @@
 # Fresh Install
 
-These are my own instructions for a fresh laptop/mac install
+These are my own instructions for a fresh laptop/mac install.
+
+There is [`provision.sh`](https://github.com/Integralist/Fresh-Install/blob/master/provision.sh) script which can help to install a lot of the software and specific settings/dotfiles detailed below.
 
 For a quick step-by-step (based off of my doing a fresh install of Mac OS X
 Mavericks recently) then [click here](#step-by-step)
