@@ -41,6 +41,15 @@ function install_php_repl() {
   mv ./psysh /usr/local/bin/psysh
 }
 
+function install_weechat_notifications() {
+  cd $HOME
+  gem install weechat
+  gem install terminal-notifier
+
+  # We have to install these gems into the system Ruby
+  # So simplest way is to move into the home directory
+}
+
 function switch_to_zsh() {
   chsh -s /bin/zsh
 }
@@ -66,6 +75,7 @@ install_homebrew()
 install_brews()
 install_software()
 install_php_repl()
+install_weechat_notifications()
 switch_to_zsh()
 
 echo "We've installed all the software we can. Check the README to see if there is anything else. \
