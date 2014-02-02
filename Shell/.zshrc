@@ -93,7 +93,7 @@ export GREP_COLOR='1;32'
 
 # Makes installing versions of Ruby slightly easier
 function ri() {
-    ruby-install -i ~/.rubies/ ruby $1
+  ruby-install -i ~/.rubies/ ruby $1
 }
 
 # Handle installing of Ruby Gems using Gemsets
@@ -143,8 +143,8 @@ function chruby_gemset_auto() {
 
   until [[ -z "$dir" ]]; do
     if { read -r gemset <"$dir/.gemset"; } 2>/dev/null; then
-        chruby_gemset "$gemset"
-        return $?
+      chruby_gemset "$gemset"
+      return $?
     fi
     if { read -r gemset <"$dir/.ruby-gemset"; } 2>/dev/null; then
       chruby_gemset "$gemset"
@@ -173,81 +173,79 @@ fi
 
 # Makes creating a new tmux session (with a specific name) easier
 function tmuxopen() {
-    tmux attach -t $1
+  tmux attach -t $1
 }
 
 # Makes creating a new tmux session (with a specific name) easier
 function tmuxnew() {
-    tmux new -s $1
+  tmux new -s $1
 }
 
 # Makes deleting a tmux session easier
 function tmuxkill() {
-    tmux kill-session -t $1
+  tmux kill-session -t $1
 }
 
 # Open path in the terminal which matches current directory within the the forefront Finder window.
 function cdf() {
-    if [ "`osascript -e 'tell application "System Events" to "Finder" is in (get name of processes)'`" = "true" ]; then
-
-        if [ "`osascript -e 'tell application "Finder" to get collapsed of front window' 2>/dev/null`" != "false" ]; then
-
-            if [ "`osascript -e 'tell application "System Events" to "TotalFinderCrashWatcher" is in (get name of processes)'`" = "true" ];then
-                open .
-                osascript -e 'tell application "System Events" to tell process "Finder" to keystroke "w" using {command down}' -e 'tell application "System Events" to tell process "Finder" to keystroke "h" using {command down}'
-            else
-                finderState=`osascript -e 'tell application "System Events" to set visible of application process "Finder" to true' -e 'tell application "Finder" to set collapsed of front window to true' 2>/dev/null`
-            fi
-        fi
-
-        finder=`osascript -e 'tell application "Finder" to set curName to (POSIX path of (target of front window as alias))' 2>/dev/null`
-
-        if [ -z "$finder" ]; then
-            echo "Failed to find \"Finder\""
-        else
-            echo "$finder"
-            cd "$finder"
-        fi
-
-    else
-        echo "\"Finder\" is not running"
+  if [ "`osascript -e 'tell application "System Events" to "Finder" is in (get name of processes)'`" = "true" ]; then
+    if [ "`osascript -e 'tell application "Finder" to get collapsed of front window' 2>/dev/null`" != "false" ]; then
+      if [ "`osascript -e 'tell application "System Events" to "TotalFinderCrashWatcher" is in (get name of processes)'`" = "true" ];then
+        open .
+        osascript -e 'tell application "System Events" to tell process "Finder" to keystroke "w" using {command down}' -e 'tell application "System Events" to tell process "Finder" to keystroke "h" using {command down}'
+      else
+        finderState=`osascript -e 'tell application "System Events" to set visible of application process "Finder" to true' -e 'tell application "Finder" to set collapsed of front window to true' 2>/dev/null`
+      fi
     fi
+
+    finder=`osascript -e 'tell application "Finder" to set curName to (POSIX path of (target of front window as alias))' 2>/dev/null`
+
+    if [ -z "$finder" ]; then
+      echo "Failed to find \"Finder\""
+    else
+      echo "$finder"
+      cd "$finder"
+    fi
+
+  else
+    echo "\"Finder\" is not running"
+  fi
 }
 
 # find shorthand
 # find ./ -name '*.js'
 function f() {
-    find . -name "$1"
+  find . -name "$1"
 }
 
 # Create a new directory and enter it
 function md() {
-    mkdir -p "$@" && cd "$@"
+  mkdir -p "$@" && cd "$@"
 }
 
 # Start an HTTP server from a directory, optionally specifying the port
 function server() {
-    local port="${1:-8000}"
-    open "http://localhost:${port}/"
-    # Set the default Content-Type to `text/plain` instead of `application/octet-stream`
-    # And serve everything as UTF-8 (although not technically correct, this doesn’t break anything for binary files)
-    python -c $'import SimpleHTTPServer;\nmap = SimpleHTTPServer.SimpleHTTPRequestHandler.extensions_map;\nmap[""] = "text/plain";\nfor key, value in map.items():\n\tmap[key] = value + ";charset=UTF-8";\nSimpleHTTPServer.test();' "$port"
+  local port="${1:-8000}"
+  open "http://localhost:${port}/"
+  # Set the default Content-Type to `text/plain` instead of `application/octet-stream`
+  # And serve everything as UTF-8 (although not technically correct, this doesn’t break anything for binary files)
+  python -c $'import SimpleHTTPServer;\nmap = SimpleHTTPServer.SimpleHTTPRequestHandler.extensions_map;\nmap[""] = "text/plain";\nfor key, value in map.items():\n\tmap[key] = value + ";charset=UTF-8";\nSimpleHTTPServer.test();' "$port"
 }
 
 function phpserver() {
-    php -S localhost:8888
+  php -S localhost:8888
 }
 
 function rubyserver() {
-    ruby -run -e httpd . -p 5000
+  ruby -run -e httpd . -p 5000
 }
 
 # get gzipped size
 function gz() {
-    echo "orig size    (bytes): "
-    cat "$1" | wc -c
-    echo "gzipped size (bytes): "
-    gzip -c "$1" | wc -c
+  echo "orig size    (bytes): "
+  cat "$1" | wc -c
+  echo "gzipped size (bytes): "
+  gzip -c "$1" | wc -c
 }
 
 # Auto completion
@@ -256,31 +254,31 @@ compinit -C
 
 # case-insensitive (all), partial-word and then substring completion
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' \
-    'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
+  'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
 
 # Convert movie file to animated gif
 gif-ify() {
-    if [[ -n "$1" && -n "$2" ]]; then
-        ffmpeg -i $1 -pix_fmt rgb24 temp.gif
-        convert -layers Optimize temp.gif $2
-        rm temp.gif
-    else
-        echo "proper usage: gif-ify <input_movie.mov> <output_file.gif>. You DO need to include extensions."
-    fi
+  if [[ -n "$1" && -n "$2" ]]; then
+    ffmpeg -i $1 -pix_fmt rgb24 temp.gif
+    convert -layers Optimize temp.gif $2
+    rm temp.gif
+  else
+    echo "proper usage: gif-ify <input_movie.mov> <output_file.gif>. You DO need to include extensions."
+  fi
 }
 
 function restart_finder() {
-    killall Finder
+  killall Finder
 }
 
 function show_hidden_files() {
-    defaults write com.apple.finder AppleShowAllFiles TRUE
-    restart_finder
+  defaults write com.apple.finder AppleShowAllFiles TRUE
+  restart_finder
 }
 
 function hide_hidden_files() {
-    defaults write com.apple.finder AppleShowAllFiles FALSE
-    restart_finder
+  defaults write com.apple.finder AppleShowAllFiles FALSE
+  restart_finder
 }
 
 set completion-ignore-case on
