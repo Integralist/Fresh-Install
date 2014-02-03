@@ -68,6 +68,11 @@ alias vd="vagrant destroy"
 alias vr="vagrant box remove responsive virtualbox"
 alias vst="vagrant status"
 alias gemu="for i in `gem list --no-versions`; do gem uninstall -aIx $i; done"
+alias phplint='find ./ -name \*.php | xargs -n 1 php -l'
+alias currentwifi='networksetup -getairportnetwork en0'
+alias ip='dig +short myip.opendns.com @resolver1.opendns.com'
+alias localip='ipconfig getifaddr en0'
+alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'" # command works, but not when aliased?
 
 # Using CabinJS to create my blog, but it only works with GitHub pages
 # So rather than write a Rake task or a Node/Grunt task and have to remember the File system APIs
