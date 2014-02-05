@@ -6,19 +6,19 @@
 " (Note that $DROPBOX is exported from within our .zshrc file)
 "
 set runtimepath+=$DROPBOX/Fresh\ Install/Shell/vim
-runtime settings.vim
-runtime vundle.vim
-runtime mapping.vim
-runtime commands.vim
+runtime 1.settings.vim
+runtime 2.vundle.vim
+runtime 3.mapping.vim
+runtime 4.commands.vim
 "
 " Apparently the following examples should work, but they didn't for me?
 " although they do work when executed via :echo {command}
 "
 " if isdirectory(expand('%:p:h').'/vim')
 " if isdirectory("$DROPBOX/Fresh Install/Shell/vim")
-"   for file in split(globpath('$DROPBOX/Fresh Install/Shell/vim/', '*.vim'), '\n')
-"     execute 'source' file
-"   endfor
+  " for file in split(globpath('$DROPBOX/Fresh Install/Shell/vim/', '*.vim'), '\n')
+  "   execute 'source' file
+  " endfor
 " endif
 
 " if isdirectory("$DROPBOX/Fresh Install/Shell/vim")
