@@ -4,12 +4,9 @@ export GITHUB_USER="integralist"
 # Specify synchronised location
 dropbox="$HOME/Dropbox"
 syncfolder="$HOME/Box Sync" # sourcing a file breaks with backslashes
-syncfolderalias="$HOME/Box\ Sync" # aliasing needs backslashes as it's an actual command
 
 # Export the path so it can be used elsewhere (such as in our .vimrc file)
 export DROPBOX=$dropbox
-export SYNCFOLDER=$syncfolder
-export SYNCFOLDERALIAS=$syncfolderalias
 
 # Vagrant fixes issue with Chef not completing
 if `tty -s`; then
@@ -59,9 +56,9 @@ alias rubyv="ls /opt/rubies/"
 alias grunt="grunt --verbose --stack"
 alias tka="tmux ls | cut -d : -f 1 | xargs -I {} tmux kill-session -t {}" # tmux kill all sessions
 alias tmuxsrc="tmux source-file ~/.tmux.conf"
-alias lib="cd $syncfolderalias/Library"
+alias lib="cd '$syncfolder/Library'"
 alias shell="cd $dropbox/Fresh\ Install/Shell"
-alias site="cd $syncfolderalias/Library/Github/integralist/Website"
+alias site="cd '$syncfolder/Library/Github/integralist/Website"
 alias vs="vagrant suspend"
 alias vu="vagrant up"
 alias vd="vagrant destroy"
@@ -90,7 +87,7 @@ alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'" # comman
 # we send to stdout the content of our log.txt (which is the commit message)
 # we then pipe that commit message over to xargs which runs `git commit` using it
 # finally we `git push origin master`
-alias deploysite="cd $syncfolderalias/Library/Github/integralist/Website && touch log.txt && git log --oneline -n 1 | cut -d ' ' -f 2- | xargs -I {} echo {} > log.txt && cd ../integralist.github.com && cp -r ../Website/dist/* ./ && git add . && git add -A && cat ../Website/log.txt | xargs -I {} git commit -m {} && git push origin master"
+alias deploysite="cd '$syncfolder/Library/Github/integralist/Website && touch log.txt && git log --oneline -n 1 | cut -d ' ' -f 2- | xargs -I {} echo {} > log.txt && cd ../integralist.github.com && cp -r ../Website/dist/* ./ && git add . && git add -A && cat ../Website/log.txt | xargs -I {} git commit -m {} && git push origin master'"
 
 # Color grep results
 export GREP_OPTIONS='--color=auto'
