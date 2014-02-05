@@ -14,6 +14,7 @@ runtime commands.vim
 " Apparently the following examples should work, but they didn't for me?
 " although they do work when executed via :echo {command}
 "
+" if isdirectory(expand('%:p:h').'/vim')
 " if isdirectory("$DROPBOX/Fresh Install/Shell/vim")
 "   for file in split(globpath('$DROPBOX/Fresh Install/Shell/vim/', '*.vim'), '\n')
 "     execute 'source' file
