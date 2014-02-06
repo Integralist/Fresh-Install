@@ -87,7 +87,17 @@ alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'" # comman
 # we send to stdout the content of our log.txt (which is the commit message)
 # we then pipe that commit message over to xargs which runs `git commit` using it
 # finally we `git push origin master`
-alias deploysite="cd '$syncfolder/Library/Github/integralist/Website && touch log.txt && git log --oneline -n 1 | cut -d ' ' -f 2- | xargs -I {} echo {} > log.txt && cd ../integralist.github.com && cp -r ../Website/dist/* ./ && git add . && git add -A && cat ../Website/log.txt | xargs -I {} git commit -m {} && git push origin master'"
+alias deploysite="cd '$syncfolder/Library/Github/integralist/Website' && \
+                  touch log.txt && \
+                  git log --oneline -n 1 | \
+                  cut -d ' ' -f 2- | \
+                  xargs -I {} echo {} > log.txt && \
+                  cd ../integralist.github.com && \
+                  cp -r ../Website/dist/* ./ && \
+                  git add . && git add -A && \
+                  cat ../Website/log.txt | \
+                  xargs -I {} git commit -m {} && \
+                  git push origin master"
 
 # Color grep results
 export GREP_OPTIONS='--color=auto'
