@@ -15,14 +15,17 @@ runtime 4.commands.vim
 " although they do work when executed via :echo {command}
 "
 " if isdirectory(expand('%:p:h').'/vim')
-" if isdirectory("$DROPBOX/Fresh Install/Shell/vim")
+" if isdirectory("$DROPBOX/Fresh Install/Shell/vim/")
   " for file in split(globpath('$DROPBOX/Fresh Install/Shell/vim/', '*.vim'), '\n')
-  "   execute 'source' file
+  "   execute 'source ' . file
   " endfor
 " endif
 
-" if isdirectory("$DROPBOX/Fresh Install/Shell/vim")
-"   execute join(map(split(glob("$DROPBOX/Fresh Install/Shell/vim/*.vim"), "\n"), '"source " . v:val'), "\n")
+" if isdirectory("$DROPBOX/Fresh Install/Shell/vim/")
+  " execute join(map(split(glob("$DROPBOX/Fresh Install/Shell/vim/*.vim"), "\n"), '"source " . v:val'), "\n")
+  " let files = split(glob("$DROPBOX/Fresh Install/Shell/vim/*.vim"), "\n")
+  " let sfiles = map(files, '"source " . v:val')
+  " execute join(map(files, '"source " . v:val'), "\n")
 " endif
 
 " Read local config, if it exists
