@@ -64,6 +64,7 @@ alias vu="vagrant up"
 alias vd="vagrant destroy"
 alias vr="vagrant box remove responsive virtualbox"
 alias vst="vagrant status"
+alias vsh="vagrant ssh"
 alias gemu="for i in `gem list --no-versions`; do gem uninstall -aIx $i; done"
 alias phplint='find ./ -name \*.php | xargs -n 1 php -l'
 alias currentwifi='networksetup -getairportnetwork en0'
