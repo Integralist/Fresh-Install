@@ -17,6 +17,7 @@ Mavericks recently) then [click here](#step-by-step)
 	- `brew install chruby` && `brew install ruby-install`
 	- `brew install tmux`
 		- `brew install reattach-to-user-namespace` ([see below](#vim-tmux-and-vundle))
+    - `brew install watch`
 	- `brew install gnu-sed`
 	- `brew install rename` (change File-A-B.gif to File-AB.gif with `rename 's/(.+)-(.+)$/$1$2/' File-*`)
 	- `brew install tree`
