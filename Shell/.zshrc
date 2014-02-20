@@ -8,6 +8,9 @@ syncfolder="$HOME/Box Sync" # sourcing a file breaks with backslashes
 # Export the path so it can be used elsewhere (such as in our .vimrc file)
 export DROPBOX=$dropbox
 
+# Quick access to developer certificates
+export DEV_CERT_PATH="$syncfolder/Work/BBC/Certificates"
+
 # Vagrant fixes issue with Chef not completing
 if `tty -s`; then
    mesg n
