@@ -55,6 +55,7 @@ else
     unset SOCKS_PROXY
 fi;
 
+alias vi="vim"
 alias r="source ~/.zshrc"
 alias st="cd tabloid/webapp/static"
 alias rubyv="ls /opt/rubies/"
