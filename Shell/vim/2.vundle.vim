@@ -39,7 +39,7 @@ let g:tagbar_ctags_bin='/usr/local/bin/ctags'
 :map <leader>b :TagbarOpenAutoClose<cr>
 
 " Tab completion (previously used 'ervandew/supertab')
-Bundle 'Valloric/YouCompleteMe'
+  " Bundle 'Valloric/YouCompleteMe'
 
 " Enable repeating supported plugin maps with '.'
 Bundle 'tpope/vim-repeat'
