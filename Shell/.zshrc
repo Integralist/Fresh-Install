@@ -10,6 +10,8 @@ export DROPBOX=$dropbox
 
 # Quick access to developer certificates
 export DEV_CERT_PATH="$syncfolder/Work/BBC/Certificates"
+export DEV_CERT_PEM="$DEV_CERT_PATH/Certificate.pem"
+export DEV_CERT_P12="$DEV_CERT_PATH/Certificate.p12"
 
 # Vagrant fixes issue with Chef not completing
 if `tty -s`; then
