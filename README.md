@@ -2,7 +2,26 @@
 
 These are my own instructions for a fresh laptop/mac install.
 
+This file is broken down into sections:
+
+- [Automated provisioning](https://github.com/Integralist/Fresh-Install#automated-provisioning)
+- [Homebrew installation](https://github.com/Integralist/Fresh-Install#homebrew-installation)
+- [dotfiles](https://github.com/Integralist/Fresh-Install#dotfiles)
+- [Shell Theme](https://github.com/Integralist/Fresh-Install#shell-theme)
+- [Shell Font](https://github.com/Integralist/Fresh-Install#shell-font)
+- [Vim, tmux and Pathogen](https://github.com/Integralist/Fresh-Install#vim-tmux-and-pathogen)
+- [CLI Task Manager](https://github.com/Integralist/Fresh-Install#cli-task-manager)
+- [WeeChat](https://github.com/Integralist/Fresh-Install#weechat)
+- [Step by Step](https://github.com/Integralist/Fresh-Install#step-by-step)
+- [Grunt error `Error: spawn EMFILE`](https://github.com/Integralist/Fresh-Install#grunt-error-error-spawn-emfile)
+- [Upgrading to Mac OS X Mavericks](https://github.com/Integralist/Fresh-Install#upgrading-to-mac-os-x-mavericks)
+- [PHP REPL](https://github.com/Integralist/Fresh-Install#php-repl)
+
+## Automated provisioning
+
 There is [`provision.sh`](https://github.com/Integralist/Fresh-Install/blob/master/provision.sh) script which can help to install a lot of the software and specific settings/dotfiles detailed below.
+
+## Homebrew installation
 
 For a quick step-by-step (based off of my doing a fresh install of Mac OS X
 Mavericks recently) then [click here](#step-by-step)
