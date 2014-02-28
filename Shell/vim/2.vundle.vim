@@ -16,13 +16,13 @@ let g:ctrlp_max_height=30
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*.,*/.DS_Store
 
 " Tomorrow Night Theme
-" Bundle 'jlangston/tomorrow-night-vim'
-" :silent! :colorscheme tomorrow-night-bright
+Bundle 'jlangston/tomorrow-night-vim'
+:silent! :colorscheme tomorrow-night-bright
 
-" Solarized Theme
-Bundle 'altercation/vim-colors-solarized'
-set background=dark
-colorscheme solarized
+" " Solarized Theme
+" Bundle 'altercation/vim-colors-solarized'
+" set background=dark
+" colorscheme solarized
 
 " Markdown
 Bundle 'tpope/vim-markdown'
