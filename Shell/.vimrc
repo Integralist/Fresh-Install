@@ -7,9 +7,10 @@
 "
 set runtimepath+=$DROPBOX/Fresh\ Install/Shell/vim
 runtime 1.settings.vim
-runtime 2.vundle.vim
-runtime 3.mapping.vim
-runtime 4.commands.vim
+runtime 2.pathogen.vim
+runtime 3.plugins.vim
+runtime 4.mapping.vim
+runtime 5.commands.vim
 "
 " Apparently the following examples should work, but they didn't for me?
 " although they do work when executed via :echo {command}
