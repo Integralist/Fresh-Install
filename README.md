@@ -44,7 +44,7 @@ Mavericks recently) then [click here](#step-by-step)
 	- `brew install cmake`
 	- `brew install ctags` for use with Vim (you might need to change the system version of ctags like so `sudo mv /usr/bin/ctags /usr/bin/ctags-original` so the Homebrew version gets picked up when you do `which ctags`)
 	- `brew install weechat --with-perl --with-python --with-ruby` (see below for details)
-    - `brew install leiningen` (this is a Clojure REPL - run with `lein repl`)
+    - `brew install leiningen` (this is a Clojure REPL - run with `lein repl` - [see below](#clojure-development))
 	- `brew install sitespeedio/sitespeedio/sitespeed.io`
 	- Install [brew-cask](https://github.com/phinze/homebrew-cask)
         - `brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webp-quicklook suspicious-package`
@@ -400,3 +400,11 @@ ln -s /usr/local/bin/gcc-4.2 /usr/local/bin/g++ # gem unf_ext uses g++
 - `wget psysh.org/psysh`
 - `chmod +x psysh`
 - `mv ./psysh /usr/local/bin/psysh`
+
+## Clojure development
+
+We need the following vim packages to try and mimick a reasonably decent Clojure dev environment...
+
+- [https://github.com/tpope/vim-classpath](https://github.com/tpope/vim-classpath)
+- [https://github.com/tpope//vim-clojure-static/](https://github.com/tpope//vim-clojure-static/)
+- [https://github.com/tpope/vim-fireplace/](https://github.com/tpope/vim-fireplace/)
