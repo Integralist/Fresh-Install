@@ -145,7 +145,7 @@ syntax on
 filetype plugin indent on
 ```
 
-List of plugins installed + maybe more (run `[vim-plugins.sh](https://github.com/Integralist/Fresh-Install/blob/master/vim-plugins.sh)` to install for you):
+List of plugins installed + maybe more (run [`vim-plugins.sh`](https://github.com/Integralist/Fresh-Install/blob/master/vim-plugins.sh) to install for you):
 
 ```sh
 https://github.com/kien/ctrlp.vim.git
