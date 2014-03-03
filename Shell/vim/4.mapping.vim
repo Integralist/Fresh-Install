@@ -29,11 +29,15 @@ map <leader>yt :ls<cr>
 " Buffers (runs the delete buffer command on all open buffers)
 map <leader>yd :bufdo bd<cr>
 
-" Make handling Vim windows easier
+" Make handling vertical/linear Vim windows easier
 map <leader>w- <C-W>- " smaller
 map <leader>w+ <C-W>+ " larger
 map <leader>w[ <C-W>= " equal
 map <leader>w] <C-W>_ " fill screen
+
+" Handling horizontal Vim windows isn't as easy.
+" Haven't mapped smaller/larger as <C-W> < and > doesn't seem to work (breaks Vim)
+" Same with mapping <C-W>| to full screen (breaks Vim when trying to alias)
 
 " Make splitting Vim windows easier
 map <leader>; <C-W>s
