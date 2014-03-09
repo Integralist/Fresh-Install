@@ -314,5 +314,8 @@ export MANPAGER="less -X"
 # Make vim the default editor
 export EDITOR="vim"
 
+# Set terminal to have full colour palette
+export TERM="screen-256color"
+
 # Pull in 'Pure' shell prompt: skin and settings
 source "$dropbox/Fresh Install/Shell/prompt.zsh"
