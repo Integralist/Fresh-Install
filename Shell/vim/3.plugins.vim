@@ -1,3 +1,10 @@
+" Tomorrow Night theme
+:silent! :colorscheme Tomorrow-Night-Bright
+
+" Solarized theme
+" set background=dark
+" colorscheme solarized
+
 " CtrlP
 map <leader>t <C-p>
 map <leader>y :CtrlPBuffer<cr>
@@ -5,14 +12,6 @@ let g:ctrlp_show_hidden=1
 let g:ctrlp_working_path_mode=0
 let g:ctrlp_max_height=30
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*.,*/.DS_Store
-
-" Tomorrow Night theme
-:silent! :colorscheme tomorrow-night-bright
-
-" Solarized theme
-" https://github.com/altercation/vim-colors-solarized
-" set background=dark
-" colorscheme solarized
 
 " Ack (uses Ag behind the scenes)
 let g:ackprg = 'ag --nogroup --nocolor --column'
