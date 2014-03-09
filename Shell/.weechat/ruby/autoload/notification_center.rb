@@ -21,6 +21,7 @@ def weechat_init
 end
 
 def hook_notifications
+  #Weechat.hook_signal("*", "show_all", "")
   Weechat.hook_signal("weechat_pv", "show_private", "")
   Weechat.hook_signal("weechat_highlight", "show_highlight", "")
 end
@@ -28,6 +29,11 @@ end
 def unhook_notifications(data, signal, message)
   Weechat.unhook(show_private)
   Weechat.unhook(show_highlight)
+end
+
+def show_all(data, signal, message)
+  show_notification("Weechat Event",  message)
+  return Weechat::WEECHAT_RC_OK
 end
 
 def show_private(data, signal, message)
