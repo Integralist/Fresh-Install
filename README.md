@@ -406,5 +406,5 @@ ln -s /usr/local/bin/gcc-4.2 /usr/local/bin/g++ # gem unf_ext uses g++
 We need the following vim packages to try and mimick a reasonably decent Clojure dev environment...
 
 - [https://github.com/tpope/vim-classpath](https://github.com/tpope/vim-classpath)
-- [https://github.com/tpope//vim-clojure-static/](https://github.com/tpope//vim-clojure-static/)
+- [https://github.com/tpope/vim-clojure-static/](https://github.com/tpope//vim-clojure-static/)
 - [https://github.com/tpope/vim-fireplace/](https://github.com/tpope/vim-fireplace/)
