@@ -308,6 +308,9 @@ bindkey "^[[3~" delete-char
 bindkey "^[3;5~" delete-char
 bindkey "\e[3~" delete-char
 
+# Make the `bck-i-search` C-r (Ctrl + r) command work in tmux
+bindkey '^R' history-incremental-search-backward
+
 # Don’t clear the screen after quitting a manual page
 export MANPAGER="less -X"
 
