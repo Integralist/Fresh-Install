@@ -11,7 +11,7 @@ function install_brews() {
 
   brews=( vim git node the_silver_searcher chruby ruby-install \
           tmux reattach-to-user-namespace phantomjs gnu-sed rename \
-          tree wget cmake terminal-notifier weechat brew-cask )
+          tree wget cmake terminal-notifier weechat brew-cask siege )
 
   for item in "${brews[@]}"
   do
