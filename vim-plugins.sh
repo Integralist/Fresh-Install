@@ -6,7 +6,7 @@ plugins=( kien/ctrlp.vim jlangston/tomorrow-night-vim tpope/vim-markdown tpope/v
           mattn/webapi-vim vim-scripts/Gist.vim mattn/emmet-vim airblade/vim-gitgutter \
           scrooloose/nerdtree tpope/vim-haml tpope/vim-surround othree/html5.vim \
           godlygeek/tabular vim-scripts/camelcasemotion tpope/vim-fireplace tpope/vim-classpath \
-          guns/vim-clojure-static, rizzatti/funcoo.vim, rizzatti/dash.vim )
+          guns/vim-clojure-static, rizzatti/funcoo.vim, rizzatti/dash.vim, sheerun/vim-polyglot )
 
 for item in "${plugins[@]}"
 do
