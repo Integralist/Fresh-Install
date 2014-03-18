@@ -80,7 +80,8 @@ function install_vim_plugins() {
             mileszs/ack.vim tpope/vim-endwise bling/vim-airline edkolev/tmuxline.vim \
             mattn/webapi-vim vim-scripts/Gist.vim mattn/emmet-vim airblade/vim-gitgutter \
             scrooloose/nerdtree tpope/vim-haml tpope/vim-surround othree/html5.vim \
-            godlygeek/tabular vim-scripts/camelcasemotion ap/vim-css-color, sheerun/vim-polyglot )
+            godlygeek/tabular vim-scripts/camelcasemotion ap/vim-css-color tpope/vim-fugitive \
+            sheerun/vim-polyglot )
 
   for item in "${plugins[@]}"
   do

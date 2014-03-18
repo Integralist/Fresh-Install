@@ -171,6 +171,8 @@ https://github.com/tpope/vim-surround.git
 https://github.com/othree/html5.vim.git
 https://github.com/godlygeek/tabular.git
 https://github.com/vim-scripts/camelcasemotion.git
+https://github.com/tpope/vim-fugitive.git
+https://github.com/sheerun/vim-polyglot.git
 ```
 
 ### Vim and tmux status line improvements
