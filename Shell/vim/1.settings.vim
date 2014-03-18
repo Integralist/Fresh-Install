@@ -19,6 +19,9 @@ set history=100
 " always show cursor
 set ruler
 
+" highlight the current line
+set cursorline
+
 " show incomplete commands
 set showcmd
 
