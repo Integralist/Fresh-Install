@@ -173,6 +173,7 @@ https://github.com/godlygeek/tabular.git
 https://github.com/vim-scripts/camelcasemotion.git
 https://github.com/tpope/vim-fugitive.git
 https://github.com/sheerun/vim-polyglot.git
+https://github.com/vim-scripts/textutil.vim
 ```
 
 ### Vim and tmux status line improvements
