@@ -1,9 +1,21 @@
-" Tomorrow Night theme
-" :silent! :colorscheme Tomorrow-Night-Bright
+" Theme style 1
+" Terminal: Tomorrow
+" set background=light
+" colorscheme Tomorrow-Night-Bright
 
-" Solarized theme
+" Theme style 2
+" Terminal: Tomorrow-Night-Bright
 set background=dark
 colorscheme solarized
+
+" Theme style 3
+" Terminal: solarized dark
+" set background=dark
+" colorscheme solarized
+
+" Theme style 4
+" Terminal: Tomorrow-Night-Bright
+" :silent! :colorscheme solarized
 
 " CtrlP
 map <leader>t <C-p>
