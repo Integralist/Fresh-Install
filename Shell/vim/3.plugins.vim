@@ -1,9 +1,9 @@
 " Tomorrow Night theme
-:silent! :colorscheme Tomorrow-Night-Bright
+" :silent! :colorscheme Tomorrow-Night-Bright
 
 " Solarized theme
-" set background=dark
-" colorscheme solarized
+set background=dark
+colorscheme solarized
 
 " CtrlP
 map <leader>t <C-p>
