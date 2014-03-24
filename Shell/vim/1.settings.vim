@@ -98,3 +98,6 @@ set shortmess+=I
 " better splits (new windows appear below and to the right)
 set splitbelow
 set splitright
+
+" directories to ignore when fuzzy finding with CtrlP
+let g:ctrlp_custom_ignore = '\v[\/]((node_modules)|\.(git|svn|grunt|sass-cache))$'
