@@ -19,9 +19,6 @@ set history=100
 " always show cursor
 set ruler
 
-" highlight the current line
-set cursorline
-
 " show incomplete commands
 set showcmd
 
@@ -101,3 +98,16 @@ set splitright
 
 " directories to ignore when fuzzy finding with CtrlP
 let g:ctrlp_custom_ignore = '\v[\/]((node_modules)|\.(git|svn|grunt|sass-cache))$'
+
+" highlight the current line
+" set cursorline
+
+" Set highlight to be a specific colour
+hi CursorLine ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+
+" only apply line highlighting within the current buffer
+augroup CursorLine
+  au!
+  au VimEnter,WinEnter,BufWinEnter * setlocal cursorline
+  au WinLeave * setlocal nocursorline
+augroup END
