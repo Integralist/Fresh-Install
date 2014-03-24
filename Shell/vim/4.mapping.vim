@@ -30,14 +30,15 @@ map <leader>yt :ls<cr>
 map <leader>yd :bufdo bd<cr>
 
 " Make handling vertical/linear Vim windows easier
-map <leader>w- <C-W>- " smaller
-map <leader>w+ <C-W>+ " larger
-map <leader>w[ <C-W>= " equal
-map <leader>w] <C-W>_ " fill screen
+map <leader>w- <C-W>- " decrement height
+map <leader>w+ <C-W>+ " increment height
+map <leader>w] <C-W>_ " maximise height
+" map <leader>w\ <C-W>| " maximise width DOESN'T WORK?
+map <leader>w[ <C-W>= " equalise all windows
 
-" Handling horizontal Vim windows isn't as easy.
-" Haven't mapped smaller/larger as <C-W> < and > doesn't seem to work (breaks Vim)
-" Same with mapping <C-W>| to full screen (breaks Vim when trying to alias)
+" Handling horizontal Vim windows doesn't appear to be possible.
+" Attempting to map <C-W> < and > didn't work
+" Same with mapping <C-W>|
 
 " Make splitting Vim windows easier
 map <leader>; <C-W>s
