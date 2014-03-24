@@ -103,7 +103,8 @@ let g:ctrlp_custom_ignore = '\v[\/]((node_modules)|\.(git|svn|grunt|sass-cache))
 " set cursorline
 
 " Set highlight to be a specific colour
-hi CursorLine ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+hi CursorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
 
 " only apply line highlighting within the current buffer
 augroup CursorLine
