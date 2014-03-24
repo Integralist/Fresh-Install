@@ -81,7 +81,7 @@ function install_vim_plugins() {
             mattn/webapi-vim vim-scripts/Gist.vim mattn/emmet-vim airblade/vim-gitgutter \
             scrooloose/nerdtree tpope/vim-haml tpope/vim-surround othree/html5.vim \
             godlygeek/tabular vim-scripts/camelcasemotion ap/vim-css-color tpope/vim-fugitive \
-            sheerun/vim-polyglot vim-scripts/textutil.vim )
+            sheerun/vim-polyglot vim-scripts/textutil.vim vim-scripts/Tabmerge )
 
   for item in "${plugins[@]}"
   do
