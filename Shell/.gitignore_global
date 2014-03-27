@@ -1,7 +1,8 @@
 # bundler
 .gem
 .bin
-.bundle
+. bundle
+.ruby-version
 
 # miscellaneous
 *.DS_Store
