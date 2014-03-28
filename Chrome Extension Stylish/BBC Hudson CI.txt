@@ -1,0 +1,13 @@
+https://ci-pal.(int|test).bbc.co.uk/hudson/?.*
+
+------------------------------------------------------------------
+
+#viewList { display: none; }
+
+#login-field b {
+  overflow: hidden;
+  width: 230px;
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
