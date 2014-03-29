@@ -28,7 +28,7 @@ Mavericks recently) then [click here](#step-by-step)
 
 - [Homebrew](http://mxcl.github.io/homebrew/)
 	- `brew install apple-gcc42`
-	- `brew install vim` (you'll need to rename the system Vim `which vim` e.g. `sudo mv /usr/bin/vim /usr/bin/vim-7.3` so the system will then find the brew vim via the `$PATH`)
+	- `brew install vim` (you'll need to rename the system Vim `which vim` e.g. `sudo mv /usr/bin/vim /usr/bin/vim-7.3` so the system will then find the brew vim via the `$PATH` OR you can do `brew install vim --override-system-vim`)
 	- `brew install node` (which installs NPM)
 	- `brew install git`
 	- `brew install the_silver_searcher` (e.g. `ag 'js\b' ./some-directory`)
