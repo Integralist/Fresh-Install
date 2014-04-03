@@ -52,3 +52,7 @@ function! s:RunShellCommand(cmdline)
   setlocal nomodifiable
   1
 endfunction
+
+" Close all folds when opening a new buffer
+autocmd BufWinEnter * setlocal foldmethod=marker
+autocmd BufWinEnter * normal zM
