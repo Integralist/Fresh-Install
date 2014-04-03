@@ -100,7 +100,7 @@ set splitright
 let g:ctrlp_custom_ignore = '\v[\/]((node_modules)|\.(git|svn|grunt|sass-cache))$'
 
 " highlight the current line
-" set cursorline
+set cursorline
 
 " Set highlight to be a specific colour
 hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
