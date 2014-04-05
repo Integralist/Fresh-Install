@@ -27,7 +27,7 @@ function install_brews() {
 }
 
 function install_software() {
-  casks=( dropbox box-sync alfred appcleaner rightzoom cloudapp vlc dash xscope \
+  casks=( dropbox box-sync alfred appcleaner rightzoom cloudapp vlc xscope \
           cleanmymac vienna google-chrome firefox qlcolorcode qlstephen \
           qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql \
           webp-quicklook suspicious-package )
