@@ -10,13 +10,16 @@ function install_brews() {
   brew tap phinze/homebrew-cask
 
   brews=( vim git node the_silver_searcher chruby ruby-install \
-          tmux reattach-to-user-namespace phantomjs gnu-sed rename \
-          tree wget cmake terminal-notifier weechat brew-cask siege )
+          tmux reattach-to-user-namespace phantomjs gnu-sed \
+          rename tree wget cmake terminal-notifier weechat \
+          brew-cask siege ctags )
 
   for item in "${brews[@]}"
   do
     if [[ $item == "weechat" ]]; then
       brew install $item --with-perl --with-python --with-ruby
+    elif [[ $item == "vim" ]]; then
+      brew install $item --override-system-vim
     else
       brew install $item
     fi
