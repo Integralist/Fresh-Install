@@ -122,7 +122,6 @@ install_homebrew && \
 install_brews && \
 install_software && \
 install_php_repl && \
-switch_to_zsh
-
+switch_to_zsh && \
 echo "We've installed all the software we can. Check the README to see if there is anything else. \
       Don't forget to execute the finish_install function after Dropbox has finished sync'ing."
