@@ -41,17 +41,6 @@ function install_php_repl() {
   mv ./psysh /usr/local/bin/psysh
 }
 
-function install_weechat_notifications() {
-  cd $HOME
-  sudo gem install weechat terminal-notifier
-  curl https://raw.github.com/wallace/weechat-notification-center-rb/master/notification_center.rb > \
-        ~/.weechat/ruby/autoload/notification_center.rb
-
-  # We have to install these gems into the system Ruby
-  # So simplest way is to move into the home directory
-  # We can't run this function until after we've symlinked our dotfiles
-}
-
 function switch_to_zsh() {
   chsh -s /bin/zsh
 }
@@ -70,6 +59,17 @@ function symlink_dotfiles() {
   do
     ln -s "$sync_directory"/$file $HOME/$file
   done
+}
+
+function install_weechat_notifications() {
+  cd $HOME
+  sudo gem install weechat terminal-notifier
+  curl https://raw.github.com/wallace/weechat-notification-center-rb/master/notification_center.rb > \
+        ~/.weechat/ruby/autoload/notification_center.rb
+
+  # We have to install these gems into the system Ruby
+  # So simplest way is to move into the home directory
+  # We can't run this function until after we've symlinked our dotfiles
 }
 
 function install_vim_plugins() {
@@ -117,4 +117,4 @@ switch_to_zsh()
 
 echo "We've installed all the software we can. Check the README to see if there is anything else. \
       Don't forget to execute the symlink_dotfiles function as well once Dropbox is installed. \
-      When that's done you can run install_weechat_notifications"
+      When that's done you can run both install_weechat_notifications and install_vim_plugins"
