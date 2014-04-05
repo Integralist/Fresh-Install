@@ -28,7 +28,7 @@ function install_brews() {
 
 function install_software() {
   casks=( dropbox box-sync alfred appcleaner rightzoom cloudapp vlc dash xscope \
-          cleanmymac vienna-rss google-chrome firefox qlcolorcode qlstephen \
+          cleanmymac vienna google-chrome firefox qlcolorcode qlstephen \
           qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql \
           webp-quicklook suspicious-package )
 
@@ -123,5 +123,7 @@ install_brews && \
 install_software && \
 install_php_repl && \
 switch_to_zsh && \
-echo "We've installed all the software we can. Check the README to see if there is anything else. \
-      Don't forget to execute the finish_install function after Dropbox has finished sync'ing."
+echo "We've installed all the software we can. 
+Check the README to see if there is anything else.
+Don't forget to start Dropbox and login so it starts sync'ing files.
+Then execute the finish_install function after Dropbox has finished sync'ing."
