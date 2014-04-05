@@ -112,17 +112,17 @@ function install_vim_plugins() {
 }
 
 function finish_install() {
-  symlink_dotfiles()
-  install_weechat_notifications()
-  install_vim_plugins()
+  symlink_dotfiles && \
+  install_weechat_notifications && \
+  install_vim_plugins
 }
 
-install_xcode()
-install_homebrew()
-install_brews()
-install_software()
-install_php_repl()
-switch_to_zsh()
+install_xcode && \
+install_homebrew && \
+install_brews && \
+install_software && \
+install_php_repl && \
+switch_to_zsh
 
 echo "We've installed all the software we can. Check the README to see if there is anything else. \
       Don't forget to execute the finish_install function after Dropbox has finished sync'ing."
