@@ -57,4 +57,4 @@ switch_to_zsh && \
 echo "We've installed all the software we can. 
 Check the README to see if there is anything else.
 Don't forget to start Dropbox and login so it starts sync'ing files.
-Then execute finish_install after Dropbox has finished sync'ing (see README for instructions)"
+Then execute provision-complete.sh after Dropbox has finished sync'ing (see README for instructions)"
