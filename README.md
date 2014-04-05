@@ -27,7 +27,6 @@ For a quick step-by-step (based off of my doing a fresh install of Mac OS X
 Mavericks recently) then [click here](#step-by-step)
 
 - [Homebrew](http://mxcl.github.io/homebrew/)
-	- `brew install apple-gcc42`
 	- `brew install vim` (you'll need to rename the system Vim `which vim` e.g. `sudo mv /usr/bin/vim /usr/bin/vim-7.3` so the system will then find the brew vim via the `$PATH` OR you can do `brew install vim --override-system-vim`)
 	- `brew install node` (which installs NPM)
 	- `brew install git`
