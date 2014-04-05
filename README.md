@@ -21,6 +21,18 @@ This file is broken down into sections:
 
 There is [`provision.sh`](https://github.com/Integralist/Fresh-Install/blob/master/provision.sh) script which can help to install a lot of the software and specific settings/dotfiles detailed below.
 
+If you have a truely fresh install then you probably wont have Git installed to do a `git clone` of this repo to access the `provision.sh` file, so instead simply run the following command from your terminal of choice (e.g. Terminal.app is the default on Mac OS X):
+
+```sh
+curl https://raw.githubusercontent.com/Integralist/Fresh-Install/master/provision.sh -o ~/Desktop/provision.sh
+```
+
+When all software is installed and/or configured you can safely remove the `provision.sh` file by running the following command (or you can manually delete the file if you so choose):
+
+```sh
+rm ~/Desktop/provision.sh
+```
+
 ## Homebrew installation
 
 For a quick step-by-step (based off of my doing a fresh install of Mac OS X
