@@ -17,6 +17,7 @@ This file is broken down into sections:
 - [PHP REPL](https://github.com/Integralist/Fresh-Install#php-repl)
 - [Clojure development](https://github.com/Integralist/Fresh-Install#clojure-development)
 - [Renaming files](https://github.com/Integralist/Fresh-Install#renaming-files)
+- [Load testing with Siege](https://github.com/Integralist/Fresh-Install#load-testing-with-siege)
 
 ## Automated provisioning
 
@@ -272,7 +273,7 @@ ln -s /usr/local/bin/gcc-4.2 /usr/local/bin/g++ # gem unf_ext uses g++
 
 ## Clojure development
 
-We need the Lein: ``
+We need the Lein project tool: `brew install leiningen` (run REPL with `lein repl`)
 
 We need the following vim packages to try and mimick a reasonably decent Clojure dev environment...
 
@@ -287,3 +288,9 @@ We need the following vim packages to try and mimick a reasonably decent Clojure
 Usage: Change File-A-B.gif to File-AB.gif
 
 Example: `rename 's/(.+)-(.+)$/$1$2/' File-*`
+
+## Load testing with Siege
+
+`brew install siege`
+
+Example: `siege -c 10 -r 10 -b http://www.domain.com/`
