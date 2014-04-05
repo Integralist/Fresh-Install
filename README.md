@@ -39,6 +39,24 @@ When all software is installed and/or configured you can safely remove the `prov
 rm ~/Desktop/provision.sh
 ```
 
+There is also a [`provision-complete.sh`](https://github.com/Integralist/Fresh-Install/blob/master/provision-complete.sh) file you'll need to run after Dropbox has finished sync'ing. To download the script run the following command:
+
+```sh
+curl https://raw.githubusercontent.com/Integralist/Fresh-Install/master/provision-complete.sh -o ~/Desktop/provision-complete.sh
+```
+
+To execute the script once it has been downloaded, run the following command:
+
+```sh
+sh ~/Desktop/provision-complete.sh
+```
+
+When the script is finished you can safely remove the `provision-complete.sh` file by running the following command (or you can manually delete the file if you so choose):
+
+```sh
+rm ~/Desktop/provision-complete.sh
+```
+
 ## Homebrew installation
 
 For a quick step-by-step (based off of my doing a fresh install of Mac OS X
