@@ -27,6 +27,12 @@ If you have a truely fresh install then you probably wont have Git installed to 
 curl https://raw.githubusercontent.com/Integralist/Fresh-Install/master/provision.sh -o ~/Desktop/provision.sh
 ```
 
+The above command will download the provisioning script to your desktop. To execute it run the following command:
+
+```sh
+sh ~/Desktop/provision.sh
+```
+
 When all software is installed and/or configured you can safely remove the `provision.sh` file by running the following command (or you can manually delete the file if you so choose):
 
 ```sh
