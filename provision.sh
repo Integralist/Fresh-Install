@@ -75,13 +75,32 @@ function symlink_dotfiles() {
 function install_vim_plugins() {
   cd "$HOME/.vim/bundle"
 
-  plugins=( kien/ctrlp.vim jlangston/tomorrow-night-vim tpope/vim-markdown tpope/vim-cucumber \
-            scrooloose/syntastic ervandew/supertab tpope/vim-repeat tpope/vim-commentary \
-            mileszs/ack.vim tpope/vim-endwise bling/vim-airline edkolev/tmuxline.vim \
-            mattn/webapi-vim vim-scripts/Gist.vim mattn/emmet-vim airblade/vim-gitgutter \
-            scrooloose/nerdtree tpope/vim-haml tpope/vim-surround othree/html5.vim \
-            godlygeek/tabular vim-scripts/camelcasemotion ap/vim-css-color tpope/vim-fugitive \
-            sheerun/vim-polyglot vim-scripts/textutil.vim vim-scripts/Tabmerge )
+  plugins=( airblade/vim-gitgutter \
+            ap/vim-css-color \
+            bling/vim-airline \
+            edkolev/tmuxline.vim \
+            ervandew/supertab \
+            godlygeek/tabular \
+            kien/ctrlp.vim \
+            mattn/emmet-vim \
+            mattn/webapi-vim \
+            mileszs/ack.vim \
+            othree/html5.vim \
+            scrooloose/nerdtree \
+            scrooloose/syntastic \
+            sheerun/vim-polyglot \
+            tpope/vim-commentary \
+            tpope/vim-cucumber \
+            tpope/vim-endwise \
+            tpope/vim-fugitive \
+            tpope/vim-haml \
+            tpope/vim-markdown \
+            tpope/vim-repeat \
+            tpope/vim-surround \
+            vim-scripts/Gist.vim \
+            vim-scripts/Tabmerge \
+            vim-scripts/camelcasemotion \
+            vim-scripts/textutil.vim )
 
   for item in "${plugins[@]}"
   do
