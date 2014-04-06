@@ -5,177 +5,93 @@ These are my own instructions for a fresh laptop/mac install.
 This file is broken down into sections:
 
 - [Automated provisioning](https://github.com/Integralist/Fresh-Install#automated-provisioning)
-- [Homebrew installation](https://github.com/Integralist/Fresh-Install#homebrew-installation)
+- [Step by Step](https://github.com/Integralist/Fresh-Install#step-by-step)
 - [dotfiles](https://github.com/Integralist/Fresh-Install#dotfiles)
 - [Shell Theme](https://github.com/Integralist/Fresh-Install#shell-theme)
 - [Shell Font](https://github.com/Integralist/Fresh-Install#shell-font)
-- [Vim, tmux and Pathogen](https://github.com/Integralist/Fresh-Install#vim-tmux-and-pathogen)
+- [Vim and Tmux status line improvements](https://github.com/Integralist/Fresh-Install#vim-and-tmux-status-line-improvements)
 - [CLI Task Manager](https://github.com/Integralist/Fresh-Install#cli-task-manager)
 - [WeeChat](https://github.com/Integralist/Fresh-Install#weechat)
-- [Step by Step](https://github.com/Integralist/Fresh-Install#step-by-step)
 - [Grunt error `Error: spawn EMFILE`](https://github.com/Integralist/Fresh-Install#grunt-error-error-spawn-emfile)
 - [Upgrading to Mac OS X Mavericks](https://github.com/Integralist/Fresh-Install#upgrading-to-mac-os-x-mavericks)
 - [PHP REPL](https://github.com/Integralist/Fresh-Install#php-repl)
+- [Clojure development](https://github.com/Integralist/Fresh-Install#clojure-development)
+- [Renaming files](https://github.com/Integralist/Fresh-Install#renaming-files)
+- [Load testing with Siege](https://github.com/Integralist/Fresh-Install#load-testing-with-siege)
 
 ## Automated provisioning
 
 There is [`provision.sh`](https://github.com/Integralist/Fresh-Install/blob/master/provision.sh) script which can help to install a lot of the software and specific settings/dotfiles detailed below.
 
-## Homebrew installation
+If you have a truely fresh install then you probably wont have Git installed to do a `git clone` of this repo to access the `provision.sh` file, so instead simply run the following command from your terminal of choice (e.g. Terminal.app is the default on Mac OS X):
 
-For a quick step-by-step (based off of my doing a fresh install of Mac OS X
-Mavericks recently) then [click here](#step-by-step)
+```sh
+curl https://raw.githubusercontent.com/Integralist/Fresh-Install/master/provision.sh -o ~/Desktop/provision.sh
+```
 
-- [Homebrew](http://mxcl.github.io/homebrew/)
-	- `brew install vim` (you'll need to rename the system Vim `which vim` e.g. `sudo mv /usr/bin/vim /usr/bin/vim-7.3` so the system will then find the brew vim via the `$PATH` OR you can do `brew install vim --override-system-vim`)
-	- `brew install node` (which installs NPM)
-	- `brew install git`
-	- `brew install the_silver_searcher` (e.g. `ag 'js\b' ./some-directory`)
-	- `brew install phantomjs`
-	- `brew install chruby` && `brew install ruby-install`
-	- `brew install tmux`
-		- `brew install reattach-to-user-namespace` ([see below](#vim-tmux-and-vundle))
-    - `brew install watch`
-	- `brew install gnu-sed`
-	- `brew install rename` (change File-A-B.gif to File-AB.gif with `rename 's/(.+)-(.+)$/$1$2/' File-*`)
-	- `brew install tree`
-	- `brew install wget`
-	- `brew install cmake`
-	- `brew install ctags` for use with Vim (you might need to change the system version of ctags like so `sudo mv /usr/bin/ctags /usr/bin/ctags-original` so the Homebrew version gets picked up when you do `which ctags`)
-	- `brew install weechat --with-perl --with-python --with-ruby` (see below for details)
-    - `brew install leiningen` (this is a Clojure REPL - run with `lein repl` - [see below](#clojure-development))
-    - `brew install siege` (`siege -c 10 -r 10 -b http://www.domain.com/`)
-	- `brew install sitespeedio/sitespeedio/sitespeed.io`
-	- Install [brew-cask](https://github.com/phinze/homebrew-cask)
-        - `brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webp-quicklook suspicious-package`
-- [PHP REPL](#php-repl) (links to section below)
-- [Grunt](http://gruntjs.com/)
-- Nave (Node Version Manager) `npm install -g nave` (could need `PATH=${NAVEPATH}:$PATH`)
-- [Xcode Command Line Tools](http://connect.apple.com/)
-- Google Chrome Plugins (should come from Google account sync)
-	- [Quick JavaScript Switcher](https://t.co/ryLRETND)
-	- [goo.gl URL Shortener](https://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&ved=0CDcQFjAB&url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fgoogl-url-shortener%2Fiblijlcdoidgdpfknkckljiocdbnlagk%3Fhl%3Den&ei=tTDAUen3IImAOIOqgKgG&usg=AFQjCNEkUotK__kdeBXARBUc6WNTQ7rB3A&sig2=gTtTOryLRAYyLIiyL-84HQ&bvm=bv.47883778,d.ZWU)
-	- [Stylish](https://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CC8QFjAA&url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fstylish%2Ffjnbnpbmkenffdnngjfgmeleoegfcffe%3Fhl%3Den&ei=BcAIUtODCIPQhAe4xIGwAg&usg=AFQjCNHqQ_jWum-eFNn9yAtVsdvLWn0fkw&bvm=bv.50500085,d.ZG4)
-	- [Dimensions](https://chrome.google.com/webstore/detail/dimensions/hdmihohhdcbejdkidbfijmfehjbnmifk?utm_source=chrome-ntp-icon)
-- Applications
-	- [Box.com](http://www.box.com/)
-	- [iAWriter](http://www.iawriter.com/)
-	- [Regexr](http://www.regexr.com/desktop/)
-	- [Caffeine](https://itunes.apple.com/gb/app/caffeine/id411246225?mt=12)
-	- [Alfred](http://www.alfredapp.com/)
-	- [AppCleaner](http://www.freemacsoft.net/appcleaner/)
-	- [RightZoom](https://www.macupdate.com/app/mac/30591/right-zoom) ([main site](http://www.blazingtools.com/right_zoom_mac.html))
-	- [CloudApp](http://getcloudapp.com/)
-	- [VLC Player](http://www.videolan.org/vlc/index.html)
-	- [Fantastical](http://flexibits.com/fantastical)
-	- [Memory Clean](https://itunes.apple.com/gb/app/memory-clean/id451444120?mt=12)
-	- [Dash](http://kapeli.com/dash)
-	- [NotesTab](https://itunes.apple.com/gb/app/notestab/id492486856?mt=12)
-	- [xScope](http://iconfactory.com/software/xscope)
-	- [Pocket](http://getpocket.com/)
-	- [Clean My Mac](http://macpaw.com/cleanmymac)
-	- [Vienna](http://www.vienna-rss.org/)
-	- [LiceCap](http://www.cockos.com/licecap/) (animated GIF from screen recording)
+The above command will download the provisioning script to your desktop. To execute it run the following command:
+
+```sh
+sh ~/Desktop/provision.sh
+```
+
+When all software is installed and/or configured you can safely remove the `provision.sh` file by running the following command (or you can manually delete the file if you so choose):
+
+```sh
+rm ~/Desktop/provision.sh
+```
+
+There is also a [`provision-complete.sh`](https://github.com/Integralist/Fresh-Install/blob/master/provision-complete.sh) file you'll need to run after Dropbox has finished sync'ing. To download the script run the following command:
+
+```sh
+curl https://raw.githubusercontent.com/Integralist/Fresh-Install/master/provision-complete.sh -o ~/Desktop/provision-complete.sh
+```
+
+To execute the script once it has been downloaded, run the following command:
+
+```sh
+sh ~/Desktop/provision-complete.sh
+```
+
+When the script is finished you can safely remove the `provision-complete.sh` file by running the following command (or you can manually delete the file if you so choose):
+
+```sh
+rm ~/Desktop/provision-complete.sh
+```
+
+## Step by Step
+
+- Download and run provision.sh
+- Click on battery icon in menu bar and select “Show Percentage”
+- Click on time icon in menu bar and select “Open Date & Time Preferences…” then select “Clock” tab and tick the “Display the time with seconds” box
+- Open the “Keyboard” system preferences and set “Key Repeat” to “Fast” and “Delay Until Repeat” to “Short”
+- Open the “Trackpad” system preferences and set “Tracking speed” to the seventh (7th) pipe (7/10)
+- Execute the command “defaults write com.apple.finder AppleShowAllFiles TRUE && killall Finder” so I can see hidden files in Finder (so I know when Dropbox has finished sync’ing my dotfiles”
+- Install Ubuntu fonts within ~/Dropbox/Fresh Install/Shell/fonts
+- Restart Terminal.app (so the switch from Bash to Zsh takes effect)
+- Run `provision-complete.sh` script (this is after Dropbox has finished sync’ing so all my dotfiles will be available)
+- Update terminal theme(s) to use “Ubuntu Mono derivative Powerline” font (so Vim airline plugin works as expected)
+- Choose one of the three terminal themes (`set background=light`): Tomorrow, Tomorrow-Night, Tomorrow-Night-Bright
+- Install the “Solarized Dark” Terminal theme; increase font-size; change font to “Ubuntu Mono derivative Powerline” and set theme as “Default”
+- Log into Box Sync
+- Generate SSH keys to provide to GitHub: `ssh-keygen -t rsa -C "mark.mcdx@gmail.com"` then `cat ~/.ssh/id_rsa.pub | pbcopy`
+- (App Store) iAWriter
+- (App Store) Dash
+- (App Store) Cloud
+- (App Store) Twitter
+- (App Store) Caffeine
+- (App Store) Pocket
+- (App Store) Memory Clean
+- (App Store) Airmail
+- VLC Player
 
 ## dotfiles
 
-See the `Shell` directory that includes a .zshrc file which imports a Zsh settings file on Dropbox.
+See contents of the `Shell` directory.
 
-We need to symlink our .zshrc, .vimrc and .tmux.conf files (and our .vim) from our home directory to our Dropbox versions...
+Symlinking of dotfiles is handled by the [`provision-complete.sh`](https://github.com/Integralist/Fresh-Install/blob/master/provision-complete.sh) script.
 
-This is handled via [`provision.sh`](https://github.com/Integralist/Fresh-Install/blob/master/provision.sh)
-
-`ln -s ~/Dropbox/Fresh\ Install/Shell/.NERDTreeBookmarks ~/.NERDTreeBookmarks`
-
-`ln -s ~/Dropbox/Fresh\ Install/Shell/.gitconfig ~/.gitconfig`
-
-`ln -s ~/Dropbox/Fresh\ Install/Shell/.gitignore_global ~/.gitignore_global`
-
-`ln -s ~/Dropbox/Fresh\ Install/Shell/.task ~/.task`
-
-`ln -s ~/Dropbox/Fresh\ Install/Shell/.taskrc ~/.taskrc`
-
-`ln -s ~/Dropbox/Fresh\ Install/Shell/.tmux.conf ~/.tmux.conf`
-
-`ln -s ~/Dropbox/Fresh\ Install/Shell/.vim ~/.vim`
-
-`ln -s ~/Dropbox/Fresh\ Install/Shell/.vimrc ~/.vimrc`
-
-`ln -s ~/Dropbox/Fresh\ Install/Shell/.weechat ~/.weechat`
-
-`ln -s ~/Dropbox/Fresh\ Install/Shell/.zshrc ~/.zshrc`
-
-Note: rather than export a $PATH you *could* (not that I'd recommend it) also edit the file directly: `vim /private/etc/paths`
-
-## Shell Theme
-
-Base settings handled by [Pure ZSH](https://github.com/sindresorhus/pure)
-
-Use one of the themes inside the `Shell/themes` folder.
-
-Just double click to install (don't forget to open up the terminal preferences and make sure it's the default theme and to increase the font size).
-
-## Shell Font
-
-We need to make sure one of the fonts in the `Shell/fonts` folder is installed and set within the terminal preferences for the terminal theme
-
-## Vim, tmux and Pathogen
-
-All of the following is already set within the dotfiles but I've explained them below as it's important to understand why they are there.
-
-With tmux and `brew install reattach-to-user-namespace` both installed, make sure to add to your `.tmux.conf` the following settings...
-
-```
-set -g default-command "reattach-to-user-namespace -l \"/bin/zsh\""
-set-option -g default-shell /bin/zsh
-```
-
-...the first setting fixes an issue where you're unable to paste content copied from tmux into another application (or even another tmux session).
-
-To install Pathogen (which handles installing plugins for us):
-
-- `git clone https://github.com/tpope/vim-pathogen.git ~/.vim/bundle/vim-pathogen`
-- `cd ~/.vim/bundle/vim-pathogen && mv autoload ../autoload/
-
-From there this repo has already set-up the remaining configuration, but if you're interested it boils down to just three lines of code inside of a `.vimrc` file...
-
-```vim
-execute pathogen#infect()
-syntax on
-filetype plugin indent on
-```
-
-List of plugins installed + maybe more (run [`vim-plugins.sh`](https://github.com/Integralist/Fresh-Install/blob/master/vim-plugins.sh) to install for you):
-
-```sh
-https://github.com/kien/ctrlp.vim.git
-https://github.com/jlangston/tomorrow-night-vim.git
-https://github.com/tpope/vim-markdown.git
-https://github.com/tpope/vim-cucumber.git
-https://github.com/scrooloose/syntastic.git
-https://github.com/ervandew/supertab.git
-https://github.com/tpope/vim-repeat.git
-https://github.com/tpope/vim-commentary.git
-https://github.com/mileszs/ack.vim.git
-https://github.com/tpope/vim-endwise.git
-https://github.com/bling/vim-airline.git
-https://github.com/edkolev/tmuxline.vim.git
-https://github.com/mattn/webapi-vim.git
-https://github.com/vim-scripts/Gist.vim.git
-https://github.com/mattn/emmet-vim.git
-https://github.com/airblade/vim-gitgutter.git
-https://github.com/scrooloose/nerdtree.git
-https://github.com/tpope/vim-haml.git
-https://github.com/tpope/vim-surround.git
-https://github.com/othree/html5.vim.git
-https://github.com/godlygeek/tabular.git
-https://github.com/vim-scripts/camelcasemotion.git
-https://github.com/tpope/vim-fugitive.git
-https://github.com/sheerun/vim-polyglot.git
-https://github.com/vim-scripts/textutil.vim
-```
-
-### Vim and tmux status line improvements
+## Vim and Tmux status line improvements
 
 We use a specific plugin to handle status bar line enhancements (both for Vim and Vim running inside tmux).
 
@@ -276,55 +192,6 @@ The status bar can be a bit confusing...
 - `2:#news` = current buffer being viewed + channel connected to
 - `[H: 3(6,2), 4(3)]` tells you what has changed. So buffer 3 has 6 messages since you last looked and 2 connections (someone has joined or left) and buffer 4 has either 3 connections or 3 messages depending on the colour (if white then its a connection, if its yellow its a message).
 
-## Step by Step
-
-These are the steps I took when I recently did a fresh install...
-
-### Install
-
-- Box Sync (doesn't sync dotfiles?!)
-- Dropbox (we need this to sync our dotfiles)
-- Google Chrome
-- Right Zoom
-
-### Settings
-
-- Change Keyboard delay to be fastest setting possible (this is done inside System Preferences)
-
-### While Box Syncs
-
-This can take a while, so in the mean time...
-
-- Switch your terminal's shell over to Zsh (`chsh -s /bin/zsh`)
-- Install Homebrew (`ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)”` which installs the Command Line Tools for you)
-- Check $PATH (`echo $PATH` should now look something like: `/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin` - notice that our local bin (where we’ll install all custom stuff via Brew or NPM or wherever) is actually last in the pecking order; so the Mac will look at its own system bin first before checking our local bin, also it’ll only have a single package ’brew’ inside it for now
-- Check if you even need to install (via Homebrew) things like Vim or Git as the versions installed might be close enough to current releases any way (I thought I didn't need Vim installed but I did because of lack of clipboard support in system version).
-- `brew install node` (this can take ~9mins, this creates a Cellar directory inside your `/usr/local` which holds the installed versions of Node. Cellar belongs to Homebrew and so all packages you install go in this folder along with any dependencies those packages themselves require)
-- `brew install the_silver_searcher`
-- `brew install phantomjs`
-- `brew install chruby`
-- `brew install ruby-install` (when Box finishes syncing then ruby-install will auto-switch when it finds `.ruby-version` file; this is handled by some code inside our sync'ed `.zshrc` - check this by running `gem env` in both a directory that has no `.ruby-version` file and one that does to make sure the shell switches between system Ruby and custom Ruby)
-- (App Store) iAWriter
-- (App Store) Dash
-- (App Store) Cloud
-- (App Store) Twitter
-- (App Store) Caffeine
-- (App Store) Pocket
-- VLC Player
-- Regexr
-
-### Once Dropbox is synced...
-
-- [Install a Terminal theme](https://github.com/Integralist/Fresh-Install/tree/master/Shell/themes)
-- Symlink dotfiles (see earlier in this README)
-- Check Vim copy and paste (and install `brew install reattach-to-user-namespace` if necessary)
-- `brew install tmux`
-- `brew install rename`
-- `brew install vim` (needed to do this as the default vim didn’t have the `+clipboard` feature enabled)
-- Need to regenerate my SSH keys for GitHub
-- Install task manager (see below)
-- Run all the symlinks
-
 ## Grunt error `Error: spawn EMFILE`
 
 This was an issue with using the Node static site generator: CabinJS.
@@ -406,8 +273,24 @@ ln -s /usr/local/bin/gcc-4.2 /usr/local/bin/g++ # gem unf_ext uses g++
 
 ## Clojure development
 
+We need the Lein project tool: `brew install leiningen` (run REPL with `lein repl`)
+
 We need the following vim packages to try and mimick a reasonably decent Clojure dev environment...
 
 - [https://github.com/tpope/vim-classpath](https://github.com/tpope/vim-classpath)
 - [https://github.com/tpope/vim-clojure-static/](https://github.com/tpope//vim-clojure-static/)
 - [https://github.com/tpope/vim-fireplace/](https://github.com/tpope/vim-fireplace/)
+
+## Renaming files
+
+`brew install rename`
+
+Usage: Change File-A-B.gif to File-AB.gif
+
+Example: `rename 's/(.+)-(.+)$/$1$2/' File-*`
+
+## Load testing with Siege
+
+`brew install siege`
+
+Example: `siege -c 10 -r 10 -b http://www.domain.com/`
