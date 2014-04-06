@@ -116,24 +116,9 @@ augroup END
 execute pathogen#infect()
 filetype plugin indent on " required by Pathogen Plugin Manager
 
-" Theme style 1
-" Terminal: Tomorrow
-" set background=light
-" colorscheme Tomorrow-Night-Bright
-
-" Theme style 2
-" Terminal: Tomorrow-Night-Bright
-set background=dark
-colorscheme solarized
-
-" Theme style 3
-" Terminal: solarized dark
-" set background=dark
-" colorscheme solarized
-
-" Theme style 4
-" Terminal: Tomorrow-Night-Bright
-" :silent! :colorscheme solarized
+" Theme
+set background=light
+colorscheme Tomorrow-Night
 
 " CtrlP
 map <leader>t <C-p>
