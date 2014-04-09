@@ -22,6 +22,7 @@ export EDITOR="vim"
 export TERM="screen-256color"
 export CLICOLOR=1
 export LSCOLORS=Gxfxcxdxbxegedabagacad
+export LS_COLORS=Gxfxcxdxbxegedabagacad
 # }}}
 
 # Network {{{
@@ -49,6 +50,11 @@ fi;
 # }}}
 
 # Ruby {{{
+# Determine Ruby version
+function get_ruby_version() {
+  ruby -v | awk '{print $1 " " $2}'
+}
+
 # Sets up chruby and allows us to use .ruby-version files to switch ruby versions
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
@@ -82,11 +88,11 @@ function chruby_gemset() {
 eval `$ruby_bin - <<EOF
 require 'rubygems'
 puts "ruby_engine=#{defined?(RUBY_ENGINE) ? RUBY_ENGINE : 'ruby'}"
-puts "ruby_version=#{RUBY_VERSION}"
+puts "ruby_vers=#{RUBY_VERSION}"
 puts "gem_path=\"#{Gem.path.join(':')}\""
 EOF`
 
-  gem_dir="$HOME/.gem/gemsets/$ruby_engine/$ruby_version/$chruby_gemset"
+  gem_dir="$HOME/.gem/gemsets/$ruby_engine/$ruby_vers/$chruby_gemset"
 
   export PATH="$gem_dir/bin:$PATH"
   export GEM_HOME="$gem_dir"
@@ -156,7 +162,7 @@ alias r="source ~/.zshrc"
 alias tmuxsrc="tmux source-file ~/.tmux.conf"
 alias vi="vim"
 alias st="cd tabloid/webapp/static"
-alias rubyv="ls /opt/rubies/"
+alias rubyv="ls ~/.rubies/"
 alias grunt="grunt --verbose --stack"
 alias tka="tmux ls | cut -d : -f 1 | xargs -I {} tmux kill-session -t {}" # tmux kill all sessions
 alias lib="cd '$syncfolder/Library'"
@@ -177,6 +183,7 @@ alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'" # comman
 alias ct="ctags -R --exclude=.git"
 alias phpsh="psysh"
 alias dotfiles="ls -a | grep '^\.' | grep --invert-match '\.DS_Store\|\.$'"
+alias gem-add="gem help owner"
 # }}}
 
 # Website Deployment {{{
@@ -389,12 +396,6 @@ export PR_BOLD_WHITE PR_BOLD_BLACK
 
 # Clear LSCOLORS
 unset LSCOLORS
-
-# Main change, you can see directories on a dark background
-#expor tLSCOLORS=gxfxcxdxbxegedabagacad
-
-export CLICOLOR=1
-export LS_COLORS=exfxcxdxbxegedabagacad
 # }}}
 
 # Set Options {{{
@@ -538,7 +539,17 @@ $(prompt_char) '
 
 export SPROMPT="Correct $fg[red]%R$reset_color to $fg[green]%r$reset_color [(y)es (n)o (a)bort (e)dit]? "
 
-RPROMPT='${PR_GREEN}$(virtualenv_info)%{$reset_color%} ${PR_RED}${ruby_version}%{$reset_color%}'
+# directory="$PWD"
+# version=
+
+# until [[ -z "$directory" ]]; do
+#     echo "hai: " $directory
+#     if { read -r version <"$directory/.ruby-version"; } 2>/dev/null || [[ -n "$version" ]]; then
+#       echo "hai"
+#     fi
+# done
+
+RPROMPT='${PR_GREEN}$(virtualenv_info)%{$reset_color%} ${PR_RED}$(get_ruby_version)%{$reset_color%}'
 # }}}
 
 # History {{{
