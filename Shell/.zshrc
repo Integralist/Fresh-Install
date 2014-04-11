@@ -216,6 +216,10 @@ alias deploysite="cd '$syncfolder/Library/Github/integralist/Website' && \
 # }}}
 
 # Miscellaneous {{{
+function set_ruby() {
+  touch .ruby-version && echo $1 >> .ruby-version
+}
+
 function gem_add_owner() {
   # gem help owner
   gem owner $1 -a $2
