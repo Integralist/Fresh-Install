@@ -183,7 +183,6 @@ alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'" # comman
 alias ct="ctags -R --exclude=.git"
 alias phpsh="psysh"
 alias dotfiles="ls -a | grep '^\.' | grep --invert-match '\.DS_Store\|\.$'"
-alias gem-add="gem help owner"
 # }}}
 
 # Website Deployment {{{
@@ -217,6 +216,11 @@ alias deploysite="cd '$syncfolder/Library/Github/integralist/Website' && \
 # }}}
 
 # Miscellaneous {{{
+function gem_add_owner() {
+  # gem help owner
+  gem owner $1 -a $2
+}
+
 function restart_finder() {
   killall Finder
 }
