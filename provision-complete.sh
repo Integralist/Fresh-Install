@@ -44,6 +44,7 @@ function install_vim_plugins() {
             sheerun/vim-polyglot \
             tpope/vim-commentary \
             tpope/vim-cucumber \
+            tpope/vim-dispatch \
             tpope/vim-endwise \
             tpope/vim-fugitive \
             tpope/vim-haml \
