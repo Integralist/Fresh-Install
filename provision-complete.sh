@@ -35,6 +35,7 @@ function install_vim_plugins() {
             ervandew/supertab \
             godlygeek/tabular \
             kien/ctrlp.vim \
+            MattesGroeger/vim-bookmarks \
             mattn/emmet-vim \
             mattn/webapi-vim \
             mileszs/ack.vim \
