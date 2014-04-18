@@ -42,6 +42,7 @@ function install_vim_plugins() {
             scrooloose/nerdtree \
             scrooloose/syntastic \
             sheerun/vim-polyglot \
+            t9md/vim-choosewin \
             tpope/vim-commentary \
             tpope/vim-cucumber \
             tpope/vim-dispatch \
