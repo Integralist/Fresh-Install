@@ -56,7 +56,8 @@ function install_vim_plugins() {
             vim-scripts/Gist.vim \
             vim-scripts/Tabmerge \
             vim-scripts/camelcasemotion \
-            vim-scripts/textutil.vim )
+            vim-scripts/textutil.vim \
+            wellle/targets.vim )
 
   for item in "${plugins[@]}"
   do
