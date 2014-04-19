@@ -33,6 +33,7 @@ function install_vim_plugins() {
             bling/vim-airline \
             edkolev/tmuxline.vim \
             ervandew/supertab \
+            gcmt/wildfire.vim \
             godlygeek/tabular \
             kien/ctrlp.vim \
             MattesGroeger/vim-bookmarks \
