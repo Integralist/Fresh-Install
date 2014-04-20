@@ -245,6 +245,9 @@ map <Leader>cl :w<cr>:exe "!cucumber %" . ":" . line(".")<cr>
 
 " Run all cucumber feature files
 map <Leader>ct :w<cr>:!cucumber<cr>
+
+" Tmux style window selection
+map <Leader>ws :ChooseWin<cr>
 " }}}
 
 " Commands {{{
