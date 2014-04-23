@@ -180,7 +180,7 @@ alias currentwifi='networksetup -getairportnetwork en0'
 alias ip='dig +short myip.opendns.com @resolver1.opendns.com'
 alias localip='ipconfig getifaddr en0'
 alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'" # command works, but not when aliased?
-alias ct="ctags -R --exclude=.git"
+alias ct="ctags -R --exclude=.git --exclude=node_modules"
 alias phpsh="psysh"
 alias dotfiles="ls -a | grep '^\.' | grep --invert-match '\.DS_Store\|\.$'"
 # }}}
