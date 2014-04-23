@@ -110,6 +110,9 @@ augroup CursorLine
   au VimEnter,WinEnter,BufWinEnter * setlocal cursorline
   au WinLeave * setlocal nocursorline
 augroup END
+
+" Ensure Vim doesn't beep at you every time you make a mistype
+set visualbell
 " }}}
 
 " Plugins {{{
