@@ -3,6 +3,7 @@
 .bin
 . bundle
 .ruby-version
+failed_cukes.sh
 
 # miscellaneous
 *.DS_Store
