@@ -100,6 +100,12 @@ set splitright
 " Highlight the current line
 set cursorline
 
+" Ensure Vim doesn't beep at you every time you make a mistype
+set visualbell
+
+" Set built-in file system explorer to use layout similar to the NERDTree plugin
+let g:netrw_liststyle=3
+
 " Set highlight to be a specific colour
 hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
 hi CursorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
@@ -110,9 +116,6 @@ augroup CursorLine
   au VimEnter,WinEnter,BufWinEnter * setlocal cursorline
   au WinLeave * setlocal nocursorline
 augroup END
-
-" Ensure Vim doesn't beep at you every time you make a mistype
-set visualbell
 " }}}
 
 " Plugins {{{
@@ -203,8 +206,8 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
-" Toggle folds
-map <leader>ft za
+" File System Explorer (in horizontal split)
+map <leader>. :Sexplore<cr>
 
 " Buffers
 map <leader>yt :ls<cr>
