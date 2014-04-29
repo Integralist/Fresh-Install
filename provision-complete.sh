@@ -58,6 +58,7 @@ function install_vim_plugins() {
             vim-scripts/Tabmerge \
             vim-scripts/camelcasemotion \
             vim-scripts/textutil.vim \
+            vim-scripts/ZoomWin \
             wellle/targets.vim )
 
   for item in "${plugins[@]}"
