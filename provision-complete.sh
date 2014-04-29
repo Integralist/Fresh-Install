@@ -36,6 +36,7 @@ function install_vim_plugins() {
             gcmt/wildfire.vim \
             godlygeek/tabular \
             kien/ctrlp.vim \
+            kien/rainbow_parentheses.vim \
             MattesGroeger/vim-bookmarks \
             mattn/emmet-vim \
             mattn/webapi-vim \
@@ -54,9 +55,10 @@ function install_vim_plugins() {
             tpope/vim-markdown \
             tpope/vim-repeat \
             tpope/vim-surround \
-            vim-scripts/Gist.vim \
-            vim-scripts/Tabmerge \
             vim-scripts/camelcasemotion \
+            vim-scripts/Gist.vim \
+            vim-scripts/paredit.vim \
+            vim-scripts/Tabmerge \
             vim-scripts/textutil.vim \
             vim-scripts/ZoomWin \
             wellle/targets.vim )
