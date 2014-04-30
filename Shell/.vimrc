@@ -315,4 +315,10 @@ endfunction
 " Close all folds when opening a new buffer
 autocmd BufRead * setlocal foldmethod=marker
 autocmd BufRead * normal zM
+
+" Rainbow parenthesis always on!
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
 " }}}
