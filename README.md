@@ -289,7 +289,7 @@ You'll need three consoles open:
 2. `lein repl`
 3. `lein new compojure my-project`
 
-Then once the REPL is started, inside of Vim run the command `:Connect` and select the REPL you want to connect to and then enter the port number Leiningen provided when it started up.
+Then once the REPL is started, inside of Vim run the command `:Connect` and select the REPL you want to connect to and then enter the port number Leiningen provided when it started up (e.g. `:Connect nrepl://127.0.0.1:60356`).
 
 - `K` = when pressed over a symbol will open documentation for that symbol
 - `` = 
