@@ -283,6 +283,18 @@ We need the following vim packages to try and mimick a reasonably decent Clojure
 - [https://github.com/tpope/vim-classpath](https://github.com/tpope/vim-classpath) (fix some Java `$PATH` details)
 - [https://github.com/tpope/vim-clojure-static/](https://github.com/tpope//vim-clojure-static/) (Clojure formatting stuff)
 
+You'll need two consoles open:
+
+1. `vim`
+2. `lein repl`
+
+Then once the REPL is started, inside of Vim run the command `:Connect` and select the REPL you want to connect to and then enter the port number Leiningen provided when it started up.
+
+- `K` = when pressed over a symbol will open documentation for that symbol
+- `` = 
+- `` = 
+- `` = 
+
 ## Renaming files
 
 `brew install rename`
