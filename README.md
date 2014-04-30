@@ -286,16 +286,18 @@ We need the following vim packages to try and mimick a reasonably decent Clojure
 You'll need three consoles open:
 
 1. `vim`
-2. `lein repl`
+2. `lein repl` (make sure you run this inside the `my-project` directory (see next point)
 3. `lein new compojure my-project`
 4. `lein ring server-headless` (or `lein ring server` which fires upp the browser)
 
 Then once the REPL is started, inside of Vim run the command `:Connect` and select the REPL you want to connect to and then enter the port number Leiningen provided when it started up (e.g. `:Connect nrepl://127.0.0.1:60356`).
 
 - `K` = when pressed over a symbol will open documentation for that symbol
-- `` = 
-- `` = 
-- `` = 
+- `[d` = show the source code for the symbol under the cursor
+- `[<C-d>` = jump to definition of a symbol
+- `cqq` = evaluates the expression under the cursor
+- `cqc` = opens a split for you to enter an expression to be executed (like a REPL inside Vim)
+- `cpp` = evaluates the inner most expression
 
 ## Renaming files
 
