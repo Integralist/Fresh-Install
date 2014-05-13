@@ -183,6 +183,7 @@ alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'" # comman
 alias ct="ctags -R --exclude=.git --exclude=node_modules"
 alias phpsh="psysh"
 alias dotfiles="ls -a | grep '^\.' | grep --invert-match '\.DS_Store\|\.$'"
+alias cukes="ulimit -n 1024; bundle exec cucumber"
 # }}}
 
 # Website Deployment {{{
