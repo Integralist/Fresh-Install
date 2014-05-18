@@ -7,7 +7,7 @@ function install_homebrew() {
 }
 
 function install_brews() {
-  brew tap phinze/homebrew-cask
+  brew tap caskroom/homebrew-cask
 
   brews=( vim git node the_silver_searcher chruby ruby-install \
           tmux reattach-to-user-namespace phantomjs gnu-sed \
