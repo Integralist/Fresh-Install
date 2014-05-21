@@ -589,3 +589,8 @@ function postexec {
   set_running_app
 }
 # }}}
+
+# Zsh Sourced {{{
+# brew install zsh-syntax-highlighting
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# }}}
