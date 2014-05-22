@@ -277,7 +277,7 @@ function gz() {
 }
 
 # Vagrant fixes issue with Chef not completing
-if `tty -s`; then
+if `test -t 0`; then
    mesg n
 fi
 
