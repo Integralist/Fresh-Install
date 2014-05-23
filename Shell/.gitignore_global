@@ -1,7 +1,6 @@
 # bundler
 .gem
 .bin
-. bundle
 .ruby-version
 failed_cukes.sh
 
