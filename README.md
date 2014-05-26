@@ -182,6 +182,16 @@ You'll find my WeeChat configuration files within `shell/.weechat`
 - Shift and up/down arrow keys moves you up/down the discussion window content
   (use fn key as well if on a small Mac laptop)
 
+To post to some channels on freenode you'll need to register your username first:
+
+`/msg NickServ REGISTER password email`
+
+> Note: the password AND email are not displayed (they just show as one long stream of asterisks)
+
+You'll get an email asking you to register using a special code at the end, like so...
+
+`/msg NickServ VERIFY REGISTER Integralist sOmeCodeHERE` (where `sOmeCodeHERE` is a code emailed to you)
+
 The status bar can be a bit confusing...
 
 `[11:55] [4] [irc/BBC] 2:#news [H: 3(6,2), 4(3)]`
