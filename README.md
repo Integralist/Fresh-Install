@@ -309,7 +309,9 @@ Then once the REPL is started, inside of Vim run the command `:Connect` and sele
 - `[<C-d>` = jump to definition of a symbol
 - `cqq` = evaluates the expression under the cursor
 - `cqc` = opens a split for you to enter an expression to be executed (like a REPL inside Vim)
-- `cpp` = evaluates the inner most expression
+- `cqp` = gives you a one-line REPL prompt at the bottom of the screen (for quick one-liner evals)
+- `cpp` = evaluates the outermost form under the cursor and prints it at the bottom of the screen
+- `cpr` = takes the content from the active buffer and requires it inside the REPL
 
 ## Renaming files
 
