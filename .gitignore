@@ -1,3 +1,4 @@
 .task
-Shell/.vim/bundle/*
 .vmail
+Shell/.vim/.netrwhist
+Shell/.weechat/script/
