@@ -312,6 +312,9 @@ Then once the REPL is started, inside of Vim run the command `:Connect` and sele
 - `cqp` = gives you a one-line REPL prompt at the bottom of the screen (for quick one-liner evals)
 - `cpp` = evaluates the outermost form under the cursor and prints it at the bottom of the screen
 - `cpr` = takes the content from the active buffer and requires it inside the REPL
+- `:A` = takes you to the test file (or vice-versa)
+- `:AS` = same as above but in horizontal split
+- `:AV` = same as above but in vertical split
 
 ## Renaming files
 
