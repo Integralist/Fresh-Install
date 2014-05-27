@@ -182,6 +182,16 @@ You'll find my WeeChat configuration files within `shell/.weechat`
 - Shift and up/down arrow keys moves you up/down the discussion window content
   (use fn key as well if on a small Mac laptop)
 
+To post to some channels on freenode you'll need to register your username first:
+
+`/msg NickServ REGISTER password email`
+
+> Note: the password AND email are not displayed (they just show as one long stream of asterisks)
+
+You'll get an email asking you to register using a special code at the end, like so...
+
+`/msg NickServ VERIFY REGISTER Integralist sOmeCodeHERE` (where `sOmeCodeHERE` is a code emailed to you)
+
 The status bar can be a bit confusing...
 
 `[11:55] [4] [irc/BBC] 2:#news [H: 3(6,2), 4(3)]`
@@ -299,7 +309,12 @@ Then once the REPL is started, inside of Vim run the command `:Connect` and sele
 - `[<C-d>` = jump to definition of a symbol
 - `cqq` = evaluates the expression under the cursor
 - `cqc` = opens a split for you to enter an expression to be executed (like a REPL inside Vim)
-- `cpp` = evaluates the inner most expression
+- `cqp` = gives you a one-line REPL prompt at the bottom of the screen (for quick one-liner evals)
+- `cpp` = evaluates the outermost form under the cursor and prints it at the bottom of the screen
+- `cpr` = takes the content from the active buffer and requires it inside the REPL
+- `:A` = takes you to the test file (or vice-versa)
+- `:AS` = same as above but in horizontal split
+- `:AV` = same as above but in vertical split
 
 ## Renaming files
 
