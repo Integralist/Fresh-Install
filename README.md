@@ -179,6 +179,7 @@ You'll find my WeeChat configuration files within `shell/.weechat`
 - `/set weechat.*` to see all options
 - `/me is happy` will display something like `integralist is happy` in chat window
 - `/nick foobar` will change your nickname to `foobar`
+- `/list` displays a list of all channels available for the network connected to
 - Shift and up/down arrow keys moves you up/down the discussion window content
   (use fn key as well if on a small Mac laptop)
 
