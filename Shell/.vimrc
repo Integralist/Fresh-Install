@@ -317,4 +317,8 @@ if exists(':RainbowParenthesesToggle')
   au Syntax * RainbowParenthesesLoadSquare
   au Syntax * RainbowParenthesesLoadBraces
 endif
+
+if filereadable(".vim.custom")
+  so .vim.custom
+endif
 " }}}
