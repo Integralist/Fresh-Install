@@ -150,6 +150,20 @@ Note: you can shorten commands (e.g. `task list project:dotfiles` === `task l pr
 - `task {n} delete`
 - `task {n} done`
 
+## IRSSI
+
+The IRC terminal client irssi is hard to remember and type so I aliased it to `irc` which is much easier.
+
+See the .irssi folder with notifier script (`/run scripts/notifier.pl` from within irssi)
+
+- `/join {channel}` = join a specific channel
+- `/n` = lists all users
+- `/q {nick}` = send a private message to a user
+- `/m {nick}` = ?? supposedly the same as `/q` ??
+- `/me` = perform an action in third person
+- `/away {message}` = mark yourself as away
+- `ESC {n}` = change windows (seems the Meta key - ALT - is actually ESC for me?)
+
 ## WeeChat
 
 Once installed via Hombrew we need to sync our configuration file (irc.conf within the .weechat directory) via Dropbox so make sure you symlink the dotfiles (see above section with symlinks).
