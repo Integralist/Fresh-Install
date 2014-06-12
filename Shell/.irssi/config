@@ -282,7 +282,8 @@ settings = {
   };
   "fe-text" = { actlist_sort = "refnum"; };
   "perl/core/scripts" = {
-    notifier_on_regex = "Integralist";
+    # notifier_on_regex = "Integralist";
+    notifier_on_regex = ".*";
     notifier_channel_regex = "(news|#news)";
     notifier_on_privmsg = "1 ";
   };
