@@ -159,12 +159,14 @@ See the .irssi folder with notifier script (`/run scripts/notifier.pl` from with
 
 > Note: you may need to run `/script load notifier.pl` from within irssi
 
+- `/help [command]` = by itself it displays all commands available; with a command it shows the docs for that command - in your main connection window (first window)
 - `/join {channel}` = join a specific channel
 - `/n` = lists all users
 - `/q {nick}` = send a private message to a user
 - `/window close` = close a another window opened
 - `/me` = perform an action in third person
 - `/away {message}` = mark yourself as away
+- `/whois {nick}` = shows information on that user in your main connection window (first window)
 - `ESC {n}` = change windows (seems the Meta key - ALT - is actually ESC for me?)
 
 If you need more commands then see: http://www.ircbeginner.com/ircinfo/ircc-commands.html
