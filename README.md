@@ -11,6 +11,7 @@ This file is broken down into sections:
 - [Shell Font](https://github.com/Integralist/Fresh-Install#shell-font)
 - [Vim and Tmux status line improvements](https://github.com/Integralist/Fresh-Install#vim-and-tmux-status-line-improvements)
 - [CLI Task Manager](https://github.com/Integralist/Fresh-Install#cli-task-manager)
+- [IRSSI](https://github.com/Integralist/Fresh-Install#irssi)
 - [WeeChat](https://github.com/Integralist/Fresh-Install#weechat)
 - [Grunt error `Error: spawn EMFILE`](https://github.com/Integralist/Fresh-Install#grunt-error-error-spawn-emfile)
 - [Upgrading to Mac OS X Mavericks](https://github.com/Integralist/Fresh-Install#upgrading-to-mac-os-x-mavericks)
@@ -159,7 +160,7 @@ See the .irssi folder with notifier script (`/run scripts/notifier.pl` from with
 - `/join {channel}` = join a specific channel
 - `/n` = lists all users
 - `/q {nick}` = send a private message to a user
-- `/m {nick}` = ?? supposedly the same as `/q` ??
+- `/window close` = close a another window opened
 - `/me` = perform an action in third person
 - `/away {message}` = mark yourself as away
 - `ESC {n}` = change windows (seems the Meta key - ALT - is actually ESC for me?)
