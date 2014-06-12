@@ -282,7 +282,7 @@ settings = {
   };
   "fe-text" = { actlist_sort = "refnum"; };
   "perl/core/scripts" = {
-    #notifier_on_regex = ".*";
+    notifier_on_regex = "Integralist";
     notifier_channel_regex = "(news|#news)";
     notifier_on_privmsg = "1 ";
   };
@@ -294,7 +294,6 @@ settings = {
 };
 hilights = (
   { text = "nick"; nick = "yes"; word = "yes"; },
-  { text = "Integralist_"; nick = "yes"; word = "yes"; },
   { text = "close"; nick = "yes"; word = "yes"; },
   { text = "exit"; nick = "yes"; word = "yes"; }
 );

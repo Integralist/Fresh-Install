@@ -155,7 +155,9 @@ Note: you can shorten commands (e.g. `task list project:dotfiles` === `task l pr
 
 The IRC terminal client irssi is hard to remember and type so I aliased it to `irc` which is much easier.
 
-See the .irssi folder with notifier script (`/run scripts/notifier.pl` from within irssi - the script is taken from here: https://github.com/paddykontschak/irssi-notifier) and it also requires `gem install terminal-notifier` to be installed (possible into the system ruby -> like WeeChat did). 
+See the .irssi folder with notifier script (`/run scripts/notifier.pl` from within irssi - the script is taken from here: https://github.com/paddykontschak/irssi-notifier) and it also requires `gem install terminal-notifier` to be installed (possible into the system ruby -> like WeeChat did). You'll need to make sure the .irssi folder is symlinked to/or copied into your `$HOME` directory.
+
+> Note: you may need to run `/script load notifier.pl` from within irssi
 
 - `/join {channel}` = join a specific channel
 - `/n` = lists all users
@@ -164,6 +166,8 @@ See the .irssi folder with notifier script (`/run scripts/notifier.pl` from with
 - `/me` = perform an action in third person
 - `/away {message}` = mark yourself as away
 - `ESC {n}` = change windows (seems the Meta key - ALT - is actually ESC for me?)
+
+If you need more commands then see: http://www.ircbeginner.com/ircinfo/ircc-commands.html
 
 ## WeeChat
 
