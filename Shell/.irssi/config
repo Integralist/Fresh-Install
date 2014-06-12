@@ -108,7 +108,7 @@ chatnets = {
 
 channels = (
   { name = "#frameworks"; chatnet = "bbc"; autojoin = "Yes"; },
-  { name = "#news"; chatnet = "bbc"; autojoin = "Yes"; }
+  { name = "#news"; chatnet = "bbc"; autojoin = "Yes"; },
   { name = "#lollibot"; chatnet = "bbc"; autojoin = "Yes"; }
 );
 
@@ -224,6 +224,7 @@ statusbar = {
         act = { priority = "10"; };
         more = { priority = "-1"; alignment = "right"; };
         barend = { priority = "100"; alignment = "right"; };
+        usercount = { };
       };
     };
 
@@ -281,7 +282,7 @@ settings = {
   };
   "fe-text" = { actlist_sort = "refnum"; };
   "perl/core/scripts" = {
-    notifier_on_regex = ".*";
+    #notifier_on_regex = ".*";
     notifier_channel_regex = "(news|#news)";
     notifier_on_privmsg = "1 ";
   };
@@ -291,4 +292,9 @@ settings = {
     window_auto_change = "yes";
   };
 };
-hilights = ( { text = "nick"; nick = "yes"; word = "yes"; } );
+hilights = (
+  { text = "nick"; nick = "yes"; word = "yes"; },
+  { text = "Integralist_"; nick = "yes"; word = "yes"; },
+  { text = "close"; nick = "yes"; word = "yes"; },
+  { text = "exit"; nick = "yes"; word = "yes"; }
+);
