@@ -185,6 +185,7 @@ alias phpsh="psysh"
 alias dotfiles="ls -a | grep '^\.' | grep --invert-match '\.DS_Store\|\.$'"
 alias cukes="ulimit -n 1024; cucumber"
 alias irc="irssi"
+alias robohydra="./node_modules/.bin/robohydra"
 # }}}
 
 # Website Deployment {{{
