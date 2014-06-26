@@ -126,6 +126,7 @@ map <leader>y :CtrlPBuffer<cr>
 let g:ctrlp_show_hidden=1
 let g:ctrlp_working_path_mode=0
 let g:ctrlp_max_height=30
+let g:ctrlp_arg_map = 1
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*.,*/.DS_Store
 
 " Directories to ignore when fuzzy finding with CtrlP
