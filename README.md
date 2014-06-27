@@ -72,7 +72,7 @@ rm ~/Desktop/provision-complete.sh
 - Restart Terminal.app (so the switch from Bash to Zsh takes effect)
 - Run `provision-complete.sh` script (this is after Dropbox has finished sync’ing so all my dotfiles will be available)
 - Update terminal theme(s) to use “Ubuntu Mono derivative Powerline” font (so Vim airline plugin works as expected)
-- Choose one of the three terminal themes (`set background=light`): Tomorrow, Tomorrow-Night, Tomorrow-Night-Bright
+- Choose one of the three terminal themes: Tomorrow, Tomorrow-Night, Tomorrow-Night-Bright. For a light colour scheme use `colorscheme pencil` with `set background=light` (https://github.com/reedes/vim-colors-pencil)
 - Install the “Solarized Dark” Terminal theme; increase font-size; change font to “Ubuntu Mono derivative Powerline” and set theme as “Default”
 - Log into Box Sync
 - Generate SSH keys to provide to GitHub: `ssh-keygen -t rsa -C "mark.mcdx@gmail.com"` then `cat ~/.ssh/id_rsa.pub | pbcopy`
