@@ -9,6 +9,7 @@ This file is broken down into sections:
 - [dotfiles](https://github.com/Integralist/Fresh-Install#dotfiles)
 - [Shell Theme](https://github.com/Integralist/Fresh-Install#shell-theme)
 - [Shell Font](https://github.com/Integralist/Fresh-Install#shell-font)
+- [Vim Themes](https://github.com/Integralist/Fresh-Install#vim-themes)
 - [Vim and Tmux status line improvements](https://github.com/Integralist/Fresh-Install#vim-and-tmux-status-line-improvements)
 - [CLI Task Manager](https://github.com/Integralist/Fresh-Install#cli-task-manager)
 - [IRSSI](https://github.com/Integralist/Fresh-Install#irssi)
@@ -72,7 +73,7 @@ rm ~/Desktop/provision-complete.sh
 - Restart Terminal.app (so the switch from Bash to Zsh takes effect)
 - Run `provision-complete.sh` script (this is after Dropbox has finished sync’ing so all my dotfiles will be available)
 - Update terminal theme(s) to use “Ubuntu Mono derivative Powerline” font (so Vim airline plugin works as expected)
-- Choose one of the three terminal themes: Tomorrow, Tomorrow-Night, Tomorrow-Night-Bright. For a light colour scheme use `colorscheme pencil` with `set background=light` (https://github.com/reedes/vim-colors-pencil)
+- Choose one of the available terminal themes: `:colorscheme xxx` (you may need to change the background to light or dark -> `set background=light`)
 - Install the “Solarized Dark” Terminal theme; increase font-size; change font to “Ubuntu Mono derivative Powerline” and set theme as “Default”
 - Log into Box Sync
 - Generate SSH keys to provide to GitHub: `ssh-keygen -t rsa -C "mark.mcdx@gmail.com"` then `cat ~/.ssh/id_rsa.pub | pbcopy`
@@ -91,6 +92,28 @@ rm ~/Desktop/provision-complete.sh
 See contents of the `Shell` directory.
 
 Symlinking of dotfiles is handled by the [`provision-complete.sh`](https://github.com/Integralist/Fresh-Install/blob/master/provision-complete.sh) script.
+
+## Vim Themes
+
+The following are themes available (either installed inside `.vim/colors` or via plugin inside `.vim/bundle`):
+
+### Light Themes
+
+- :colorscheme `pencil` (requires `set background=light` to be explictly set)
+- :colorscheme `github`
+- :colorscheme `Tomorrow`
+- :colorscheme `whitebox`
+
+### Dark Themes
+
+- :colorscheme `badwolf`
+- :colorscheme `blazer`
+- :colorscheme `flatland`
+- :colorscheme `gruvbox`
+- :colorscheme `kellys`
+- :colorscheme `Tomorrow-Night`
+- :colorscheme `Tomorrow-Night-Bright`
+- :colorscheme `vividchalk`
 
 ## Vim and Tmux status line improvements
 
