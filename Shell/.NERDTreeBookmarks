@@ -1,5 +1,3 @@
 controllers /Users/markmcdonnell/Code/news/tabloid/webapp/php/modules/tabloid
-core /Users/markmcdonnell/Code/news/core/src/main/BBC/News/Core
 presenters /Users/markmcdonnell/Code/news/tabloid/webapp/php/lib/BBC/Tabloid
 static /Users/markmcdonnell/Code/news/tabloid/webapp/static
-
