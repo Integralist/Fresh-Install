@@ -22,6 +22,7 @@ export EDITOR="vim"
 export CLICOLOR=1
 export LSCOLORS=Gxfxcxdxbxegedabagacad
 export LS_COLORS=Gxfxcxdxbxegedabagacad
+export DOCKER_HOST=tcp://0.0.0.0:2375
 # }}}
 
 # Network {{{
