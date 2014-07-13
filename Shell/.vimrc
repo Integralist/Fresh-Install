@@ -306,10 +306,10 @@ autocmd BufRead * setlocal foldmethod=marker
 autocmd BufRead * normal zM
 
 " Rainbow parenthesis always on!
-if exists(':RainbowParenthesesToggle')
+" if exists(':RainbowParenthesesToggle')
   au VimEnter * RainbowParenthesesToggle
   au Syntax * RainbowParenthesesLoadRound
   au Syntax * RainbowParenthesesLoadSquare
   au Syntax * RainbowParenthesesLoadBraces
-endif
+" endif
 " }}}
