@@ -129,6 +129,8 @@ Open tmux and then Vim inside it and run the following commands...
 
 ...then inside our `tmux.conf` file we add `source-file ~/some/path/tmux-snapshot.conf` (or just copy the content directly into .tmux.conf which is what I ended up doing)
 
+The status line also uses https://github.com/richo/battery which needs to be symlinked into the correct location (`ln -s ~/Dropbox/Fresh\ Install/Shell/bin/battery $HOME/bin/battery`). Also need to make sure you set the correct permissions: `chmod +x ~/bin/battery`
+
 ## CLI Task Manager
 
 www.taskwarrior.org
