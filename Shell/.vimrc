@@ -167,6 +167,9 @@ map <silent> e <Plug>CamelCaseMotion_e
 sunmap w
 sunmap b
 sunmap e
+
+" Syntastic
+let g:syntastic_scss_checkers = ['scss_lint']
 " }}}
 
 " Mappings {{{
