@@ -159,6 +159,7 @@ function tmuxkill() {
 
 # Alias' {{{
 alias r="source ~/.zshrc"
+alias tat="tmux new-session -As `basename $PWD`" # shorthand for creating either a new session or attaching to a session that matches the specified name
 alias tmuxsrc="tmux source-file ~/.tmux.conf"
 alias vi="vim"
 alias st="cd tabloid/webapp/static"
