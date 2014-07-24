@@ -188,6 +188,7 @@ alias cukes="ulimit -n 1024; cucumber"
 alias irc="irssi"
 alias robohydra="./node_modules/.bin/robohydra"
 alias b2d="boot2docker"
+alias vendor="cd $HOME/Code/responsive-news/tabloid/webapp/php/lib/vendor/bbc-news"
 # }}}
 
 # Website Deployment {{{
