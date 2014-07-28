@@ -48,13 +48,20 @@ function switch_to_zsh() {
   chsh -s /bin/zsh
 }
 
+function configure_git() {
+  git config merge.tool vimdiff
+  git config merge.conflictstyle diff3
+  git config mergetool.prompt false
+}
+
 install_xcode && \
 install_homebrew && \
 install_brews && \
 install_software && \
 install_php_repl && \
 switch_to_zsh && \
-echo "We've installed all the software we can. 
+configure_git && \
+echo "We've installed all the software we can.
 Check the README to see if there is anything else.
 Don't forget to start Dropbox and login so it starts sync'ing files.
 Then execute provision-complete.sh after Dropbox has finished sync'ing (see README for instructions)"
