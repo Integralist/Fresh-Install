@@ -46,3 +46,6 @@
     rebase = true
 [mergetool]
 	prompt = true
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3

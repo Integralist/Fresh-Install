@@ -28,37 +28,13 @@ There is [`provision.sh`](https://github.com/Integralist/Fresh-Install/blob/mast
 If you have a truely fresh install then you probably wont have Git installed to do a `git clone` of this repo to access the `provision.sh` file, so instead simply run the following command from your terminal of choice (e.g. Terminal.app is the default on Mac OS X):
 
 ```sh
-curl https://raw.githubusercontent.com/Integralist/Fresh-Install/master/provision.sh -o ~/Desktop/provision.sh
-```
-
-The above command will download the provisioning script to your desktop. To execute it run the following command:
-
-```sh
-sh ~/Desktop/provision.sh
-```
-
-When all software is installed and/or configured you can safely remove the `provision.sh` file by running the following command (or you can manually delete the file if you so choose):
-
-```sh
-rm ~/Desktop/provision.sh
+curl https://raw.githubusercontent.com/Integralist/Fresh-Install/master/provision.sh | sh
 ```
 
 There is also a [`provision-complete.sh`](https://github.com/Integralist/Fresh-Install/blob/master/provision-complete.sh) file you'll need to run after Dropbox has finished sync'ing. To download the script run the following command:
 
 ```sh
-curl https://raw.githubusercontent.com/Integralist/Fresh-Install/master/provision-complete.sh -o ~/Desktop/provision-complete.sh
-```
-
-To execute the script once it has been downloaded, run the following command:
-
-```sh
-sh ~/Desktop/provision-complete.sh
-```
-
-When the script is finished you can safely remove the `provision-complete.sh` file by running the following command (or you can manually delete the file if you so choose):
-
-```sh
-rm ~/Desktop/provision-complete.sh
+curl https://raw.githubusercontent.com/Integralist/Fresh-Install/master/provision-complete.sh | sh
 ```
 
 ## Step by Step

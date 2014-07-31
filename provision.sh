@@ -49,9 +49,9 @@ function switch_to_zsh() {
 }
 
 function configure_git() {
-  git config --global merge.tool vimdiff
-  git config --global merge.conflictstyle diff3
-  git config --global mergetool.prompt false
+  git config --global merge.tool vimdiff # automatically use vimdiff
+  git config --global merge.conflictstyle diff3 # inside conflict, display a baseline
+  git config --global mergetool.prompt true # always prompt me
 }
 
 install_xcode && \
