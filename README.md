@@ -313,10 +313,12 @@ We need the Lein project tool: `brew install leiningen` (run REPL with `lein rep
 We need the following vim packages to try and mimick a reasonably decent Clojure dev environment...
 
 - [https://github.com/tpope/vim-fireplace/](https://github.com/tpope/vim-fireplace/) (adds key bindings so you can run code against a REPL)
-- [https://github.com/vim-scripts/paredit.vim](https://github.com/vim-scripts/paredit.vim) (automatically add closing brackets/parenthesis)
+- [https://github.com/tpope/vim-sexp-mappings-for-regular-people](https://github.com/tpope/vim-sexp-mappings-for-regular-people) (automatically add closing brackets/parenthesis and allows you to move forms and elements using `<f`, `>f`, `<e`, `>e`, `<I`, `>I` and `ysaf)` for adding parentheses around current form)±
 - [https://github.com/kien/rainbow_parentheses.vim](https://github.com/kien/rainbow_parentheses.vim) (adds colourful pairs to your brackets/parenthesis)
 - [https://github.com/tpope/vim-classpath](https://github.com/tpope/vim-classpath) (fix some Java `$PATH` details)
 - [https://github.com/tpope/vim-clojure-static/](https://github.com/tpope//vim-clojure-static/) (Clojure formatting stuff)
+
+> ± requires guns/vim-sexp.git and tpope/vim-repeat.git and tpope/vim-surround.git
 
 You'll need three consoles open:
 
