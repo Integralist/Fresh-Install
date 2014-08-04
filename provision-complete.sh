@@ -35,6 +35,7 @@ function install_vim_plugins() {
             ervandew/supertab \
             gcmt/wildfire.vim \
             godlygeek/tabular \
+            guns/vim-sexp \
             kien/ctrlp.vim \
             kien/rainbow_parentheses.vim \
             MattesGroeger/vim-bookmarks \
@@ -54,10 +55,10 @@ function install_vim_plugins() {
             tpope/vim-haml \
             tpope/vim-markdown \
             tpope/vim-repeat \
+            tpope/vim-sexp-mappings-for-regular-people \
             tpope/vim-surround \
             vim-scripts/camelcasemotion \
             vim-scripts/Gist.vim \
-            vim-scripts/paredit.vim \
             vim-scripts/Tabmerge \
             vim-scripts/textutil.vim \
             vim-scripts/ZoomWin \
