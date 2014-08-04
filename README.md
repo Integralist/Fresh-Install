@@ -325,6 +325,8 @@ You'll need three consoles open:
 3. `lein new compojure my-project`
 4. `lein ring server-headless` (or `lein ring server` which fires upp the browser)
 
+> Note: you'll need a Clojure file open within Vim before the `:Connect` command becomes available
+
 Then once the REPL is started, inside of Vim run the command `:Connect` and select the REPL you want to connect to and then enter the port number Leiningen provided when it started up (e.g. `:Connect nrepl://127.0.0.1:60356`).
 
 - `K` = when pressed over a symbol will open documentation for that symbol
