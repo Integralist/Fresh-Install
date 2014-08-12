@@ -189,6 +189,7 @@ alias irc="irssi"
 alias robohydra="./node_modules/.bin/robohydra"
 alias b2d="boot2docker"
 alias vendor="cd $HOME/Code/responsive-news/tabloid/webapp/php/lib/vendor/bbc-news"
+alias gitconflict="$EDITOR $(git diff --name-status --diff-filter=U | cut -f2)"
 # }}}
 
 # Website Deployment {{{
