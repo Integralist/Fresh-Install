@@ -12,7 +12,6 @@
 [core]
 	excludesfile = ~/.gitignore_global
     editor = vim
-    conflicts = "!git status --short | grep \"^UU\""
     ignorecase = false
     ; pager = `brew --prefix git`/share/git-core/contrib/diff-highlight/diff-highlight | less
 
