@@ -189,6 +189,7 @@ alias irc="irssi"
 alias robohydra="./node_modules/.bin/robohydra"
 alias b2d="boot2docker"
 alias vendor="cd $HOME/Code/responsive-news/tabloid/webapp/php/lib/vendor/bbc-news"
+alias ctree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 # }}}
 
 # Website Deployment {{{
