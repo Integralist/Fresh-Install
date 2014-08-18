@@ -331,14 +331,23 @@ You'll need three consoles open:
 
 Then once the REPL is started, inside of Vim run the command `:Connect` and select the REPL you want to connect to and then enter the port number Leiningen provided when it started up (e.g. `:Connect nrepl://127.0.0.1:60356`).
 
+### Evaluation commands
+
+- `cpp` = quick evaluation (prints immediately the current expression under the cursor)
+- `cqq` = same as `cpp` but allows you to modify the expression (e.g. introducing side effects for debugging)
+- `cqp` = one-line REPL prompt (for quick evaluation of custom code)
+
+### Documentation and Navigation commands
+
+- `:Source` = view source of any symbol
+- `:Doc` = view documentation of any symbol
+- `:FindDoc` = lists multiple docs for any symbol matching your search criteria
 - `K` = when pressed over a symbol will open documentation for that symbol
 - `[d` = show the source code for the symbol under the cursor
 - `[<C-d>` = jump to definition of a symbol
-- `cqq` = evaluates the expression under the cursor
-- `cqc` = opens a split for you to enter an expression to be executed (like a REPL inside Vim)
-- `cqp` = gives you a one-line REPL prompt at the bottom of the screen (for quick one-liner evals)
-- `cpp` = evaluates the outermost form under the cursor and prints it at the bottom of the screen
-- `cpr` = takes the content from the active buffer and requires it inside the REPL
+ 
+### Testing commands
+
 - `:A` = takes you to the test file (or vice-versa)
 - `:AS` = same as above but in horizontal split
 - `:AV` = same as above but in vertical split
