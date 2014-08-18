@@ -575,6 +575,12 @@ export SPROMPT="Correct $fg[red]%R$reset_color to $fg[green]%r$reset_color [(y)e
 # done
 
 RPROMPT='${PR_GREEN}$(virtualenv_info)%{$reset_color%} ${PR_RED}$(get_ruby_version)%{$reset_color%}'
+
+# Rewrite the `cd` shell function by utilising `command`
+# cd () {
+#   command cd "$@"
+#   RPROMPT='${PR_GREEN}$(virtualenv_info)%{$reset_color%} ${PR_RED}$(get_ruby_version)%{$reset_color%}'
+# }
 # }}}
 
 # History {{{
