@@ -227,6 +227,12 @@ function gitconflict() {
   $EDITOR $(git diff --name-status --diff-filter=U | cut -f2)
 }
 
+function gitpr() {
+  # $1 is the pull request number
+  git fetch origin pull/$1/head:pr_${1}
+  git checkout pr_${1}
+}
+
 function set_ruby() {
   touch .ruby-version && echo $1 >> .ruby-version
 }
