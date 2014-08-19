@@ -20,6 +20,7 @@ This file is broken down into sections:
 - [Clojure development](https://github.com/Integralist/Fresh-Install#clojure-development)
 - [Renaming files](https://github.com/Integralist/Fresh-Install#renaming-files)
 - [Load testing with Siege](https://github.com/Integralist/Fresh-Install#load-testing-with-siege)
+- [Ensuring htop has access](https://github.com/Integralist/Fresh-Install#ensuring-htop-has-access)
 
 ## Automated provisioning
 
@@ -365,3 +366,14 @@ Example: `rename 's/(.+)-(.+)$/$1$2/' File-*`
 `brew install siege`
 
 Example: `siege -c 10 -r 10 -b http://www.domain.com/`
+
+## Ensuring htop has access
+
+`brew edit htop` will open up a file that you can then see the contents of a `caveats` function.
+
+This function will demonstrate the commands you need to run to allow `htop` to access your CPU and Memory consumption:
+
+```
+sudo chown root:wheel /usr/local/bin/htop
+sudo chmod u+s /usr/local/bin/htop
+```
