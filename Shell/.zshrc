@@ -229,8 +229,20 @@ function gitconflict() {
 
 function gitpr() {
   # $1 is the pull request number
-  git fetch origin pull/$1/head:pr_${1}
-  git checkout pr_${1}
+  # $2 is the name of the branch
+
+  # if only one argument provided
+  if [ -z "$2" ]
+  then
+    # then we'll construct a branch name from the first argument
+    branch=pr_${1}
+  else
+    # otherwise we'll set branch to the name given in the second argument
+    branch=$2
+  fi
+
+  git fetch origin pull/$1/head:$branch
+  git checkout $branch
 }
 
 function set_ruby() {
