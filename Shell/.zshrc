@@ -22,7 +22,8 @@ export EDITOR="vim"
 export CLICOLOR=1
 export LSCOLORS=Gxfxcxdxbxegedabagacad
 export LS_COLORS=Gxfxcxdxbxegedabagacad
-export DOCKER_HOST=tcp://0.0.0.0:2375
+export CORE_OS_HOST=172.17.8.100 # Private ip defined inside CoreOS Vagrantfile (https://github.com/Integralist/Docker-Examples/blob/master/Sinatra/Vagrantfile#L38)
+export DOCKER_HOST=tcp://$CORE_OS_HOST:2375 # Allows us to talk directly to CoreOS to use Docker CLI
 # }}}
 
 # Network {{{
