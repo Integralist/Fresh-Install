@@ -12,3 +12,4 @@ tags
 *.swp
 logs
 *.log
+.vagrant
