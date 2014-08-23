@@ -191,7 +191,8 @@ alias robohydra="./node_modules/.bin/robohydra"
 alias vendor="cd $HOME/Code/responsive-news/tabloid/webapp/php/lib/vendor/bbc-news"
 alias ctree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 alias drmi="docker images | awk '{ print $3 }' | xargs docker rmi"
-alias drm="docker ps -aq | cut -f 1 | xargs docker rm"
+alias drm="docker ps -aq | xargs docker rm"
+alias dst="docker ps -q | xargs docker stop"
 # }}}
 
 # Website Deployment {{{
