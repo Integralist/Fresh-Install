@@ -188,9 +188,10 @@ alias dotfiles="ls -a | grep '^\.' | grep --invert-match '\.DS_Store\|\.$'"
 alias cukes="ulimit -n 1024; bundle exec cucumber"
 alias irc="irssi"
 alias robohydra="./node_modules/.bin/robohydra"
-alias b2d="boot2docker"
 alias vendor="cd $HOME/Code/responsive-news/tabloid/webapp/php/lib/vendor/bbc-news"
 alias ctree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+alias drmi="docker images | awk '{ print $3 }' | xargs docker rmi"
+alias drm="docker ps -aq | cut -f 1 | xargs docker rm"
 # }}}
 
 # Website Deployment {{{
