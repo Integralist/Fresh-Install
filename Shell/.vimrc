@@ -328,5 +328,20 @@ autocmd BufRead * normal zM
 " endif
 
 " Change colourscheme when diffing
-" autocmd FilterWritePre * if &diff | colorscheme Tomorrow-Night-Bright | endif
+fun! SetDiffColours()
+  highlight DiffAdd    cterm=bold ctermfg=white ctermbg=DarkGreen
+  highlight DiffDelete cterm=bold ctermfg=white ctermbg=DarkGrey
+  highlight DiffChange cterm=bold ctermfg=white ctermbg=DarkBlue
+  highlight DiffText   cterm=bold ctermfg=white ctermbg=DarkRed
+endfun
+autocmd FilterWritePre * call SetDiffColours()
+  " cterm - sets the style
+  " ctermfg - set the text color
+  " ctermbg - set the highlighting
+  " DiffAdd - line was added
+  " DiffDelete - line was removed
+  " DiffChange - part of the line was changed (highlights the whole line)
+  " DiffText - the exact part of the line that changed
+  " Color reference: http://vim.wikia.com/wiki/Xterm256_color_names_for_console_Vim
+  " Alternative method: autocmd FilterWritePre * if &diff | colorscheme Tomorrow-Night-Bright | other_commands | endif
 " }}}
