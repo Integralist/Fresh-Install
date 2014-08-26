@@ -326,4 +326,7 @@ autocmd BufRead * normal zM
   autocmd Syntax * RainbowParenthesesLoadSquare
   autocmd Syntax * RainbowParenthesesLoadBraces
 " endif
+
+" Change colourscheme when diffing
+" autocmd FilterWritePre * if &diff | colorscheme Tomorrow-Night-Bright | endif
 " }}}
