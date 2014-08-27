@@ -24,6 +24,10 @@ export LSCOLORS=Gxfxcxdxbxegedabagacad
 export LS_COLORS=Gxfxcxdxbxegedabagacad
 export CORE_OS_HOST=172.17.8.100 # Private ip defined inside CoreOS Vagrantfile (https://github.com/Integralist/Docker-Examples/blob/master/Sinatra/Vagrantfile#L38)
 export DOCKER_HOST=tcp://$CORE_OS_HOST:2375 # Allows us to talk directly to CoreOS to use Docker CLI
+
+if [ -d "/Applications/VMware Fusion.app" ]; then
+  export VAGRANT_DEFAULT_PROVIDER=vmware_fusion
+fi
 # }}}
 
 # Network {{{
