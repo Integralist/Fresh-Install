@@ -164,7 +164,7 @@ function tmuxkill() {
 
 # Alias' {{{
 alias r="source ~/.zshrc"
-alias tat="tmux new-session -As `basename $PWD`" # shorthand for creating either a new session or attaching to a session that matches the specified name
+alias tat='tmux new-session -As $(basename "$PWD" | tr . -)' # shorthand for creating either a new session or attaching to a session that matches the specified name
 alias tmuxsrc="tmux source-file ~/.tmux.conf"
 alias vi="vim"
 alias st="cd tabloid/webapp/static"
@@ -175,8 +175,8 @@ alias lib="cd '$syncfolder/Library'"
 alias shell="cd $dropbox/Fresh\ Install/Shell"
 alias site="cd '$syncfolder/Library/Github/integralist/Website'"
 alias vs="vagrant suspend"
-alias vu="vagrant up"
-alias vd="vagrant destroy"
+alias vu="vagrant up --provider=vmware_fusion"
+alias vd="vagrant destroy --force"
 alias vr="vagrant box remove responsive virtualbox"
 alias vst="vagrant status"
 alias vsh="vagrant ssh"
