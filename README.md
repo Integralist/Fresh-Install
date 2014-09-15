@@ -32,7 +32,9 @@ If you have a truely fresh install then you probably wont have Git installed to 
 curl https://raw.githubusercontent.com/Integralist/Fresh-Install/master/provision.sh | sh
 ```
 
-There is also a [`provision-complete.sh`](https://github.com/Integralist/Fresh-Install/blob/master/provision-complete.sh) file you'll need to run after Dropbox has finished sync'ing. To download the script run the following command:
+**Update** I've moved my dotfiles into a separate repo and the `provision.sh` has been updated accordingly to pull the dotfiles and install them into the users `$HOME` directory.
+
+~~There is also a [`provision-complete.sh`](https://github.com/Integralist/Fresh-Install/blob/master/provision-complete.sh) file you'll need to run after Dropbox has finished sync'ing. To download the script run the following command:~~
 
 ```sh
 curl https://raw.githubusercontent.com/Integralist/Fresh-Install/master/provision-complete.sh | sh

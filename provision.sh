@@ -54,6 +54,12 @@ function configure_git() {
   git config --global mergetool.prompt true     # always prompt me
 }
 
+function install_dotfiles() {
+  git clone git@github.com:Integralist/dotfiles.git ~/dotfiles
+  cd ~/dotfiles && mv .*~.git ..
+  cd ~/ && rm -rf dotfiles
+}
+
 install_xcode && \
 install_homebrew && \
 install_brews && \
@@ -61,7 +67,7 @@ install_software && \
 install_php_repl && \
 switch_to_zsh && \
 configure_git && \
+install_dotfiles && \
 echo "We've installed all the software we can.
 Check the README to see if there is anything else.
-Don't forget to start Dropbox and login so it starts sync'ing files.
-Then execute provision-complete.sh after Dropbox has finished sync'ing (see README for instructions)"
+Don't forget to start Dropbox and login so it starts sync'ing files."
