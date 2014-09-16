@@ -38,6 +38,15 @@ function install_software() {
   done
 }
 
+function install_npm_packages() {
+  packages=( vtop is-up dnc )
+
+  for item in "${packages[@]}"
+  do
+    npm install -g $item
+  done
+}
+
 function install_php_repl() {
   wget psysh.org/psysh
   chmod +x psysh
@@ -64,6 +73,7 @@ install_xcode && \
 install_homebrew && \
 install_brews && \
 install_software && \
+install_npm_packages && \
 install_php_repl && \
 switch_to_zsh && \
 configure_git && \
