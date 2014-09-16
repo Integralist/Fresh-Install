@@ -21,6 +21,7 @@ This file is broken down into sections:
 - [Renaming files](https://github.com/Integralist/Fresh-Install#renaming-files)
 - [Load testing with Siege](https://github.com/Integralist/Fresh-Install#load-testing-with-siege)
 - [Ensuring htop has access](https://github.com/Integralist/Fresh-Install#ensuring-htop-has-access)
+- [NPM](https://github.com/Integralist/Fresh-Install#npm)
 
 ## Automated provisioning
 
@@ -379,3 +380,9 @@ This function will demonstrate the commands you need to run to allow `htop` to a
 sudo chown root:wheel /usr/local/bin/htop
 sudo chmod u+s /usr/local/bin/htop
 ```
+
+## NPM
+
+- `npm install -g vtop`
+- `npm install -g is-up`
+- `npm install -g dnc`
