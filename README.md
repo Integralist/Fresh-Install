@@ -7,6 +7,7 @@ This file is broken down into sections:
 - [Automated provisioning](https://github.com/Integralist/Fresh-Install#automated-provisioning)
 - [Step by Step](https://github.com/Integralist/Fresh-Install#step-by-step)
 - [dotfiles](https://github.com/Integralist/Fresh-Install#dotfiles)
+- [Certificates](https://github.com/Integralist/Fresh-Install#certificates)
 - [Shell Theme](https://github.com/Integralist/Fresh-Install#shell-theme)
 - [Shell Font](https://github.com/Integralist/Fresh-Install#shell-font)
 - [Vim Themes](https://github.com/Integralist/Fresh-Install#vim-themes)
