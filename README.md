@@ -73,6 +73,16 @@ See contents of the `Shell` directory.
 
 Symlinking of dotfiles is handled by the [`provision-complete.sh`](https://github.com/Integralist/Fresh-Install/blob/master/provision-complete.sh) script.
 
+**UPDATE** my dotfiles are now in a separate repo and are installed by the `provision.sh` script.
+
+## Certificates
+
+My developer certs aren't committed to GitHub (obviously) and so I need to manually symlink them:
+
+- `ln -s "$DEV_CERT_PATH/Certificate.p12" $HOME/.pki/Certificate.p12`
+- `ln -s "$DEV_CERT_PATH/Certificate.pem" $HOME/.pki/Certificate.pem`
+- `ln -s "$DEV_CERT_PATH/cloud-ca.pem" $HOME/.pki/cloud-ca.pem`
+
 ## Vim Themes
 
 The following are themes available (either installed inside `.vim/colors` or via plugin inside `.vim/bundle`):
