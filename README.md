@@ -351,6 +351,8 @@ Then once the REPL is started, inside of Vim run the command `:Connect` and sele
 - `cpp` = quick evaluation (prints immediately the current expression under the cursor)
 - `cqq` = same as `cpp` but allows you to modify the expression (e.g. introducing side effects for debugging)
 - `cqp` = one-line REPL prompt (for quick evaluation of custom code)
+- `:%Eval` = Re-evaluate the entire file (this means, new symbols etc can be found -> acts like a "reload")
+- `Require!` = Will reload the entire buffer but only works when using a namespace (e.g. `(ns myfile)`)
 
 ### Documentation and Navigation commands
 
