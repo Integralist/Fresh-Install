@@ -11,7 +11,7 @@ function install_brews() {
 
   brews=( vim git node the_silver_searcher chruby ruby-install \
           tmux reattach-to-user-namespace phantomjs gnu-sed \
-          rename tree wget cmake terminal-notifier weechat \
+          rename tree wget cmake terminal-notifier irssi \
           brew-cask siege ctags )
 
   for item in "${brews[@]}"
@@ -27,7 +27,7 @@ function install_brews() {
 }
 
 function install_software() {
-  casks=( dropbox box-sync alfred appcleaner rightzoom cloudapp vlc xscope \
+  casks=( dropbox box-sync appcleaner cloudapp vlc xscope \
           cleanmymac vienna google-chrome firefox qlcolorcode qlstephen \
           qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql \
           webp-quicklook suspicious-package )
