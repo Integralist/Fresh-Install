@@ -12,7 +12,7 @@ function install_brews() {
   brews=( vim git node the_silver_searcher chruby ruby-install \
           tmux reattach-to-user-namespace phantomjs gnu-sed \
           rename tree wget cmake terminal-notifier irssi \
-          brew-cask siege ctags )
+          brew-cask siege ctags wireshark )
 
   for item in "${brews[@]}"
   do
@@ -20,6 +20,8 @@ function install_brews() {
       brew install $item --with-perl --with-python --with-ruby
     elif [[ $item == "vim" ]]; then
       brew install $item --override-system-vim
+    elif [[ $item == "wireshark" ]]; then
+      brew install wireshark --with-qt
     else
       brew install $item
     fi
