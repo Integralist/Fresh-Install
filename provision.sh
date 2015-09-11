@@ -32,7 +32,7 @@ function install_software() {
   casks=( dropbox box-sync appcleaner cloudapp vlc xscope \
           cleanmymac vienna google-chrome firefox qlcolorcode qlstephen \
           qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql \
-          webp-quicklook suspicious-package )
+          webpquicklook suspicious-package )
 
   for item in "${casks[@]}"
   do
