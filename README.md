@@ -1,5 +1,10 @@
 # Fresh Install
 
+> My dotfiles have a short list of things I do on a fresh install  
+> https://github.com/Integralist/dotfiles
+
+---
+
 These are my own instructions for a fresh laptop/mac install.
 
 This file is broken down into sections:
